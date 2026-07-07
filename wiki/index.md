@@ -6,12 +6,12 @@ short summary.
 
 ## Concepts
 
-_(none yet)_
+- [[generative-engine-optimization]] — What GEO/AEO is, why traditional SEO tactics don't transfer to generative engines, how visibility is measured, and the equity effect favoring lower-ranked content.
 
 ## Playbooks
 
-_(none yet)_
+- [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus domain-specific guidance and a citability checklist.
 
 ## Sources
 
-_(none yet)_
+- [[geo-generative-engine-optimization-aggarwal-2023]] — "GEO: Generative Engine Optimization" (Aggarwal et al., KDD '24 / arXiv 2023) — the founding paper defining GEO/AEO, its visibility metrics, and GEO-bench.

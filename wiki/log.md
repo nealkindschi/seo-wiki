@@ -13,3 +13,9 @@ Format:
 ```
 
 ---
+
+## [2026-07-07] ingest | GEO: Generative Engine Optimization (Aggarwal et al., 2023/2024)
+
+First source ingested. Created [[generative-engine-optimization]] (concept)
+and [[geo-content-optimization-tactics]] (playbook). No prior wiki content
+existed, so no conflicts to reconcile.
