@@ -70,6 +70,19 @@ No single tactic wins everywhere — see
 [[geo-content-optimization-tactics]] for which tactics work best in which
 domains, and why combining tactics outperforms using any one alone.
 
+## Appearing & measuring performance in Google's AI features
+
+Per [[google-ai-features-appearance-guide]], Google states there are "no
+additional requirements to appear in AI Overviews or AI Mode" beyond
+standard indexing/snippet eligibility — reinforcing
+[[google-ai-optimization-guide]]. Both AI Overviews and AI Mode may use
+"query fan-out" (issuing multiple related sub-queries) to build a
+response. AI-feature traffic is measurable: it shows up in Search
+Console's Performance report under the "Web" search type, and Google
+states AI-Overview clicks show higher-quality engagement. Site owners
+who want to *limit* rather than maximize inclusion have explicit
+controls — see [[controlling-ai-feature-inclusion]].
+
 ## Conflicting Evidence
 
 - **Claim**: Traditional SEO is largely obsolete for generative engines,

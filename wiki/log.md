@@ -32,3 +32,10 @@ guidance.
 funnel stages (see Conflicting Evidence section on that page); flagged as
 not fully resolved whether Google's AI Overviews respond to GEO's
 citation-style tactics the same way third-party generative engines do.
+
+## [2026-07-07] ingest | AI Features and Your Website (Google Search Central)
+
+Extended [[generative-engine-optimization]] with a measurement section
+(Search Console "Web" reporting) and created new playbook
+[[controlling-ai-feature-inclusion]] for opt-out/control mechanisms.
+Agrees with and extends [[google-ai-optimization-guide]]; no conflicts.

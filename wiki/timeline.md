@@ -20,6 +20,13 @@ Format:
 optimizing content for generative/answer engines, later accepted to
 KDD '24 (August 2024).
 
+## 2025-12-10 — Google publishes "AI features and your website" guidance
+
+[[google-ai-features-appearance-guide]] · updated [[generative-engine-optimization]].
+Explains how AI Overviews/AI Mode work (query fan-out), confirms no extra
+technical requirements to appear beyond standard indexing, and documents
+Search Console measurement and content-inclusion controls.
+
 ## 2026-06-29 — Google publishes official guidance on optimizing for AI Overviews/AI Mode
 
 [[google-ai-optimization-guide]] · updated [[generative-engine-optimization]].
