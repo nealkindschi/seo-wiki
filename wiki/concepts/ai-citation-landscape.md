@@ -39,6 +39,36 @@ provider's top 5. Practical implication: optimizing for "generative
 engines" as a monolith is misleading — tactics may need to be
 provider-specific.
 
+This is independently corroborated at much larger scale by
+[[sej-the-consensus-gap]] (3.7M URL citations, ChatGPT/Perplexity/
+Google AI Overviews): only **2.35-2.45%** of cited URLs for the same
+prompt appear in all three engines, and **91%** appear in only one —
+stable across four samples spanning a full year (Q3 2025–Q1 2026). Even
+Wikipedia (16,073 citations) is universal in only 1.3% of cases; Reddit
+(14,267 citations) in 0.1%; Reuters (1,202 citations) in 0.0%. That
+source calls this **"the consensus gap"**: engines draw from largely
+disjoint source pools rather than ranking a shared pool differently.
+
+## Measure presence, portability, and concentration separately
+
+Per [[sej-the-consensus-gap]], a single blended "AI visibility" score
+hides the finding that matters — that engines barely share source
+pools. Three separate metrics are more useful:
+
+- **Presence** — % of tracked prompts where you appear in *any* engine
+  (does visibility exist at all).
+- **Portability** — % of your cited URLs that appear in *all* engines
+  (does visibility survive across platforms, or is it one engine's
+  idiosyncratic pick).
+- **Concentration** — % of your citations coming from a single engine
+  (which platform your visibility dashboard actually depends on).
+
+Content type affects portability more than expected but stays low in
+absolute terms: guides/tutorials portability 2.3% (highest) > blogs
+1.8% > category pages 1.6% > product pages 1.2% > homepages 1.1%.
+Explanatory, utility-driven content travels best; brand-centric and
+transactional pages travel worst.
+
 ## Wikipedia, Reddit, and YouTube diverge sharply by provider
 
 - **Wikipedia** is a top-3 cited domain in 12/17 industries for ChatGPT,
@@ -105,7 +135,9 @@ grounded in retrieval (RAG), not a static trained "understanding."
   are three separate information environments" above).
   - Supported by: this page's own domain-level citation-overlap findings
     from [[muckrack-generative-pulse-ai-reading-may-2026]] (covering
-    ChatGPT/Claude/Gemini).
+    ChatGPT/Claude/Gemini), independently corroborated by
+    [[sej-the-consensus-gap]] (covering ChatGPT/Perplexity/Google AI
+    Overviews, 3.7M citations, four samples over a full year).
   - Contradicted by: [[ahrefs-ai-brand-visibility-correlations]] (covering
     ChatGPT/AI Mode/AI Overviews — note: AI Mode and AI Overviews are
     Google Search surfaces, not the standalone Gemini chatbot, though
@@ -119,6 +151,10 @@ grounded in retrieval (RAG), not a static trained "understanding."
 
 ## See also
 
+- [[sej-the-consensus-gap]] — the independent, large-scale confirmation
+  of citation-level cross-engine fragmentation cited throughout this
+  page, plus the presence/portability/concentration measurement
+  framework.
 - [[generative-engine-optimization]] — tactics for increasing citation
   visibility once retrieved.
 - [[ai-visibility-correlation-factors]] — which brand/SEO metrics

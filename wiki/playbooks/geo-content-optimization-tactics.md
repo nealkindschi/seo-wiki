@@ -101,6 +101,35 @@ generic "generative engine":
   worth testing as a content-format hypothesis, not just a content-style
   one.
 
+## Measure presence, portability, and concentration separately
+
+Per [[sej-the-consensus-gap]] — don't rely on a single blended "AI
+visibility" score, since engines pull from largely disjoint source
+pools (only 2.35-2.45% of cited URLs appear across ChatGPT, Perplexity,
+and Google AI Overviews for the same prompt; 91% appear in only one):
+
+- Track **presence** (do you appear in any engine at all),
+  **portability** (do the same cited URLs survive across engines), and
+  **concentration** (what share of your citations comes from one
+  engine) as three separate numbers, not one composite score.
+- Don't assume ranking well in one engine predicts ranking in another —
+  treat each engine as a genuinely separate optimization target (this
+  reinforces the [[ai-citation-landscape]] provider-specific guidance
+  above, now with direct URL-level overlap data rather than just
+  domain-mix differences).
+- **Prioritize explanatory content** (guides/tutorials) over
+  brand-centric or transactional pages if cross-engine portability is
+  your goal — guides/tutorials showed the highest (still low, 2.3%)
+  portability, vs. 1.1% for homepages. Ask "does this page directly
+  answer the query well" (utility) rather than "does this page
+  represent our brand well" (brand centrality) — the source's framing
+  is that engines favor the former.
+- Pick a priority engine deliberately rather than chasing generic
+  cross-engine visibility — given how low universal portability is
+  (even Wikipedia is only 1.3% universal), spreading effort thin across
+  all engines may be less effective than committing to the 1-2 engines
+  that matter most for your actual audience/business.
+
 ## Brand-level visibility factors (correlational, not causally tested)
 
 Per [[ai-visibility-correlation-factors]] — unlike the Tier 1-3 tactics

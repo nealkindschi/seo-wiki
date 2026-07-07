@@ -283,3 +283,14 @@ newer tools (e.g. Prisma 79%→0%, Drizzle 21%→100%).
 (Codex favors OpenAI-acquired Statsig, Claude favors Anthropic-acquired
 Bun), Cloudflare-vs-Vercel platform lock-in, and the finding that
 "conversion differs much more than awareness does" between agents.
+
+## 2026-05-12 — Search Engine Journal publishes "The Consensus Gap" (Kevin Indig)
+
+[[sej-the-consensus-gap]] · updated [[ai-citation-landscape]],
+[[ai-visibility-correlation-factors]], and
+[[geo-content-optimization-tactics]]. 3.7M-URL-citation study across
+ChatGPT/Perplexity/Google AI Overviews finds only ~2.35-2.45% universal
+citation overlap for the same prompt (91% single-engine-only), stable
+across a full year of samples — independent large-scale confirmation
+of cross-engine citation fragmentation, plus a presence/portability/
+concentration measurement framework.

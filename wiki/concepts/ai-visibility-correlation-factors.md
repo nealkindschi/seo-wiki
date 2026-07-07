@@ -64,7 +64,13 @@ Lowest-quality penalty target, not just a non-factor.
   - Supported by: [[muckrack-generative-pulse-ai-reading-may-2026]],
     which found minimal overlap in the specific *source domains* each
     provider cites (e.g., Wikipedia matters for ChatGPT/Claude but not
-    Gemini; Reddit matters for Gemini but not the others).
+    Gemini; Reddit matters for Gemini but not the others). Independently
+    corroborated by [[sej-the-consensus-gap]] (different engine set —
+    ChatGPT/Perplexity/Google AI Overviews — 3.7M citations, ~2.35-2.45%
+    universal URL overlap, stable across a full year), which strengthens
+    the citation-fragmentation premise but — like Muck Rack — measures
+    URL/domain-level overlap, not brand-level mention overlap, so it
+    doesn't by itself resolve the tension with Ahrefs below.
   - Contradicted by: [[ahrefs-ai-brand-visibility-correlations]], which
     found *high* correlation (0.75–0.82) in *which brands* get mentioned
     across AI Overviews, AI Mode, and ChatGPT.

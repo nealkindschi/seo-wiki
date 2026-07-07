@@ -203,3 +203,19 @@ conflicts — complementary follow-up to
 [[amplifying-claude-code-picks-2026]], reinforcing its build-over-buy
 finding on a second agent and adding acquisition/platform-affinity
 data.
+
+## [2026-07-07] ingest | The Consensus Gap (Search Engine Journal, Kevin Indig)
+
+Created new source [[sej-the-consensus-gap]] (3.7M-URL-citation study,
+ChatGPT/Perplexity/Google AI Overviews). Added the presence/
+portability/concentration measurement framework, the ~2.35-2.45%
+universal-overlap finding, and content-type portability ranking to
+[[ai-citation-landscape]]. Added a cross-reference note to
+[[ai-visibility-correlation-factors]]'s Conflicting Evidence section —
+this source independently corroborates the citation-fragmentation
+side of that unresolved reconciliation (different engine set,
+different methodology, same conclusion) but doesn't resolve the
+brand-vs-URL tension since it also measures URL-level, not
+brand-level, overlap. Added measurement/prioritization tactics to
+[[geo-content-optimization-tactics]]. No new conflicts — strengthens
+an existing wiki finding.
