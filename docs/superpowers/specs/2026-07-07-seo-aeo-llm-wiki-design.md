@@ -23,7 +23,8 @@ LLM Wiki - SEO/
 │   ├── reports/
 │   └── assets/            ← downloaded screenshots/charts referenced by sources
 ├── wiki/
-│   ├── index.md           ← catalog of every wiki page, one-line summary, by category
+│   ├── index.html         ← docsify loader (renders wiki/ as a browsable site in Chrome)
+│   ├── index.md           ← catalog of every wiki page, one-line summary, by category (docsify homepage)
 │   ├── log.md             ← append-only chronological record of wiki activity (ingests/queries/lints)
 │   ├── timeline.md        ← append-only chronological record of real-world SEO/AEO events, dated by source publish/event date
 │   ├── concepts/          ← topic synthesis pages ("what is X, what do we know")
@@ -35,6 +36,10 @@ LLM Wiki - SEO/
 - `raw/` is the source of truth. Claude reads from it but never modifies it.
 - `wiki/` is entirely Claude-owned: concepts, playbooks, sources, index, log, timeline.
 - `concepts/` pages cross-link to `playbooks/` and cite `sources/`, which cite files in `raw/`.
+- Cross-references use **standard relative markdown links**
+  (e.g. `[Technical SEO Audit Checklist](../playbooks/technical-seo-audit-checklist.md)`),
+  not Obsidian-style `[[wikilinks]]` — this is what makes them clickable in
+  the Chrome viewer (see Viewing the Wiki below).
 - SEO and AEO are **not** split into separate sections — they share one
   concept/playbook space, distinguished only by the `tags` frontmatter field
   (`seo`, `aeo`, or both), since the two overlap heavily.
@@ -87,8 +92,8 @@ with, extends, or conflicts with existing concept/playbook claims.
   ```
   ## Conflicting Evidence
   - **Claim**: <claim>
-    - Supported by: [[source-x]] (date)
-    - Contradicted by: [[source-y]] (date), <reason>
+    - Supported by: [source-x](../sources/source-x.md) (date)
+    - Contradicted by: [source-y](../sources/source-y.md) (date), <reason>
   - **Current best guess**: <leaning, with reasoning>, flagged as unresolved
   ```
   Old claims are marked superseded-with-reasoning, not deleted — SEO/AEO
@@ -154,11 +159,32 @@ cross-references. Reports findings; fixes with user go-ahead. Logged as a
 publish/event date (not ingestion date):
 ```
 ## YYYY-MM-DD — <event description>
-[[source-slug]] · <optional: superseded/updated [[concept-slug]]>
+[source-slug](sources/source-slug.md) · <optional: superseded/updated [concept-slug](concepts/concept-slug.md)>
 ```
 
 Both are append-only and use a consistent line prefix so they stay
 greppable (`grep "^## \[" wiki/log.md | tail -5`).
+
+## Viewing the wiki (Chrome)
+
+`wiki/` is served as a browsable local site using
+[docsify](https://docsify.js.org) — a no-build documentation site
+generator that renders a folder of markdown files client-side.
+
+- `wiki/index.html` is a small static file that loads docsify and points
+  it at `index.md` as the homepage. It's checked into git alongside
+  everything else — no build step, no generated output to maintain.
+- To view it: run a one-line local server from the `wiki/` folder (e.g.
+  `npx docsify-cli serve wiki`) and open `http://localhost:3000` in
+  Chrome. A local server is required because docsify fetches markdown
+  files via AJAX, which browsers block on plain `file://` URLs.
+- Navigation comes from `index.md` itself (already the wiki's catalog) and
+  the standard relative markdown links between pages — no separate
+  sidebar file to maintain.
+- Because `wiki/` uses standard relative links rather than
+  `[[wikilinks]]`, this same content also renders correctly on GitHub, in
+  VS Code's markdown preview, or in Obsidian later if desired — docsify
+  isn't a one-way door.
 
 ## Out of scope / deferred
 
@@ -169,8 +195,9 @@ greppable (`grep "^## \[" wiki/log.md | tail -5`).
   scale (gist reports this holds up to ~100 sources / hundreds of pages).
   Revisit if the wiki outgrows it.
 - **Obsidian** — explicitly skipped per user preference (no extra app).
-  The structure remains Obsidian-compatible (plain markdown + `[[wikilinks]]`)
-  if the user changes their mind later.
+  Viewing is instead handled via a local docsify site in Chrome (see
+  Viewing the Wiki above); the structure still works fine in Obsidian
+  later since it's just markdown with standard relative links.
 - **Folder-watching / browser extension ingestion** — natural-language
   ingestion (URL, path, or pasted text handed to Claude directly) was
   chosen over building additional tooling.
@@ -183,10 +210,11 @@ greppable (`grep "^## \[" wiki/log.md | tail -5`).
    `wiki/{concepts,playbooks,sources}/`.
 3. Create empty `wiki/index.md`, `wiki/log.md`, `wiki/timeline.md` with
    header/format notes.
-4. Write `CLAUDE.md` encoding all of the above: architecture, page types,
-   conflict handling, workflows, log/timeline formats, and the
-   out-of-scope notes.
-5. Initial commit.
+4. Create `wiki/index.html` (docsify loader, homepage set to `index.md`).
+5. Write `CLAUDE.md` encoding all of the above: architecture, page types,
+   conflict handling, workflows, log/timeline formats, link conventions,
+   the Chrome viewer, and the out-of-scope notes.
+6. Initial commit.
 
 No sources are migrated in this pass — that happens in the first real
 ingest session once the structure exists.
