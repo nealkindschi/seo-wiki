@@ -83,3 +83,6 @@ can never become a candidate source for an AI-generated answer either.
   checklist drawn from this source.
 - [[link-and-anchor-text-best-practices]] — the link-markup and anchor
   text rules that determine whether links actually feed URL discovery.
+- [[technical-seo-audit-checklist]] — a consolidated, practitioner-
+  checklist audit against this crawl/index/serve pipeline: robots.txt,
+  redirects, Core Web Vitals, Schema, and AI/agent crawler access.

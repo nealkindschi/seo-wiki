@@ -24,6 +24,7 @@ short summary.
 - [[classic-seo-ranking-factors]] — Actionable classic-SERP ranking tactics (topical coverage, backlink building, reviews, auditing positions 2-20) with a classic-SEO-vs-AEO comparison table.
 - [[link-and-anchor-text-best-practices]] — Crawlable link markup requirements, anchor text writing rules, site-structure/siloing/topic-cluster/cornerstone-content and reasonable-surfer internal linking guidance, pagination/crawler-accessibility, an internal-link audit workflow, and `rel` attribute (`nofollow`/`sponsored`/`ugc`) usage. Link count resolved in favor of Google's no-numeric-cap guidance.
 - [[optimizing-for-coding-agent-recommendations]] — Actionable tactics for tool/library vendors to become a coding agent's default pick: beating the build-it-myself default, getting into training-data code examples, a scriptable getting-started path, tier-appropriate strategy, a measurement method, and per-agent tracking given cross-agent divergence.
+- [[technical-seo-audit-checklist]] — Consolidated technical SEO audit: crawling/indexing, Core Web Vitals/UX, navigation (cross-linked), HTTPS/hreflang/Schema, and AI/agent readiness including ecommerce agentic-commerce checkout requirements.
 
 ## Sources
 
@@ -45,3 +46,4 @@ short summary.
 - [[sej-the-consensus-gap]] — Kevin Indig/Omnia's 3.7M-URL-citation study of ChatGPT/Perplexity/Google AI Overviews: only ~2.35-2.45% universal citation overlap, 91% single-engine-only, and the presence/portability/concentration measurement framework.
 - [[brightedge-ai-search-same-brands-different-sources]] — BrightEdge's 5-engine (ChatGPT/Perplexity/Gemini/AI Mode/AI Overviews) citation study: source overlap (16-59%) vs. brand overlap (36-55%), engine sourcing personalities, and the three-layer source framework — resolves the wiki's citation-fragmentation-vs-brand-convergence conflict.
 - [[growth-memo-why-most-original-data-never-gets-cited]] — Kevin Indig/Amanda Johnson's analysis of Gauge's 301-page citation dataset: primary research is rare but 3.3x citation-dense, and citations cluster almost entirely on benchmark-formatted content, not raw data — plus the 7-characteristic durable-benchmark checklist.
+- [[semrush-technical-seo-checklist]] — Semrush's technical SEO checklist covering crawling/indexing, UX/Core Web Vitals, navigation, code/config, and AI grounding/agent readiness including ecommerce agentic-commerce checkout requirements.

@@ -260,3 +260,16 @@ packaged as a named-item benchmark comparison, not raw data — plus a
 7-characteristic checklist and URL-stability warning (64/365 cited
 URLs in the dataset were dead/redirected). No conflicts — first source
 on benchmark/primary-research content structure specifically.
+
+## [2026-07-07] ingest | Technical SEO Checklist for Search Engines and AI Search (Semrush)
+
+Created new source [[semrush-technical-seo-checklist]] and new playbook
+[[technical-seo-audit-checklist]] (crawling/indexing, UX/Core Web
+Vitals, navigation, code/config, and AI grounding/agent readiness
+including new ecommerce/agentic-commerce checkout guidance). Navigation
+section cross-links to [[link-and-anchor-text-best-practices]] rather
+than duplicating it (site-structure/breadcrumbs/orphan-page content
+already covered there). Cross-linked from [[how-google-search-works]]
+and [[controlling-ai-feature-inclusion]] (opposite goal: ensuring AI
+crawlers aren't accidentally blocked, vs. deliberately excluding them).
+No conflicts.

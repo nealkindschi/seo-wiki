@@ -48,3 +48,10 @@ in Search Console's Performance report under the **"Web"** search type —
 use this to check whether your control directives are having the
 intended effect, and to see baseline AI-feature click volume before
 applying any restriction.
+
+## See also
+
+- [[technical-seo-audit-checklist]] — the opposite goal: verifying AI
+  crawlers (GPTBot, ChatGPT-User, Claude-Web, etc.) *aren't
+  accidentally* blocked in robots.txt, for sites that want inclusion
+  rather than exclusion.

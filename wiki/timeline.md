@@ -315,3 +315,12 @@ but 3.3x as citation-dense as other content, with citations
 concentrated almost entirely on benchmark-formatted comparisons (75 of
 90 primary-research citations) rather than raw data — plus a
 7-characteristic checklist for durable, citation-earning benchmarks.
+
+## 2026-06-23 — Semrush publishes "Technical SEO Checklist for Search Engines and AI Search"
+
+[[semrush-technical-seo-checklist]] · established
+[[technical-seo-audit-checklist]]. Consolidated technical SEO checklist
+covering crawling/indexing, Core Web Vitals/UX, navigation, HTTPS/
+hreflang/Schema, and — new to the wiki — AI crawler access
+(GPTBot/ChatGPT-User/Claude-Web) and ecommerce/agentic-commerce
+checkout readiness for AI shopping agents.
