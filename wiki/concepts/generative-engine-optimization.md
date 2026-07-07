@@ -127,6 +127,10 @@ controls — see [[controlling-ai-feature-inclusion]].
   this hold for newer/other generative engines" open question below —
   though it studies citation *composition*, not the effect of applying
   GEO *tactics* on ChatGPT/Claude/Gemini specifically.
+- [[aio-ctr-impact]] — the economic payoff of citation: being cited in a
+  Google AI Overview delivers +120% more clicks than not being cited
+  (though still below a no-AIO baseline). This is the real-world traffic
+  rationale for why the citation-focused tactics above are worth doing.
 
 ## Open questions
 

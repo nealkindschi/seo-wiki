@@ -34,6 +34,14 @@ Search Console measurement and content-inclusion controls.
 Finds YouTube mentions correlate strongest with AI-mention visibility
 across ChatGPT/AI Mode/AI Overviews; content volume barely correlates at all.
 
+## 2026-04-24 — Seer Interactive publishes third AIO/CTR study installment
+
+[[seerinteractive-aio-ctr-impact-2026-update]] · established
+[[aio-ctr-impact]]; updated [[geo-content-optimization-tactics]] and
+[[generative-engine-optimization]]. Finds cited-brand organic CTR
+recovering in early 2026 after 18 months of decline, and quantifies the
+citation premium at +120% clicks vs. not cited (still -38% vs. no AIO).
+
 ## 2026-05 — Muck Rack publishes "Generative Pulse: What Is AI Reading?"
 
 [[muckrack-generative-pulse-ai-reading-may-2026]] · established

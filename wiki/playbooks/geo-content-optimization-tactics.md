@@ -120,6 +120,39 @@ above, which were causally tested via controlled experiment, these are
   correlates measured (0.19–0.33) — don't expect classic link-building
   alone to move AI visibility much.
 
+## Query-format AIO risk (which pages to prioritize/audit)
+
+Per [[aio-ctr-impact]], AI Overview trigger rate varies enormously by
+query format — prioritize AEO/GEO work on pages targeting these formats,
+since they're the most likely to have an AIO inserted above them:
+
+| Query format | AIO trigger rate |
+|---|---|
+| Comparison ("X vs Y") | 95.4% |
+| Review queries | 86.3% |
+| Question-format | 85.9% |
+| Price/cost/buy queries | 83.4% |
+| "Best of" queries | 81.3% |
+| "Near me" queries | 76.9% |
+| Single-word queries | 27.3% (don't assume short queries are safe) |
+
+Being cited within the AIO on these pages is worth **+120% more clicks**
+than not being cited (though still below a no-AIO baseline) — see
+[[aio-ctr-impact]] for the full economics.
+
+## Measurement checklist: don't panic on CTR alone
+
+Per [[aio-ctr-impact]], a falling CTR on AIO-cited queries can be a
+measurement artifact rather than a real problem:
+
+- [ ] Before reacting to a CTR drop, check impressions and clicks
+      separately — did clicks actually fall, or did impressions surge
+      (meaning you're earning *more* citations, not losing existing ones)?
+- [ ] Track organic and paid CTR separately — they respond to AIOs very
+      differently and one can look fine while the other looks alarming.
+- [ ] Treat single-brand/single-account CTR anomalies with suspicion —
+      aggregate benchmarks can be skewed by one outlier account.
+
 ## Domain-specific guidance
 
 Tactic effectiveness varies by content domain/query type — pick the

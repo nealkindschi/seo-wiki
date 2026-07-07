@@ -9,10 +9,11 @@ short summary.
 - [[generative-engine-optimization]] — What GEO/AEO is, why traditional SEO tactics don't transfer to generative engines, how visibility is measured, and the equity effect favoring lower-ranked content.
 - [[ai-citation-landscape]] — Empirical patterns in what ChatGPT, Claude, and Gemini actually cite: media mix, provider differences, Wikipedia/Reddit/Axios patterns, recency, and query-type/sector effects.
 - [[ai-visibility-correlation-factors]] — Which brand/SEO metrics correlate with AI-mention visibility (YouTube mentions strongest, content volume near-zero), platform differences, and cross-platform brand-overlap data.
+- [[aio-ctr-impact]] — The traffic/CTR economics of being cited (or not) in Google AI Overviews: the citation premium, the 2026 recovery, query-format AIO-prevalence, and a key impressions-vs-clicks measurement lesson.
 
 ## Playbooks
 
-- [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus domain-specific, provider-specific, and brand-level correlational guidance and a citability checklist.
+- [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus domain-specific, provider-specific, brand-level correlational, and query-format-risk guidance, plus a citability checklist.
 - [[controlling-ai-feature-inclusion]] — how to limit/exclude content from Google's AI Overviews/AI Mode (robots.txt, nosnippet, data-nosnippet, max-snippet, noindex), and how to measure the effect.
 
 ## Sources
@@ -22,3 +23,4 @@ short summary.
 - [[google-ai-features-appearance-guide]] — Google's guide on how AI Overviews/AI Mode work, how content qualifies to appear, how to measure AI-feature traffic in Search Console, and how to control inclusion.
 - [[muckrack-generative-pulse-ai-reading-may-2026]] — Muck Rack's analysis of 25M+ citation links across ChatGPT/Claude/Gemini: media mix, provider citation behavior, Wikipedia/Reddit/Axios patterns, recency, and sector/query-type effects.
 - [[ahrefs-ai-brand-visibility-correlations]] — Ahrefs' 75k-brand Spearman-correlation study of brand/SEO metrics vs. AI-mention visibility across ChatGPT, AI Mode, and AI Overviews.
+- [[seerinteractive-aio-ctr-impact-2026-update]] — Seer Interactive's 53-brand, 5.47M-query study of AI Overview impact on Google organic/paid CTR: the citation premium, 2026 recovery, and query-format AIO-prevalence.

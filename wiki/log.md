@@ -62,3 +62,12 @@ reconciled as different units of analysis (which source domains get
 cited, vs. whether a brand gets mentioned at all) — see Conflicting
 Evidence sections on both pages; flagged as unresolved since no source
 has directly tested both at once.
+
+## [2026-07-07] ingest | AIO Impact on Google CTR: 2026 Update (Seer Interactive)
+
+Created new concept [[aio-ctr-impact]] for the citation-premium and CTR
+economics data. Added query-format AIO-risk table and an
+impressions-vs-clicks measurement checklist to
+[[geo-content-optimization-tactics]]; cross-linked from
+[[generative-engine-optimization]] as the economic rationale for
+citation tactics. No conflicts.
