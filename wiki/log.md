@@ -95,3 +95,13 @@ into `wiki/timeline.md`, extending its earliest entry back from
 and the pattern of helpful-content/reviews updates merging into core
 updates after 2023. This is a live page — re-ingest periodically for new
 entries. No conflicts.
+
+## [2026-07-07] ingest | How Google Search Works
+
+Created new concept [[how-google-search-works]] (crawl/index/serve
+pipeline) — the technical foundation underneath "retrieval eligibility"
+and "technical crawlability," previously referenced but never defined.
+Added a technical crawlability checklist to
+[[geo-content-optimization-tactics]]. Cross-linked from
+[[generative-engine-optimization]] and [[e-e-a-t-and-page-quality]]. No
+conflicts.

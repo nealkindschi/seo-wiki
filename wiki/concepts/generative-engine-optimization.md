@@ -99,12 +99,12 @@ controls — see [[controlling-ai-feature-inclusion]].
 - **Current best guess**: these findings describe **different stages of
   the same funnel**, not a true contradiction:
   - **Retrieval eligibility** (will your content even be considered as a
-    candidate source?) — governed by classic SEO fundamentals: technical
-    crawlability, avoiding thin/manipulative content, and
-    [[e-e-a-t-and-page-quality]] (Experience, Expertise,
-    Authoritativeness, Trust). This is what Google's guidance addresses,
-    and it doesn't test or claim anything about citation-style content
-    within an already-retrieved set.
+    candidate source?) — governed by classic SEO fundamentals:
+    [[how-google-search-works]] (technical crawling/indexing/serving),
+    avoiding thin/manipulative content, and [[e-e-a-t-and-page-quality]]
+    (Experience, Expertise, Authoritativeness, Trust). This is what
+    Google's guidance addresses, and it doesn't test or claim anything
+    about citation-style content within an already-retrieved set.
   - **Citation-stage visibility** (given you're one of the sources fed to
     the model, how much does the generated answer actually use/cite
     you?) — this is what the GEO paper measures, and it's silent on
@@ -135,6 +135,10 @@ controls — see [[controlling-ai-feature-inclusion]].
 - [[e-e-a-t-and-page-quality]] — the retrieval-eligibility foundation
   referenced in Conflicting Evidence above: the actual official framework
   behind "classic SEO fundamentals"/"helpful, people-first content."
+- [[how-google-search-works]] — the technical crawl/index/serve pipeline
+  underneath "technical crawlability": if a page isn't crawled, indexed,
+  or served in the first place, it can never become a candidate source
+  for any generative engine either.
 - [[search-intent-and-needs-met]] — Google's query-intent taxonomy;
   "Know Simple" queries are directly relevant to structuring
   answer-friendly content.

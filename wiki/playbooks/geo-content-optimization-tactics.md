@@ -153,6 +153,27 @@ measurement artifact rather than a real problem:
 - [ ] Treat single-brand/single-account CTR anomalies with suspicion —
       aggregate benchmarks can be skewed by one outlier account.
 
+## Technical crawlability (retrieval-eligibility prerequisite)
+
+Per [[how-google-search-works]], none of the tactics above matter if a
+page is never crawled, indexed, or served in the first place — this is
+the layer beneath E-E-A-T:
+
+- [ ] Is the page accessible to Googlebot — not accidentally blocked by
+      `robots.txt`, and not requiring a login to view?
+- [ ] If content is rendered via JavaScript, does it still appear when
+      rendered with a headless/recent Chrome (i.e., does Google actually
+      see it after rendering, not just in the raw HTML)?
+- [ ] Is the page linked from somewhere Google can discover (internal
+      links, a submitted sitemap), not an orphan page?
+- [ ] Is there a clear canonical version if similar/duplicate content
+      exists elsewhere, so Google doesn't pick the wrong page as
+      canonical or split signals across duplicates?
+- [ ] If a page is indexed but never appears in results, check whether
+      it's a relevance/quality issue (see E-E-A-T checklist below) or a
+      `robots` meta rule blocking serving specifically — these are
+      different problems with different fixes.
+
 ## E-E-A-T signal-building (retrieval-eligibility foundation)
 
 Per [[e-e-a-t-and-page-quality]], these don't move citation-stage

@@ -187,6 +187,13 @@ Search Console measurement and content-inclusion controls.
 Finds YouTube mentions correlate strongest with AI-mention visibility
 across ChatGPT/AI Mode/AI Overviews; content volume barely correlates at all.
 
+## 2025-12-18 — Google updates "How Search Works" fundamentals page
+
+[[google-how-search-works]] · established [[how-google-search-works]];
+updated [[geo-content-optimization-tactics]]. Documents the
+crawl/index/serve pipeline, JS rendering during crawl, canonicalization,
+and that indexing/serving are never guaranteed.
+
 ## 2026-02-05 — February 2026 Discover update
 
 [[google-search-status-dashboard-history]]. Duration: 21 days, 17 hours. Only Discover-specific update in the dashboard's history.

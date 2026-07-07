@@ -120,6 +120,9 @@ All three trigger an automatic **Lowest** rating:
 
 ## See also
 
+- [[how-google-search-works]] — the technical crawl/index/serve pipeline
+  a page must pass through before Page Quality/E-E-A-T assessment is even
+  relevant; a page that isn't crawled or indexed never gets rated at all.
 - [[search-intent-and-needs-met]] — the companion framework for how
   raters judge query intent and result relevance.
 - [[generative-engine-optimization]] — E-E-A-T and Page Quality are the

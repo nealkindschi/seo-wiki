@@ -13,10 +13,11 @@ short summary.
 - [[e-e-a-t-and-page-quality]] — Google's official Experience/Expertise/Authoritativeness/Trust framework, YMYL, the five Page Quality tiers, and the three AI-era abuse patterns (Scaled Content, Site Reputation, Expired Domain Abuse).
 - [[search-intent-and-needs-met]] — Google's query intent taxonomy (Know/Know Simple/Do/Website/Visit-in-person) and the Needs Met rating scale.
 - [[google-algorithm-update-history]] — Taxonomy of Google's named ranking updates (core, spam, helpful content, product reviews, page experience, Discover) and the pattern of helpful-content/reviews updates merging into core updates over time. Full dated list in `wiki/timeline.md`.
+- [[how-google-search-works]] — The crawl/index/serve pipeline underlying "technical crawlability" and "retrieval eligibility": crawling, canonicalization/indexing, and serving-stage ranking, plus their distinct failure modes.
 
 ## Playbooks
 
-- [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus domain-specific, provider-specific, brand-level correlational, query-format-risk, E-E-A-T, and Know-Simple guidance, plus a citability checklist.
+- [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus domain-specific, provider-specific, brand-level correlational, query-format-risk, technical-crawlability, E-E-A-T, and Know-Simple guidance, plus a citability checklist.
 - [[controlling-ai-feature-inclusion]] — how to limit/exclude content from Google's AI Overviews/AI Mode (robots.txt, nosnippet, data-nosnippet, max-snippet, noindex), and how to measure the effect.
 
 ## Sources
@@ -29,3 +30,4 @@ short summary.
 - [[seerinteractive-aio-ctr-impact-2026-update]] — Seer Interactive's 53-brand, 5.47M-query study of AI Overview impact on Google organic/paid CTR: the citation premium, 2026 recovery, and query-format AIO-prevalence.
 - [[google-search-quality-evaluator-guidelines-2025-09]] — Google's official Search Quality Rater Guidelines (Sept 2025 edition): the canonical definition of E-E-A-T, YMYL, Page Quality, spam-abuse types, query intent, and Needs Met.
 - [[google-search-status-dashboard-history]] — Google's live status dashboard listing ~34 dated ranking updates/incidents from July 2021–June 2026 (snapshot); backfilled the wiki's timeline.
+- [[google-how-search-works]] — Google's fundamentals page on the crawl/index/serve pipeline: URL discovery, JS rendering, canonicalization, and why indexing/serving are never guaranteed.
