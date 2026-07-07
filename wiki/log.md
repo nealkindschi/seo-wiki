@@ -85,3 +85,13 @@ and [[ai-visibility-correlation-factors]] (official policy explanation
 for the content-volume finding). No conflicts — this source provides
 the official policy foundation several prior sources' findings were
 implicitly describing.
+
+## [2026-07-07] ingest | Google Search Status Dashboard — History
+
+Backfilled ~34 dated ranking updates/incidents (July 2021–June 2026)
+into `wiki/timeline.md`, extending its earliest entry back from
+2023-11-16 to 2021-07-26. Created new concept
+[[google-algorithm-update-history]] describing the update-type taxonomy
+and the pattern of helpful-content/reviews updates merging into core
+updates after 2023. This is a live page — re-ingest periodically for new
+entries. No conflicts.
