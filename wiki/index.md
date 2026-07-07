@@ -21,7 +21,7 @@ short summary.
 - [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus domain-specific, provider-specific, brand-level correlational, query-format-risk, technical-crawlability, E-E-A-T, and Know-Simple guidance, plus a citability checklist.
 - [[controlling-ai-feature-inclusion]] — how to limit/exclude content from Google's AI Overviews/AI Mode (robots.txt, nosnippet, data-nosnippet, max-snippet, noindex), and how to measure the effect.
 - [[classic-seo-ranking-factors]] — Actionable classic-SERP ranking tactics (topical coverage, backlink building, reviews, auditing positions 2-20) with a classic-SEO-vs-AEO comparison table.
-- [[link-and-anchor-text-best-practices]] — Crawlable link markup requirements, anchor text writing rules, internal/external linking guidance, and `rel` attribute (`nofollow`/`sponsored`/`ugc`) usage, with an audit checklist.
+- [[link-and-anchor-text-best-practices]] — Crawlable link markup requirements, anchor text writing rules, site-structure/siloing/topic-cluster and reasonable-surfer internal linking guidance, pagination/crawler-accessibility, an internal-link audit workflow, and `rel` attribute (`nofollow`/`sponsored`/`ugc`) usage; flags an unresolved conflict on "ideal link count per page."
 
 ## Sources
 
@@ -36,3 +36,4 @@ short summary.
 - [[google-how-search-works]] — Google's fundamentals page on the crawl/index/serve pipeline: URL discovery, JS rendering, canonicalization, and why indexing/serving are never guaranteed.
 - [[semrush-ranking-factors-study-2024]] — Semrush's 16,298-keyword, 300,000-position classic-SERP correlation study: text relevance strongest, backlinks moderate, keyword-matching/content-length/Schema weak.
 - [[google-links-crawlable]] — Google's official guidance on crawlable link markup (`<a href>` requirements), anchor text writing rules, internal/external linking, and `rel` attribute usage.
+- [[ahrefs-internal-links-for-seo]] — Ahrefs' internal-linking guide: PageRank/discovery/context functions, site structure (pyramid/siloing/topic clusters), reasonable-surfer link placement, a 3-5-links-per-article density heuristic, and an audit workflow.

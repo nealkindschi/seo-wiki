@@ -129,3 +129,24 @@ discovery) and [[classic-seo-ranking-factors]] (backlink-building
 tactic now points to the link-mechanics playbook). No conflicts —
 net-new technical guidance with no prior wiki coverage of link markup
 or anchor text.
+
+## [2026-07-07] ingest | Internal Links for SEO: An Actionable Guide (Ahrefs)
+
+Created new source [[ahrefs-internal-links-for-seo]]. Substantially
+expanded [[link-and-anchor-text-best-practices]]'s internal-linking
+section: pyramid site structure/3-click rule, siloing + topic clusters,
+reasonable-surfer link placement, power-page/content-refresh linking,
+pagination markup, dofollow/crawler accessibility, and a broken-link/
+orphan-page audit workflow.
+
+## [2026-07-07] conflict | ideal number of internal links per page
+
+[[ahrefs-internal-links-for-seo]] recommends 3-5 contextual links per
+article as an "optimal" density (PageRank-dilution argument); Google's
+own [[google-links-crawlable]] explicitly declines to give a number
+("no magical ideal number of links... if you think it's too much, then
+it probably is"). Logged as unresolved Conflicting Evidence on
+[[link-and-anchor-text-best-practices]] — current best guess: treat
+3-5 as a starting heuristic for typical posts, not a hard rule, since
+Google is the primary ranking-authoritative source and deliberately
+avoids a numeric target.

@@ -10,7 +10,8 @@ Why/when to use this: apply during content authoring, template/CMS
 audits, and technical SEO reviews — link markup and anchor text quality
 directly affect whether Google can discover a page at all (see
 [[how-google-search-works]]'s crawling stage) and how it interprets what
-the linked page is about. Based on [[google-links-crawlable]].
+the linked page is about. Based on [[google-links-crawlable]] and
+[[ahrefs-internal-links-for-seo]].
 
 ## 1. Make links crawlable
 
@@ -41,6 +42,10 @@ with an `href` attribute containing a resolvable URL.
   "article."
 - **Avoid** keyword stuffing — write naturally; ask whether the reader
   actually needs each keyword to understand the next page.
+- **Vary anchor text** across multiple links to the same page using
+  natural phrasing variations (e.g. "email marketing strategies,"
+  "building subscriber lists," "effective email campaigns" all pointing
+  to the same guide) rather than repeating one exact phrase.
 - **Avoid** excessive length — trim to the specific, load-bearing part
   of the sentence.
 - **Avoid** chaining multiple adjacent links with no separating context
@@ -58,11 +63,61 @@ with an `href` attribute containing a resolvable URL.
 
 - Every page you care about should have a link from at least one other
   page on the site — orphan pages are a discovery risk (see
-  [[how-google-search-works]]'s URL-discovery step).
-- No magic ideal link count per page — but "if you think it's too much,
-  then it probably is."
+  [[how-google-search-works]]'s URL-discovery step) and get no PageRank
+  distribution.
 - Link contextually: point to resources on the site that actually help
-  the reader understand the current page.
+  the reader understand the current page. Gael Breton: "as long as it
+  contextually makes sense to link to another page of your site, you
+  should do it."
+- **Site structure**: use a top-down pyramid hierarchy — homepage → main
+  category → subcategory → individual page — keeping every page within
+  ~3 clicks of the homepage. John Mueller: this "helps us a lot more to
+  understand the context of individual pages within the site." Reinforce
+  with breadcrumbs (Google treats breadcrumbs as normal links for
+  PageRank purposes).
+- **Siloing + topic clusters, combined**: use clean folder-based URL
+  structure (silos) but don't let it block contextual cross-topic
+  linking — strict silos that forbid inter-topic links sacrifice
+  authority distribution and relevance. Layer topic clusters (pillar
+  pages reciprocally linked to subtopic pages) on top.
+- **Link placement ("reasonable surfer" model)**: link value correlates
+  with click likelihood, so place priority links accordingly —
+  in-content/editorial links (highest) > navigation/breadcrumbs
+  (medium, structurally useful but algorithmically discounted) >
+  footer/deep sidebar links (lowest). Put your most important links
+  early in the content, above-the-fold when possible.
+- **Prioritize high-value pages**: identify pages that represent core
+  business value (key products, cornerstone content) and link to them
+  prominently and often.
+- **Link count**: see "Conflicting Evidence" below — Google gives no
+  numeric target; Ahrefs suggests 3-5 contextual links per article as a
+  practical starting heuristic for typical posts.
+- **During content refreshes**: add links from newly published content
+  back to (and from) relevant older pages; use high-authority "power
+  pages" to pass authority to newer or underperforming pages; build
+  topic clusters retroactively by establishing a pillar page with
+  reciprocal links once enough content exists on a subject.
+- **Pagination**: use real `<a href>` elements, never JS-only buttons or
+  `onclick` handlers (crawlers struggle to execute JS reliably — see
+  §1). Each paginated page should canonicalize to itself, never to page
+  1, since paginated pages contain different content.
+- **Crawler accessibility**: keep internal links dofollow by default.
+  Reasonable exceptions: login pages, admin sections, and filter/facet
+  URLs that would otherwise create duplicate-content URL bloat. Audit
+  for accidental nofollow on internal links.
+
+### Internal link auditing workflow
+
+1. **Fix broken internal links**: find 4XX pages with internal
+   references (site-crawl tooling); 301-redirect if the page has
+   external backlinks, otherwise just remove/repoint the link.
+2. **Find orphan pages**: pages with zero inbound internal links —
+   prioritize fixing ones that already get organic traffic (via
+   sitemap/external links) since internal linking can amplify existing
+   performance.
+3. **Find new internal-link opportunities**: keyword/topic-overlap
+   analysis between existing pages can surface non-obvious, contextually
+   relevant linking opportunities to important pages.
 
 ## 5. External linking
 
@@ -82,12 +137,42 @@ with an `href` attribute containing a resolvable URL.
 - [ ] No links depend solely on `onclick` or `javascript:` hrefs.
 - [ ] Anchor text is descriptive and makes sense out of context — no
       "click here" / "read more."
-- [ ] No keyword-stuffed or excessively long anchor text.
+- [ ] No keyword-stuffed or excessively long anchor text; varied phrasing
+      across multiple links to the same page.
 - [ ] No unbroken chains of adjacent links.
 - [ ] Linked images have descriptive `alt` text.
-- [ ] Every important page has at least one internal inbound link.
+- [ ] Every important page has at least one internal inbound link (no
+      orphan pages).
+- [ ] Site structure keeps important pages within ~3 clicks of the
+      homepage; breadcrumbs present.
+- [ ] Priority links placed early/in-content, not buried in footer/deep
+      sidebar.
+- [ ] Pagination uses real `<a href>` links, each page self-canonicalized.
+- [ ] Internal links are dofollow except login/admin/duplicate-filter
+      URLs.
+- [ ] No broken (4XX) internal links.
 - [ ] Paid links marked `sponsored`; untrusted/UGC links marked
       `nofollow`/`ugc` as appropriate.
+
+## Conflicting Evidence
+
+- **Claim**: there is (or isn't) an ideal/target number of internal
+  links per page.
+  - Supported by (numeric target): [[ahrefs-internal-links-for-seo]]
+    (2026-03-10) — "3-5 contextual links per article" as the "optimal"
+    density, justified via a simplified PageRank-dilution argument.
+  - Contradicted by: [[google-links-crawlable]] (Google Search Central,
+    no date shown) — "There's no magical ideal number of links a given
+    page should contain. However, if you think it's too much, then it
+    probably is."
+  - **Current best guess**: treat "3-5" as a practical starting
+    heuristic for typical blog-post-length content, not a hard rule.
+    Google is the primary, ranking-authoritative source and deliberately
+    avoids a numeric target, framing it as reader-judgment instead;
+    Ahrefs' number is a third-party simplification aimed at giving
+    actionable guidance. Longer/more comprehensive pages (pillar or
+    cornerstone content) will reasonably exceed 5 links. Unresolved —
+    revisit if either source updates its guidance.
 
 ## See also
 

@@ -246,3 +246,11 @@ citation environments.
 States SEO fundamentals remain the foundation for AI features and that no
 special AI-only infrastructure (llms.txt, chunking, AI-specific markup) is
 needed.
+
+## 2026-03-10 — Ahrefs updates its internal linking guide
+
+[[ahrefs-internal-links-for-seo]] · updated [[link-and-anchor-text-best-practices]].
+Recommends 3-5 contextual links per article, pyramid/silo+topic-cluster
+site structure, and the reasonable-surfer link-placement model;
+conflicts with Google's explicit refusal to give a numeric link-count
+target (see that playbook's Conflicting Evidence section).
