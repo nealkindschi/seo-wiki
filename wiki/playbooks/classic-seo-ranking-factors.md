@@ -28,7 +28,9 @@ causal).
    sources.** Domain/Page Authority Score correlate meaningfully
    (0.19–0.21). "Create content that catches attention and attracts
    links and mentions," then promote it — don't expect links to appear
-   passively.
+   passively. See [[link-and-anchor-text-best-practices]] for the
+   link-markup and anchor-text mechanics that make links crawlable and
+   meaningful once you have them, including internal linking.
 3. **Encourage and respond to reviews.** Star ratings/reviews correlate
    with rankings and directly reinforce E-E-A-T Trust — see
    [[e-e-a-t-and-page-quality]]. For local businesses, prioritize Google

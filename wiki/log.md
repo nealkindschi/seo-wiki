@@ -117,3 +117,15 @@ AEO-specific focus). Cross-linked from [[ai-visibility-correlation-factors]]
 (independent empirical confirmation via reviews/star-rating correlation).
 No conflicts — reinforces existing findings from an independent,
 larger-scale, classic-SERP-focused dataset.
+
+## [2026-07-07] ingest | Make links crawlable (Google Search Central)
+
+Created new source [[google-links-crawlable]] and new playbook
+[[link-and-anchor-text-best-practices]] (crawlable `<a href>` markup
+requirements, anchor text writing rules, internal/external linking
+guidance, `rel` attribute usage). Cross-linked from
+[[how-google-search-works]] (links feed the crawling stage's URL
+discovery) and [[classic-seo-ranking-factors]] (backlink-building
+tactic now points to the link-mechanics playbook). No conflicts —
+net-new technical guidance with no prior wiki coverage of link markup
+or anchor text.

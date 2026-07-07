@@ -17,7 +17,10 @@ failure modes:
 Googlebot discovers URLs (via previously-crawled pages, links, and
 submitted sitemaps — there's no central page registry) and fetches
 content. Crawl frequency/depth per site is decided algorithmically and
-throttled to avoid overloading the site.
+throttled to avoid overloading the site. Links only feed discovery if
+they're crawlable in the first place — see
+[[link-and-anchor-text-best-practices]] for the required `<a href>`
+markup.
 
 **Google renders JavaScript** during crawling using a recent Chrome
 version — content that only appears after JS execution is visible to
@@ -78,3 +81,5 @@ can never become a candidate source for an AI-generated answer either.
   judgments work once a page is indexed.
 - [[geo-content-optimization-tactics]] — technical crawlability
   checklist drawn from this source.
+- [[link-and-anchor-text-best-practices]] — the link-markup and anchor
+  text rules that determine whether links actually feed URL discovery.
