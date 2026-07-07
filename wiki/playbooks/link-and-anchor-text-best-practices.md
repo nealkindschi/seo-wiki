@@ -89,9 +89,9 @@ with an `href` attribute containing a resolvable URL.
 - **Prioritize high-value pages**: identify pages that represent core
   business value (key products, cornerstone content) and link to them
   prominently and often.
-- **Link count**: see "Conflicting Evidence" below — Google gives no
-  numeric target; Ahrefs suggests 3-5 contextual links per article as a
-  practical starting heuristic for typical posts.
+- **Link count**: no numeric target — follow Google's guidance (see
+  "Conflicting Evidence" below) and link as much as genuinely serves the
+  reader. Don't cap at an arbitrary count like Ahrefs' "3-5."
 - **During content refreshes**: add links from newly published content
   back to (and from) relevant older pages; use high-authority "power
   pages" to pass authority to newer or underperforming pages; build
@@ -165,14 +165,14 @@ with an `href` attribute containing a resolvable URL.
     no date shown) — "There's no magical ideal number of links a given
     page should contain. However, if you think it's too much, then it
     probably is."
-  - **Current best guess**: treat "3-5" as a practical starting
-    heuristic for typical blog-post-length content, not a hard rule.
-    Google is the primary, ranking-authoritative source and deliberately
-    avoids a numeric target, framing it as reader-judgment instead;
-    Ahrefs' number is a third-party simplification aimed at giving
-    actionable guidance. Longer/more comprehensive pages (pillar or
-    cornerstone content) will reasonably exceed 5 links. Unresolved —
-    revisit if either source updates its guidance.
+  - **Resolved (2026-07-07, user preference)**: defer to Google — no
+    numeric cap. Google is the primary, ranking-authoritative source and
+    deliberately avoids a numeric target, framing it as reader-judgment
+    ("if you think it's too much, then it probably is") instead. Ahrefs'
+    "3-5" is a third-party simplification and should not be treated as a
+    rule to design content around. Link as much as genuinely serves the
+    reader, including well beyond 5 links on longer/more comprehensive
+    pages.
 
 ## See also
 

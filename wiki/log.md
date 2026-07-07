@@ -150,3 +150,13 @@ it probably is"). Logged as unresolved Conflicting Evidence on
 3-5 as a starting heuristic for typical posts, not a hard rule, since
 Google is the primary ranking-authoritative source and deliberately
 avoids a numeric target.
+
+## [2026-07-07] conflict | ideal number of internal links per page — resolved
+
+User directive: trust Google over Ahrefs on this — no numeric cap on
+internal links per page. Updated [[link-and-anchor-text-best-practices]]'s
+Conflicting Evidence entry and §4 "Link count" bullet to drop the "3-5"
+heuristic and defer entirely to Google's "if you think it's too much,
+then it probably is" guidance. Ahrefs' claim remains recorded in the
+Conflicting Evidence section for reference, marked superseded rather
+than deleted.
