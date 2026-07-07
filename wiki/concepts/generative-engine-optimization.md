@@ -118,12 +118,24 @@ controls — see [[controlling-ai-feature-inclusion]].
     third-party generative engines tested in that paper (GPT-3.5-based,
     Perplexity.ai) did is untested as of this wiki's current sources.
 
+## See also
+
+- [[ai-citation-landscape]] — empirical data on what ChatGPT, Claude, and
+  Gemini actually cite in practice (media mix, provider differences,
+  Wikipedia/Reddit/Axios patterns). Complements the tactics above with
+  real-world citation composition data, and partially answers the "does
+  this hold for newer/other generative engines" open question below —
+  though it studies citation *composition*, not the effect of applying
+  GEO *tactics* on ChatGPT/Claude/Gemini specifically.
+
 ## Open questions
 
-- This is based on a single 2023/2024 academic study using GPT-3.5-based
-  generative engines and Perplexity.ai. Whether these findings hold for
-  newer generative engines (e.g. Google AI Overviews, ChatGPT search,
-  Claude) is untested as of this wiki's current sources.
+- The GEO paper's tactics were tested on GPT-3.5-based generative engines
+  and Perplexity.ai. Whether those specific tactics (quotes, stats,
+  citations) move the needle the same way on ChatGPT, Claude, or Gemini
+  specifically is still untested — [[ai-citation-landscape]] shows these
+  three providers already behave very differently from each other in
+  citation composition, so tactic effectiveness may vary by provider too.
 - Whether Google's "don't rewrite specifically for AI" advice is in
   tension with citation-style optimization tactics, or whether those
   tactics are simply a subset of "helpful, people-first" writing, is

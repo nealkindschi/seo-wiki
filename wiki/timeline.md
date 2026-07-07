@@ -27,6 +27,14 @@ Explains how AI Overviews/AI Mode work (query fan-out), confirms no extra
 technical requirements to appear beyond standard indexing, and documents
 Search Console measurement and content-inclusion controls.
 
+## 2026-05 — Muck Rack publishes "Generative Pulse: What Is AI Reading?"
+
+[[muckrack-generative-pulse-ai-reading-may-2026]] · established
+[[ai-citation-landscape]]; updated [[generative-engine-optimization]] and
+[[geo-content-optimization-tactics]]. Analysis of 25M+ citation links
+finds ChatGPT, Claude, and Gemini behave as three largely separate
+citation environments.
+
 ## 2026-06-29 — Google publishes official guidance on optimizing for AI Overviews/AI Mode
 
 [[google-ai-optimization-guide]] · updated [[generative-engine-optimization]].

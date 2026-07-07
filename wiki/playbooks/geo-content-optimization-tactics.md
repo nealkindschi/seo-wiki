@@ -67,6 +67,37 @@ Per [[google-ai-optimization-guide]], Google explicitly says these do
   [[generative-engine-optimization]]'s Conflicting Evidence section on
   how this squares with the tactics above).
 
+## Provider-specific tactics
+
+Per [[ai-citation-landscape]], ChatGPT/Claude/Gemini cite from largely
+non-overlapping sources — treat them as separate targets, not one
+generic "generative engine":
+
+- **Targeting ChatGPT or Claude?** Invest in a solid **Wikipedia**
+  presence — it's a top-3 cited domain in 12/17 industries for ChatGPT
+  and 8/17 for Claude. Skip this if Gemini is your main target (top-3 in
+  only 3/17 industries for Gemini).
+- **Targeting Gemini?** Reddit presence matters — it's Gemini's single
+  most-cited domain (2.4% of citations) and essentially absent for the
+  other two providers. Quora shows up prominently for Gemini too.
+- **Targeting Claude specifically?** It cites far less often (55% of
+  responses) but much more deeply (13 citations) when it does, and
+  favors academic/reference sources like PubMed Central. It never cites
+  YouTube — don't rely on video content to reach Claude.
+- **Local/"best of" queries (hotels, restaurants, services)**: ChatGPT
+  leans heavily on **Google Maps** results, not articles or reviews
+  (188 citations per 1,000 such queries) — a current, accurate Google
+  Business Profile matters more than written content here. Claude
+  essentially doesn't do this.
+- **Keep content fresh**: 57% of journalism citations are from the past
+  12 months — publishing once and never updating loses ground to
+  freshly-dated coverage over time.
+- **Consider short-form, cross-topic coverage**: Axios is the one
+  outlet that breaks through across most industries in ChatGPT's
+  citations, plausibly due to its concise, high-frequency format —
+  worth testing as a content-format hypothesis, not just a content-style
+  one.
+
 ## Domain-specific guidance
 
 Tactic effectiveness varies by content domain/query type — pick the

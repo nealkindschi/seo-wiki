@@ -39,3 +39,11 @@ Extended [[generative-engine-optimization]] with a measurement section
 (Search Console "Web" reporting) and created new playbook
 [[controlling-ai-feature-inclusion]] for opt-out/control mechanisms.
 Agrees with and extends [[google-ai-optimization-guide]]; no conflicts.
+
+## [2026-07-07] ingest | Generative Pulse: What Is AI Reading? (Muck Rack, May 2026)
+
+Created new concept [[ai-citation-landscape]] for empirical citation
+patterns across ChatGPT/Claude/Gemini. Added a provider-specific tactics
+section to [[geo-content-optimization-tactics]] and cross-linked from
+[[generative-engine-optimization]]. Landscape/empirical data, complements
+rather than conflicts with existing sources.
