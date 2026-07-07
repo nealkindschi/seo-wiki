@@ -130,6 +130,42 @@ and Google AI Overviews for the same prompt; 91% appear in only one):
   all engines may be less effective than committing to the 1-2 engines
   that matter most for your actual audience/business.
 
+## The three-layer source strategy (works across all engines at once)
+
+Per [[brightedge-ai-search-same-brands-different-sources]] — despite the
+low source-level portability above, *brand*-level recommendations
+converge much more across engines (36-55% brand overlap vs. 16-59%
+source overlap). This means one unified strategy, weighted per engine,
+can beat five separate playbooks:
+
+- Build presence across all three layers every engine draws from, just
+  weighted differently per engine:
+  1. **Authority** — trade associations, analyst firms, standards
+     bodies, vertical-specific experts. Treat "authority" as
+     **category-relative**, not a fixed .gov/.edu checklist — identify
+     which authoritative sources actually dominate citations in *your*
+     specific category.
+  2. **Commercial & Editorial** — PR, trade press, review-site
+     visibility, comparison content. This is the single widest lever:
+     37-51% of citations across *every* engine studied, the largest
+     layer everywhere.
+  3. **UGC** — video, forums, community/creator coverage. Low overall
+     share for most engines, but **non-negotiable specifically for
+     Google AI Overviews** (~18% of its citations, with a single video
+     platform alone at 10.6%) — understand which specific videos/forum
+     threads it cites and earn authority within those conversations,
+     rather than producing generic short-form video.
+- Weight engine investment by where your actual buyers are: B2B/SaaS
+  audiences skewing ChatGPT/Perplexity → emphasize authority +
+  commercial/editorial, UGC supplemental. Consumer audiences skewing
+  Google AI Overviews → emphasize UGC + commercial/editorial, authority
+  reinforcing.
+- Track Google's own surfaces separately rather than as one "Google AI"
+  bucket — AI Mode and AI Overviews share 59% source overlap with each
+  other (a win on one plausibly transfers), but Gemini overlaps *more*
+  with ChatGPT (39%) than with either Google surface (27-34%) — Gemini
+  needs its own strategy, not a "just optimize for Google" shortcut.
+
 ## Brand-level visibility factors (correlational, not causally tested)
 
 Per [[ai-visibility-correlation-factors]] — unlike the Tier 1-3 tactics

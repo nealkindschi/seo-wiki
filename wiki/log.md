@@ -219,3 +219,30 @@ brand-vs-URL tension since it also measures URL-level, not
 brand-level, overlap. Added measurement/prioritization tactics to
 [[geo-content-optimization-tactics]]. No new conflicts — strengthens
 an existing wiki finding.
+
+## [2026-07-07] ingest | Why AI Engines Cite Different Sources but Recommend the Same Brands (BrightEdge)
+
+Created new source
+[[brightedge-ai-search-same-brands-different-sources]] (5-engine
+citation study: ChatGPT, Perplexity, Gemini, Google AI Mode, Google AI
+Overviews). Added engine sourcing-personality profiles, the
+Google-surfaces-aren't-monolithic finding, sentiment data, and the
+three-layer source framework to [[ai-citation-landscape]]. Added the
+three-layer strategy, category-relative-authority guidance, and
+buyer-reliance engine-weighting to [[geo-content-optimization-tactics]].
+
+## [2026-07-07] conflict | citation-source fragmentation vs. brand-mention convergence — resolved
+
+This source directly tests both sides of the previously-unresolved
+conflict (flagged 2026-07-07, earlier today) on the same 5-engine
+dataset: pairwise source overlap (16-59%) is measurably wider/more
+inconsistent than pairwise brand overlap (36-55%) across every engine
+pair studied. Updated the Conflicting Evidence sections on
+[[ai-citation-landscape]] and [[ai-visibility-correlation-factors]]
+from "unresolved, plausible inference" to "resolved, directly tested" —
+old claims kept and marked superseded-with-reasoning, not deleted, per
+the wiki's conflict-handling convention. One residual methodology
+caveat noted (not a contradiction): BrightEdge's aggregate top-100-list
+overlap numbers read higher than [[sej-the-consensus-gap]]'s per-prompt
+exact-URL overlap, which is a granularity difference between the two
+measurement approaches.

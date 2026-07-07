@@ -294,3 +294,14 @@ citation overlap for the same prompt (91% single-engine-only), stable
 across a full year of samples — independent large-scale confirmation
 of cross-engine citation fragmentation, plus a presence/portability/
 concentration measurement framework.
+
+## 2026-04-24 — BrightEdge publishes "Why AI Engines Cite Different Sources but Recommend the Same Brands"
+
+[[brightedge-ai-search-same-brands-different-sources]] · updated
+[[ai-citation-landscape]], [[ai-visibility-correlation-factors]], and
+[[geo-content-optimization-tactics]]. 5-engine citation study (ChatGPT,
+Perplexity, Gemini, Google AI Mode, Google AI Overviews) finds source
+overlap (16-59%) much wider/less consistent than brand overlap
+(36-55%) across every engine pair — resolving the wiki's previously
+unresolved conflict between citation-level fragmentation and
+brand-level convergence findings.

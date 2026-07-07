@@ -56,7 +56,7 @@ Lowest-quality penalty target, not just a non-factor.
 - **AI Overviews** leans slightly more on Domain Rating than the other
   two.
 
-## Conflicting Evidence
+## Conflicting Evidence — resolved
 
 - **Claim**: The three major AI answer surfaces (ChatGPT, AI Mode, AI
   Overviews) operate as largely independent, non-overlapping information
@@ -67,31 +67,37 @@ Lowest-quality penalty target, not just a non-factor.
     Gemini; Reddit matters for Gemini but not the others). Independently
     corroborated by [[sej-the-consensus-gap]] (different engine set —
     ChatGPT/Perplexity/Google AI Overviews — 3.7M citations, ~2.35-2.45%
-    universal URL overlap, stable across a full year), which strengthens
-    the citation-fragmentation premise but — like Muck Rack — measures
-    URL/domain-level overlap, not brand-level mention overlap, so it
-    doesn't by itself resolve the tension with Ahrefs below.
-  - Contradicted by: [[ahrefs-ai-brand-visibility-correlations]], which
-    found *high* correlation (0.75–0.82) in *which brands* get mentioned
-    across AI Overviews, AI Mode, and ChatGPT.
-- **Current best guess**: not a true contradiction — these studies
-  measure **different units of analysis**:
-  - Muck Rack measures **which specific source URLs/domains** get cited
-    (citation-level granularity) — and finds these differ a lot by
+    universal URL overlap, stable across a full year).
+  - Apparently contradicted by: [[ahrefs-ai-brand-visibility-correlations]],
+    which found *high* correlation (0.75–0.82) in *which brands* get
+    mentioned across AI Overviews, AI Mode, and ChatGPT.
+- **Resolved (2026-07-07)**: not a true contradiction — these studies
+  measure **different units of analysis**, and this is no longer just a
+  plausible inference:
+  - Muck Rack/SEJ measure **which specific source URLs/domains** get
+    cited (citation-level granularity) — and find these differ a lot by
     provider.
   - Ahrefs measures **whether a given brand gets mentioned at all**
     (brand-level granularity, regardless of which specific page or
     domain was the source) — and finds this correlates highly across
     providers.
-  - Reconciliation: a well-known, high-authority brand can plausibly get
-    mentioned by all three AI systems even if each system is pulling
-    from a *different* specific page/domain to justify that mention
-    (e.g., ChatGPT via a Wikipedia-adjacent page, Gemini via a Reddit
-    thread). The brand shows up everywhere; the citation trail differs.
-  - Flagged as unresolved: this reconciliation is a plausible inference,
-    not something either source tested directly — no source in this
-    wiki has yet cross-tabulated "same brand, different citing domain"
-    at the individual response level.
+  - **Direct confirmation**: [[brightedge-ai-search-same-brands-different-sources]]
+    tests both halves at once on the same 5-engine dataset (ChatGPT,
+    Perplexity, Gemini, Google AI Mode, Google AI Overviews) and finds
+    exactly this pattern — pairwise *source* overlap (16-59%) is
+    measurably wider and more inconsistent than pairwise *brand*
+    overlap (36-55%), across every engine pair tested. A well-known
+    brand does get mentioned across systems even as each system pulls
+    from a different specific page/domain to justify the mention.
+  - **Residual caveat, not a contradiction**: BrightEdge's overlap
+    percentages (both source and brand) read considerably higher than
+    SEJ's ~2.35-2.45% figure. This is a granularity difference —
+    BrightEdge compares aggregate top-100 lists across many queries per
+    engine (Jaccard similarity), while SEJ measures exact-URL overlap
+    for the *same individual prompt* across engines. Aggregate top-N
+    list overlap structurally reads higher than per-prompt exact-URL
+    overlap even when underlying fragmentation is severe — both can be
+    true simultaneously.
 
 ## Practical implications
 
@@ -107,3 +113,8 @@ ChatGPT-targeting guidance for smaller/challenger brands).
   ranking but among the *weakest* correlates of AI-mention visibility,
   while video/YouTube presence is the strongest AI-visibility correlate
   but wasn't part of the classic-SERP dataset at all.
+- [[brightedge-ai-search-same-brands-different-sources]] — the source
+  that resolves the Conflicting Evidence above by testing source-level
+  and brand-level overlap on the same 5-engine dataset.
+- [[ai-citation-landscape]] — citation-level (not brand-level) empirical
+  patterns; also carries the resolved Conflicting Evidence writeup.

@@ -10,7 +10,10 @@ Empirical patterns in what generative AI answer engines actually cite in
 practice, as distinct from [[generative-engine-optimization]] (which
 covers *tactics* for increasing citation-stage visibility). Based on
 [[muckrack-generative-pulse-ai-reading-may-2026]], an analysis of 25M+
-citation links across ChatGPT, Claude, and Gemini.
+citation links across ChatGPT, Claude, and Gemini; [[sej-the-consensus-gap]]
+(3.7M URL citations, ChatGPT/Perplexity/Google AI Overviews); and
+[[brightedge-ai-search-same-brands-different-sources]] (ChatGPT,
+Perplexity, Gemini, Google AI Mode, Google AI Overviews).
 
 ## Non-paid, earned media dominates
 
@@ -68,6 +71,60 @@ absolute terms: guides/tutorials portability 2.3% (highest) > blogs
 1.8% > category pages 1.6% > product pages 1.2% > homepages 1.1%.
 Explanatory, utility-driven content travels best; brand-centric and
 transactional pages travel worst.
+
+## Engines have distinct sourcing "personalities" (authority vs. UGC mix)
+
+[[brightedge-ai-search-same-brands-different-sources]] classifies every
+citation by source type (authority, commercial/editorial, UGC) across a
+5-engine set (ChatGPT, Perplexity, Gemini, Google AI Mode, Google AI
+Overviews) and finds sharply different authority-vs-UGC mixes:
+
+- **Gemini** — "formal institutional recommender": 26% authority
+  (gov/academic/institutional), only 0.2% UGC (130:1 ratio), highest
+  .gov (13%) and .org (23%) share.
+- **Perplexity** — "research librarian": 22% authority, 1.5% UGC,
+  concentrates on institutional medical/government/encyclopedic
+  sources (30% combined), highest .edu (3.2%) and international ccTLD
+  (4.4%) share, and names brands earliest of any engine — 86% land by
+  position 5.
+- **ChatGPT** — "long-tail editorial engine": 18% authority, only 0.5%
+  UGC, flattest source distribution of all five (top 10 domains = only
+  18.5% of citations).
+- **Google AI Mode** — "broad commercial aggregator": 14% authority, 7%
+  UGC, widest unique domain catalog, most even distribution across
+  source types.
+- **Google AI Overviews** — "UGC-first engine": only 10% authority but
+  ~17.5-18% UGC (35x ChatGPT's UGC share) — a single video platform
+  alone accounts for 10.6% of its citations, a single forum for 2.9%.
+
+Pairwise source overlap (top-100 lists, Jaccard similarity) ranges
+16%-59% across engine pairs — wide and inconsistent. Notably, "Google
+AI" is not one thing: AI Mode and AI Overviews (both search-embedded)
+share 59% overlap with each other, but Gemini overlaps *more* with
+ChatGPT (39%) than with either Google surface (27-34%).
+
+Brand sentiment is overwhelmingly positive across all five engines
+(78-96% positive, ≤2.1% negative) regardless of these sourcing
+differences.
+
+## Same source-type layers everywhere, different weighting
+
+Despite the sourcing-personality differences above,
+[[brightedge-ai-search-same-brands-different-sources]] finds all five
+engines draw from the same three layers, just weighted differently:
+
+1. **Authority** — government, academic, major industry institutions,
+   trade associations, analyst firms, standards bodies.
+2. **Commercial & Editorial** — review sites, comparison content, trade
+   press, news media, finance data, retailer listings. The largest
+   layer everywhere: **37-51%** of citations across all five engines.
+3. **UGC** — video platforms, forums, community sites, social networks,
+   creator coverage.
+
+Practical implication: "authority" should be treated as
+category-relative (which trade associations/analyst firms/vertical
+experts actually get cited in *your* category), not a fixed domain
+list like .gov/.edu.
 
 ## Wikipedia, Reddit, and YouTube diverge sharply by provider
 
@@ -128,7 +185,7 @@ recent record-holder (2024 White Sox). This reinforces
 [[google-ai-optimization-guide]]'s framing of generative answers as
 grounded in retrieval (RAG), not a static trained "understanding."
 
-## Conflicting Evidence
+## Conflicting Evidence — resolved
 
 - **Claim**: The three major AI answer surfaces operate as largely
   independent, non-overlapping information environments (per "Providers
@@ -138,16 +195,25 @@ grounded in retrieval (RAG), not a static trained "understanding."
     ChatGPT/Claude/Gemini), independently corroborated by
     [[sej-the-consensus-gap]] (covering ChatGPT/Perplexity/Google AI
     Overviews, 3.7M citations, four samples over a full year).
-  - Contradicted by: [[ahrefs-ai-brand-visibility-correlations]] (covering
-    ChatGPT/AI Mode/AI Overviews — note: AI Mode and AI Overviews are
-    Google Search surfaces, not the standalone Gemini chatbot, though
-    likely share underlying models), which found high correlation
-    (0.75–0.82) in *which brands* get mentioned across all three.
-  - Current best guess and full reconciliation on
-    [[ai-visibility-correlation-factors]]: these are different units of
-    analysis (which domains get cited vs. whether a brand gets mentioned
-    at all) — not necessarily a true contradiction, but flagged as
-    unresolved since no source has directly tested both at once.
+  - Apparently contradicted by: [[ahrefs-ai-brand-visibility-correlations]]
+    (covering ChatGPT/AI Mode/AI Overviews), which found high
+    correlation (0.75–0.82) in *which brands* get mentioned across all
+    three.
+  - **Resolved (2026-07-07)** by
+    [[brightedge-ai-search-same-brands-different-sources]], which tests
+    both halves directly on the same 5-engine dataset: pairwise
+    *source*-overlap (16-59%) is measurably wider/more inconsistent than
+    pairwise *brand*-overlap (36-55%) across every engine pair studied.
+    Different engines really do cite different specific sources
+    (confirming the Muck Rack/SEJ side) while still converging on
+    largely the same brands (confirming the Ahrefs side) — not a
+    contradiction, but two true findings at different units of
+    analysis, now empirically linked rather than just plausibly
+    inferred. See [[ai-visibility-correlation-factors]] for the full
+    writeup, including a residual methodology caveat (BrightEdge's
+    aggregate top-100-list overlap numbers read higher than SEJ's
+    per-prompt exact-URL overlap — a granularity difference, not a
+    contradiction).
 
 ## See also
 
@@ -155,6 +221,10 @@ grounded in retrieval (RAG), not a static trained "understanding."
   of citation-level cross-engine fragmentation cited throughout this
   page, plus the presence/portability/concentration measurement
   framework.
+- [[brightedge-ai-search-same-brands-different-sources]] — the 5-engine
+  source-vs-brand overlap comparison that resolves the Conflicting
+  Evidence above, plus the engine personality profiles and three-layer
+  source framework.
 - [[generative-engine-optimization]] — tactics for increasing citation
   visibility once retrieved.
 - [[ai-visibility-correlation-factors]] — which brand/SEO metrics

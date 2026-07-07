@@ -7,8 +7,8 @@ short summary.
 ## Concepts
 
 - [[generative-engine-optimization]] — What GEO/AEO is, why traditional SEO tactics don't transfer to generative engines, how visibility is measured, and the equity effect favoring lower-ranked content.
-- [[ai-citation-landscape]] — Empirical patterns in what ChatGPT, Claude, and Gemini actually cite: media mix, provider differences, Wikipedia/Reddit/Axios patterns, recency, query-type/sector effects, and (via a second independent study) the presence/portability/concentration framework for cross-engine citation fragmentation.
-- [[ai-visibility-correlation-factors]] — Which brand/SEO metrics correlate with AI-mention visibility (YouTube mentions strongest, content volume near-zero), platform differences, and cross-platform brand-overlap data.
+- [[ai-citation-landscape]] — Empirical patterns in what ChatGPT, Claude, Gemini, Perplexity, and Google AI Mode/Overviews actually cite: media mix, provider differences, engine sourcing personalities, the three-layer source framework, presence/portability/concentration, and (now resolved) the source-fragmentation-vs-brand-convergence conflict.
+- [[ai-visibility-correlation-factors]] — Which brand/SEO metrics correlate with AI-mention visibility (YouTube mentions strongest, content volume near-zero), platform differences, and cross-platform brand-overlap data — including the resolved source-vs-brand-overlap reconciliation.
 - [[aio-ctr-impact]] — The traffic/CTR economics of being cited (or not) in Google AI Overviews: the citation premium, the 2026 recovery, query-format AIO-prevalence, and a key impressions-vs-clicks measurement lesson.
 - [[e-e-a-t-and-page-quality]] — Google's official Experience/Expertise/Authoritativeness/Trust framework, YMYL, the five Page Quality tiers, and the three AI-era abuse patterns (Scaled Content, Site Reputation, Expired Domain Abuse).
 - [[search-intent-and-needs-met]] — Google's query intent taxonomy (Know/Know Simple/Do/Website/Visit-in-person) and the Needs Met rating scale.
@@ -19,7 +19,7 @@ short summary.
 
 ## Playbooks
 
-- [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus domain-specific, provider-specific, presence/portability/concentration measurement, brand-level correlational, query-format-risk, technical-crawlability, E-E-A-T, and Know-Simple guidance, plus a citability checklist.
+- [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus domain-specific, provider-specific, presence/portability/concentration measurement, the three-layer source strategy, brand-level correlational, query-format-risk, technical-crawlability, E-E-A-T, and Know-Simple guidance, plus a citability checklist.
 - [[controlling-ai-feature-inclusion]] — how to limit/exclude content from Google's AI Overviews/AI Mode (robots.txt, nosnippet, data-nosnippet, max-snippet, noindex), and how to measure the effect.
 - [[classic-seo-ranking-factors]] — Actionable classic-SERP ranking tactics (topical coverage, backlink building, reviews, auditing positions 2-20) with a classic-SEO-vs-AEO comparison table.
 - [[link-and-anchor-text-best-practices]] — Crawlable link markup requirements, anchor text writing rules, site-structure/siloing/topic-cluster/cornerstone-content and reasonable-surfer internal linking guidance, pagination/crawler-accessibility, an internal-link audit workflow, and `rel` attribute (`nofollow`/`sponsored`/`ugc`) usage. Link count resolved in favor of Google's no-numeric-cap guidance.
@@ -43,3 +43,4 @@ short summary.
 - [[amplifying-claude-code-picks-2026]] — Amplifying's 2,430-prompt study of what Claude Code actually recommends/installs for open-ended dev tasks: build-vs-buy, the default stack, cross-model consensus, and the recency gradient.
 - [[amplifying-codex-vs-claude-code-picks-2026]] — Amplifying's 1,452-pick head-to-head of Codex vs. Claude Code on 12 contested tool categories: 7/12 agreement (mostly Custom/DIY), parent-company acquisition bias (Statsig/OpenAI, Bun/Anthropic), Cloudflare-vs-Vercel platform lock-in, and "conversion differs more than awareness."
 - [[sej-the-consensus-gap]] — Kevin Indig/Omnia's 3.7M-URL-citation study of ChatGPT/Perplexity/Google AI Overviews: only ~2.35-2.45% universal citation overlap, 91% single-engine-only, and the presence/portability/concentration measurement framework.
+- [[brightedge-ai-search-same-brands-different-sources]] — BrightEdge's 5-engine (ChatGPT/Perplexity/Gemini/AI Mode/AI Overviews) citation study: source overlap (16-59%) vs. brand overlap (36-55%), engine sourcing personalities, and the three-layer source framework — resolves the wiki's citation-fragmentation-vs-brand-convergence conflict.
