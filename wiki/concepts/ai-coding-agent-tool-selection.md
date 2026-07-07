@@ -121,3 +121,6 @@ vendor-facing tactics.
 - [[amplifying-codex-vs-claude-code-picks-2026]] — the Codex-vs-Claude-
   Code cross-agent comparison underlying the parent-company/platform-
   affinity findings above.
+- [[agentic-web-optimization]] — a sibling domain: general-purpose AI
+  agents acting on marketing/ecommerce sites, rather than coding agents
+  choosing tools/libraries.

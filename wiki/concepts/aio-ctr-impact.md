@@ -80,6 +80,18 @@ contrast, was volatile and hard to model (missed by 0.6–2.6 percentage
 points across every segment). Whatever AI Overviews are doing to organic
 click behavior, they are not doing the same thing to paid ads.
 
+## AI-referred visitors convert at a premium too
+
+A separate, related data point from [[semrush-optimize-for-agentic-web]]
+(cited there, not independently verified in this wiki): "the average AI
+search visitor is worth 4.4 times more than a traditional organic
+visitor in conversion value." This is a different measurement from the
+citation-premium/CTR data above — it's about the value of a session
+once an AI tool *does* refer traffic to you, rather than the CTR effect
+of being cited vs. not. Consistent in direction (AI-sourced traffic is
+worth more) but not the same metric, and worth tracking as a distinct
+number rather than conflating the two.
+
 ## Caveats
 
 The authors are explicit that: this is correlational, not causal
@@ -100,3 +112,6 @@ floors, not predictions.
 - [[geo-content-optimization-tactics]] — actionable query-format risk
   guidance and the impressions-vs-clicks measurement checklist drawn
   from this source.
+- [[optimizing-for-the-agentic-web]] — the source of the AI-referred-
+  visitor conversion-value stat above, plus a fuller measurement
+  framework for AI-driven traffic and conversions.

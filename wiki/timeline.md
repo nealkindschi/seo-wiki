@@ -324,3 +324,14 @@ covering crawling/indexing, Core Web Vitals/UX, navigation, HTTPS/
 hreflang/Schema, and — new to the wiki — AI crawler access
 (GPTBot/ChatGPT-User/Claude-Web) and ecommerce/agentic-commerce
 checkout readiness for AI shopping agents.
+
+## 2026-06-16 — Semrush publishes "How to Optimize for the Agentic Web"
+
+[[semrush-optimize-for-agentic-web]] · established
+[[agentic-web-optimization]]; new playbook
+[[optimizing-for-the-agentic-web]]. Introduces a five-layer
+optimization stack (SEO foundations → agent readiness → off-site
+presence → action layer → protocol layer) and four emerging agentic
+protocol standards shipped within ~18 months: MCP (Anthropic, Nov
+2024), WebMCP (Google/Microsoft, W3C draft Feb 2026), ACP
+(OpenAI/Stripe, Sept 2025), UCP (Google, announced Jan 2026).

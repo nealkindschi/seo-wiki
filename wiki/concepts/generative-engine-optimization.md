@@ -146,6 +146,9 @@ controls — see [[controlling-ai-feature-inclusion]].
   same "visibility inside an AI-generated answer" mechanic, but for
   coding agents choosing which *tool/library* to recommend rather than
   chat/search engines choosing which *content* to cite.
+- [[agentic-web-optimization]] — a third sibling domain: optimizing a
+  site so general-purpose AI agents can *act* on it (browse, fill
+  forms, complete purchases), a higher bar than being cited.
 
 ## Open questions
 

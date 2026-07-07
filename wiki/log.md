@@ -273,3 +273,19 @@ already covered there). Cross-linked from [[how-google-search-works]]
 and [[controlling-ai-feature-inclusion]] (opposite goal: ensuring AI
 crawlers aren't accidentally blocked, vs. deliberately excluding them).
 No conflicts.
+
+## [2026-07-07] ingest | How to Optimize for the Agentic Web (Semrush)
+
+Created new source [[semrush-optimize-for-agentic-web]], new concept
+[[agentic-web-optimization]] (the agentic-web definition, five-layer
+optimization stack, four emerging protocol standards — MCP/WebMCP/ACP/
+UCP), and new playbook [[optimizing-for-the-agentic-web]] (actionable
+layers 2-5, cross-linked to [[technical-seo-audit-checklist]] for
+layer 1, plus a visibility+action measurement framework). This is a
+third sibling domain alongside [[generative-engine-optimization]]
+(citation-focused) and [[ai-coding-agent-tool-selection]]
+(coding-agent tool picks) — cross-linked from both. Added the "AI
+visitor worth 4.4x more in conversion value" stat to [[aio-ctr-impact]]
+as a related-but-distinct data point (session conversion value, not
+citation-premium CTR). No conflicts — all layers either net-new or
+consistent with/complementary to existing wiki content.

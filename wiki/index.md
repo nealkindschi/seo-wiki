@@ -16,6 +16,7 @@ short summary.
 - [[how-google-search-works]] — The crawl/index/serve pipeline underlying "technical crawlability" and "retrieval eligibility": crawling, canonicalization/indexing, and serving-stage ranking, plus their distinct failure modes.
 - [[traditional-seo-ranking-factors]] — Classic organic-SERP ranking correlation data (text relevance strongest, backlinks moderate, keyword-matching/Schema/content-length weak), with a direct comparison to AI-citation correlation factors.
 - [[ai-coding-agent-tool-selection]] — A sibling GEO/AEO domain: how coding agents (Claude Code, Codex) pick which tool/library to recommend for open-ended dev tasks — build-vs-buy patterns, the default stack, consensus/recency dynamics, category stability, and cross-agent parent-company/platform-affinity effects.
+- [[agentic-web-optimization]] — A third sibling GEO/AEO domain: optimizing a site so general-purpose AI agents can *act* on it (browse, fill forms, complete purchases), not just cite it — the five-layer optimization stack and the four emerging protocol standards (MCP, WebMCP, ACP, UCP).
 
 ## Playbooks
 
@@ -25,6 +26,7 @@ short summary.
 - [[link-and-anchor-text-best-practices]] — Crawlable link markup requirements, anchor text writing rules, site-structure/siloing/topic-cluster/cornerstone-content and reasonable-surfer internal linking guidance, pagination/crawler-accessibility, an internal-link audit workflow, and `rel` attribute (`nofollow`/`sponsored`/`ugc`) usage. Link count resolved in favor of Google's no-numeric-cap guidance.
 - [[optimizing-for-coding-agent-recommendations]] — Actionable tactics for tool/library vendors to become a coding agent's default pick: beating the build-it-myself default, getting into training-data code examples, a scriptable getting-started path, tier-appropriate strategy, a measurement method, and per-agent tracking given cross-agent divergence.
 - [[technical-seo-audit-checklist]] — Consolidated technical SEO audit: crawling/indexing, Core Web Vitals/UX, navigation (cross-linked), HTTPS/hreflang/Schema, and AI/agent readiness including ecommerce agentic-commerce checkout requirements.
+- [[optimizing-for-the-agentic-web]] — Actionable tactics for agent-parseable content, off-site consistency, an operable action layer (CTAs/pricing/checkout), the MCP/WebMCP/ACP/UCP protocol layer, and a full AI-agent measurement framework (visibility + action metrics).
 
 ## Sources
 
@@ -47,3 +49,4 @@ short summary.
 - [[brightedge-ai-search-same-brands-different-sources]] — BrightEdge's 5-engine (ChatGPT/Perplexity/Gemini/AI Mode/AI Overviews) citation study: source overlap (16-59%) vs. brand overlap (36-55%), engine sourcing personalities, and the three-layer source framework — resolves the wiki's citation-fragmentation-vs-brand-convergence conflict.
 - [[growth-memo-why-most-original-data-never-gets-cited]] — Kevin Indig/Amanda Johnson's analysis of Gauge's 301-page citation dataset: primary research is rare but 3.3x citation-dense, and citations cluster almost entirely on benchmark-formatted content, not raw data — plus the 7-characteristic durable-benchmark checklist.
 - [[semrush-technical-seo-checklist]] — Semrush's technical SEO checklist covering crawling/indexing, UX/Core Web Vitals, navigation, code/config, and AI grounding/agent readiness including ecommerce agentic-commerce checkout requirements.
+- [[semrush-optimize-for-agentic-web]] — Semrush's agentic-web guide: the five-layer optimization stack, four emerging protocol standards (MCP/WebMCP/ACP/UCP), agent-friendly content/action-layer tactics, and a visibility+action measurement framework.

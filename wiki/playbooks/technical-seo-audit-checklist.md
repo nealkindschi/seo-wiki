@@ -121,3 +121,7 @@ audit workflow). Quick-reference for this audit:
 - [[optimizing-for-coding-agent-recommendations]] — a sibling
   "agent readiness" domain, but for coding agents choosing tools rather
   than shopping/browsing agents acting on a page.
+- [[optimizing-for-the-agentic-web]] — the layers 2-5 that build on top
+  of this checklist's layer-1 technical foundations: agent-parseable
+  content, off-site consistency, an operable action layer, and the
+  emerging MCP/WebMCP/ACP/UCP protocol layer.
