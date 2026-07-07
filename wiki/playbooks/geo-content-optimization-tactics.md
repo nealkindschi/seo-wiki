@@ -153,6 +153,45 @@ measurement artifact rather than a real problem:
 - [ ] Treat single-brand/single-account CTR anomalies with suspicion —
       aggregate benchmarks can be skewed by one outlier account.
 
+## E-E-A-T signal-building (retrieval-eligibility foundation)
+
+Per [[e-e-a-t-and-page-quality]], these don't move citation-stage
+visibility metrics directly, but they're the retrieval-eligibility
+foundation everything above depends on — Trust is the most important
+factor, and low-E-E-A-T content risks not being surfaced as a candidate
+source at all:
+
+- [ ] Does the page or its author have a real, verifiable "About"/bio
+      with genuine credentials or experience for the topic?
+- [ ] For YMYL topics (health, finance, government/civics/safety), is
+      the content expert-sourced and accurate, not just well-written?
+- [ ] Is there independent evidence of trustworthiness (reviews, press,
+      citations from others) beyond what the site says about itself?
+- [ ] Are there conflicts of interest undisclosed (e.g., a manufacturer's
+      own "review" of its product)? Disclose them or avoid the format.
+
+**Critical warning — Scaled Content Abuse**: per
+[[e-e-a-t-and-page-quality]], Google explicitly rates pages **Lowest
+quality** when generative AI (or any automation) is used to produce many
+low-effort, low-value pages — "no matter how it's created," and even
+under mere suspicion of the pattern. This isn't just "content volume
+doesn't help" (per [[ai-visibility-correlation-factors]]) — scaled,
+low-effort AI content is an explicit penalty target. If using AI to help
+draft content, ensure each page has genuine added value, editing, and
+originality; don't publish AI output at scale with little to no human
+curation.
+
+## Know-Simple answer structuring
+
+Per [[search-intent-and-needs-met]], "Know Simple" queries (short,
+factual, one-right-answer) get pulled into concise direct-answer
+treatments. For any page targeting this kind of query:
+
+- [ ] Is there one clear, complete, correctly-stated 1-2 sentence answer
+      to the specific factual question, not buried in a longer narrative?
+- [ ] Does that answer appear early/prominently rather than only at the
+      end of a long article?
+
 ## Domain-specific guidance
 
 Tactic effectiveness varies by content domain/query type — pick the

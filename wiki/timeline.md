@@ -20,6 +20,15 @@ Format:
 optimizing content for generative/answer engines, later accepted to
 KDD '24 (August 2024).
 
+## 2025-09-11 — Google publishes Search Quality Rater Guidelines (this edition)
+
+[[google-search-quality-evaluator-guidelines-2025-09]] · established
+[[e-e-a-t-and-page-quality]] and [[search-intent-and-needs-met]]; updated
+[[geo-content-optimization-tactics]] and [[generative-engine-optimization]].
+The canonical, official definition of E-E-A-T, YMYL, Page Quality tiers,
+and the Scaled/Site-Reputation/Expired-Domain abuse patterns underlying
+much of the SEO/AEO industry's terminology.
+
 ## 2025-12-10 — Google publishes "AI features and your website" guidance
 
 [[google-ai-features-appearance-guide]] · updated [[generative-engine-optimization]].

@@ -35,7 +35,11 @@ Notably, **content volume showed almost no correlation** with AI
 visibility — publishing more content is not, by itself, associated with
 higher AI-mention visibility. This is consistent with
 [[ai-citation-landscape]]'s Axios finding (breakthrough tied to a
-specific short-form *format*, not sheer publishing volume).
+specific short-form *format*, not sheer publishing volume), and Google's
+own policy explains a likely mechanism: per
+[[e-e-a-t-and-page-quality]]'s Scaled Content Abuse policy, low-effort
+content produced at scale (including via generative AI) is an explicit
+Lowest-quality penalty target, not just a non-factor.
 
 ## Platforms weight these factors differently
 

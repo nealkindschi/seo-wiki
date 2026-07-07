@@ -10,10 +10,12 @@ short summary.
 - [[ai-citation-landscape]] — Empirical patterns in what ChatGPT, Claude, and Gemini actually cite: media mix, provider differences, Wikipedia/Reddit/Axios patterns, recency, and query-type/sector effects.
 - [[ai-visibility-correlation-factors]] — Which brand/SEO metrics correlate with AI-mention visibility (YouTube mentions strongest, content volume near-zero), platform differences, and cross-platform brand-overlap data.
 - [[aio-ctr-impact]] — The traffic/CTR economics of being cited (or not) in Google AI Overviews: the citation premium, the 2026 recovery, query-format AIO-prevalence, and a key impressions-vs-clicks measurement lesson.
+- [[e-e-a-t-and-page-quality]] — Google's official Experience/Expertise/Authoritativeness/Trust framework, YMYL, the five Page Quality tiers, and the three AI-era abuse patterns (Scaled Content, Site Reputation, Expired Domain Abuse).
+- [[search-intent-and-needs-met]] — Google's query intent taxonomy (Know/Know Simple/Do/Website/Visit-in-person) and the Needs Met rating scale.
 
 ## Playbooks
 
-- [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus domain-specific, provider-specific, brand-level correlational, and query-format-risk guidance, plus a citability checklist.
+- [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus domain-specific, provider-specific, brand-level correlational, query-format-risk, E-E-A-T, and Know-Simple guidance, plus a citability checklist.
 - [[controlling-ai-feature-inclusion]] — how to limit/exclude content from Google's AI Overviews/AI Mode (robots.txt, nosnippet, data-nosnippet, max-snippet, noindex), and how to measure the effect.
 
 ## Sources
@@ -24,3 +26,4 @@ short summary.
 - [[muckrack-generative-pulse-ai-reading-may-2026]] — Muck Rack's analysis of 25M+ citation links across ChatGPT/Claude/Gemini: media mix, provider citation behavior, Wikipedia/Reddit/Axios patterns, recency, and sector/query-type effects.
 - [[ahrefs-ai-brand-visibility-correlations]] — Ahrefs' 75k-brand Spearman-correlation study of brand/SEO metrics vs. AI-mention visibility across ChatGPT, AI Mode, and AI Overviews.
 - [[seerinteractive-aio-ctr-impact-2026-update]] — Seer Interactive's 53-brand, 5.47M-query study of AI Overview impact on Google organic/paid CTR: the citation premium, 2026 recovery, and query-format AIO-prevalence.
+- [[google-search-quality-evaluator-guidelines-2025-09]] — Google's official Search Quality Rater Guidelines (Sept 2025 edition): the canonical definition of E-E-A-T, YMYL, Page Quality, spam-abuse types, query intent, and Needs Met.

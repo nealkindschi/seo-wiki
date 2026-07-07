@@ -71,3 +71,17 @@ impressions-vs-clicks measurement checklist to
 [[geo-content-optimization-tactics]]; cross-linked from
 [[generative-engine-optimization]] as the economic rationale for
 citation tactics. No conflicts.
+
+## [2026-07-07] ingest | Google Search Quality Rater Guidelines (Sept 2025 edition)
+
+Created two new concepts: [[e-e-a-t-and-page-quality]] (YMYL, E-E-A-T,
+Page Quality tiers, and the three AI-era abuse patterns) and
+[[search-intent-and-needs-met]] (query intent taxonomy, Needs Met
+scale). Added E-E-A-T signal-building and Know-Simple answer-structuring
+guidance to [[geo-content-optimization-tactics]], including an explicit
+warning against Scaled Content Abuse. Cross-linked from
+[[generative-engine-optimization]] (retrieval-eligibility foundation)
+and [[ai-visibility-correlation-factors]] (official policy explanation
+for the content-volume finding). No conflicts — this source provides
+the official policy foundation several prior sources' findings were
+implicitly describing.

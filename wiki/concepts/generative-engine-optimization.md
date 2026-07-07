@@ -100,10 +100,11 @@ controls — see [[controlling-ai-feature-inclusion]].
   the same funnel**, not a true contradiction:
   - **Retrieval eligibility** (will your content even be considered as a
     candidate source?) — governed by classic SEO fundamentals: technical
-    crawlability, avoiding thin/manipulative content, E-E-A-T. This is
-    what Google's guidance addresses, and it doesn't test or claim
-    anything about citation-style content within an already-retrieved
-    set.
+    crawlability, avoiding thin/manipulative content, and
+    [[e-e-a-t-and-page-quality]] (Experience, Expertise,
+    Authoritativeness, Trust). This is what Google's guidance addresses,
+    and it doesn't test or claim anything about citation-style content
+    within an already-retrieved set.
   - **Citation-stage visibility** (given you're one of the sources fed to
     the model, how much does the generated answer actually use/cite
     you?) — this is what the GEO paper measures, and it's silent on
@@ -131,6 +132,12 @@ controls — see [[controlling-ai-feature-inclusion]].
   Google AI Overview delivers +120% more clicks than not being cited
   (though still below a no-AIO baseline). This is the real-world traffic
   rationale for why the citation-focused tactics above are worth doing.
+- [[e-e-a-t-and-page-quality]] — the retrieval-eligibility foundation
+  referenced in Conflicting Evidence above: the actual official framework
+  behind "classic SEO fundamentals"/"helpful, people-first content."
+- [[search-intent-and-needs-met]] — Google's query-intent taxonomy;
+  "Know Simple" queries are directly relevant to structuring
+  answer-friendly content.
 
 ## Open questions
 
