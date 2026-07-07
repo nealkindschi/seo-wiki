@@ -10,8 +10,8 @@ Why/when to use this: apply during content authoring, template/CMS
 audits, and technical SEO reviews — link markup and anchor text quality
 directly affect whether Google can discover a page at all (see
 [[how-google-search-works]]'s crawling stage) and how it interprets what
-the linked page is about. Based on [[google-links-crawlable]] and
-[[ahrefs-internal-links-for-seo]].
+the linked page is about. Based on [[google-links-crawlable]],
+[[ahrefs-internal-links-for-seo]], and [[yoast-internal-linking-for-seo]].
 
 ## 1. Make links crawlable
 
@@ -89,6 +89,16 @@ with an `href` attribute containing a resolvable URL.
 - **Prioritize high-value pages**: identify pages that represent core
   business value (key products, cornerstone content) and link to them
   prominently and often.
+- **Cornerstone content, two-way linking**: designate your most
+  comprehensive article on a topic as cornerstone content. Link shorter/
+  supporting posts *to* it, and link back *from* it to the relevant
+  supporting posts — not just one-directional cluster→pillar linking.
+- **Taxonomies as linking hubs**: category and tag pages can serve as
+  internal-linking hubs alongside pillar pages, signaling topical
+  structure to Google (e.g. linking into a "Technical SEO" tag page).
+- **Related/popular posts modules**: end-of-article "related posts"
+  sections and sidebar/footer "popular posts" widgets distribute link
+  equity to top-performing pages and reduce bounce rate.
 - **Link count**: no numeric target — follow Google's guidance (see
   "Conflicting Evidence" below) and link as much as genuinely serves the
   reader. Don't cap at an arbitrary count like Ahrefs' "3-5."
@@ -182,3 +192,5 @@ with an `href` attribute containing a resolvable URL.
   signal.
 - [[classic-seo-ranking-factors]] — broader classic-SEO tactic list this
   playbook complements.
+- [[generative-engine-optimization]] — internal links as context signals
+  for AI/generative search systems, not just classic Google Search.

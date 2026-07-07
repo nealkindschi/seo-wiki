@@ -247,6 +247,13 @@ States SEO fundamentals remain the foundation for AI features and that no
 special AI-only infrastructure (llms.txt, chunking, AI-specific markup) is
 needed.
 
+## 2025-11-12 — Yoast publishes internal linking guide
+
+[[yoast-internal-linking-for-seo]] · updated [[link-and-anchor-text-best-practices]].
+Introduces cornerstone-content two-way linking, taxonomy/tag-page
+linking hubs, and related/popular-posts modules; frames internal links
+as AI/GEO context signals.
+
 ## 2026-03-10 — Ahrefs updates its internal linking guide
 
 [[ahrefs-internal-links-for-seo]] · updated [[link-and-anchor-text-best-practices]].

@@ -160,3 +160,18 @@ heuristic and defer entirely to Google's "if you think it's too much,
 then it probably is" guidance. Ahrefs' claim remains recorded in the
 Conflicting Evidence section for reference, marked superseded rather
 than deleted.
+
+## [2026-07-07] ingest | Internal linking for SEO: why and how (Yoast)
+
+Created new source [[yoast-internal-linking-for-seo]]. Added
+cornerstone-content two-way linking, taxonomy/tag-page linking hubs, and
+related/popular-posts modules to [[link-and-anchor-text-best-practices]]
+§4. Cross-linked to [[generative-engine-optimization]] for the source's
+GEO/AI-context framing. Noted (not applied) a minor tension: this
+source recommends exact-match anchor text "when possible," which leans
+more keyword-forward than Google's "avoid keyword stuffing" guidance
+already in the playbook — per the user's standing preference to trust
+Google over third-party SEO blogs on divergence, kept the playbook's
+existing natural/varied anchor-text guidance unchanged. No numeric
+link-count claim from this source — consistent with the wiki's current
+Google-aligned no-cap position.
