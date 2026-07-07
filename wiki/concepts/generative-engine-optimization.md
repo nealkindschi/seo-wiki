@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [aeo]
+tags: [seo, aeo]
 updated: 2026-07-07
 ---
 
@@ -70,9 +70,48 @@ No single tactic wins everywhere — see
 [[geo-content-optimization-tactics]] for which tactics work best in which
 domains, and why combining tactics outperforms using any one alone.
 
+## Conflicting Evidence
+
+- **Claim**: Traditional SEO is largely obsolete for generative engines,
+  and content should be optimized specifically for AI citation/visibility
+  using distinct tactics (quotes, stats, citations).
+  - Supported by: [[geo-generative-engine-optimization-aggarwal-2023]]
+    (2023-11), which found classic SEO tactics like keyword stuffing
+    don't transfer and citation-style content tactics do.
+  - Contradicted by: [[google-ai-optimization-guide]] (2026-06), Google's
+    official guidance, which states SEO fundamentals remain "the
+    foundation" for AI Overviews/AI Mode and explicitly advises against
+    building special AI-only infrastructure (`llms.txt`, chunking,
+    AI-specific rewriting).
+- **Current best guess**: these findings describe **different stages of
+  the same funnel**, not a true contradiction:
+  - **Retrieval eligibility** (will your content even be considered as a
+    candidate source?) — governed by classic SEO fundamentals: technical
+    crawlability, avoiding thin/manipulative content, E-E-A-T. This is
+    what Google's guidance addresses, and it doesn't test or claim
+    anything about citation-style content within an already-retrieved
+    set.
+  - **Citation-stage visibility** (given you're one of the sources fed to
+    the model, how much does the generated answer actually use/cite
+    you?) — this is what the GEO paper measures, and it's silent on
+    retrieval eligibility.
+  - Google's specific claims (no need for `llms.txt`, no need to chunk
+    content, don't rewrite "for AI") are about **infrastructure/format**,
+    not about whether citation-friendly content style (quotes, stats,
+    sourcing) matters — and those tactics arguably overlap with Google's
+    own "helpful, reliable, people-first" framing rather than opposing it.
+  - Flagged as unresolved: whether Google's own AI Overviews specifically
+    respond to the GEO paper's citation-style tactics the same way the
+    third-party generative engines tested in that paper (GPT-3.5-based,
+    Perplexity.ai) did is untested as of this wiki's current sources.
+
 ## Open questions
 
 - This is based on a single 2023/2024 academic study using GPT-3.5-based
   generative engines and Perplexity.ai. Whether these findings hold for
   newer generative engines (e.g. Google AI Overviews, ChatGPT search,
   Claude) is untested as of this wiki's current sources.
+- Whether Google's "don't rewrite specifically for AI" advice is in
+  tension with citation-style optimization tactics, or whether those
+  tactics are simply a subset of "helpful, people-first" writing, is
+  unresolved — see Conflicting Evidence above.

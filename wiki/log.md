@@ -19,3 +19,16 @@ Format:
 First source ingested. Created [[generative-engine-optimization]] (concept)
 and [[geo-content-optimization-tactics]] (playbook). No prior wiki content
 existed, so no conflicts to reconcile.
+
+## [2026-07-07] ingest | Google's Guide to Optimizing for Generative AI Features on Google Search
+
+Updated [[generative-engine-optimization]] and
+[[geo-content-optimization-tactics]] with Google's official AI-optimization
+guidance.
+
+## [2026-07-07] conflict | GEO/AEO tactics vs. Google's official guidance — retrieval-stage vs. citation-stage framing
+
+[[generative-engine-optimization]]: reconciled as addressing different
+funnel stages (see Conflicting Evidence section on that page); flagged as
+not fully resolved whether Google's AI Overviews respond to GEO's
+citation-style tactics the same way third-party generative engines do.

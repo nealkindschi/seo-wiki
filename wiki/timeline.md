@@ -19,3 +19,10 @@ Format:
 [[generative-engine-optimization]]. First academic formalization of
 optimizing content for generative/answer engines, later accepted to
 KDD '24 (August 2024).
+
+## 2026-06-29 — Google publishes official guidance on optimizing for AI Overviews/AI Mode
+
+[[google-ai-optimization-guide]] · updated [[generative-engine-optimization]].
+States SEO fundamentals remain the foundation for AI features and that no
+special AI-only infrastructure (llms.txt, chunking, AI-specific markup) is
+needed.

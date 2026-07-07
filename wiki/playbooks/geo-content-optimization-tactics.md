@@ -1,6 +1,6 @@
 ---
 type: playbook
-tags: [aeo]
+tags: [seo, aeo]
 updated: 2026-07-07
 ---
 
@@ -50,6 +50,22 @@ one pairing, use this one.
 9. **Keyword Stuffing** — the classic SEO tactic. **~0% or negative** on
    the benchmark, and measured **10% worse than baseline** when validated
    live on Perplexity.ai. Do not use this for AEO/GEO purposes.
+
+## Also don't bother (per Google's official guidance)
+
+Per [[google-ai-optimization-guide]], Google explicitly says these do
+**not** help visibility in AI Overviews/AI Mode — don't spend effort on:
+
+- Creating `llms.txt` files or other special AI-only markup/text files —
+  Google Search doesn't use them.
+- "Chunking" content into unnaturally small pieces for AI to parse.
+- Obsessing over structured data specifically for AI purposes (still fine
+  to use for general SEO, just not an AI-visibility requirement).
+- Pursuing inauthentic mentions or backlinks.
+- Rewriting content in a way that's specifically "for AI" rather than for
+  people — write for people first (see
+  [[generative-engine-optimization]]'s Conflicting Evidence section on
+  how this squares with the tactics above).
 
 ## Domain-specific guidance
 

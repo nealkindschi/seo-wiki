@@ -15,3 +15,4 @@ short summary.
 ## Sources
 
 - [[geo-generative-engine-optimization-aggarwal-2023]] — "GEO: Generative Engine Optimization" (Aggarwal et al., KDD '24 / arXiv 2023) — the founding paper defining GEO/AEO, its visibility metrics, and GEO-bench.
+- [[google-ai-optimization-guide]] — Google's official guidance on optimizing for AI Overviews/AI Mode: SEO fundamentals still apply, no special AI infrastructure (llms.txt, chunking) needed.
