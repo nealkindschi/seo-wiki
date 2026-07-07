@@ -188,3 +188,18 @@ as a sibling domain from [[generative-engine-optimization]] — same
 "visibility inside an AI-generated answer" mechanic, different engine
 type (coding agent vs. chat/search) and audience (tool vendors vs.
 content publishers). No conflicts — first source on this topic.
+
+## [2026-07-07] ingest | Codex vs Claude Code: AI Agent Tool Selection Study (Amplifying, Mar 2026)
+
+Created new source [[amplifying-codex-vs-claude-code-picks-2026]].
+Extended [[ai-coding-agent-tool-selection]] with cross-agent findings:
+7/12 category agreement (mostly Custom/DIY), parent-company acquisition
+bias (Codex/Statsig, Claude/Bun), Cloudflare-vs-Vercel platform
+lock-in, and "conversion differs more than awareness." Extended
+[[optimizing-for-coding-agent-recommendations]] with a new tactic
+(§7): measure and optimize per-agent, since top picks diverge sharply
+between Codex and Claude Code outside standardized categories. No
+conflicts — complementary follow-up to
+[[amplifying-claude-code-picks-2026]], reinforcing its build-over-buy
+finding on a second agent and adding acquisition/platform-affinity
+data.

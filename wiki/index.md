@@ -15,7 +15,7 @@ short summary.
 - [[google-algorithm-update-history]] — Taxonomy of Google's named ranking updates (core, spam, helpful content, product reviews, page experience, Discover) and the pattern of helpful-content/reviews updates merging into core updates over time. Full dated list in `wiki/timeline.md`.
 - [[how-google-search-works]] — The crawl/index/serve pipeline underlying "technical crawlability" and "retrieval eligibility": crawling, canonicalization/indexing, and serving-stage ranking, plus their distinct failure modes.
 - [[traditional-seo-ranking-factors]] — Classic organic-SERP ranking correlation data (text relevance strongest, backlinks moderate, keyword-matching/Schema/content-length weak), with a direct comparison to AI-citation correlation factors.
-- [[ai-coding-agent-tool-selection]] — A sibling GEO/AEO domain: how coding agents (Claude Code) pick which tool/library to recommend for open-ended dev tasks — build-vs-buy patterns, the default stack, consensus/recency dynamics, and category stability.
+- [[ai-coding-agent-tool-selection]] — A sibling GEO/AEO domain: how coding agents (Claude Code, Codex) pick which tool/library to recommend for open-ended dev tasks — build-vs-buy patterns, the default stack, consensus/recency dynamics, category stability, and cross-agent parent-company/platform-affinity effects.
 
 ## Playbooks
 
@@ -23,7 +23,7 @@ short summary.
 - [[controlling-ai-feature-inclusion]] — how to limit/exclude content from Google's AI Overviews/AI Mode (robots.txt, nosnippet, data-nosnippet, max-snippet, noindex), and how to measure the effect.
 - [[classic-seo-ranking-factors]] — Actionable classic-SERP ranking tactics (topical coverage, backlink building, reviews, auditing positions 2-20) with a classic-SEO-vs-AEO comparison table.
 - [[link-and-anchor-text-best-practices]] — Crawlable link markup requirements, anchor text writing rules, site-structure/siloing/topic-cluster/cornerstone-content and reasonable-surfer internal linking guidance, pagination/crawler-accessibility, an internal-link audit workflow, and `rel` attribute (`nofollow`/`sponsored`/`ugc`) usage. Link count resolved in favor of Google's no-numeric-cap guidance.
-- [[optimizing-for-coding-agent-recommendations]] — Actionable tactics for tool/library vendors to become a coding agent's default pick: beating the build-it-myself default, getting into training-data code examples, a scriptable getting-started path, tier-appropriate strategy, and a measurement method.
+- [[optimizing-for-coding-agent-recommendations]] — Actionable tactics for tool/library vendors to become a coding agent's default pick: beating the build-it-myself default, getting into training-data code examples, a scriptable getting-started path, tier-appropriate strategy, a measurement method, and per-agent tracking given cross-agent divergence.
 
 ## Sources
 
@@ -41,3 +41,4 @@ short summary.
 - [[ahrefs-internal-links-for-seo]] — Ahrefs' internal-linking guide: PageRank/discovery/context functions, site structure (pyramid/siloing/topic clusters), reasonable-surfer link placement, a 3-5-links-per-article density heuristic, and an audit workflow.
 - [[yoast-internal-linking-for-seo]] — Yoast's internal-linking guide: pillar-cluster model, cornerstone-content two-way linking, taxonomy/tag-page hubs, related/popular-posts modules, and a GEO framing of internal links as AI context signals.
 - [[amplifying-claude-code-picks-2026]] — Amplifying's 2,430-prompt study of what Claude Code actually recommends/installs for open-ended dev tasks: build-vs-buy, the default stack, cross-model consensus, and the recency gradient.
+- [[amplifying-codex-vs-claude-code-picks-2026]] — Amplifying's 1,452-pick head-to-head of Codex vs. Claude Code on 12 contested tool categories: 7/12 agreement (mostly Custom/DIY), parent-company acquisition bias (Statsig/OpenAI, Bun/Anthropic), Cloudflare-vs-Vercel platform lock-in, and "conversion differs more than awareness."

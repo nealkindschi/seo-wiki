@@ -14,8 +14,10 @@ recommend and install when a developer asks an open-ended question
 product. For a tool/library vendor, "visibility" here means being the
 thing the agent actually reaches for — the audience is developers using
 AI coding agents, not searchers or chat users. Based on
-[[amplifying-claude-code-picks-2026]], the first empirical study of this
-behavior (Claude Code, 2,430 prompts, 20 categories, 3 models).
+[[amplifying-claude-code-picks-2026]] (Claude Code, 2,430 prompts, 20
+categories, 3 models) and [[amplifying-codex-vs-claude-code-picks-2026]]
+(Codex vs. Claude Code head-to-head, 1,452 picks, 12 contested
+categories).
 
 ## Agents build rather than buy, often
 
@@ -74,6 +76,32 @@ clear agent-side consensus, so a vendor in one of these categories has
 more room to shift the outcome than a vendor competing against a
 near-monopoly incumbent.
 
+## Different agents pick differently — and it correlates with parent company
+
+Comparing Codex (OpenAI/GPT-5.3) against Claude Code (Anthropic/Opus
+4.6) head-to-head on 12 contested categories (search, secrets, rate
+limiting, edge compute) finds agreement on only 7 of 12 top picks — and
+6 of those 7 are agreement on Custom/DIY, not a named tool. Where they
+diverge, the pattern often lines up with each agent's parent company:
+Codex picks OpenAI-acquired **Statsig** as primary in 27% of feature-
+flag responses vs. Claude's 0% (despite Claude *mentioning* Statsig
+28% of the time); Claude picks Anthropic-acquired **Bun** as primary
+63% of the time for JS runtime vs. Codex's 13% (despite Codex
+mentioning Bun 73% of the time). Beyond the two acquired-tool cases,
+both agents show broader platform affinity: Codex leans Cloudflare (47
+Cloudflare-branded picks vs. Claude's 9), Claude leans Vercel (29
+Vercel-branded picks vs. Codex's 17).
+
+The researchers are careful to frame this as **correlation, not proven
+causation** — an acquired tool may already have been best-in-class,
+which is presumably why it got acquired. But the sharper finding is
+about *awareness vs. conversion*: both agents mention the same
+competing tools at similar rates, yet convert to a primary pick at very
+different rates ("conversion differs much more than awareness does").
+Being mentioned by a coding agent is not the same as being chosen by
+it, and which one happens seems to depend partly on which company built
+the agent.
+
 ## Practical relevance
 
 This is a build-vs-buy and default-stack dynamic, not a citation/
@@ -90,3 +118,6 @@ vendor-facing tactics.
   (tool vendors vs. content publishers).
 - [[optimizing-for-coding-agent-recommendations]] — actionable tactics
   drawn from this concept.
+- [[amplifying-codex-vs-claude-code-picks-2026]] — the Codex-vs-Claude-
+  Code cross-agent comparison underlying the parent-company/platform-
+  affinity findings above.

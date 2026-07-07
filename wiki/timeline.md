@@ -272,3 +272,14 @@ agents build custom solutions in 12/20 categories, converge on a
 consistent default stack where they do pick third-party tools, and show
 a recency gradient where newer model versions systematically favor
 newer tools (e.g. Prisma 79%→0%, Drizzle 21%→100%).
+
+## 2026-03 — Amplifying publishes "Codex vs Claude Code: AI Agent Tool Selection Study"
+
+[[amplifying-codex-vs-claude-code-picks-2026]] · updated
+[[ai-coding-agent-tool-selection]] and
+[[optimizing-for-coding-agent-recommendations]]. Head-to-head of Codex
+(GPT-5.3) vs. Claude Code (Opus 4.6) across 12 contested categories:
+7/12 agreement (mostly Custom/DIY), a parent-company acquisition bias
+(Codex favors OpenAI-acquired Statsig, Claude favors Anthropic-acquired
+Bun), Cloudflare-vs-Vercel platform lock-in, and the finding that
+"conversion differs much more than awareness does" between agents.

@@ -11,7 +11,8 @@ platform vendor and want Claude Code (or similar coding agents) to be
 the thing a developer actually gets when they ask an open-ended
 question like "add a database" or "how do I deploy this?" without
 naming your product. Based on [[ai-coding-agent-tool-selection]] /
-[[amplifying-claude-code-picks-2026]].
+[[amplifying-claude-code-picks-2026]] /
+[[amplifying-codex-vs-claude-code-picks-2026]].
 
 ## 1. Beat the "build it myself" default first
 
@@ -89,6 +90,33 @@ mention, or absent. Re-run periodically — the recency-gradient and
 run-to-run variance findings mean a single check is a snapshot, not a
 stable measurement.
 
+## 7. Measure per-agent, not against a single coding agent
+
+Codex and Claude Code agree on a named top pick in only ~1 of 12
+contested categories — the rest is Custom/DIY consensus or genuine
+disagreement. Two implications:
+
+- **Don't assume a win against one agent generalizes.** A tool that's
+  the default in Claude Code (e.g. Bun for JS runtime, Twilio for
+  SMS/push) may be far behind in Codex, and vice versa (Cloudflare
+  Workers vs. Vercel Edge for edge compute). Track your position
+  separately per agent.
+- **Watch for parent-company/platform affinity.** Codex shows a
+  measurable lean toward OpenAI-acquired tools (Statsig) and Cloudflare;
+  Claude Code shows a lean toward Anthropic-acquired tools (Bun) and
+  Vercel. If you compete directly with an acquired tool or a
+  platform-affiliated incumbent on a given agent, expect a structural
+  headwind on that agent specifically, and weight your effort toward
+  agents without that conflict.
+- **Awareness isn't the bottleneck once you're mentioned as an
+  alternative.** If an agent already mentions your tool at a healthy
+  rate but rarely picks it primary, the fix is unlikely to be more
+  training-data presence — the gap is in conversion (integration
+  friction, perceived complexity, or the competing pick's structural
+  advantage), not discoverability. This mirrors point 5 above, but the
+  cross-agent data makes it sharper: "conversion differs much more than
+  awareness does."
+
 ## See also
 
 - [[ai-coding-agent-tool-selection]] — the underlying concept and study
@@ -96,3 +124,6 @@ stable measurement.
 - [[generative-engine-optimization]] — the broader GEO/AEO discipline;
   this playbook is its coding-agent-specific, tool-vendor-facing
   counterpart to [[geo-content-optimization-tactics]].
+- [[amplifying-codex-vs-claude-code-picks-2026]] — the cross-agent
+  study behind the per-agent measurement and parent-company-affinity
+  guidance in point 7.
