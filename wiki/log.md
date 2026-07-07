@@ -175,3 +175,16 @@ Google over third-party SEO blogs on divergence, kept the playbook's
 existing natural/varied anchor-text guidance unchanged. No numeric
 link-count claim from this source — consistent with the wiki's current
 Google-aligned no-cap position.
+
+## [2026-07-07] ingest | What Claude Code Actually Chooses (Amplifying, Feb 2026)
+
+New topic area: optimizing for coding-agent tool recommendations, not
+just chat/search content citation. Created new concept
+[[ai-coding-agent-tool-selection]] and new playbook
+[[optimizing-for-coding-agent-recommendations]] from
+[[amplifying-claude-code-picks-2026]] (2,430-prompt study of Claude
+Code's tool picks across 20 categories/4 repos/3 models). Cross-linked
+as a sibling domain from [[generative-engine-optimization]] — same
+"visibility inside an AI-generated answer" mechanic, different engine
+type (coding agent vs. chat/search) and audience (tool vendors vs.
+content publishers). No conflicts — first source on this topic.

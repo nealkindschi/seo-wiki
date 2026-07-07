@@ -142,6 +142,10 @@ controls — see [[controlling-ai-feature-inclusion]].
 - [[search-intent-and-needs-met]] — Google's query-intent taxonomy;
   "Know Simple" queries are directly relevant to structuring
   answer-friendly content.
+- [[ai-coding-agent-tool-selection]] — a sibling GEO/AEO domain: the
+  same "visibility inside an AI-generated answer" mechanic, but for
+  coding agents choosing which *tool/library* to recommend rather than
+  chat/search engines choosing which *content* to cite.
 
 ## Open questions
 

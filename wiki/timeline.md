@@ -261,3 +261,14 @@ Recommends 3-5 contextual links per article, pyramid/silo+topic-cluster
 site structure, and the reasonable-surfer link-placement model;
 conflicts with Google's explicit refusal to give a numeric link-count
 target (see that playbook's Conflicting Evidence section).
+
+## 2026-02 — Amplifying publishes "What Claude Code Actually Chooses"
+
+[[amplifying-claude-code-picks-2026]] · established
+[[ai-coding-agent-tool-selection]]; new playbook
+[[optimizing-for-coding-agent-recommendations]]. First empirical study
+of coding-agent tool selection: 2,430 prompts across 20 categories find
+agents build custom solutions in 12/20 categories, converge on a
+consistent default stack where they do pick third-party tools, and show
+a recency gradient where newer model versions systematically favor
+newer tools (e.g. Prisma 79%→0%, Drizzle 21%→100%).
