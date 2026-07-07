@@ -246,3 +246,17 @@ caveat noted (not a contradiction): BrightEdge's aggregate top-100-list
 overlap numbers read higher than [[sej-the-consensus-gap]]'s per-prompt
 exact-URL overlap, which is a granularity difference between the two
 measurement approaches.
+
+## [2026-07-07] ingest | Why Most Original Data Never Gets Cited (Growth Memo)
+
+Created new source
+[[growth-memo-why-most-original-data-never-gets-cited]] (analysis of
+Gauge's 301-page/1,075-citation dataset). Added a new "Publish
+citation-ready primary research/benchmarks" section to
+[[geo-content-optimization-tactics]], extending Tier 1's existing
+Statistics-Addition/Cite-Sources tactics with the structural finding
+that primary research only earns outsized citation density (3.3x) when
+packaged as a named-item benchmark comparison, not raw data — plus a
+7-characteristic checklist and URL-stability warning (64/365 cited
+URLs in the dataset were dead/redirected). No conflicts — first source
+on benchmark/primary-research content structure specifically.

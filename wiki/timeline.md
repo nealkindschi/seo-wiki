@@ -305,3 +305,13 @@ overlap (16-59%) much wider/less consistent than brand overlap
 (36-55%) across every engine pair — resolving the wiki's previously
 unresolved conflict between citation-level fragmentation and
 brand-level convergence findings.
+
+## 2026-07-06 — Growth Memo publishes "Why Most Original Data Never Gets Cited"
+
+[[growth-memo-why-most-original-data-never-gets-cited]] · updated
+[[geo-content-optimization-tactics]]. Analysis of Gauge's 301-page
+citation dataset finds primary research is rare (2.7% of cited pages)
+but 3.3x as citation-dense as other content, with citations
+concentrated almost entirely on benchmark-formatted comparisons (75 of
+90 primary-research citations) rather than raw data — plus a
+7-characteristic checklist for durable, citation-earning benchmarks.

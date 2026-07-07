@@ -38,6 +38,43 @@ to worst, tested against a no-optimization baseline:
 together outperformed any single tactic by 5.5%+. If you can only pick
 one pairing, use this one.
 
+## Publish citation-ready primary research/benchmarks
+
+Per [[growth-memo-why-most-original-data-never-gets-cited]] — this
+sharpens Tier 1's "Statistics Addition"/"Cite Sources" tactics: having
+original data isn't enough, and most organizations' proprietary data
+still fails to get cited because of *how* it's packaged, not because
+the numbers themselves are weak. In one 301-page citation dataset,
+primary research was rare (2.7% of pages) but earned 3.3x the citation
+density of other content — and 75 of 90 primary-research citations came
+specifically from **benchmarks** (named items compared head-to-head on
+a measurable axis), not data dumps or narrative-buried stats.
+
+- **Frame it as a comparison, not a data drop.** Structure the page
+  around "which option is best on X" with a table of named
+  competitors/options — this only works in topics that have a natural
+  comparison axis (speed, cost, latency, performance); topics without
+  one (e.g. category education content) don't see this effect.
+- **Lead with the result.** Put the comparison finding in the first 30%
+  of the content, not buried after setup/narrative.
+- **Box the methodology visibly**: sample, timeframe, measurement
+  approach, and confidence level, as a distinct callout — not folded
+  into prose.
+- **Use real, labeled first-party data**, not synthetic estimates —
+  and say so explicitly.
+- **Link raw data/sources** so claims are independently verifiable.
+- **Show credibility signals**: dated corrections and acknowledged
+  limitations outperform a page that claims no caveats.
+- **Structure headings so a question maps directly to an answer** —
+  AI-retrievable structure, not just human-readable prose.
+- **Keep the URL stable.** In the source dataset, 64 of 365 cited URLs
+  were dead or redirected, taking 203 citations offline — don't
+  reorganize or relaunch a benchmark page's URL once it's earning
+  citations.
+- **Don't gate it.** Proprietary data behind a lead-gen form can't be
+  crawled/cited — if citation is the goal, publish the benchmark
+  itself openly, even if a deeper report stays gated.
+
 ## Tier 2 — Modest performers
 
 6. **Authoritative tone** — rewrite to sound more persuasive/authoritative.
