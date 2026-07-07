@@ -92,3 +92,12 @@ Lowest-quality penalty target, not just a non-factor.
 See [[geo-content-optimization-tactics]] for the actionable version of
 these findings (YouTube presence, earning genuine mentions, and
 ChatGPT-targeting guidance for smaller/challenger brands).
+
+## See also
+
+- [[traditional-seo-ranking-factors]] — the classic-SERP equivalent
+  correlation study, with a direct side-by-side comparison table. Most
+  strikingly, backlinks/Domain Rating are meaningful for classic SERP
+  ranking but among the *weakest* correlates of AI-mention visibility,
+  while video/YouTube presence is the strongest AI-visibility correlate
+  but wasn't part of the classic-SERP dataset at all.

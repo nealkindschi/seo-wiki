@@ -14,11 +14,13 @@ short summary.
 - [[search-intent-and-needs-met]] — Google's query intent taxonomy (Know/Know Simple/Do/Website/Visit-in-person) and the Needs Met rating scale.
 - [[google-algorithm-update-history]] — Taxonomy of Google's named ranking updates (core, spam, helpful content, product reviews, page experience, Discover) and the pattern of helpful-content/reviews updates merging into core updates over time. Full dated list in `wiki/timeline.md`.
 - [[how-google-search-works]] — The crawl/index/serve pipeline underlying "technical crawlability" and "retrieval eligibility": crawling, canonicalization/indexing, and serving-stage ranking, plus their distinct failure modes.
+- [[traditional-seo-ranking-factors]] — Classic organic-SERP ranking correlation data (text relevance strongest, backlinks moderate, keyword-matching/Schema/content-length weak), with a direct comparison to AI-citation correlation factors.
 
 ## Playbooks
 
 - [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus domain-specific, provider-specific, brand-level correlational, query-format-risk, technical-crawlability, E-E-A-T, and Know-Simple guidance, plus a citability checklist.
 - [[controlling-ai-feature-inclusion]] — how to limit/exclude content from Google's AI Overviews/AI Mode (robots.txt, nosnippet, data-nosnippet, max-snippet, noindex), and how to measure the effect.
+- [[classic-seo-ranking-factors]] — Actionable classic-SERP ranking tactics (topical coverage, backlink building, reviews, auditing positions 2-20) with a classic-SEO-vs-AEO comparison table.
 
 ## Sources
 
@@ -31,3 +33,4 @@ short summary.
 - [[google-search-quality-evaluator-guidelines-2025-09]] — Google's official Search Quality Rater Guidelines (Sept 2025 edition): the canonical definition of E-E-A-T, YMYL, Page Quality, spam-abuse types, query intent, and Needs Met.
 - [[google-search-status-dashboard-history]] — Google's live status dashboard listing ~34 dated ranking updates/incidents from July 2021–June 2026 (snapshot); backfilled the wiki's timeline.
 - [[google-how-search-works]] — Google's fundamentals page on the crawl/index/serve pipeline: URL discovery, JS rendering, canonicalization, and why indexing/serving are never guaranteed.
+- [[semrush-ranking-factors-study-2024]] — Semrush's 16,298-keyword, 300,000-position classic-SERP correlation study: text relevance strongest, backlinks moderate, keyword-matching/content-length/Schema weak.

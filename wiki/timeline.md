@@ -116,6 +116,16 @@ Format:
 optimizing content for generative/answer engines, later accepted to
 KDD '24 (August 2024).
 
+## 2024-01-03 — Semrush publishes "Ranking Factors Study 2024"
+
+[[semrush-ranking-factors-study-2024]] · established
+[[traditional-seo-ranking-factors]]; added new playbook
+[[classic-seo-ranking-factors]]. 16,298-keyword, 300,000-position
+Spearman-correlation study of classic organic SERP ranking, explicitly
+excluding SGE/AI features. Finds text relevance as the strongest
+correlate, backlinks moderate, and keyword-matching/content-length/Schema
+weak.
+
 ## 2024-03-05 — March 2024 core update
 
 [[google-search-status-dashboard-history]]. Duration: 45 days.

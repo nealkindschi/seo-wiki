@@ -9,7 +9,10 @@ updated: 2026-07-07
 **Why/when to use this:** Apply these when writing or revising content
 you want cited/quoted by generative engines (AI Overviews, Perplexity,
 ChatGPT search, etc.), as opposed to classic keyword-ranking SEO. See
-[[generative-engine-optimization]] for the underlying concept.
+[[generative-engine-optimization]] for the underlying concept. For
+classic organic-SERP ranking tactics specifically, see
+[[classic-seo-ranking-factors]] instead — the two overlap in places but
+are grounded in different correlation studies.
 
 Ranked by measured visibility improvement
 ([[geo-generative-engine-optimization-aggarwal-2023|source]]), from best

@@ -105,3 +105,15 @@ Added a technical crawlability checklist to
 [[geo-content-optimization-tactics]]. Cross-linked from
 [[generative-engine-optimization]] and [[e-e-a-t-and-page-quality]]. No
 conflicts.
+
+## [2026-07-07] ingest | Ranking Factors Study 2024 (Semrush)
+
+Created new concept [[traditional-seo-ranking-factors]] (classic
+organic-SERP correlation data) and new playbook
+[[classic-seo-ranking-factors]] (kept separate from
+[[geo-content-optimization-tactics]] given the latter's growing size and
+AEO-specific focus). Cross-linked from [[ai-visibility-correlation-factors]]
+(direct classic-vs-AI comparison table) and [[e-e-a-t-and-page-quality]]
+(independent empirical confirmation via reviews/star-rating correlation).
+No conflicts — reinforces existing findings from an independent,
+larger-scale, classic-SERP-focused dataset.

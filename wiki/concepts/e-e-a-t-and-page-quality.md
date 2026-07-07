@@ -133,3 +133,7 @@ All three trigger an automatic **Lowest** rating:
   Quality framework defined here.
 - [[ai-visibility-correlation-factors]] — content-volume correlation
   finding, now explained by the Scaled Content Abuse policy above.
+- [[traditional-seo-ranking-factors]] — independent empirical
+  confirmation of this framework: reviews/star ratings correlate with
+  classic SERP rankings, and the study explicitly ties this to E-E-A-T
+  Trust and cites the Search Quality Evaluator Guidelines by name.
