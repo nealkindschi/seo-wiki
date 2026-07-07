@@ -27,6 +27,13 @@ Explains how AI Overviews/AI Mode work (query fan-out), confirms no extra
 technical requirements to appear beyond standard indexing, and documents
 Search Console measurement and content-inclusion controls.
 
+## 2025-12-12 — Ahrefs publishes 75k-brand AI visibility correlation study
+
+[[ahrefs-ai-brand-visibility-correlations]] · established
+[[ai-visibility-correlation-factors]]; updated [[geo-content-optimization-tactics]].
+Finds YouTube mentions correlate strongest with AI-mention visibility
+across ChatGPT/AI Mode/AI Overviews; content volume barely correlates at all.
+
 ## 2026-05 — Muck Rack publishes "Generative Pulse: What Is AI Reading?"
 
 [[muckrack-generative-pulse-ai-reading-may-2026]] · established

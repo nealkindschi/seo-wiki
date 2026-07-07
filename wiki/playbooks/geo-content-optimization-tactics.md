@@ -98,6 +98,28 @@ generic "generative engine":
   worth testing as a content-format hypothesis, not just a content-style
   one.
 
+## Brand-level visibility factors (correlational, not causally tested)
+
+Per [[ai-visibility-correlation-factors]] — unlike the Tier 1-3 tactics
+above, which were causally tested via controlled experiment, these are
+**correlations only** (explicitly not causation per the source):
+
+- **Build a YouTube presence.** Of all factors studied, YouTube mentions
+  correlated strongest with AI-mention visibility (~0.737) — stronger
+  than branded web mentions, backlinks, or Domain Rating.
+- **Earn genuine mentions rather than manufacturing content volume.**
+  Content volume showed almost no correlation with AI visibility —
+  publishing more, by itself, isn't associated with more visibility.
+- **If you're a smaller/challenger brand without established authority,
+  target ChatGPT specifically.** It shows the weakest correlation with
+  pre-existing brand-authority metrics of the three platforms studied —
+  AI Mode in particular behaves like a "consensus engine" favoring
+  already-known brands, so it's a harder surface to break into without
+  existing authority.
+- Backlinks and Domain Rating still correlate, but are the *weakest*
+  correlates measured (0.19–0.33) — don't expect classic link-building
+  alone to move AI visibility much.
+
 ## Domain-specific guidance
 
 Tactic effectiveness varies by content domain/query type — pick the

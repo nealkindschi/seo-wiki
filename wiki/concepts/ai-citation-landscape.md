@@ -98,9 +98,31 @@ recent record-holder (2024 White Sox). This reinforces
 [[google-ai-optimization-guide]]'s framing of generative answers as
 grounded in retrieval (RAG), not a static trained "understanding."
 
+## Conflicting Evidence
+
+- **Claim**: The three major AI answer surfaces operate as largely
+  independent, non-overlapping information environments (per "Providers
+  are three separate information environments" above).
+  - Supported by: this page's own domain-level citation-overlap findings
+    from [[muckrack-generative-pulse-ai-reading-may-2026]] (covering
+    ChatGPT/Claude/Gemini).
+  - Contradicted by: [[ahrefs-ai-brand-visibility-correlations]] (covering
+    ChatGPT/AI Mode/AI Overviews — note: AI Mode and AI Overviews are
+    Google Search surfaces, not the standalone Gemini chatbot, though
+    likely share underlying models), which found high correlation
+    (0.75–0.82) in *which brands* get mentioned across all three.
+  - Current best guess and full reconciliation on
+    [[ai-visibility-correlation-factors]]: these are different units of
+    analysis (which domains get cited vs. whether a brand gets mentioned
+    at all) — not necessarily a true contradiction, but flagged as
+    unresolved since no source has directly tested both at once.
+
 ## See also
 
 - [[generative-engine-optimization]] — tactics for increasing citation
   visibility once retrieved.
+- [[ai-visibility-correlation-factors]] — which brand/SEO metrics
+  correlate with AI-mention visibility, and the full reconciliation of
+  the Conflicting Evidence above.
 - [[geo-content-optimization-tactics]] — actionable playbook, now
   including provider-specific guidance drawn from this landscape data.

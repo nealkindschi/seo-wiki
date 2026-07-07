@@ -47,3 +47,18 @@ patterns across ChatGPT/Claude/Gemini. Added a provider-specific tactics
 section to [[geo-content-optimization-tactics]] and cross-linked from
 [[generative-engine-optimization]]. Landscape/empirical data, complements
 rather than conflicts with existing sources.
+
+## [2026-07-07] ingest | Top Brand Visibility Factors in ChatGPT, AI Mode, and AI Overviews (Ahrefs)
+
+Created new concept [[ai-visibility-correlation-factors]] for the
+75k-brand correlation study. Added brand-level correlational guidance to
+[[geo-content-optimization-tactics]] (YouTube presence, earned mentions,
+ChatGPT-targeting for smaller brands).
+
+## [2026-07-07] conflict | Cross-provider domain-level divergence vs. brand-level mention overlap
+
+[[ai-citation-landscape]] and [[ai-visibility-correlation-factors]]:
+reconciled as different units of analysis (which source domains get
+cited, vs. whether a brand gets mentioned at all) — see Conflicting
+Evidence sections on both pages; flagged as unresolved since no source
+has directly tested both at once.
