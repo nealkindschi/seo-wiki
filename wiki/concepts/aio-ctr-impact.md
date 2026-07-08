@@ -92,6 +92,46 @@ of being cited vs. not. Consistent in direction (AI-sourced traffic is
 worth more) but not the same metric, and worth tracking as a distinct
 number rather than conflating the two.
 
+## AIO prevalence trajectory and industry saturation (2025)
+
+Per [[semrush-ai-overviews-study-2025]] (10M+ keywords, Semrush/Datos) —
+a much larger-scale prevalence dataset than the query-format breakdown
+above, covering the full 2025 calendar year:
+
+- **Prevalence rose sharply then pulled back**: 6.49% of queries (start
+  of 2025) → peaked 24.61% (July) → settled at 15.69% (November) — 155%
+  Q1-to-Q4 growth, with a mid-year peak-then-retreat shape rather than
+  steady monotonic growth.
+- **AIOs expanded well beyond informational intent** over the year:
+  commercial queries 8.15%→18.57%, transactional 1.98%→13.94%,
+  navigational 0.84%→10.33%. Note this is a *different snapshot* than
+  this page's own intent-based prevalence figures above (informational
+  36%, commercial 8%, transactional 5%, from Seer's dataset) — the two
+  studies use different methodologies/time windows, so treat these as
+  complementary data points rather than reconciled figures.
+- **Zero-click rate actually decreased** (33.75%→31.53%) on keywords
+  tracked before/after AIO introduction. This is a *different metric*
+  than this page's organic-CTR data above (which still shows AIO
+  presence suppressing organic clicks 38% below a no-AIO baseline, even
+  for cited brands) — not a contradiction: more queries generating *some*
+  click (fewer zero-click sessions) is compatible with the *rate* of
+  clicks-per-impression on AIO-present queries still running below
+  non-AIO queries.
+- **Industry saturation**: Science most AIO-saturated (25.96%),
+  Computers & Electronics (17.92%), People & Society (17.29%); Food &
+  Drink grew fastest (+7.25% since March); Real Estate, Shopping, and
+  Arts & Entertainment least impacted (<3%).
+- **AIO-triggering keywords skew long-tail**: ~60% have ≤100 monthly
+  searches, 60% fall in the 21-60 keyword-difficulty range — useful for
+  prioritizing which pages to audit for AIO risk beyond just query
+  format (see [[geo-content-optimization-tactics]]'s query-format-risk
+  table).
+- **SERP feature co-occurrence shifted** alongside AIOs: featured
+  snippets, image carousels, and organic reviews co-occur less; Related
+  Searches (95.32%) and People Also Ask (90.03%) are now nearly
+  guaranteed alongside an AIO; Google Ads co-occurrence jumped from <1%
+  (March) to 25% (November) — AIO pages are increasingly ad-adjacent.
+
 ## Caveats
 
 The authors are explicit that: this is correlational, not causal
@@ -115,3 +155,9 @@ floors, not predictions.
 - [[optimizing-for-the-agentic-web]] — the source of the AI-referred-
   visitor conversion-value stat above, plus a fuller measurement
   framework for AI-driven traffic and conversions.
+- [[semrush-ai-overviews-study-2025]] — the 10M+-keyword prevalence
+  trajectory, industry saturation, and SERP co-occurrence data in the
+  section above.
+- [[ai-traffic-scale-vs-hype]] — a scale check on how much traffic AI
+  surfaces (including AI Overviews) actually represent relative to
+  search and social overall.

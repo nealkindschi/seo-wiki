@@ -149,6 +149,12 @@ controls — see [[controlling-ai-feature-inclusion]].
 - [[agentic-web-optimization]] — a third sibling domain: optimizing a
   site so general-purpose AI agents can *act* on it (browse, fill
   forms, complete purchases), a higher bar than being cited.
+- [[ai-traffic-scale-vs-hype]] — a scale check on this whole domain: as
+  of early-2026 clickstream data, standalone AI tools remain a tiny
+  fraction of overall search/social traffic, so the tactics in this
+  page matter most where they overlap with Google's own AI features
+  (which inherit Google's dominant search share) rather than in
+  isolation.
 
 ## Open questions
 

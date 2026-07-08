@@ -312,3 +312,24 @@ citation" note, and information-gain-by-figure-count correlation data
 (62.1 vs. 40.2). Cross-linked as a companion source with
 [[growth-memo-why-most-original-data-never-gets-cited]] — independent
 datasets converging on the same core claim, no conflicts.
+
+## [2026-07-07] ingest | Semrush AI Overviews Study (2025 full-year data)
+Ingested Semrush's 10M+-keyword AI Overview study. Extended
+[[aio-ctr-impact]] with a full-2025 AIO prevalence trajectory
+(6.49%→24.61% peak→15.69%), intent-based expansion, a zero-click-rate
+decrease (33.75%→31.53%), industry saturation data, AIO-keyword
+characteristics, and SERP feature co-occurrence shifts. Flagged two soft
+tensions (not contradictions) against the existing Seer-based intent
+prevalence figures and CTR data — different studies/snapshots/metrics,
+noted inline rather than resolved as a formal conflict.
+
+## [2026-07-07] ingest | Influence Happens Everywhere (SparkToro, Rand Fishkin)
+Ingested SparkToro's clickstream study of the top 5,000 most-visited
+sites. Created new concept page [[ai-traffic-scale-vs-hype]]: search+social
+≈ half of all visits, Google ~73% of search and bigger than the next 13
+sites combined, AI tools ~1/1,000th their press coverage in actual
+traffic, influence-precedes-search, attribution bias toward search, and
+the case that Google-embedded AI (not standalone AI tools) is the bigger
+competitive stake. Cross-linked from [[generative-engine-optimization]]
+and [[aio-ctr-impact]] as a scale caveat. No conflicts — this measures a
+dimension (overall channel scale) not previously covered in the wiki.
