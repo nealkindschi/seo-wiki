@@ -192,7 +192,15 @@ training-data-sourced mention rather than a true retrieval citation.
 **Practical stakes**: citations drive traffic (per
 [[aio-ctr-impact]]'s citation-premium data); mentions build presence
 even when the user never clicks — relevant given most AI interactions
-end without a click (see [[ai-traffic-scale-vs-hype]]).
+end without a click (see [[ai-traffic-scale-vs-hype]]). This "mentions
+build presence" claim now has direct measured backing: per
+[[similarweb-downstream-impact-of-ai-visibility-2026]], brands
+recommended (mentioned) by ChatGPT are 2.5x more likely to receive a
+site visit within 7 days than a non-recommended competitor — even
+though 55.9% of that resulting traffic arrives via a subsequent branded
+search rather than a direct AI referral link, meaning a mention's
+downstream effect is largely invisible to referral-based traffic
+attribution. See [[aio-ctr-impact]] for the full writeup.
 
 **Different signals drive each**:
 - **Recommendation/mention signals**: frequent co-occurrence with the

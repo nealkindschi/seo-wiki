@@ -147,6 +147,43 @@ sends a click elsewhere is not growing at the same rate. Reinforces why
 mentions (which don't require a click) may be a more representative
 growth metric than referral traffic alone.
 
+## AI recommendation → downstream visit impact
+
+Per [[similarweb-downstream-impact-of-ai-visibility-2026]] (opted-in US
+desktop panel, July-December 2025, Finance/Travel/Beauty verticals) —
+the first source in this wiki to trace an AI *mention/recommendation*
+(as distinct from a citation link) through to measured downstream site
+visits, not just click-through on a citation:
+
+- **Brands recommended by ChatGPT are 2.5x more likely to receive a
+  visit within 7 days** than a non-recommended direct competitor,
+  consistent across all three verticals studied (e.g. American Express
+  7.2% vs. Capital One 3.1%; Skyscanner 9.5% vs. Kayak 7.6%; Sephora
+  7.9% vs. Ulta 3.3%).
+- **AI-influenced visitors engage roughly 2x harder**: 12.0 pages / 11.8
+  minutes per session vs. 6.5 pages / 5.6 minutes for non-AI-influenced
+  visitors — an independent, differently-measured data point pointing
+  the same direction as this page's existing "AI visitor worth 4.4x more
+  in conversion value" stat.
+
+**Important measurement caveat — AI's traffic influence is likely
+undercounted**: 55.9% of this AI-influenced traffic arrived via *search*
+(user gets a recommendation, then searches the brand name), not as a
+direct ChatGPT referral, and only 19.9% arrived as direct traffic.
+Standard analytics records the search-driven visits as ordinary branded
+organic search, invisibly absorbing AI's actual causal role. This means
+referral-based measurements of "how much traffic AI drives" —
+including [[ai-traffic-scale-vs-hype]]'s clickstream-based finding that
+AI tools are a small fraction of overall traffic — likely understate
+AI's true influence, even though AI tools remain small as a *direct*
+traffic channel. The two findings aren't in conflict; this one adds an
+attribution caveat to how the other's traffic-scale data should be
+read.
+
+**Caveats on this source itself** (stated by Similarweb): US desktop
+only, excludes mobile/international; three verticals/named brand pairs,
+not a whole-web sample; explicitly correlational, not proven causal.
+
 ## Caveats
 
 The authors are explicit that: this is correlational, not causal
@@ -175,4 +212,7 @@ floors, not predictions.
   section above.
 - [[ai-traffic-scale-vs-hype]] — a scale check on how much traffic AI
   surfaces (including AI Overviews) actually represent relative to
-  search and social overall.
+  search and social overall; read alongside the attribution-
+  undercounting caveat above.
+- [[similarweb-downstream-impact-of-ai-visibility-2026]] — the
+  AI-recommendation-to-visit study in the section above.

@@ -383,3 +383,18 @@ to [[geo-content-optimization-tactics]]. Noted independent corroboration
 of the existing 44.2%-of-citations-from-first-30%-of-page stat (two
 sources now agree). Added an AI-visit-vs-referral-growth cross-reference
 to [[aio-ctr-impact]]. No conflicts.
+
+## [2026-07-07] ingest | The Downstream Impact of AI Visibility (Similarweb)
+Ingested Similarweb's US-desktop-panel study tracing ChatGPT
+recommendations to downstream site visits (Finance/Travel/Beauty
+verticals, named brand pairs, July-Dec 2025). Added a new "AI
+recommendation → downstream visit impact" section to [[aio-ctr-impact]]:
+2.5x visit-rate multiplier for AI-recommended brands, ~2x engagement
+(pages/time), and a significant attribution caveat — 55.9% of
+AI-influenced traffic arrives via search and gets invisibly absorbed
+into branded-search analytics rather than counted as AI referral,
+suggesting AI's true traffic influence is undercounted by referral-based
+measurements like [[ai-traffic-scale-vs-hype]]'s SparkToro data (not a
+conflict — an attribution caveat on how to read that data). Cross-linked
+from [[ai-citation-landscape]]'s citations-vs-mentions section as direct
+measured backing for the "mentions build presence" claim. No conflicts.
