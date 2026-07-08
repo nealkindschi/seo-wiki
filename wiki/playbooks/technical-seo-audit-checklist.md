@@ -119,8 +119,17 @@ audit workflow). Quick-reference for this audit:
 ## 5. AI grounding and agent readiness
 
 - **Check AI crawler access in robots.txt separately from regular
-  search bots** — named AI bots include GPTBot, ChatGPT-User, and
-  Claude-Web. Confirm any "disallow" targeting them is intentional; see
+  search bots** — named AI bots include OpenAI's GPTBot (training),
+  OAI-SearchBot (search indexing), and ChatGPT-User (live retrieval),
+  and Anthropic's ClaudeBot (training), Claude-SearchBot (search
+  indexing), and Claude-User (live retrieval) — each vendor's bots map
+  onto the training/indexing/retrieval taxonomy in
+  [[how-google-search-works]]. (The original
+  [[semrush-technical-seo-checklist]] source named "Claude-Web," an
+  older Anthropic agent since superseded by the bots above — bot names
+  change over time, so verify current names against each vendor's
+  crawler documentation when auditing.) Confirm any "disallow"
+  targeting them is intentional; see
   [[controlling-ai-feature-inclusion]] if you *do* want to deliberately
   exclude content from AI features specifically (a different, opposite
   goal from this checklist item).

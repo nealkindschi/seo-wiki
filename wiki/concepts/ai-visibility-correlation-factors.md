@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-07
+updated: 2026-07-08
 ---
 
 # AI Visibility Correlation Factors
@@ -95,6 +95,18 @@ Lowest-quality penalty target, not just a non-factor.
     same measurement — some of the apparent disagreement could be
     metric-construction noise rather than a substantive finding either
     way.
+  - **Additional brand-level evidence (2026-07-08)**:
+    [[sej-why-calling-yourself-the-best-2026]] found that pre-existing
+    brand authority (Domain Rating, backlinks, established AI-mention
+    frequency) moderates whether a self-promotional listicle survives
+    Google AI Overviews' citation-to-recommendation filter — high-
+    authority brands are sometimes exempted from the exclusion pattern
+    that consistently hits lesser-known brands. A concrete mechanism
+    where brand-level authority visibly changes an AI outcome,
+    consistent with the brand-level side of this conflict (and with the
+    unit-of-analysis reconciliation above), though it measures
+    recommendation filtering rather than citation correlation, so it
+    narrows but doesn't resolve the conflict.
   - **Practical implication until resolved**: don't treat authority-
     building (backlinks, DR/DA/Authority Score) as a reliable lever for
     winning a *specific* citation on a *specific* page — AirOps' larger,

@@ -543,3 +543,25 @@ a formal conflict) against [[peec-ai-self-promotional-listicles-2026]]'s
 2026 window — the two measure different mechanisms (raw citation rate
 vs. citation-to-recommendation conversion and organic-visibility-level
 countermeasures), so both can be simultaneously true.
+
+## [2026-07-08] lint | Full-wiki lint pass: 2 missing cross-refs fixed, listicle content split out, timeline re-sorted, bot names updated
+
+Clean: no broken wikilinks, no orphan pages, all source `origin:`
+paths resolve, log format consistent. Fixed with user approval:
+(1) added [[ahrefs-b2b-seo-statistics-2025]]'s 25.7% AI-freshness-
+preference stat and [[muckrack-generative-pulse-ai-reading-may-2026]]'s
+recency finding to the unresolved content-age Conflicting Evidence on
+[[ai-citation-landscape]]; (2) registered
+[[sej-why-calling-yourself-the-best-2026]]'s authority-moderation
+finding on [[ai-visibility-correlation-factors]]'s unresolved
+authority-correlation conflict (narrows, doesn't resolve); (3) created
+[[listicles-in-ai-search]] consolidating the three listicle sections
+previously on [[ai-citation-landscape]] (rank effect, self-promo
+citation rates, citation-vs-recommendation decoupling) — that page now
+points there; (4) one-time chronological re-sort of `wiki/timeline.md`
+(68 entries, content unchanged — ingestion order had drifted from
+event order; future entries still appended); (5) updated stale
+"Claude-Web" bot name in [[technical-seo-audit-checklist]] §5 to
+current OpenAI/Anthropic crawler names mapped onto the
+training/indexing/retrieval taxonomy, with a note that bot names
+should be verified against vendor docs at audit time.

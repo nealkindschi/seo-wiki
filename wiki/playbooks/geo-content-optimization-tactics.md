@@ -461,11 +461,12 @@ with source-type-specific data:
 
 ## Target listicle rank, not just listicle inclusion
 
-Per [[peec-ai-listicle-rank-effect-2026]] — extends the third-party
-authority-building guidance above with a rank-specific tactic: getting
-*into* a third-party listicle isn't the finish line, since position
-within it measurably shifts visibility, answer placement, and mention
-count.
+Per [[peec-ai-listicle-rank-effect-2026]] (see
+[[listicles-in-ai-search]] for the full listicle picture) — extends
+the third-party authority-building guidance above with a rank-specific
+tactic: getting *into* a third-party listicle isn't the finish line,
+since position within it measurably shifts visibility, answer
+placement, and mention count.
 
 - **Identify which listicles AI engines actually cite repeatedly** for
   your commercially important prompts, not listicles in general — a

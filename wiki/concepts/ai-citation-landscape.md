@@ -312,96 +312,19 @@ sub-queries before retrieval happens.
 **Practical implication**: listicle ("best of"/comparison/review)
 framing structurally matches the dominant fanout injection pattern —
 offered as a mechanism explaining why listicle content dominates AI
-answer results (see also the "Listicle rank effect" below, a related
-but distinct finding about rank *within* listicles once included).
+answer results. See [[listicles-in-ai-search]] for the full listicle
+picture built on this mechanism.
 
-## Self-promotional listicles still get cited
+## Listicles: rank effects, self-promotion, and the recommendation filter
 
-Per [[peec-ai-self-promotional-listicles-2026]] (13,000 listicles,
-232,000 citations, 12 weeks Dec 2025-Feb 2026, software sector, 6
-platforms) — a caution alongside the listicle-focused findings above:
-current AI retrieval filtering does not reliably screen out
-self-promotional listicles (a company's own domain listing its own
-product).
-
-- Roughly **1 in 10 citations (~11%)** in the studied sector originate
-  from self-promotional listicles, with **no algorithmic correction**
-  observed over the 12-week window — rates held stable rather than
-  declining.
-- **Sharp platform divergence**: ChatGPT ~3.6-4% (lowest, ~3x better
-  than the worst offenders) vs. Google AI Mode ~10.3% and Perplexity
-  ~10.4%. ChatGPT's lower rate is attributed to more diverse sourcing
-  overall, heavier reliance on educational/training sites, and much
-  lower reliance on one specific self-promoting domain (Zapier, ~1% of
-  its citations vs. ~8% for other platforms).
-- Framed as a current-state gap in retrieval filtering, not a stable
-  loophole to exploit — see [[e-e-a-t-and-page-quality]] for why
-  self-promotional/undisclosed-conflict-of-interest content remains
-  advised against regardless (reputational risk, and filtering could
-  tighten).
-
-## Citation-without-recommendation in self-promotional listicles
-
-Per [[sej-why-calling-yourself-the-best-2026]] (323 tracked citation
-instances, 100 B2B queries) — sharpens both the "Citations vs. brand
-mentions" distinction above and the self-promotional-listicle finding
-below: citation and recommendation are decoupling specifically for
-self-promotional "best of" listicles in Google AI Overviews.
-
-- A brand's own self-ranked listicle can still get **cited** as a
-  source while the AI's actual **recommendation** goes to a competitor
-  named within that same listicle — a 69% failure rate (224/323
-  tracked instances), present in ~74% of the B2B queries analyzed.
-  Effectively, the self-promoter's own content ends up promoting
-  rivals.
-- **Authority moderates the effect**: already-established, high-DR
-  brands are sometimes exempted from this pattern; lesser-known
-  companies bear the penalty disproportionately, even when ranking
-  organically.
-- **Reported countermeasures**: organic ranking demotion for domains
-  with a pattern of excessive self-promotional content, new AI
-  Overview disclaimer language around "self-proclaimed expert"
-  sources, and a citation-source shift toward third-party review
-  platforms (Reddit, Forbes Advisor, YouTube) for "best of" queries —
-  with affected sites' organic visibility declining from January 2026,
-  accelerating through May 2026.
-- **Citation alone has limited direct value**: cites Pew Research's
-  ~1% click-through rate on AI-summary citations — reinforcing that
-  *recommendation*, not citation, is the metric that actually drives
-  business outcomes from AI search.
-
-This coexists with, rather than contradicts,
-[[peec-ai-self-promotional-listicles-2026]]'s finding of a stable
-~11% self-promotional citation *rate* with no correction observed in
-Dec 2025-Feb 2026: that source measured whether self-promotional
-listicles keep getting cited at all; this source measures a narrower,
-newer failure mode layered on top — whether citation converts to an
-actual recommendation, plus organic-visibility-level countermeasures a
-citation-rate metric wouldn't capture.
-
-## Listicle rank effect
-
-Per [[peec-ai-listicle-rank-effect-2026]] (~200,000 AI responses, 5.7M+
-data points, 8 engines, Sept 2025-Mar 2026) — a third-party-listicle-
-specific sharpening of [[airops-fan-out-effect-2026]]'s retrieval-rank
-finding above: rank *position* within a frequently-cited listicle
-measurably moves visibility, answer placement, and mention count, not
-just whether a brand is included at all.
-
-- Rank #1 visibility lift varies by market maturity: +16.5pp (B2B
-  SaaS), +13.4pp (Emerging MarTech, steepest dropoff at lower ranks),
-  and a large-but-less-rank-ordered effect in US Finance (smaller
-  listicle pool, trusted-source dynamic).
-- Rank #1 also shifts answer position earlier (0.82-1.80 positions,
-  consistent direction across all three markets) and mention count
-  (+0.43 to +0.67, though not statistically significant in US
-  Finance).
-- Diminishing returns: a few placements in frequently-retrieved
-  listicles outperform many placements in rarely-retrieved ones.
-- Tight-retrieval engines (ChatGPT, GPT-5 Search, Microsoft Copilot)
-  show larger per-listicle lifts than broad-retrieval engines (Google
-  AI Overview, AI Mode) — consistent with those engines' narrower
-  source pools generally (see sourcing-personality data above).
+Moved to its own concept page (2026-07-08 lint pass) as listicle
+studies accumulated: see [[listicles-in-ai-search]] for the listicle
+rank effect ([[peec-ai-listicle-rank-effect-2026]]), self-promotional-
+listicle citation rates
+([[peec-ai-self-promotional-listicles-2026]]), and the
+citation-vs-recommendation decoupling in Google AI Overviews
+([[sej-why-calling-yourself-the-best-2026]]), plus the reconciliation
+of the latter two findings.
 
 ## AI Overview citation composition and the citation-without-ranking gap
 
@@ -469,7 +392,14 @@ grounded in retrieval (RAG), not a static trained "understanding."
   - Supported by: [[airops-fan-out-effect-2026]] (via
     [[geo-content-optimization-tactics]]'s "Freshness by vertical"
     section) — optimal content age is 30-89 days, with citation
-    declining for content over 2 years old.
+    declining for content over 2 years old. Additional data points on
+    this side: [[ahrefs-b2b-seo-statistics-2025]] reports AI platforms
+    show a 25.7% stronger fresh-content preference than traditional
+    search (aggregate, not source-type-segmented), and
+    [[muckrack-generative-pulse-ai-reading-may-2026]]'s recency finding
+    (57% of journalism citations under 12 months old — though that's
+    news-media-specific, consistent with the news-vertical carve-out
+    below).
   - Contradicted by: [[ahrefs-why-chatgpt-cites-pages-2026]], which
     finds that within search-result retrieval sets specifically,
     older/established content (median ~500 days, some pages 2,700+
@@ -547,22 +477,15 @@ grounded in retrieval (RAG), not a static trained "understanding."
   the Conflicting Evidence above.
 - [[geo-content-optimization-tactics]] — actionable playbook, now
   including provider-specific guidance drawn from this landscape data.
-- [[peec-ai-listicle-rank-effect-2026]] — the listicle rank-effect
-  study cited above, plus market-maturity and engine-retrieval-strategy
-  breakdowns.
 - [[peec-ai-chatgpt-query-fanouts-2026]] — the query-fanout injection
   mechanics above (engine-side hidden subquery behavior), distinct
   from and complementary to [[airops-fan-out-effect-2026]]'s
   content-coverage finding.
-- [[peec-ai-self-promotional-listicles-2026]] — the self-promotional-
-  listicle citation-rate data above, including the platform divergence
-  and educational/training-site sourcing explanation for ChatGPT's
-  lower rate.
+- [[listicles-in-ai-search]] — the listicle rank effect,
+  self-promotional-listicle citation rates, and the
+  citation-vs-recommendation decoupling, split out of this page.
 - [[ahrefs-why-chatgpt-cites-pages-2026]] — the source-type citation-
   rate breakdown, semantic-relevance data, and unresolved content-age
   Conflicting Evidence above.
 - [[ahrefs-b2b-seo-statistics-2025]] — the AI Overview citation-
   composition and citation-without-organic-visibility data above.
-- [[sej-why-calling-yourself-the-best-2026]] — the citation-vs-
-  recommendation decoupling data and Google countermeasure reporting
-  above.
