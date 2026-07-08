@@ -166,6 +166,17 @@ How To). Journalism citation rate also varies by sector: highest in
 Media/Entertainment (36%) and Finance/Insurance (32%), lowest in
 Education and Industrial/Manufacturing (~19% each).
 
+## Topic-specific source trust
+
+Per [[growth-memo-topics-matter-for-third-party-authority]], trusted-source
+mix varies sharply not just by *engine* (see "personalities" above) but by
+*topic within the same engine*: competitor domains account for 33.5% of
+citations on invoicing queries but only 7% on business-startup queries.
+This sharpens the "authority is category-relative, not a fixed domain
+list" finding above — it isn't just industry-relative, it can shift
+topic-by-topic within one category, so a source map has to be built per
+topic, not assumed to carry over from an adjacent one.
+
 ## Local queries lean on Google Maps, not articles
 
 For "best of" local queries (best hotels, restaurants, services),
@@ -217,6 +228,10 @@ grounded in retrieval (RAG), not a static trained "understanding."
 
 ## See also
 
+- [[growth-memo-topics-matter-for-third-party-authority]] — the
+  topic-vs-competitor-domain-share data point cited above, plus tiered
+  authority-accumulation and named-author findings covered in
+  [[geo-content-optimization-tactics]].
 - [[sej-the-consensus-gap]] — the independent, large-scale confirmation
   of citation-level cross-engine fragmentation cited throughout this
   page, plus the presence/portability/concentration measurement

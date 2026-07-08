@@ -56,7 +56,24 @@ a measurable axis), not data dumps or narrative-buried stats.
   comparison axis (speed, cost, latency, performance); topics without
   one (e.g. category education content) don't see this effect.
 - **Lead with the result.** Put the comparison finding in the first 30%
-  of the content, not buried after setup/narrative.
+  of the content, not buried after setup/narrative. Per
+  [[growth-memo-why-proprietary-data-is-your-most-defensible-asset]],
+  this isn't just directional advice — **44.2% of all citations come
+  from the first 30% of a page** in that source's dataset, one of the
+  more concentrated placement effects measured in this wiki.
+- **Owning the data doesn't guarantee the citation.** Per
+  [[growth-memo-why-proprietary-data-is-your-most-defensible-asset]], an
+  aggregator can repackage someone else's original research into a
+  cleaner, more extractable format and capture the citation instead of
+  the data's originator — publishing proprietary data is necessary but
+  not sufficient; the structural packaging tactics on this list are what
+  actually wins the citation.
+- **More unique figures correlates with higher originality/information
+  gain.** Per the same source (On-Page.ai data), pages with 15+ unique
+  figures averaged an information-gain score of 62.1 vs. 40.2 for pages
+  with minimal original data — "most pages are middling on originality,"
+  so genuine data differentiation (not just more content) is what
+  separates the two tiers.
 - **Box the methodology visibly**: sample, timeframe, measurement
   approach, and confidence level, as a distinct callout — not folded
   into prose.
@@ -202,6 +219,42 @@ can beat five separate playbooks:
   other (a win on one plausibly transfers), but Gemini overlaps *more*
   with ChatGPT (39%) than with either Google surface (27-34%) — Gemini
   needs its own strategy, not a "just optimize for Google" shortcut.
+
+## Third-party authority building (topic-specific)
+
+Per [[growth-memo-topics-matter-for-third-party-authority]] — extends the
+three-layer source strategy above with tactics specifically for earning
+third-party citations/mentions:
+
+- **Map trusted sources per topic, not per category.** Trusted-source mix
+  can shift sharply even within one category depending on the specific
+  query topic (competitor domains: 33.5% of citations for invoicing
+  queries vs. 7% for business-startup queries) — build a source map for
+  each topic you're targeting rather than assuming one map covers a
+  whole category.
+- **Concentrate in fewer, higher-authority placements rather than
+  spreading thin.** Authority gains are tiered, not linear — three
+  placements in a top-decile-authority source outperformed a dozen
+  placements across low-authority sites in the source's 1,000-domain
+  analysis. Prioritize getting into the top 1-2 outlets AI already cites
+  for your topic over broad low-authority PR/guest-post campaigns.
+- **Use named, credentialed authors instead of brand-account bylines.**
+  Fresh, expert-authored, clearly time-stamped content earned faster
+  visibility than faceless brand-account publishing (per LinkedIn's
+  analysis, cited in the source).
+- **Action checklist**:
+  - [ ] Identify 2-3 credible subject-matter experts to author/be quoted
+        in third-party content.
+  - [ ] Map which sources AI already cites for your specific topics
+        (not just your category).
+  - [ ] Concentrate outreach/PR effort on the highest-authority
+        publications in that map.
+  - [ ] Pursue nofollow placements too — citation value doesn't require
+        a dofollow link.
+  - [ ] Create embeddable data assets (charts/widgets other sites can
+        embed, carrying a link back).
+  - [ ] Publish on LinkedIn for faster indexing/visibility alongside
+        primary publication.
 
 ## Brand-level visibility factors (correlational, not causally tested)
 

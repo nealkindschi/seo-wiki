@@ -69,6 +69,15 @@ verticals.)
   — this source is about content *format* for earning citation in the
   first place, not about cross-engine overlap.
 
+## Companion source
+
+- [[growth-memo-why-proprietary-data-is-your-most-defensible-asset]] —
+  same authors, published a week earlier (2026-06-29) on a different
+  dataset (On-Page.ai information-gain research vs. this source's Gauge
+  dataset). Converges on the same core claim independently and adds a
+  quantified placement statistic (44.2% of citations from a page's first
+  30%) plus the "ownership doesn't guarantee citation" framing.
+
 ## What this updated in the wiki
 
 - Added a new "Publish citation-ready primary research/benchmarks"

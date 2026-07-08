@@ -289,3 +289,26 @@ visitor worth 4.4x more in conversion value" stat to [[aio-ctr-impact]]
 as a related-but-distinct data point (session conversion value, not
 citation-premium CTR). No conflicts — all layers either net-new or
 consistent with/complementary to existing wiki content.
+
+## [2026-07-07] ingest | Topics Matter for Third-Party Authority Signals (Growth Memo)
+Ingested Kevin Indig/Amanda Johnson's Growth Memo piece on topic-specific
+AI source trust. Extended [[ai-citation-landscape]] (topic-level source
+trust variance: 33.5% vs. 7% competitor-domain citation share by topic),
+[[ai-visibility-correlation-factors]] (Authority Score's 0.65 Pearson
+correlation, flagged with a metric-comparability caveat vs. this page's
+existing Domain Rating figures), and [[geo-content-optimization-tactics]]
+(new "Third-party authority building" section: tiered authority
+accumulation, named-author-over-brand-account bylines, and a 6-item
+action checklist). No conflicts — all additions extend existing claims.
+
+## [2026-07-07] ingest | Why proprietary data is your most defensible AI citation asset (Growth Memo)
+Ingested Kevin Indig/Amanda Johnson's companion piece (2026-06-29, published
+~1 week before [[growth-memo-why-most-original-data-never-gets-cited]], on
+a different dataset — On-Page.ai information-gain research). Extended
+[[geo-content-optimization-tactics]]'s "Publish citation-ready primary
+research/benchmarks" section with a quantified placement stat (44.2% of
+citations from a page's first 30%), an "ownership doesn't guarantee
+citation" note, and information-gain-by-figure-count correlation data
+(62.1 vs. 40.2). Cross-linked as a companion source with
+[[growth-memo-why-most-original-data-never-gets-cited]] — independent
+datasets converging on the same core claim, no conflicts.

@@ -99,6 +99,20 @@ Lowest-quality penalty target, not just a non-factor.
     overlap even when underlying fragmentation is severe — both can be
     true simultaneously.
 
+## Authority Score correlation (separate study, caveat on comparability)
+
+Per [[growth-memo-topics-matter-for-third-party-authority]], a separate
+1,000-domain analysis found **Authority Score** to be the strongest
+correlate of AI mentions measured, at 0.65 Pearson. This reads much
+stronger than this page's Domain Rating figures (0.266–0.326) above, but
+**the two aren't directly comparable**: Authority Score and Domain
+Rating are different metrics (different platforms/methodologies) on
+different-sized samples (1,000 domains vs. 75,000 brands), and Pearson
+vs. Spearman correlation coefficients aren't strictly interchangeable
+either. Treat this as a second data point suggesting authority-type
+metrics matter, not as a direct refinement of the Domain Rating figure
+above.
+
 ## Practical implications
 
 See [[geo-content-optimization-tactics]] for the actionable version of
@@ -118,3 +132,6 @@ ChatGPT-targeting guidance for smaller/challenger brands).
   and brand-level overlap on the same 5-engine dataset.
 - [[ai-citation-landscape]] — citation-level (not brand-level) empirical
   patterns; also carries the resolved Conflicting Evidence writeup.
+- [[growth-memo-topics-matter-for-third-party-authority]] — the Authority
+  Score correlation figure discussed above, plus topic-specific source
+  trust data and tiered authority-accumulation guidance.
