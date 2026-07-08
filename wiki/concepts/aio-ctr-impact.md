@@ -147,6 +147,44 @@ sends a click elsewhere is not growing at the same rate. Reinforces why
 mentions (which don't require a click) may be a more representative
 growth metric than referral traffic alone.
 
+## Commercial vs. transactional AIO divergence and CPC clustering
+
+Per [[semrush-ai-overviews-commercial-search-2026]] (600,000+ keywords,
+Nov 2025-Apr 2026, same Semrush research team as
+[[semrush-ai-overviews-study-2025]]) — a later time window than that
+study's full-2025 dataset, showing a notable shift within the intent
+mix:
+
+- **Commercial-intent AIOs grew 71%** over this window; **transactional-
+  intent AIOs *decreased* 5%** — a divergence from the earlier study's
+  2025 data (where both commercial and transactional prevalence grew
+  through the year). Read together, this looks like a continuation of
+  that earlier study's "prevalence peaked in July 2025 then settled
+  lower by November" pattern, now showing up specifically within
+  transactional intent on a lag, while commercial intent is still
+  climbing. Flagged as a genuine trend shift to monitor, not a data
+  contradiction — different time windows, same methodology/team.
+- Finance led commercial-intent AIO growth (+231%), followed by
+  Computers & Electronics (+107.62%) and Games (+76.66%).
+- **AIOs now cluster on the highest-CPC keywords** in nearly every
+  industry — Jobs & Education sees AIOs on >60% of its most expensive
+  keywords; average CPC with-AIO vs. without: Jobs & Education $5.02 vs.
+  $1.51, Finance $4.84 vs. $2.14. This sharpens this page's existing
+  Google Ads co-occurrence finding (<1%→25% through 2025): it's not just
+  that more ads appear near AIOs generally, but that AIOs concentrate
+  specifically on the *most commercially valuable* keywords.
+- **Google Ads + AIO coexistence on the same SERP is now ~2x more
+  frequent** than a year prior — AIOs have moved well beyond low-intent
+  informational queries into ad-adjacent commercial territory.
+- Largest commercial-vs-transactional AIO gaps: Internet & Telecom,
+  Finance, Travel (longer research-phase categories, consistent with
+  this page's existing query-format-risk data on comparison/review
+  queries). Food & Drink is inverted (16% transactional vs. 14%
+  commercial) — quick-decision categories show less AIO integration.
+- **Strategic framing**: marketers now compete across four SERP
+  positions simultaneously — within the AI Overview summary, among its
+  citation sources, in organic rankings, and in paid placements.
+
 ## AI recommendation → downstream visit impact
 
 Per [[similarweb-downstream-impact-of-ai-visibility-2026]] (opted-in US
@@ -210,6 +248,8 @@ floors, not predictions.
 - [[semrush-ai-overviews-study-2025]] — the 10M+-keyword prevalence
   trajectory, industry saturation, and SERP co-occurrence data in the
   section above.
+- [[semrush-ai-overviews-commercial-search-2026]] — the later-window
+  commercial-vs-transactional divergence and CPC-clustering data above.
 - [[ai-traffic-scale-vs-hype]] — a scale check on how much traffic AI
   surfaces (including AI Overviews) actually represent relative to
   search and social overall; read alongside the attribution-

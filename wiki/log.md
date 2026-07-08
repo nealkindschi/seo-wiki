@@ -398,3 +398,13 @@ measurements like [[ai-traffic-scale-vs-hype]]'s SparkToro data (not a
 conflict — an attribution caveat on how to read that data). Cross-linked
 from [[ai-citation-landscape]]'s citations-vs-mentions section as direct
 measured backing for the "mentions build presence" claim. No conflicts.
+
+## [2026-07-07] ingest | AI Overviews are expanding across commercial intent search (Semrush)
+Ingested Semrush's 600K+-keyword follow-up study (same research team as
+[[semrush-ai-overviews-study-2025]], later window Nov 2025-Apr 2026).
+Added a "Commercial vs. transactional AIO divergence and CPC clustering"
+section to [[aio-ctr-impact]]: commercial-intent AIOs grew 71% while
+transactional-intent AIOs declined 5% (flagged as a genuine trend shift
+continuing the earlier study's peak-then-settle pattern, not a
+contradiction), AIOs clustering on highest-CPC keywords, and Google
+Ads+AIO coexistence roughly doubling year-over-year. No conflicts.
