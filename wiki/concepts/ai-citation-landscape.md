@@ -166,6 +166,41 @@ How To). Journalism citation rate also varies by sector: highest in
 Media/Entertainment (36%) and Finance/Insurance (32%), lowest in
 Education and Industrial/Manufacturing (~19% each).
 
+## Retrieval rank as the primary citation gatekeeper
+
+Per [[airops-fan-out-effect-2026]] (16,851 queries, 353,799 pages
+analyzed, ChatGPT) — a mechanism not previously covered anywhere in this
+wiki: **where a page lands in ChatGPT's internal retrieval results
+dominates whether it gets cited at all**, ahead of any content-quality
+signal. Position 1 in retrieval = 58.4% citation rate vs. 14.2% at
+position 10 — a 4x gap. Even pages with strong heading-query relevance
+(≥0.8 similarity) drop from 79.6% citation at rank 1 to 21.5% at rank
+11+. This reframes "citation-worthy content" as a two-stage problem:
+first get retrieved/ranked highly by the underlying search step, *then*
+compete on content signals — content quality cannot compensate for a
+poor retrieval rank.
+
+Citation distribution is **bimodal**, not a smooth curve: 58% of pages
+in the dataset were never cited, 25% always cited, only 17%
+intermittently cited — and on-page signals (word count, headings,
+readability) show almost no difference between the always-cited and
+never-cited groups, reinforcing that retrieval rank, not content
+quality, is the real separator between the two populations.
+
+Within retrieved pages, **heading-query match is the strongest content
+signal measured**: 41.0% citation at 0.90+ heading-similarity vs.
+29-30.2% for weak matches (<0.50). Counterintuitively, **comprehensive
+topic coverage underperforms focused coverage** when relevance is held
+constant — pages covering 26-50% of a query's fan-out subtopics cited
+more often (38.2%) than pages covering 100% (34.0%), and matching 3-4
+distinct subheadings reduced citation 6pp versus matching only 0-1.
+
+**"Memory citations"** — 6,371 citations in the dataset had no
+corresponding search result at all, meaning ChatGPT cited from training
+data directly rather than live retrieval. These memory-cited pages had
+content profiles statistically identical to search-cited pages,
+suggesting no separate quality bar for training-data citation.
+
 ## Topic-specific source trust
 
 Per [[growth-memo-topics-matter-for-third-party-authority]], trusted-source
@@ -232,6 +267,9 @@ grounded in retrieval (RAG), not a static trained "understanding."
   topic-vs-competitor-domain-share data point cited above, plus tiered
   authority-accumulation and named-author findings covered in
   [[geo-content-optimization-tactics]].
+- [[airops-fan-out-effect-2026]] — the retrieval-rank-as-gatekeeper
+  mechanism above, plus the authority-correlation Conflicting Evidence
+  writeup in [[ai-visibility-correlation-factors]].
 - [[sej-the-consensus-gap]] — the independent, large-scale confirmation
   of citation-level cross-engine fragmentation cited throughout this
   page, plus the presence/portability/concentration measurement

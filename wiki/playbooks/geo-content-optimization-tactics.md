@@ -92,6 +92,80 @@ a measurable axis), not data dumps or narrative-buried stats.
   crawled/cited — if citation is the goal, publish the benchmark
   itself openly, even if a deeper report stays gated.
 
+## Focus over comprehensiveness (fan-out breadth finding)
+
+Per [[airops-fan-out-effect-2026]] — nuances the Tier 1 tactics above:
+being retrieved and relevant is necessary but writing an exhaustively
+comprehensive page can actively *hurt* citation odds relative to a
+focused one:
+
+- **Don't try to cover every fan-out subtopic.** Controlling for query
+  relevance, pages covering 26-50% of a query's fan-out subtopics were
+  cited more often (38.2%) than pages covering 100% (34.0%). Matching
+  3-4 distinct subheadings reduced citation 6pp versus matching only
+  0-1 — write a focused, high-relevance answer rather than a
+  comprehensive guide.
+- **Heading-query match matters more than depth.** Pages with headings
+  closely matching the query's language cited 41.0% of the time (0.90+
+  similarity) vs. 29-30.2% for weak matches — write headings that
+  mirror likely query phrasing, not generic section titles.
+- **Retrieval rank is the real gatekeeper — content quality can't
+  compensate for it.** Position 1 in ChatGPT's retrieval results = 58.4%
+  citation rate vs. 14.2% at position 10, a gap that overwhelms every
+  content-level signal measured. This means classic retrieval-
+  eligibility work (technical crawlability, ranking well enough to be a
+  retrieval candidate at all — see the Technical crawlability checklist
+  below) is a harder prerequisite for AI citation than previously
+  documented in this wiki, not just for classic SERP ranking.
+
+## Structural findings (word count, headings, schema, readability)
+
+Per [[airops-fan-out-effect-2026]]:
+
+- **Word count sweet spot: 500-2,000 words.** Pages over 5,000 words
+  underperformed shorter content (28.6% vs. 30.5% citation) — don't
+  assume longer/more thorough always wins.
+- **4-10 H2-H4 headings optimal for articles** (33.2% citation); product
+  pages performed best with **zero** headings (43.2%) — structure
+  guidance is page-type-specific, not universal.
+- **Add JSON-LD schema markup**: +6.5pp citation advantage overall.
+  Strongest types: MedicalWebPage (47%), BreadcrumbList (46.2%),
+  FAQPage (45.6%).
+- **Write at a college reading level** (Flesch-Kincaid 16-17): 35.9%
+  citation, outperforming both simpler and more academic writing.
+
+## Freshness by vertical
+
+Per [[airops-fan-out-effect-2026]] — extends the existing "keep content
+fresh" guidance with a specific age curve and vertical-level variance:
+
+- **Optimal content age is 30-89 days** (32.8% citation); content over 2
+  years old declines (-5pp); content under 30 days old also underperforms
+  slightly (25.3%), likely an indexing-delay effect rather than a
+  genuine freshness penalty.
+- Freshness only meaningfully helps when relevance is already strong
+  (+4.2pp advantage) — among weak query-match pages, age effects are
+  negligible, so don't expect a refresh alone to fix a fundamentally
+  off-topic page.
+- **Vertical-specific gaps**: Finance shows a 15pp gap between fresh and
+  5+-year-old content, Travel shows the largest gap in the dataset
+  (19pp); e-commerce content freshness barely matters — prioritize
+  refresh cycles by vertical, not a blanket schedule.
+
+## Authority-building caveat (unresolved conflict)
+
+Per [[airops-fan-out-effect-2026]], domain authority/backlinks showed no
+positive (slightly inverse) correlation with which *specific page* gets
+cited, once retrieval rank and relevance are accounted for — this is in
+tension with the brand-level authority correlations in
+[[ai-visibility-correlation-factors]] and
+[[growth-memo-topics-matter-for-third-party-authority]] (see that page's
+Conflicting Evidence section, unresolved). Practical takeaway until
+resolved: don't rely on authority-building alone to win a specific page's
+citation — prioritize retrieval rank and query-relevance work first;
+treat brand-level authority-building as a separate, longer-horizon
+strategy rather than a lever for any one page's citation odds.
+
 ## Tier 2 — Modest performers
 
 6. **Authoritative tone** — rewrite to sound more persuasive/authoritative.

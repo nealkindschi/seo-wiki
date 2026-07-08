@@ -56,6 +56,54 @@ Lowest-quality penalty target, not just a non-factor.
 - **AI Overviews** leans slightly more on Domain Rating than the other
   two.
 
+## Conflicting Evidence — authority correlation with AI citation
+
+- **Claim**: Domain/brand authority metrics (Domain Rating, Authority
+  Score) positively correlate with AI-mention/citation visibility.
+  - Supported by: this page's own Ahrefs data (Domain Rating,
+    0.266–0.326 correlation with AI-mention visibility across 75,000
+    brands) and [[growth-memo-topics-matter-for-third-party-authority]]
+    (Authority Score, 0.65 Pearson correlation, 1,000-domain sample).
+  - Contradicted by: [[airops-fan-out-effect-2026]] (16,851 queries,
+    353,799 pages, ChatGPT), which found domain authority and backlinks
+    show **no positive correlation with citation, and are slightly
+    inversely correlated** — always-cited pages averaged DA 53 vs. 56
+    for never-cited pages, and high-DA platforms diverge wildly (YouTube
+    DA 100 → 2.4% citation; Wikipedia DA 95 → 59.2% citation).
+- **Current best guess**: plausibly not a true contradiction, but
+  **different units of analysis and different citation stages**,
+  parallel to the source-vs-brand-overlap resolution below — flagged as
+  **unresolved** since no single source in this wiki tests both at once:
+  - The Ahrefs/Growth Memo studies measure whether a **brand** gets
+    mentioned at all (brand-level, aggregated across many pages/domains,
+    correlational). AirOps measures whether a **specific page** gets
+    cited **given it was already retrieved** for a specific query
+    (page-level, causal-adjacent — it isolates retrieval rank and
+    relevance as covariates). A brand could show a positive
+    authority-visibility correlation in aggregate while, within any
+    single retrieved candidate set, the *specific page* that wins the
+    citation is chosen on relevance/rank rather than authority — these
+    aren't necessarily incompatible.
+  - AirOps studies only ChatGPT; Ahrefs studies ChatGPT + AI Mode + AI
+    Overviews together; the Growth Memo Authority Score study doesn't
+    specify which engine(s). Engine-specific mechanics could differ (per
+    [[ai-citation-landscape]]'s "engines are separate information
+    environments" finding) — the contradiction may partly be an
+    engine-mix artifact rather than a true disagreement.
+  - **Residual caveat**: Authority Score, Domain Rating, and DA are three
+    different metrics from different platforms/methodologies, not the
+    same measurement — some of the apparent disagreement could be
+    metric-construction noise rather than a substantive finding either
+    way.
+  - **Practical implication until resolved**: don't treat authority-
+    building (backlinks, DR/DA/Authority Score) as a reliable lever for
+    winning a *specific* citation on a *specific* page — AirOps' larger,
+    more controlled page-level dataset is the stronger evidence for that
+    narrower claim. But don't abandon authority-building as a brand-level
+    strategy either — the Ahrefs/Growth Memo brand-level correlations
+    remain the best evidence for that broader claim. These are different
+    decisions with different evidence bases.
+
 ## Conflicting Evidence — resolved
 
 - **Claim**: The three major AI answer surfaces (ChatGPT, AI Mode, AI
@@ -135,3 +183,7 @@ ChatGPT-targeting guidance for smaller/challenger brands).
 - [[growth-memo-topics-matter-for-third-party-authority]] — the Authority
   Score correlation figure discussed above, plus topic-specific source
   trust data and tiered authority-accumulation guidance.
+- [[airops-fan-out-effect-2026]] — the page-level, no-authority-
+  correlation finding that generated the unresolved Conflicting Evidence
+  section above, plus the retrieval-rank-as-gatekeeper mechanism in
+  [[ai-citation-landscape]].

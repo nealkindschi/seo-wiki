@@ -333,3 +333,26 @@ the case that Google-embedded AI (not standalone AI tools) is the bigger
 competitive stake. Cross-linked from [[generative-engine-optimization]]
 and [[aio-ctr-impact]] as a scale caveat. No conflicts — this measures a
 dimension (overall channel scale) not previously covered in the wiki.
+
+## [2026-07-07] ingest | The Fan-Out Effect: What Happens Between a Query and a Citation (AirOps)
+Ingested AirOps/Kevin Indig's large-scale ChatGPT retrieval study
+(16,851 queries, 353,799 pages). Added a new "Retrieval rank as the
+primary citation gatekeeper" section to [[ai-citation-landscape]]
+(58.4% citation at retrieval rank 1 vs. 14.2% at rank 10; bimodal
+citation distribution; memory citations). Extended
+[[geo-content-optimization-tactics]] with focus-over-comprehensiveness
+guidance, structural findings (word count/headings/schema/readability),
+and freshness-by-vertical data.
+
+## [2026-07-07] conflict | AI-mention authority correlation — brand-level vs. page-level
+AirOps' page-level ChatGPT study found no positive (slightly inverse)
+correlation between domain authority/backlinks and citation, contradicting
+the brand-level authority correlations in
+[[ai-visibility-correlation-factors]] (Ahrefs Domain Rating, 0.266-0.326)
+and [[growth-memo-topics-matter-for-third-party-authority]] (Authority
+Score, 0.65 Pearson). Added an unresolved Conflicting Evidence section
+to [[ai-visibility-correlation-factors]] — current best guess is a
+brand-level-vs-page-level unit-of-analysis difference (parallel to the
+existing source-vs-brand-overlap resolution on that page), plus a
+possible engine-mix artifact (AirOps studies ChatGPT only), but flagged
+as genuinely unresolved since no single source tests both at once.
