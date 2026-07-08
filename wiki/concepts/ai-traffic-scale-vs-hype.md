@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-07
+updated: 2026-07-08
 ---
 
 # AI Traffic Scale vs. the Hype
@@ -39,6 +39,13 @@ inflated by desktop skew in the underlying data (mobile app usage, which
 would show more social/email/messaging traffic, is excluded entirely),
 so the *relative* gap between AI tools and search/social could be even
 larger than measured, not smaller.
+
+**Independent corroboration**: per [[ahrefs-b2b-seo-statistics-2025]],
+Google delivers roughly 345x more traffic than ChatGPT, Gemini, and
+Perplexity combined — a differently-sourced, differently-measured
+ratio that points the same direction as this page's "1/1,000th"
+finding, without being the same statistic (worth citing both rather
+than treating them as duplicate confirmation of one number).
 
 ## Influence precedes search — search converts, it doesn't create
 
@@ -98,3 +105,5 @@ search share rather than competing against it.
 - [[semrush-ai-overviews-study-2025]] — Google AI Overview prevalence
   data that, per this page's argument, represents the AI surface most
   worth tracking given Google's traffic dominance.
+- [[ahrefs-b2b-seo-statistics-2025]] — the independent 345x
+  traffic-ratio corroboration above.

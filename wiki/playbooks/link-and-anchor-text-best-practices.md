@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo]
-updated: 2026-07-07
+updated: 2026-07-08
 ---
 
 # Link and Anchor Text Best Practices
@@ -58,6 +58,35 @@ with an `href` attribute containing a resolvable URL.
   present.
 - Image links → Google uses the image's `alt` attribute as anchor text.
   Always write descriptive `alt` text on linked images, not `alt=""`.
+
+## Backlink anchor text: don't manipulate it
+
+Per [[ahrefs-anchor-text-2020]] (384,614 pages / 19,840 keywords study
++ a 16,000-page follow-up) — distinct from the internal-linking
+guidance above, this covers **external/backlink** anchor text
+specifically:
+
+- **Every anchor-text type shows weak-to-negligible ranking
+  correlation**, even exact-match (Spearman ~0.14-0.19). Random/
+  generic anchors and keyword-relevant *surrounding* link text
+  correlate even less (down to a slight negative). Don't expect
+  building keyword-rich backlink anchors to move rankings much even if
+  you could do it safely.
+- **Core rule: don't try to manipulate your backlink anchor text ratio
+  at all.** Legitimate, naturally-earned backlinks give you little to
+  no control over anchor text anyway — sites link to you in their own
+  words. Attempting to engineer a specific anchor-text mix at scale
+  typically requires manipulative tactics (e.g. PBNs) and risks a
+  Penguin-style penalty (Google's 2012 Penguin update specifically
+  targeted overly-aggressive exact-match anchor link building).
+- **Exception: guest blogging.** Since you write the anchor text
+  yourself there, deliberately choose a branded or generic anchor over
+  a keyword-rich one — a keyword-rich self-placed anchor is a common
+  manipulation signal.
+- **Don't over-index on one target keyword's anchor text anyway** —
+  on average only ~22% of a page's organic traffic comes from its
+  single main target keyword; most comes from long-tail variations
+  Google matches independently of exact anchor phrasing.
 
 ## 4. Internal linking
 
@@ -194,3 +223,5 @@ with an `href` attribute containing a resolvable URL.
   playbook complements.
 - [[generative-engine-optimization]] — internal links as context signals
   for AI/generative search systems, not just classic Google Search.
+- [[ahrefs-anchor-text-2020]] — the backlink anchor-text correlation
+  data and Penguin history above.

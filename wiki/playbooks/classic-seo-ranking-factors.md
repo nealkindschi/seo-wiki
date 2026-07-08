@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo]
-updated: 2026-07-07
+updated: 2026-07-08
 ---
 
 # Classic SEO Ranking Factors Playbook
@@ -51,6 +51,12 @@ causal).
   presence in titles/descriptions correlates minimally; semantic
   relevance to the topic correlates better. Write titles/descriptions
   that describe the content naturally.
+- **Engineering your backlink anchor-text ratio.** Per
+  [[ahrefs-anchor-text-2020]], every anchor-text type (including
+  exact-match) shows weak-to-negligible ranking correlation, and
+  attempting to control the mix at scale risks a Penguin-style
+  penalty. Let backlink anchor text occur naturally — see
+  [[link-and-anchor-text-best-practices]] for the full writeup.
 - **Padding content length/word count.** No correlation with rankings.
   Match length to what the topic actually needs — don't add filler to
   hit a word-count target.

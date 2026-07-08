@@ -1,8 +1,9 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-07-07
+updated: 2026-07-08
 ---
+
 
 # GEO Content Optimization Tactics
 
@@ -155,6 +156,16 @@ fresh" guidance with a specific age curve and vertical-level variance:
   5+-year-old content, Travel shows the largest gap in the dataset
   (19pp); e-commerce content freshness barely matters — prioritize
   refresh cycles by vertical, not a blanket schedule.
+
+**Unresolved tension**: [[ahrefs-why-chatgpt-cites-pages-2026]] found
+the opposite pattern within search-result citations specifically —
+older/established pages (median ~500 days) cited more than fresh ones
+— though its own news-vertical data does show a freshness preference,
+partially consistent with the above. See
+[[ai-citation-landscape]]'s Conflicting Evidence section. Until
+resolved, don't apply a single universal freshness curve — check
+whether your content type more closely resembles a search-result page
+or a news article.
 
 ## Authority-building caveat (unresolved conflict)
 
@@ -388,6 +399,118 @@ third-party citations/mentions:
   - [ ] Publish on LinkedIn for faster indexing/visibility alongside
         primary publication.
 
+## Target common query-fanout injection angles
+
+Per [[peec-ai-chatgpt-query-fanouts-2026]] (5M query fanouts,
+ChatGPT/Perplexity/Grok, April 2026) — write toward the hidden
+sub-queries an engine actually issues, not just a page's literal
+target query:
+
+- **Cover comparison/best-of/review angles explicitly**, even if the
+  target query doesn't use that language — ChatGPT injects "best" into
+  24.3% of advice-style questions and "reviews" is its third
+  most-injected word overall. A page that already addresses "best X,"
+  "X vs Y," and "X reviews" framing is more likely to match what the
+  engine is actually retrieving against.
+- **Maintain a review-platform presence** (G2, Glassdoor, Sitejabber,
+  or category-equivalent) since ChatGPT actively searches review
+  content even when the user didn't ask for it — this shapes brand
+  description regardless of whether your own site ranks for the
+  literal query.
+- **Keep a current-year reference current** on pages likely to be
+  fanned out with a year token (5.44% of ChatGPT prompts get one
+  injected) — stale "2024" mentions on an otherwise-good page can
+  mismatch a freshness-weighted fanout subquery.
+- **If targeting Grok specifically**, note it fans out far more
+  aggressively (6.8 subqueries/query vs. ChatGPT's 2.1) and explicitly
+  site-targets a small set of trusted domains (Reddit, Wirecutter,
+  Consumer Reports) at very high rates — presence within those
+  specific trusted sources may matter more for Grok visibility than
+  general on-site optimization.
+- **Don't rely on ranking for a query's literal phrasing alone** —
+  since fanout results are combined via Reciprocal Rank Fusion,
+  content that surfaces across multiple fanout angles (e.g. both a
+  "best X" list and an "X reviews" page) has a structural ranking
+  advantage over content matching only one angle.
+
+## Optimize for search-index citation and semantic relevance (ChatGPT)
+
+Per [[ahrefs-why-chatgpt-cites-pages-2026]] (1.4M ChatGPT prompts) —
+sharpens the "get retrieved, then compete on relevance" framing above
+with source-type-specific data:
+
+- **Prioritize ranking in the search index over other channels.**
+  ~88% of ChatGPT citations come from the search-index reference type;
+  Reddit, YouTube, and academic sources are each cited under 2% of the
+  time even when retrieved — classic search visibility remains the
+  dominant lever for ChatGPT citation specifically.
+- **Write toward semantic alignment with likely fanout sub-queries,
+  not just the surface prompt.** Cited pages score meaningfully higher
+  on title-level semantic similarity to both the user's literal prompt
+  (0.602 vs. 0.484 for non-cited) and ChatGPT's internal fanout
+  sub-queries (0.656) — reinforces the query-fanout-angle tactic above
+  with a direct relevance-score mechanism.
+- **Use natural-language URL slugs.** Search results with
+  natural-language slugs were cited at 89.78% vs. 81.11% for
+  non-natural-language URLs — a small but measurable structural lever.
+- **Don't expect Reddit presence to earn direct citation** — it's
+  retrieved constantly (67.8% of all non-cited URLs) but rarely
+  attributed. Treat Reddit presence as shaping ChatGPT's background
+  understanding/consensus of a topic, not as a citation-generating
+  channel in its own right.
+
+## Target listicle rank, not just listicle inclusion
+
+Per [[peec-ai-listicle-rank-effect-2026]] — extends the third-party
+authority-building guidance above with a rank-specific tactic: getting
+*into* a third-party listicle isn't the finish line, since position
+within it measurably shifts visibility, answer placement, and mention
+count.
+
+- **Identify which listicles AI engines actually cite repeatedly** for
+  your commercially important prompts, not listicles in general — a
+  low-retrieval listicle contributes little regardless of your rank in
+  it.
+- **Concentrate on rank within those specific sources.** Five strong
+  placements in frequently-cited listicles outperform fifty placements
+  in rarely-retrieved ones — this reinforces the topic-specific
+  authority-building guidance above ("concentrate in fewer,
+  higher-authority placements").
+- **Match strategy to market maturity.** In fragmented/emerging
+  markets, prioritize immediate rank/placement work (steepest rank
+  dropoff, biggest marginal win from #1). In established markets,
+  pair listicle rank work with broader brand-building — rank
+  sensitivity is flatter once a brand is already included.
+- **Weight effort by target engine.** Tight-retrieval engines (ChatGPT,
+  GPT-5 Search, Microsoft Copilot) reward top listicle rank more
+  heavily than broad-retrieval engines (Google AI Overview, AI Mode) —
+  prioritize listicle-rank work if those tighter-retrieval engines are
+  your primary target.
+
+**Caution — self-promotional listicles are not a recommended shortcut.**
+Per [[peec-ai-self-promotional-listicles-2026]], publishing a
+self-promotional "best of" listicle on your own domain does still get
+cited on some platforms (~11% of citations in the studied sector,
+higher on Google AI Mode/Perplexity than ChatGPT) — but this is
+reported as an inconsistent retrieval-filtering gap, not a validated
+tactic. Third-party listicle placement, authentic third-party reviews,
+and educational content remain the recommended path; see
+[[e-e-a-t-and-page-quality]] for the trust/disclosure risk of
+undisclosed self-interest.
+
+**It can actively backfire.** Per
+[[sej-why-calling-yourself-the-best-2026]], even when a self-ranked
+listicle *does* get cited by Google AI Overviews, the AI's actual
+recommendation goes to a competitor named within that same listicle
+roughly 69% of the time — your own content ends up promoting a rival,
+unless you already have strong pre-existing authority signals (high
+Domain Rating, backlink volume, established AI-mention frequency).
+Google has reportedly also begun demoting domains with a pattern of
+excessive self-promotional content and adding AI Overview disclaimer
+language around "self-proclaimed expert" sources. If you don't already
+have strong domain authority, skip self-ranked listicles entirely and
+invest in earning a mention in someone else's.
+
 ## Brand-level visibility factors (correlational, not causally tested)
 
 Per [[ai-visibility-correlation-factors]] — unlike the Tier 1-3 tactics
@@ -520,6 +643,14 @@ low-effort AI content is an explicit penalty target. If using AI to help
 draft content, ensure each page has genuine added value, editing, and
 originality; don't publish AI output at scale with little to no human
 curation.
+
+**This risk is now common, not hypothetical**: per
+[[ahrefs-b2b-seo-statistics-2025]], 87% of marketers already use AI for
+content creation, at roughly 4.7x lower cost and 42% higher publishing
+volume than non-AI-using marketers — the exact volume/cost dynamic that
+makes Scaled Content Abuse easy to fall into unintentionally. Treat AI
+drafting as a starting point requiring genuine editorial work per page,
+not a volume lever.
 
 ## Know-Simple answer structuring
 

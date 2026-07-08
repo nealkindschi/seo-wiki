@@ -335,3 +335,95 @@ presence → action layer → protocol layer) and four emerging agentic
 protocol standards shipped within ~18 months: MCP (Anthropic, Nov
 2024), WebMCP (Google/Microsoft, W3C draft Feb 2026), ACP
 (OpenAI/Stripe, Sept 2025), UCP (Google, announced Jan 2026).
+
+## 2026-06-30 — Peec AI publishes "Why Server Logs Are Crucial for AI Search Strategy"
+
+[[peec-ai-server-logs-ai-search-2026]] · updated
+[[how-google-search-works]] and [[technical-seo-audit-checklist]].
+Introduces a three-part AI bot taxonomy (training, search/indexing,
+user query/retrieval) and a server-log-vs-citation gap-analysis method
+for diagnosing why a frequently-crawled page isn't being cited.
+
+## 2026-05-14 — Peec AI publishes "The Listicle Rank Effect"
+
+[[peec-ai-listicle-rank-effect-2026]] · updated
+[[ai-citation-landscape]] and [[geo-content-optimization-tactics]].
+~200,000-AI-response, 8-engine study (Sept 2025-Mar 2026) finding that
+rank position within frequently-cited third-party listicles measurably
+shifts AI-response visibility, answer placement, and mention count,
+with effect size/shape varying by market maturity (B2B SaaS, Emerging
+MarTech, US Finance) and engine retrieval strategy.
+
+## 2026-07-07 — Peec AI publishes "Patterns We See in ChatGPT Query Fanouts"
+
+[[peec-ai-chatgpt-query-fanouts-2026]] · updated
+[[ai-citation-landscape]] and [[geo-content-optimization-tactics]].
+5M-query-fanout analysis (ChatGPT/Perplexity/Grok, research window
+2026-04-01 to 2026-04-21) finds sharply different fanout volume by
+engine (Perplexity 1.4/query, ChatGPT 2.1/query, Grok 6.8/query),
+ChatGPT's most-injected words (best, top, comparison, reviews),
+Reciprocal Rank Fusion as the cross-subquery ranking mechanism, and
+Grok's near-100% trusted-domain site-targeting for sources like
+Wirecutter and Consumer Reports.
+
+## 2026-07-07 — Peec AI publishes "Self-Promotional Listicles Analysis"
+
+[[peec-ai-self-promotional-listicles-2026]] · updated
+[[ai-citation-landscape]] and [[geo-content-optimization-tactics]].
+232,000-citation study (12 weeks, Dec 2025-Feb 2026, software sector,
+6 platforms) finds ~11% of citations originate from self-promotional
+listicles with no algorithmic correction observed, and sharp platform
+divergence (ChatGPT ~3.6-4% vs. Google AI Mode/Perplexity ~10.3-10.4%).
+
+## 2026-04-15 — Ahrefs publishes "Why ChatGPT Cites One Page Over Another"
+
+[[ahrefs-why-chatgpt-cites-pages-2026]] · updated
+[[ai-citation-landscape]] and [[geo-content-optimization-tactics]].
+1.4M-ChatGPT-prompt study (Feb 2025) finds citation rate varies sharply
+by source type (search 88.46% vs. Reddit 1.93%, News 12.01%),
+semantic-relevance (cosine similarity) as the strongest within-set
+citation differentiator, and a content-age finding — older/established
+pages cited more within search results — that conflicts with
+[[airops-fan-out-effect-2026]]'s 30-89-day freshness-optimum finding.
+
+## 2023-08-31 — Ahrefs publishes "We Studied Over 1 Million Domains to Find the Most Common Technical SEO Issues"
+
+[[ahrefs-site-audit-study-2023]] · updated
+[[technical-seo-audit-checklist]]. 1,002,165-domain Site Audit study
+ranking the 15 most prevalent technical SEO issues (3XX redirects
+95.2%, HTTPS migration 88%, missing alt attributes 80.4%, meta
+description issues, slow pages, title/H1/Open Graph issues) with
+priority calibration on which are actually worth fixing versus
+low-severity/non-ranking-factor.
+
+## 2020-04-03 — Ahrefs publishes "Anchor Text: A Data-Driven Guide"
+
+[[ahrefs-anchor-text-2020]] · updated
+[[link-and-anchor-text-best-practices]] and
+[[classic-seo-ranking-factors]]. 384,614-page correlation study finds
+every backlink anchor-text type (including exact-match) shows
+weak-to-negligible ranking correlation, concludes anchor-text ratios
+shouldn't be deliberately manipulated, and traces the practice's risk
+back to Google's 2012 Penguin update.
+
+## 2025-11-12 — Ahrefs publishes "43 B2B SEO Statistics for 2025"
+
+[[ahrefs-b2b-seo-statistics-2025]] · updated
+[[ai-traffic-scale-vs-hype]], [[ai-citation-landscape]], and
+[[geo-content-optimization-tactics]]. Compilation of third-party B2B
+SEO/marketing stats: Google's 345x traffic advantage over standalone
+AI tools, AI Overview citation composition and a citation-without-
+organic-visibility nuance, AI-content-creation adoption at scale
+(87% of marketers), and B2B buyer-journey context (10-11-stakeholder
+buying groups, 11.5-month cycles).
+
+## 2026-06-18 — Search Engine Journal publishes "Why Calling Yourself The Best Could Be Helping Your Competitors Win In AI Search" (Lily Ray)
+
+[[sej-why-calling-yourself-the-best-2026]] · updated
+[[ai-citation-landscape]] and [[geo-content-optimization-tactics]].
+323-instance, 100-B2B-query analysis finds self-promotional "best of"
+listicles get cited by Google AI Overviews but the actual
+recommendation goes to a named competitor 69% of the time; reports
+Google countermeasures (organic demotion, AI disclaimer language)
+with affected-site visibility declining from January 2026 through
+May 2026.

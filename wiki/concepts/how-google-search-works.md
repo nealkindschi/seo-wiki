@@ -1,7 +1,7 @@
 ---
 type: concept
-tags: [seo]
-updated: 2026-07-07
+tags: [seo, aeo]
+updated: 2026-07-08
 ---
 
 # How Google Search Works
@@ -30,6 +30,28 @@ times out, JS-dependent content may never be seen at all.
 Common crawling failures: server/network problems, or `robots.txt`
 rules blocking access (deliberately, via
 [[controlling-ai-feature-inclusion]]-style directives, or by accident).
+
+### AI bot types (training vs. indexing vs. retrieval)
+
+Per [[peec-ai-server-logs-ai-search-2026]], AI-search crawlers split
+into three functionally distinct categories, each worth distinguishing
+in server-log analysis:
+
+- **Training bots** (e.g. GPTBot, Common Crawl) — gather data to build
+  a model's baseline knowledge. Training data only refreshes at
+  retraining time, so crawl access *now* shapes what a future model
+  generation knows, not what the current one already knows.
+- **Search/indexing bots** (e.g. OAI-SearchBot) — build the retrieval
+  pool for AI search/citation. A page unreachable to these bots is not
+  eligible to be surfaced at all — the AI-search analogue of Google's
+  indexing stage.
+- **User query/retrieval bots** (e.g. ChatGPT-User) — fetch specific
+  pages live, per individual user query. Unlike the other two, these
+  visits are request-driven, not crawl-driven.
+
+A healthy crawl pattern shows all three bot types visiting a site; see
+[[technical-seo-audit-checklist]] for the log-vs-citation diagnostic
+method built on this taxonomy.
 
 ## 2. Indexing
 
@@ -86,3 +108,5 @@ can never become a candidate source for an AI-generated answer either.
 - [[technical-seo-audit-checklist]] — a consolidated, practitioner-
   checklist audit against this crawl/index/serve pipeline: robots.txt,
   redirects, Core Web Vitals, Schema, and AI/agent crawler access.
+- [[peec-ai-server-logs-ai-search-2026]] — source for the AI bot-type
+  taxonomy (training/indexing/retrieval) above.

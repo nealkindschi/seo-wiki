@@ -408,3 +408,138 @@ transactional-intent AIOs declined 5% (flagged as a genuine trend shift
 continuing the earlier study's peak-then-settle pattern, not a
 contradiction), AIOs clustering on highest-CPC keywords, and Google
 Ads+AIO coexistence roughly doubling year-over-year. No conflicts.
+
+## [2026-07-08] ingest | Why Server Logs Are Crucial for AI Search Strategy (Peec AI)
+
+Created new source [[peec-ai-server-logs-ai-search-2026]]. Added an
+"AI bot types (training vs. indexing vs. retrieval)" subsection to
+[[how-google-search-works]]'s Crawling stage, and a server-log
+crawl-vs-citation gap-analysis method (§5) to
+[[technical-seo-audit-checklist]]. No conflicts — net-new taxonomy and
+diagnostic method filling a gap in the existing AI-crawler-access
+guidance, which previously only covered the binary
+allowed/blocked-in-robots.txt check.
+
+## [2026-07-08] ingest | The Listicle Rank Effect (Peec AI)
+
+Created new source [[peec-ai-listicle-rank-effect-2026]] (~200,000 AI
+responses, 5.7M+ data points, 8 engines, Sept 2025-Mar 2026). Added a
+"Listicle rank effect" section to [[ai-citation-landscape]], sharpening
+[[airops-fan-out-effect-2026]]'s retrieval-rank-as-gatekeeper finding
+with a third-party-listicle-specific rank mechanism and market-maturity
+breakdown. Added a "Target listicle rank, not just listicle inclusion"
+tactic to [[geo-content-optimization-tactics]], extending the existing
+third-party authority-building guidance. No conflicts — reinforces and
+sharpens the "concentration beats spread" and retrieval-rank findings
+already in the wiki.
+
+## [2026-07-08] ingest | Patterns We See in ChatGPT Query Fanouts (Peec AI)
+
+Created new source [[peec-ai-chatgpt-query-fanouts-2026]] (5M query
+fanouts, ChatGPT/Perplexity/Grok, April 2026). Added a "Query fanout
+mechanics" section to [[ai-citation-landscape]], explaining the
+engine-side hidden-subquery injection behavior previously only named
+in passing (Google's "query fan-out" term in
+[[generative-engine-optimization]]) — explicitly distinguished from
+[[airops-fan-out-effect-2026]]'s different fan-out finding (content
+subtopic coverage vs. this source's engine-side subquery injection).
+Added a "Target common query-fanout injection angles" tactic to
+[[geo-content-optimization-tactics]]. No conflicts — clarifies and
+extends existing terminology rather than contradicting it.
+
+## [2026-07-08] ingest | Self-Promotional Listicles Analysis (Peec AI)
+
+Created new source [[peec-ai-self-promotional-listicles-2026]] (13,000
+listicles, 232,000 citations, 12 weeks Dec 2025-Feb 2026, software
+sector, 6 platforms). Added a "Self-promotional listicles still get
+cited" section to [[ai-citation-landscape]] (~11% of citations
+self-promotional, sharp platform divergence, no algorithmic correction
+observed) and a caution note to the listicle-targeting tactic in
+[[geo-content-optimization-tactics]]. Not logged as a formal
+Conflicting Evidence entry against [[e-e-a-t-and-page-quality]]'s
+undisclosed-conflict-of-interest guidance — the two make different
+kinds of claims (stated best practice vs. empirical filtering-gap
+evidence), noted inline in both pages instead. No factual conflicts.
+
+## [2026-07-08] ingest | Why ChatGPT Cites One Page Over Another (Ahrefs)
+
+Created new source [[ahrefs-why-chatgpt-cites-pages-2026]] (1.4M
+ChatGPT prompts, Feb 2025, cosine-similarity semantic analysis
+segmented by reference type). Added a "Citation rate by source type
+and semantic relevance (ChatGPT)" section to [[ai-citation-landscape]]
+(search-index dominance, Reddit's retrieved-but-uncited pattern,
+semantic-relevance scores, URL-slug data) and matching tactics to
+[[geo-content-optimization-tactics]].
+
+## [2026-07-08] conflict | optimal content age for AI citation
+
+[[ahrefs-why-chatgpt-cites-pages-2026]] finds older/established pages
+(median ~500 days) cited more than fresh ones within search-result
+retrieval sets, contradicting [[airops-fan-out-effect-2026]]'s 30-89
+day optimal-freshness finding. Logged as unresolved Conflicting
+Evidence on [[ai-citation-landscape]] and flagged inline in
+[[geo-content-optimization-tactics]]'s "Freshness by vertical"
+section — current best guess is a reference-type/segmentation
+difference (Ahrefs's own news-vertical data does show a freshness
+preference, partially consistent with AirOps), but not directly
+tested by either source.
+
+## [2026-07-08] ingest | We Studied Over 1 Million Domains to Find the Most Common Technical SEO Issues (Ahrefs)
+
+Created new source [[ahrefs-site-audit-study-2023]] (1,002,165
+domains, Ahrefs Site Audit tool, 2023). Added prevalence data and
+priority calibration to [[technical-seo-audit-checklist]] §1
+(redirect/HTTPS chain-vs-presence distinction) and §4 (title tags
+worth fixing, meta descriptions not a ranking factor, alt text as
+accessibility-first, multiple/missing H1 low-severity, Open Graph as
+social-only). No conflicts — independent large-scale prevalence data
+reinforcing and calibrating the existing Semrush-based checklist;
+downgrades a few commonly-over-prioritized issues (multiple H1s,
+incomplete Open Graph) to explicitly low-priority rather than
+contradicting anything already in the wiki.
+
+## [2026-07-08] ingest | Anchor Text: A Data-Driven Guide (Ahrefs)
+
+Created new source [[ahrefs-anchor-text-2020]] (384,614-page + 16,000-
+page correlation studies). Added a "Backlink anchor text: don't
+manipulate it" section to [[link-and-anchor-text-best-practices]],
+extending the existing internal-linking-focused anchor text guidance
+with the external/backlink-specific angle: weak-to-negligible
+correlation for every anchor type, the don't-manipulate-your-ratio
+conclusion, the guest-blogging exception, and Penguin-update history.
+Added a matching "don't bother" entry to [[classic-seo-ranking-factors]].
+No conflicts — new scope (backlink anchor text vs. the wiki's existing
+internal-linking anchor text coverage), directionally consistent with
+existing "vary anchor text, avoid keyword stuffing" guidance.
+
+## [2026-07-08] ingest | 43 B2B SEO Statistics for 2025 (Ahrefs)
+
+Created new source [[ahrefs-b2b-seo-statistics-2025]] (a compilation
+of 43 third-party B2B SEO/marketing statistics). Selectively applied
+the most novel/actionable subset: added an independent 345x traffic-
+ratio corroboration to [[ai-traffic-scale-vs-hype]]; added AI Overview
+citation-composition data (76% from top-10 organic, 28.9% from top-50
+brands) and a citation-without-organic-visibility nuance (28% of
+ChatGPT's top-cited pages have zero organic visibility) to
+[[ai-citation-landscape]]; added an AI-content-adoption-scale note
+(87% of marketers, 42% higher output) to
+[[geo-content-optimization-tactics]], cross-linked to the existing
+Scaled Content Abuse warning. B2B buyer-journey and general
+content-marketing-budget stats archived in the source/raw pages but
+not written into playbooks — not directly SEO/AEO-actionable. No
+conflicts.
+
+## [2026-07-08] ingest | Why Calling Yourself The Best Could Be Helping Your Competitors Win In AI Search (SEJ, Lily Ray)
+
+Created new source [[sej-why-calling-yourself-the-best-2026]] (323
+tracked citation instances, 100 B2B queries). Added a
+"Citation-without-recommendation in self-promotional listicles"
+section to [[ai-citation-landscape]] (69% failure rate, authority-based
+exemptions, reported Google countermeasures) and strengthened the
+existing self-promotional-listicle caution in
+[[geo-content-optimization-tactics]]. Reconciled inline (not logged as
+a formal conflict) against [[peec-ai-self-promotional-listicles-2026]]'s
+"no algorithmic correction" finding over the overlapping Dec 2025-Feb
+2026 window — the two measure different mechanisms (raw citation rate
+vs. citation-to-recommendation conversion and organic-visibility-level
+countermeasures), so both can be simultaneously true.
