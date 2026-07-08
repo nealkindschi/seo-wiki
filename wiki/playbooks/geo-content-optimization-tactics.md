@@ -294,6 +294,36 @@ can beat five separate playbooks:
   with ChatGPT (39%) than with either Google surface (27-34%) — Gemini
   needs its own strategy, not a "just optimize for Google" shortcut.
 
+## Five-component intent framework and AI-reuse formatting
+
+Per [[similarweb-how-to-win-the-race-for-gen-ai-search-2026]] — a more
+granular way to align content with what an AI retriever selects than
+matching a query's keywords alone. Break each target prompt into five
+intent components and make sure content satisfies all five:
+
+1. **Task intent** — what the user wants to accomplish (compare,
+   choose, define, troubleshoot, plan, evaluate, configure, summarize).
+2. **Format intent** — how the answer should be structured (steps,
+   bullet list, comparison table, definition, checklist, pros/cons).
+3. **Entity intent** — which specific brands/tools/concepts must be
+   named.
+4. **Depth intent** — how detailed the answer should be (high-level
+   overview vs. expert deep-dive vs. beginner explanation).
+5. **Constraint intent** — requirements the answer must respect (budget,
+   speed, region, year, difficulty level, niche audience). The more
+   granular the constraint match, the better the citation odds.
+
+**AI-reuse formatting checklist** (make selected content easy to extract
+and cite):
+- [ ] Concise TL;DR (40-80 words) at the top of the page
+- [ ] A "Short answer" block using bullets or numbered steps
+- [ ] Clear H2/H3 headings that mirror likely user phrasing
+- [ ] Short, atomic paragraphs — one idea per block
+- [ ] Predictable templates the model recognizes (definitions,
+      comparisons, FAQs, steps)
+- [ ] Schema markup where relevant (FAQPage, HowTo, Article)
+- [ ] Explicit, consistent entity naming throughout
+
 ## Third-party authority building (topic-specific)
 
 Per [[growth-memo-topics-matter-for-third-party-authority]] — extends the
@@ -316,6 +346,13 @@ third-party citations/mentions:
   Fresh, expert-authored, clearly time-stamped content earned faster
   visibility than faceless brand-account publishing (per LinkedIn's
   analysis, cited in the source).
+- **Prioritize targets with a two-factor score.** Per
+  [[similarweb-how-to-win-the-race-for-gen-ai-search-2026]], once you've
+  identified the domains and specific cited URLs AI relies on for a
+  topic, rank outreach targets by **Influence score** (how authoritative
+  the domain is within that specific topic) × **Prompt frequency** (how
+  often that URL is cited across user prompts) — the higher the combined
+  score, the more citation impact a mention there is likely to have.
 - **Action checklist**:
   - [ ] Identify 2-3 credible subject-matter experts to author/be quoted
         in third-party content.
@@ -351,6 +388,35 @@ above, which were causally tested via controlled experiment, these are
 - Backlinks and Domain Rating still correlate, but are the *weakest*
   correlates measured (0.19–0.33) — don't expect classic link-building
   alone to move AI visibility much.
+
+## Sentiment monitoring and correction
+
+Per [[similarweb-how-to-win-the-race-for-gen-ai-search-2026]] — a
+distinct GEO workstream from citation/visibility: being cited isn't
+enough if the AI's answer frames the brand negatively, inaccurately, or
+as a "budget"/"lower-tier" option, since that shapes user perception
+before any click happens. AI answers reflect the tone of the sources
+they trust, not an invented judgment.
+
+- **Track sentiment per topic, not just brand-wide** — a brand can read
+  positively overall while one specific topic (e.g., a product line or
+  use case) carries disproportionately negative framing.
+- **Find the root cause before fixing anything**: are review sites
+  describing the product inaccurately? Are outdated articles still
+  ranking/getting cited? Are competitor comparisons framing the brand
+  poorly? Is the brand's own content unclear or missing key information?
+- **Fix via two levers, not one**:
+  - *On-page*: clarify misunderstood features, correct outdated
+    information, directly address the weaknesses users are asking
+    about, add explicit positive entity descriptions, include
+    structured facts the model can easily reuse.
+  - *Off-page*: strengthen or correct the external sources AI relies on
+    — fresh expert reviews, updated product comparisons, data-backed
+    press mentions, new directory listings, improved UGC, corrected
+    Wikipedia/G2/niche-directory entries.
+- **Recheck after updates, on a delay.** Sentiment shifts slowly — re-run
+  sentiment analysis after content updates, PR improvements, or new
+  citations land, rather than expecting an immediate change.
 
 ## Query-format AIO risk (which pages to prioritize/audit)
 

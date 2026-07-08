@@ -356,3 +356,16 @@ brand-level-vs-page-level unit-of-analysis difference (parallel to the
 existing source-vs-brand-overlap resolution on that page), plus a
 possible engine-mix artifact (AirOps studies ChatGPT only), but flagged
 as genuinely unresolved since no single source tests both at once.
+
+## [2026-07-07] ingest | How to Win the Race for Gen AI Search (Similarweb)
+Ingested Similarweb's 38-page tactical GEO playbook (PDF). Extended
+[[geo-content-optimization-tactics]] with a five-component intent
+framework (task/format/entity/depth/constraint), an AI-reuse formatting
+checklist (TL;DR, atomic paragraphs, templates, schema, explicit
+entities), an off-page-authority prioritization score (influence ×
+prompt frequency), and a net-new "Sentiment monitoring and correction"
+section (per-topic sentiment tracking, on-page/off-page correction
+levers). Added new playbook [[genai-search-90-day-sprint]] (12-week,
+4-phase execution plan). No conflicts — reinforces
+[[airops-fan-out-effect-2026]]'s retrieval-rank finding qualitatively
+and extends existing tactics with more granular guidance.

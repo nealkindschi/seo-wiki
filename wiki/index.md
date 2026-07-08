@@ -28,6 +28,7 @@ short summary.
 - [[optimizing-for-coding-agent-recommendations]] — Actionable tactics for tool/library vendors to become a coding agent's default pick: beating the build-it-myself default, getting into training-data code examples, a scriptable getting-started path, tier-appropriate strategy, a measurement method, and per-agent tracking given cross-agent divergence.
 - [[technical-seo-audit-checklist]] — Consolidated technical SEO audit: crawling/indexing, Core Web Vitals/UX, navigation (cross-linked), HTTPS/hreflang/Schema, and AI/agent readiness including ecommerce agentic-commerce checkout requirements.
 - [[optimizing-for-the-agentic-web]] — Actionable tactics for agent-parseable content, off-site consistency, an operable action layer (CTAs/pricing/checkout), the MCP/WebMCP/ACP/UCP protocol layer, and a full AI-agent measurement framework (visibility + action metrics).
+- [[genai-search-90-day-sprint]] — Similarweb's 12-week, 4-phase GEO execution plan (Foundations → Build authority → Build AI-ready content → Measure/improve/scale) with weekly deliverables, sequencing the tactics in geo-content-optimization-tactics.
 
 ## Sources
 
@@ -56,3 +57,4 @@ short summary.
 - [[semrush-ai-overviews-study-2025]] — Semrush's 10M+-keyword, full-year-2025 AI Overview study: prevalence trajectory (6.49%→24.61% peak→15.69%), intent-based expansion, a zero-click-rate decrease, industry saturation rankings, and SERP feature co-occurrence shifts (Google Ads: <1%→25%).
 - [[sparktoro-influence-happens-everywhere-2026]] — Rand Fishkin/SparkToro's clickstream analysis (via Similarweb) of the top 5,000 most-visited sites: search+social ≈ half of all visits, Google ~73% of search, AI tools ~1/1,000th their press coverage in actual traffic, and the influence-precedes-search argument.
 - [[airops-fan-out-effect-2026]] — AirOps/Kevin Indig's 16,851-query, 353,799-page ChatGPT retrieval study: retrieval rank dominates citation (58.4% at rank 1 vs. 14.2% at rank 10), focus beats comprehensive coverage, no positive authority-citation correlation (unresolved conflict), structural findings (word count/headings/schema/readability), and freshness-by-vertical data.
+- [[similarweb-how-to-win-the-race-for-gen-ai-search-2026]] — Similarweb's tactical GEO playbook: topical-authority tracking, off-page authority targeting by influence score × prompt frequency, a five-component intent framework, AI-reuse formatting checklist, and net-new sentiment monitoring/correction guidance.
