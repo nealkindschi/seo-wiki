@@ -369,3 +369,17 @@ levers). Added new playbook [[genai-search-90-day-sprint]] (12-week,
 4-phase execution plan). No conflicts — reinforces
 [[airops-fan-out-effect-2026]]'s retrieval-rank finding qualitatively
 and extends existing tactics with more granular guidance.
+
+## [2026-07-07] ingest | How to Be the Brand AI Recommends (Similarweb)
+Ingested Similarweb's companion playbook (Darrell Mordecai, PDF, 18
+pages) to [[similarweb-how-to-win-the-race-for-gen-ai-search-2026]].
+Added a new "Citations vs. brand mentions" section to
+[[ai-citation-landscape]] (mention vs. citation distinction,
+training-data-vs-live-retrieval framing, recommendation-vs-citation
+signal lists) — reframes [[airops-fan-out-effect-2026]]'s "memory
+citations" finding as a training-data-sourced mention. Added Aleyda
+Solis's 70-80%-of-prompts sustained-topical-authority measurement target
+to [[geo-content-optimization-tactics]]. Noted independent corroboration
+of the existing 44.2%-of-citations-from-first-30%-of-page stat (two
+sources now agree). Added an AI-visit-vs-referral-growth cross-reference
+to [[aio-ctr-impact]]. No conflicts.

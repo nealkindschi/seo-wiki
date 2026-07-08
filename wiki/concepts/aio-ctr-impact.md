@@ -132,6 +132,21 @@ above, covering the full 2025 calendar year:
   guaranteed alongside an AIO; Google Ads co-occurrence jumped from <1%
   (March) to 25% (November) — AIO pages are increasingly ad-adjacent.
 
+## AI-visit growth is outpacing AI-referral growth
+
+Per [[similarweb-how-to-be-the-brand-ai-recommends-2026]] — a narrower,
+corroborating data point (not the same metric as the citation-premium
+data above): Similarweb clickstream data shows visits to AI tools
+(ChatGPT, Gemini, Claude) growing much faster than referral traffic
+*from* those tools to other sites, with the gap widening through
+2025-2026. Directionally consistent with this page's zero-click framing
+and [[ai-traffic-scale-vs-hype]]'s "most AI interactions end without a
+click" theme — AI usage is growing, but the fraction of that usage that
+sends a click elsewhere is not growing at the same rate. Reinforces why
+[[ai-citation-landscape]]'s citations-vs-mentions distinction matters:
+mentions (which don't require a click) may be a more representative
+growth metric than referral traffic alone.
+
 ## Caveats
 
 The authors are explicit that: this is correlational, not causal

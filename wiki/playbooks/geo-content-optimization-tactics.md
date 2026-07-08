@@ -61,6 +61,10 @@ a measurable axis), not data dumps or narrative-buried stats.
   this isn't just directional advice — **44.2% of all citations come
   from the first 30% of a page** in that source's dataset, one of the
   more concentrated placement effects measured in this wiki.
+  Independently corroborated: [[similarweb-how-to-be-the-brand-ai-recommends-2026]]
+  states the same figure ("44% of AI citations come from the first 30%
+  of a page") from a separate analysis — two independent sources
+  converging on the same number.
 - **Owning the data doesn't guarantee the citation.** Per
   [[growth-memo-why-proprietary-data-is-your-most-defensible-asset]], an
   aggregator can repackage someone else's original research into a
@@ -323,6 +327,23 @@ and cite):
       comparisons, FAQs, steps)
 - [ ] Schema markup where relevant (FAQPage, HowTo, Article)
 - [ ] Explicit, consistent entity naming throughout
+
+## Measuring AI visibility as sustained topical authority
+
+Per [[similarweb-how-to-be-the-brand-ai-recommends-2026]] (quoting
+Aleyda Solis) — a concrete visibility-measurement target that sharpens
+the wiki's general "track presence per topic" guidance:
+
+- Don't chase perfection on any single prompt. Build structured prompt
+  sets reflecting real buyer journeys — representative prompts across
+  key topical hubs, product categories, and funnel stages (early
+  research through final transaction).
+- Ask "are we consistently visible across this intent category?" rather
+  than "are we showing up for this one query?"
+- **Target being cited/mentioned in roughly 70-80% of relevant,
+  high-intent prompts within a topic cluster** as the bar for "won" — a
+  concrete, quotable target where the wiki previously only had
+  qualitative "track presence per topic" guidance.
 
 ## Third-party authority building (topic-specific)
 

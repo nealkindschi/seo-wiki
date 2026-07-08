@@ -166,6 +166,46 @@ How To). Journalism citation rate also varies by sector: highest in
 Media/Entertainment (36%) and Finance/Insurance (32%), lowest in
 Education and Industrial/Manufacturing (~19% each).
 
+## Citations vs. brand mentions
+
+Per [[similarweb-how-to-be-the-brand-ai-recommends-2026]] — a
+conceptual distinction not previously made explicit in this wiki. A
+**mention** is the AI saying a brand's name; a **citation** is the AI
+pointing to a brand's content as a retrieved source (the brand's
+website "gets the footnote"). This maps onto two different underlying
+data sources AI draws from:
+
+| | Training data | Live retrieval |
+|---|---|---|
+| What it is | Frozen snapshot baked in at training time | Real-time web retrieval |
+| Update cycle | Months to years | Real time |
+| Brand discovery | Only brands present before the training cutoff | Any brand with a crawlable presence |
+| Confidence | High — deep, consistent signal | Lower — thinner profile |
+
+**Citations only come from retrieval.** **Mentions** can come from
+*either* training data (the model learned to associate a brand with a
+topic over time) *or* live retrieval. This reframes
+[[airops-fan-out-effect-2026]]'s "memory citations" finding (6,371
+citations with no corresponding search result) as, in this framing, a
+training-data-sourced mention rather than a true retrieval citation.
+
+**Practical stakes**: citations drive traffic (per
+[[aio-ctr-impact]]'s citation-premium data); mentions build presence
+even when the user never clicks — relevant given most AI interactions
+end without a click (see [[ai-traffic-scale-vs-hype]]).
+
+**Different signals drive each**:
+- **Recommendation/mention signals**: frequent co-occurrence with the
+  brand's category, high branded search volume (humans searching for a
+  brand teaches AI it matters), presence in core knowledge sources
+  (Wikipedia, Wikidata, major publications), consistent positive
+  co-mentions with the category across the web.
+- **Citation signals**: unique data points not found elsewhere
+  (information gain, not repetition), content freshness (recency is a
+  major retrieval weight in RAG systems), clear extractable structure
+  (headers, bullets, schema), and co-citation (multiple independent
+  sources pointing to the same brand as the answer).
+
 ## Retrieval rank as the primary citation gatekeeper
 
 Per [[airops-fan-out-effect-2026]] (16,851 queries, 353,799 pages
@@ -270,6 +310,10 @@ grounded in retrieval (RAG), not a static trained "understanding."
 - [[airops-fan-out-effect-2026]] — the retrieval-rank-as-gatekeeper
   mechanism above, plus the authority-correlation Conflicting Evidence
   writeup in [[ai-visibility-correlation-factors]].
+- [[similarweb-how-to-be-the-brand-ai-recommends-2026]] — the
+  citations-vs-mentions distinction and two-data-source framing above,
+  plus corroborating data in [[geo-content-optimization-tactics]] and
+  [[aio-ctr-impact]].
 - [[sej-the-consensus-gap]] — the independent, large-scale confirmation
   of citation-level cross-engine fragmentation cited throughout this
   page, plus the presence/portability/concentration measurement
