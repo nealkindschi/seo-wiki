@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo]
-updated: 2026-07-08
+updated: 2026-07-11
 ---
 
 # Link and Anchor Text Best Practices
@@ -11,7 +11,8 @@ audits, and technical SEO reviews — link markup and anchor text quality
 directly affect whether Google can discover a page at all (see
 [[how-google-search-works]]'s crawling stage) and how it interprets what
 the linked page is about. Based on [[google-links-crawlable]],
-[[ahrefs-internal-links-for-seo]], and [[yoast-internal-linking-for-seo]].
+[[ahrefs-internal-links-for-seo]], [[yoast-internal-linking-for-seo]], and
+[[ahrefs-beginner-guide-technical-seo]].
 
 ## 1. Make links crawlable
 
@@ -88,6 +89,28 @@ specifically:
   single main target keyword; most comes from long-tail variations
   Google matches independently of exact anchor phrasing.
 
+## Link recovery and discovery: High-impact quick wins
+
+Per [[ahrefs-beginner-guide-technical-seo]], two specific tactics deliver
+disproportionate value and are worth high priority:
+
+**Reclaim lost links via 301 redirects** (highest-impact single tactic)
+- When old URLs die or are moved, a 301 redirect to the current equivalent
+  URL transfers link equity and restores broken backlinks.
+- A single redirect can restore hundreds of links from multiple domains
+  that were pointing to the old URL.
+- Priority: audit any URL restructures, product name changes, or content
+  consolidations in the past 2+ years for missed redirect opportunities.
+
+**Add contextual internal links to content you already rank for**
+- Identify pages where you rank well but get little traffic (e.g., a page
+  at position 3-5 in search results for a keyword that gets few clicks).
+- Find contextual opportunities to link to that page from your other pages
+  on related topics, using natural anchor text on keywords you already rank
+  for on the source page.
+- Tools like Ahrefs Site Audit's "Internal Link Opportunities" feature can
+  identify these systematically.
+
 ## 4. Internal linking
 
 - Every page you care about should have a link from at least one other
@@ -136,6 +159,25 @@ specifically:
   pages" to pass authority to newer or underperforming pages; build
   topic clusters retroactively by establishing a pillar page with
   reciprocal links once enough content exists on a subject.
+- **When to split a long-form page into a topic cluster**: diagnose with
+  Google Search Console by mapping which keywords rank against which
+  section of the page — if rankings degrade sharply deeper into the
+  article (e.g. the first section capturing the large majority of
+  top-10 keyword rankings, later sections capturing few or none), that
+  section is a candidate to split into its own subpage rather than stay
+  buried in the long-form original. Case study (Schmitt, 2020/2023):
+  splitting a 3,500-word tutorial into a 5-page pillar+subpage cluster
+  took weekly pageviews from ~50-80 to ~2,000 (1000% growth, 16,000
+  pageviews over 5 months); one subpage that had zero top-10 rankings
+  as part of the original article became a top performer once split
+  out — evidence that page format/structure, not just content quality,
+  drives visibility. Build workflow: map keywords to sections (GSC) →
+  keyword-gap research → rewrite titles/headings around the keyword
+  data → hierarchical URLs (`/pillar-topic/subtopic/`) → bidirectional
+  pillar↔subpage linking → publish and 301-redirect the original URL to
+  the new pillar. Best suited to tutorial-style content with distinct,
+  separable search intents per section — not every long-form page
+  benefits from splitting. See [[samuelschmitt-topic-cluster-case-study]].
 - **Pagination**: use real `<a href>` elements, never JS-only buttons or
   `onclick` handlers (crawlers struggle to execute JS reliably — see
   §1). Each paginated page should canonicalize to itself, never to page

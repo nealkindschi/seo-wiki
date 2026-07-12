@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-07
+updated: 2026-07-11
 ---
 
 # Generative Engine Optimization (GEO / AEO)
@@ -20,6 +20,49 @@ term coined by the founding academic paper on the topic
 ("Answer Engine Optimization") is the term that stuck in industry usage.
 Pages in this wiki may use either term depending on the source being
 cited.
+
+## GEO (LLM chat optimization) vs. AI Overview optimization — distinct disciplines
+
+Per [[wix-generative-engine-optimization]] — this wiki's tactics have so
+far mostly concerned Google's AI Overviews and citation behavior inside
+generative engines generally, but **optimizing for LLM chat products
+(ChatGPT, Gemini, Perplexity, Claude) is a genuinely separate discipline
+from optimizing for Google AI Overviews**, with a different user
+journey:
+
+| | LLMs for search | AI Overviews in Google Search |
+|---|---|---|
+| Entry | Users choose to use the LLM | Users happen upon it (doesn't trigger for every query) |
+| Interaction | Users interact, ask follow-ups, go deeper | Users passively receive the generated content |
+| Control | Users control which LLM/content they engage with | Generated according to system needs, no opt-in |
+
+Treat "get cited in an LLM chat answer" and "get cited in a Google AI
+Overview" as separate targets requiring separate tactics, not one
+generic "AI search visibility" goal.
+
+### A finer LLM taxonomy (three categories, not just training/indexing/retrieval bots)
+
+Beyond the training/indexing/retrieval crawler taxonomy in
+[[how-google-search-works]], LLM *products* themselves split into three
+categories relevant to optimization strategy:
+
+1. **Static pre-trained-data LLMs** (Claude 3-3.5, GPT-3, Gemini 1.5,
+   NotebookLM, the Copilot app) — answers come from a fixed training
+   set; links are often absent. Optimize for **brand mentions, not
+   links** — track via bulk brand/entity queries rather than expecting
+   referral traffic. Visibility only changes when the training set is
+   updated (a model-specific "knowledge cutoff" date gates eligibility
+   entirely). User feedback (thumbs up/down on responses) can correct
+   brand inaccuracies even between training updates.
+2. **Search-augmented LLMs** (Perplexity, Copilot, GPT-4) — a fixed
+   training set augmented by live search-engine data; links/citations
+   appear and update via web crawling. Optimization here resembles
+   optimizing for the *underlying* search engine (e.g. Copilot
+   visibility follows Bing rankings, not Google's) — check core queries
+   regularly, since visibility fluctuates like search rank.
+3. **Reasoning models with search** (DeepSeek R1-R2, Gemini 2.5, OpenAI
+   o1-o4) — "mixture of experts" niche-task networks that also crawl
+   and cite live web content.
 
 ## Why traditional SEO doesn't transfer
 
@@ -149,6 +192,10 @@ controls — see [[controlling-ai-feature-inclusion]].
 - [[agentic-web-optimization]] — a third sibling domain: optimizing a
   site so general-purpose AI agents can *act* on it (browse, fill
   forms, complete purchases), a higher bar than being cited.
+- [[wix-generative-engine-optimization]] — the source for the GEO-vs-
+  AI-Overview distinction and LLM taxonomy above; also has practical
+  tactics in [[geo-content-optimization-tactics]]'s LLM-chat-specific
+  section.
 - [[ai-traffic-scale-vs-hype]] — a scale check on this whole domain: as
   of early-2026 clickstream data, standalone AI tools remain a tiny
   fraction of overall search/social traffic, so the tactics in this

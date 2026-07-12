@@ -1,8 +1,16 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-07-08
+updated: 2026-07-11
 ---
+
+## Priority Framework
+
+Per [[ahrefs-beginner-guide-technical-seo]], not all technical work is
+equally valuable: content and links typically provide better returns than
+technical optimization for most sites. Focus on **high-impact projects**
+(indexing, link recovery) before medium-priority work (Core Web Vitals,
+hreflang). The checklist below is tiered accordingly.
 
 
 # Technical SEO Audit Checklist
@@ -13,7 +21,7 @@ can be crawled, indexed, and rendered correctly at all, which is a
 prerequisite for both classic search ranking and AI-generated-answer
 citation (see [[how-google-search-works]] and
 [[generative-engine-optimization]]'s "retrieval eligibility"). Based on
-[[semrush-technical-seo-checklist]].
+[[semrush-technical-seo-checklist]] and [[google-search-fundamentals-get-started]].
 
 ## 1. Crawling and indexing
 
@@ -24,8 +32,27 @@ citation (see [[how-google-search-works]] and
   (confirm it's deliberate).
 - **Consolidate duplicate URL versions** (http/https, with/without
   www) with 301 redirects to a single preferred (HTTPS) version.
-- **Audit robots.txt** for unintended "Disallow" rules blocking
-  important content.
+  Implement canonicalization (canonical tags) preventatively on pages
+  where duplicates might naturally occur (session tracking, filter
+  parameters, syndication).
+- **Audit robots.txt for crawl strategy, not indexing control** — per
+  [[google-search-fundamentals-get-started]], robots.txt controls
+  crawling (whether Google fetches the page), not indexing (whether it
+  gets added to the index). Use robots.txt strategically to block
+  duplicate, temporary, or low-priority pages to preserve crawl budget.
+  Don't rely on robots.txt to prevent indexing — use the `noindex` meta
+  tag or login requirements instead.
+- **Submit a sitemap** (especially important if content changes
+  frequently or pages aren't easily discoverable through internal links).
+  Per [[google-sitemaps-overview]], create sitemaps if your site has 500+
+  pages, is newly launched with few backlinks, or has substantial
+  video/image/news content. Use specialized sitemaps (news/video/image)
+  for media-rich content to enable media-specific search features.
+  **Important**: Sitemap inclusion doesn't guarantee indexing — it's a
+  discovery tool, not an indexing guarantee. In Search Console, verify:
+  (1) sitemap is submitted and processed, (2) GSC Sitemaps report shows
+  count of URLs discovered, (3) monitor for errors/warnings, (4) track
+  indexation status (crawled, indexed, excluded).
 - **Fix redirect chains** (A→B→C) **and loops** (circular redirects).
 - **Fix broken links** — restore or 301-redirect broken internal links;
   update or remove broken external links.
@@ -48,6 +75,10 @@ specifically.
 
 ## 2. User experience
 
+- **Mobile-first indexing is now the default pattern** — Google crawls
+  and indexes primarily with its mobile crawler, not desktop. Over 60%
+  of internet traffic is mobile. Test the mobile experience first, not
+  as an afterthought.
 - **Mobile-friendliness**: check for text too small to read without
   zooming, tap targets too close together, content wider than the
   viewport (horizontal scroll), and pop-ups blocking main content on
@@ -82,11 +113,14 @@ audit workflow). Quick-reference for this audit:
   page variants in `<head>`:
   `<link rel="alternate" hreflang="en-us" href="..."/>`, with an
   `x-default` fallback tag for unmatched locales.
-- **Schema markup** — helps both search engines and AI systems
-  identify content type, authorship, dates, and entities, and enables
-  rich results. Common types: Organization, Product, Article, Event,
-  Recipe, Review. Tools: a schema generator, Google's Rich Results
-  Test.
+- **Schema markup** (per [[google-search-fundamentals-get-started]]) —
+  helps both search engines and AI systems identify content type,
+  authorship, dates, and entities, and enables rich results and
+  enhanced search appearance. Not required for ranking, but can improve
+  CTR and user experience via rich snippets, cards, and other enhanced
+  SERP features. Common types: Organization, Product, Article, Event,
+  Recipe, Review, FAQPage. Tools: a schema generator, Google's Rich
+  Results Test, Schema.org documentation.
 - **On-page element priority calibration**, per
   [[ahrefs-site-audit-study-2023]] (1M+ domains) — these are among the
   most commonly-flagged issues in a site audit, but not equally
@@ -148,6 +182,28 @@ audit workflow). Quick-reference for this audit:
   rejection (the LLM sees the page but chooses not to use it), or a
   gap in the citation-monitoring tool's prompt coverage. Rule out
   access problems before assuming a content-quality issue.
+- **AI search-specific technical risks** (per
+  [[ahrefs-beginner-guide-technical-seo]]) — distinct from traditional
+  search crawlability:
+  - **JavaScript rendering**: Most LLMs don't render JavaScript, so
+    mission-critical content that only appears after JS execution is
+    invisible to AI crawlers. Test whether key content is visible in the
+    page source/HTML without running JS.
+  - **Third-party blocking**: Cloudflare, Sucuri, and similar security
+    services may block AI crawlers by default. Check your CDN/WAF
+    settings if you want AI visibility; whitelist AI bot IPs if needed.
+  - **Hallucinated URLs**: AI systems sometimes cite non-existent URLs on
+    your domain. Monitor Web Analytics for AI referral traffic and set up
+    redirects from common 404s to relevant live pages (e.g.,
+    `/products/nonexistent-item` → `/products/` or search page).
+  - **Code fingerprints**: AI tools may inject identifiable HTML into
+    pages to track their presence. Review source code before publishing,
+    especially if using third-party tools to generate or modify content.
+  - **AI content detection**: Excessive AI-generated content without human
+    review can signal spam to both search engines and AI systems. Audit
+    content authenticity — use AI detectors to identify which pages are
+    wholly or predominantly AI-written if you're uncertain.
+
 - **Ecommerce/agentic-commerce readiness** — relevant if AI shopping
   agents may transact on your site, not just cite it:
   - Keep product Schema accurate and real-time (price, availability).
@@ -168,10 +224,30 @@ audit workflow). Quick-reference for this audit:
 
 ## See also
 
+- [[ahrefs-beginner-guide-technical-seo]] — prioritization framework
+  (high-impact vs. medium-priority projects), four quick-win tactics, and
+  AI search-specific technical risks (JS rendering, third-party blocking,
+  hallucinated URLs, code fingerprints, AI content detection).
+- [[google-search-fundamentals-get-started]] — official Google guide to
+  technical SEO fundamentals: robots.txt strategy, sitemaps, site
+  migrations, canonicalization, crawlability, mobile-first indexing,
+  HTTPS, structured data, and search appearance control.
+- [[google-sitemaps-overview]] — deep-dive on sitemaps: when to create
+  them (500+ pages, new sites, media-rich content), metadata types
+  (video, image, news), CMS auto-generation, Search Console monitoring,
+  and the critical limitation that sitemap inclusion doesn't guarantee
+  indexing.
 - [[how-google-search-works]] — the crawl/index/serve pipeline this
   checklist's crawling/indexing section is auditing against.
 - [[link-and-anchor-text-best-practices]] — full internal-linking
   playbook referenced in §3.
+- [[image-seo-checklist]] — image-specific technical requirements
+  (real `<img>` vs. CSS-background indexing, image sitemaps, alt text)
+  that extend this checklist's general crawlability/indexing coverage.
+- [[content-pruning-playbook]] — a complementary content-quality audit:
+  this checklist covers whether a page is technically crawlable/
+  indexable; that playbook covers whether an already-indexable page is
+  still worth keeping.
 - [[controlling-ai-feature-inclusion]] — the opposite goal: deliberately
   excluding content from AI features, rather than ensuring AI crawlers
   can access it.

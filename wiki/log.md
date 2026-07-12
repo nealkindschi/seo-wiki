@@ -544,6 +544,53 @@ a formal conflict) against [[peec-ai-self-promotional-listicles-2026]]'s
 vs. citation-to-recommendation conversion and organic-visibility-level
 countermeasures), so both can be simultaneously true.
 
+## [2026-07-11] ingest | Google Sitemaps Overview
+
+Created new source [[google-sitemaps-overview]] providing sitemap-specific
+deep-dive complementing [[google-search-fundamentals-get-started]]. Key
+contributions: metadata types (video, image, news, language) enabling
+specialized search features; when sitemaps are needed (500+ pages, new
+sites, media-rich content); CMS auto-generation overview; Search Console
+monitoring (Sitemaps report, indexation status tracking); critical
+limitation that sitemap inclusion doesn't guarantee indexing (sitemaps are
+discovery aids, not indexing guarantees). Extended [[technical-seo-audit-checklist]]
+§1 with expanded sitemap submission guidance and GSC Sitemaps report
+monitoring checklist. No conflicts — supplementary reference providing
+sitemap-focused implementation details.
+
+## [2026-07-11] ingest | Inlinks: Entity-Based SEO Guide
+
+Created new source [[inlinks-entity-based-seo-guide]] and new playbook
+[[entity-based-seo-implementation]]. This source provides tactical/practical
+counterpart to the theoretical foundation in [[entity-oriented-search-fundamentals]].
+Key contributions: Google's four-step NLP pipeline (preprocessing → feature extraction
+→ model building → inference), three-step implementation framework (entity extraction,
+topic cluster expansion, entity-based internal linking), schema markup guidance ("about"
+field with sameAs links), measurable impact (440% impressions, 52% CTR in case study),
+and critical insight that entity optimization for traditional search simultaneously
+optimizes for AI search (both rely on entity recognition). Extended
+[[geo-content-optimization-tactics]] with entity extraction and topic clustering as
+Tier 1 tactic; extended [[technical-seo-audit-checklist]] §4 with entity schema markup.
+No conflicts — directly operationalizes [[entity-oriented-search-fundamentals]] with
+actionable three-step framework and measurable results.
+
+## [2026-07-11] ingest | Entity-Oriented Search (Balog, 2018) — Selective academic ingest
+
+Created new source [[entity-oriented-search-balog-2018]] and concept
+[[entity-oriented-search-fundamentals]] covering foundational IR theory on
+how modern search systems (Google Knowledge Graph, AI systems like ChatGPT)
+organize information around *entities* rather than keywords/documents.
+Selectively ingested Chapters 1 (Introduction), 5 (Entity Linking), 8
+(Leveraging Entities in Document Retrieval); excluded Chapters 3-4, 6-7
+(theoretical algorithms outside SEO scope). Key contributions: entity
+definition/properties, knowledge base hierarchy (catalog→repository→KB),
+entity linking pipeline (mention detection→candidate selection→disambiguation),
+entity-based query expansion. Cross-linked from [[generative-engine-optimization]]
+(AI systems rely on entity linking to ground responses) and [[how-google-search-works]]
+(entity linking is parallel retrieval process to term-based ranking). No
+conflicts — foundational theory that complements existing wiki coverage of
+AI search mechanisms.
+
 ## [2026-07-08] lint | Full-wiki lint pass: 2 missing cross-refs fixed, listicle content split out, timeline re-sorted, bot names updated
 
 Clean: no broken wikilinks, no orphan pages, all source `origin:`
@@ -565,3 +612,346 @@ event order; future entries still appended); (5) updated stale
 current OpenAI/Anthropic crawler names mapped onto the
 training/indexing/retrieval taxonomy, with a note that bot names
 should be verified against vendor docs at audit time.
+
+## [2026-07-11] ingest | Google Search Fundamentals: Get Started
+
+Created new source [[google-search-fundamentals-get-started]] (official
+Google documentation on technical SEO fundamentals). Extended
+[[technical-seo-audit-checklist]] with additional guidance on robots.txt
+strategy (crawl control, not indexing control), sitemaps, canonicalization,
+mobile-first indexing as the default pattern, schema markup/rich results,
+and updated date from 2026-07-08 to 2026-07-11. This is foundational
+official guidance reinforcing and extending existing wiki coverage;
+no conflicts — all additions cross-link to existing pages and raise
+priority on mobile and schema markup guidance in audits.
+
+## [2026-07-11] ingest | Ahrefs: The Beginner's Guide to Technical SEO
+
+Created new source [[ahrefs-beginner-guide-technical-seo]] with practical
+prioritization framework and AI-specific risks. Extended
+[[technical-seo-audit-checklist]] with: (1) a priority-tier framework
+header (high-impact vs. medium-priority projects per Ahrefs finding that
+content/links outperform technical work for most sites), (2) new
+"AI search-specific technical risks" subsection in §5 covering JS rendering
+invisibility to LLMs, third-party blocking (Cloudflare), hallucinated URLs,
+code fingerprints, and AI content detection. Extended
+[[link-and-anchor-text-best-practices]] with a new "Link recovery and
+discovery: High-impact quick wins" section covering the 301-redirect link
+recovery tactic (single redirects restore hundreds of cross-domain links)
+and the contextual-internal-link-to-existing-rankings discovery pattern.
+No conflicts — reinforces and operationalizes the existing link-building
+and technical-audit guidance with a prioritization lens and new AI risks.
+
+## [2026-07-11] ingest | OnCrawl: XML Sitemap Optimization
+
+Created new source [[oncrawl-xml-sitemap-optimization]] and new playbook
+[[xml-sitemap-optimization-checklist]]. This source provides tactical
+operational guidance on sitemap content optimization complementing the
+strategic foundation in [[google-sitemaps-overview]]. Key contributions:
+the 20% discovery-from-sitemaps stat (vs. 80% from links), money-pages-only
+strategy, exclusion rules (non-200 responses, noindexed pages, canonicalized
+URLs), protocol compliance, section organization for GSC monitoring, and
+crawl budget efficiency principles. No conflicts — the OnCrawl tactics
+operationalize Google's "sitemaps are discovery aids" principle with
+concrete optimization rules; all findings consistent with [[how-google-search-works]]'s
+crawl budget mechanics.
+
+## [2026-07-11] ingest | Google: Robots.txt Introduction
+
+Created new source [[google-robots-txt-intro]], new concept
+[[robots-txt-strategy]], and new playbook [[robots-txt-audit-checklist]].
+Key contributions: the critical misconception-correction that robots.txt
+does NOT prevent indexing (blocked URLs can still rank if externally linked);
+robots.txt manages *crawler traffic*, not *indexing control* (use `noindex`
+meta tag for that); proper use cases (admin blocking, parameter cleanup,
+media filtering); syntax/crawl optimization rules; GSC testing. The concept
+page covers what robots.txt is/isn't; the playbook is an operational audit
+checklist. No conflicts — all findings align with
+[[google-search-fundamentals-get-started]] and [[how-google-search-works]]'s
+crawl-stage mechanics. This source fills a critical educational gap:
+most SEO practitioners misuse robots.txt for indexing control, a mistake
+this source corrects via official Google guidance.
+
+## [2026-07-11] ingest | Ahrefs: Robots.txt Implementation Guide
+
+Created new source [[ahrefs-robots-txt-guide]]. Extended [[robots-txt-strategy]]
+with file structure (500KB max, root-only), user-agent breakdown (Googlebot,
+Bingbot, Slurp, etc.), and directive types (Disallow/Allow/Sitemap with examples).
+Extended [[robots-txt-audit-checklist]] with critical syntax rules: trailing-slash
+gotchas (`Disallow: /de` vs. `/de/`), pattern matching (`*`, `$`), subdomain strategy
+(separate robots.txt per subdomain), GSC auditing via Coverage and URL Inspection
+tools, and dangerous-mistake warnings ("one character = SEO damage"). Key finding:
+overly broad directives like `Disallow: /de` unintentionally block `/designer-dresses/`
+and `/delivery-info.html` — a real SEO hazard. No conflicts — Ahrefs' tactical
+implementation details operationalize Google's strategic framework with concrete
+syntax examples and error scenarios.
+
+## [2026-07-11] ingest | Samuel Schmitt, "Topic Clusters Case Study: Key Insights"
+Added [[samuelschmitt-topic-cluster-case-study]]. Case study evidence for the
+existing pillar/topic-cluster guidance in [[link-and-anchor-text-best-practices]]:
+splitting a 3,500-word tutorial into a 5-page pillar+subpage cluster produced
+1000% weekly-pageview growth (16,000 pageviews over 5 months), diagnosed via a
+Google Search Console keyword-to-section mapping that showed rankings degrading
+deeper into the original article. Added a "when to split into a topic cluster"
+subsection with the diagnostic method and 7-step build workflow. No conflicts —
+extends existing topic-cluster/pillar-page guidance with a concrete before/after
+case study and a diagnostic trigger it previously lacked.
+
+## [2026-07-11] ingest | Lidia Infante/Rise at Seven, "The Beginner's Guide to Keyword Mapping"
+Added [[riseatseven-keyword-mapping-guide]] and new playbook
+[[keyword-mapping-and-cannibalization]] — no prior page covered
+keyword-to-page mapping as a discrete process. Captures the 5-step build
+process (GA priority pages → seed keyword → ~10 variations via
+Ahrefs/Semrush clustering → maintained/tagged map → optimization
+roadmap) and the three-failure-mode diagnostic tree (missing content,
+non-ranking content, keyword cannibalization). Cross-linked to
+[[link-and-anchor-text-best-practices]] (internal-linking diagnostics)
+and [[entity-based-seo-implementation]] (the entity-level version of
+cannibalization). No conflicts.
+
+## [2026-07-11] ingest | Rachel Handley/Semrush, "Keyword Mapping for SEO"
+Added [[semrush-keyword-mapping]]. Agrees with and extends
+[[riseatseven-keyword-mapping-guide]]/[[keyword-mapping-and-cannibalization]]:
+same core practice, but starts from topic areas + pillar/subpage clustering
+(Keyword Strategy Builder) rather than existing GA traffic, and adds
+on-page keyword-placement and keyword-map-aware anchor-text tactics.
+Updated [[keyword-mapping-and-cannibalization]] with the topic/pillar-first
+build variant and the on-page/internal-linking tactics section. No conflicts.
+
+## [2026-07-11] ingest | Google, "Google Images and Google Search"
+Added [[google-images-seo]] and new playbook [[image-seo-checklist]] —
+no prior page covered image-search-specific SEO. Key points: images
+must be real `<img>` elements (CSS backgrounds are never indexed), image
+sitemaps for CDN-hosted/otherwise-undiscovered images, alt text as "the
+most important attribute," and preferred-image declaration via
+`primaryImageOfPage`/`og:image`. The alt-text guidance directly extends
+[[ahrefs-site-audit-study-2023]]'s finding that missing alt attributes
+are the most common technical SEO issue (80.4% of sites) — pairs the
+prevalence data with positive guidance. Cross-linked to
+[[xml-sitemap-optimization-checklist]] and [[technical-seo-audit-checklist]].
+No conflicts.
+
+## [2026-07-11] ingest | Joshua Hardwick/Ahrefs, "Image SEO: 12 Actionable Tips"
+Added [[ahrefs-image-seo]]. Agrees with and substantially extends
+[[google-images-seo]]/[[image-seo-checklist]] with tactical/performance
+depth: file-type selection rules, compression-tool benchmarks
+(ImageOptim/ShortPixel/TinyPNG), an alt-text authoring formula ("This is
+a(n) ___ of ___"), image-sitemap XML tags, SVG minification/GZIP, lazy
+loading, browser caching, CDN usage (with a CNAME warning to avoid
+losing SEO value to the CDN's own domain), and a bonus link-equity
+recovery tactic (reclaiming backlinks that point directly at image
+files). Updated [[image-seo-checklist]] with all of the above. No
+conflicts.
+
+## [2026-07-11] ingest | Steven van Vessum/Conductor, "Content Pruning"
+Added [[conductor-content-pruning]] and new playbook
+[[content-pruning-playbook]] — no prior page covered content pruning.
+Captures the inventory→audit→decide process, cadence (6mo/3mo by site
+size), a 4-tier alternatives-to-deletion ladder (improve → consolidate
+→ noindex → remove-with-staging), and the recurring practitioner
+warning that redirect discipline, not the pruning decision itself, is
+what causes lasting traffic loss. Cross-linked to
+[[keyword-mapping-and-cannibalization]] (cannibalization is an audit
+trigger here, and "merge weak pages" is the same fix that playbook
+recommends) and [[technical-seo-audit-checklist]]. No conflicts.
+
+## [2026-07-11] ingest | Sydney Go/Semrush, "Content Pruning"
+Added [[semrush-content-pruning]]. Agrees with and extends
+[[conductor-content-pruning]]/[[content-pruning-playbook]]: same core
+model (refresh/consolidate/remove vs. Conductor's finer 4-way split
+that separates out noindex), a more granular 7-step process with a
+concrete traffic threshold example (1,000 monthly organic sessions) and
+an explicit "check backlinks before removing" step, the 404/broken-
+internal-link risk of removal spelled out, and a first-party case study
+(Semrush's own blog traffic growth from refreshing). Updated
+[[content-pruning-playbook]] with the threshold example, backlink-check
+step, removal risk, and case study. No conflicts.
+
+## [2026-07-11] ingest | Garrett Sussman/iPullRank, "How to Optimize for AI Overviews"
+Added [[ipullrank-optimize-for-sge]] (2024, oldest tactical AEO source in
+the wiki). Extends [[geo-content-optimization-tactics]] with the
+underlying chunk-level ("Fraggle") retrieval mechanism behind the
+existing focus-over-comprehensiveness finding, a PAA/follow-up-query
+keyword-expansion tactic (folded into
+[[keyword-mapping-and-cannibalization]]'s expand-variations step),
+chunk-relevance-scoring tools (MarketBrew, Orbitwise, SurferSEO,
+MarketMuse) with an 80%+ similarity benchmark, and a three-format
+(informational/local/shopping) AI-Overview content taxonomy. Noted but
+did not resolve a citation-position tension the source itself flags
+(93.8% of citations outside top-10 organic vs. a separate study finding
+concentration at positions 1/2/9) — different metric from, and not a
+direct conflict with, the wiki's existing ChatGPT search-index-citation
+data. No new conflicts requiring a Conflicting Evidence section.
+
+## [2026-07-11] ingest | Rich Sanger, "AI Overview Optimization: Insights from Google's Patent"
+Added [[richsanger-ai-overview-patent-insights]] (analysis of US patent
+11769017B1). Extends [[geo-content-optimization-tactics]] with a
+mechanistic, patent-based account of AI Overview selection: two-stage
+direct-match-then-embedding-distance verification (a concrete mechanism
+underlying the wiki's existing chunk-retrieval and semantic-similarity
+findings), position-1/2 link-inclusion rates (53%/~50%), the
+related-query pathway's 46%→67% inclusion lift, a YouTube pathway, and
+a query-dependent/query-independent/user-dependent evaluation-signal
+taxonomy. No conflicts — corroborates and mechanistically explains
+existing findings rather than contradicting them.
+
+## [2026-07-11] ingest | Crystal Carter/Wix, "Generative Engine Optimization: LLM Optimization Strategies"
+Added [[wix-generative-engine-optimization]]. Introduces a distinction
+the wiki hadn't made explicit: GEO/LLM-chat optimization (ChatGPT,
+Gemini, Perplexity, Claude as products) is a separate discipline from
+Google AI Overview optimization, with a different user journey
+(opt-in/interactive vs. passive/non-opt-in). Updated
+[[generative-engine-optimization]] with this distinction and a
+static/search-augmented/reasoning-model LLM taxonomy. Updated
+[[geo-content-optimization-tactics]] with an "LLM-chat-specific
+tactics" section: brand-mentions-not-links framing for static models,
+the feedback-loop (thumbs up/down) visibility tactic, citation-based
+internal linking for search-augmented models, and direct-platform-
+engagement tactics (publisher partnerships, custom GPTs, Perplexity
+Pages). Updated [[robots-txt-strategy]] with a concrete per-LLM
+crawler user-agent table (GPTBot/OAI-SearchBot/ChatGPT-User, BingBot,
+Google-Extended, ClaudeBot, PerplexityBot). No conflicts — the
+traffic-scale stats cited are consistent with (not contradicting)
+[[ai-traffic-scale-vs-hype]]'s framing.
+
+## [2026-07-11] ingest | Gianluca Fiorelli, "The Role of SEO in Making Branding Understood by Search Engines and AI"
+Added [[iloveseo-brand-seo-and-ai]] and new playbook
+[[brand-entity-seo-strategy]] — treats the brand itself as the entity
+to be made machine-legible (distinct from
+[[entity-based-seo-implementation]]'s focus on entities within
+content). Four-trial framework: Knowledge Graph/Organization-schema
+audit (40+ properties, sameAs, parentOrganization/subOrganization,
+about/mention), branded query analysis (GSC + competitor + product-
+level), a "winning zone" content framework (buyer persona × audience
+persona × business objective intersection), and cross-channel
+amplification as its own workstream. Also captured Navboost/CTR brand
+bias, the 44.19%-of-searches-are-brand-related stat (SparkToro), and
+"monosemanticity" as a new disambiguation concept relevant to
+[[entity-oriented-search-fundamentals]]. Cross-linked from
+[[entity-based-seo-implementation]]. No conflicts.
+
+## [2026-07-11] ingest | Jes Scholz, "Brand Entity SEO: A 5-Step Framework" (Search Engine Land, 2023)
+Added [[sel-brand-entity-seo-5-step-framework]]. Agrees with and
+operationalizes [[brand-entity-seo-strategy]] (from the prior iloveseo
+ingest) with a tighter, sequenced how-to: leadership-sponsorship
+business case via branded-SERP/knowledge-panel gap analysis, a
+semantic-triple entity bio validated via Google's NL API, a named
+corroboration-platform list (CrunchBase/Trustpilot/Yelp/Entrepreneur/
+Forbes/GBP/Wikidata) plus fact-checking old digital PR, a concrete
+Organization-schema required/optional property split (required:
+url+logo; optional: alternateName/legalName/description/image/contact/
+award/@id/sameAs) with a reminder to manually submit the About page URL
+in GSC, and related-entity markup (people/products/events/podcasts).
+Also names the SameAs-consolidation mechanism for disambiguating
+fragmented Knowledge Panel URLs. Updated [[brand-entity-seo-strategy]]
+with the full 5-step sequence and disambiguation mechanism. No
+conflicts — older (2023) source, but purely additive/operational.
+
+## [2026-07-11] ingest | Patrick Stox/Ahrefs, "Enterprise SEO Strategies For Maximum Growth"
+Added [[ahrefs-enterprise-seo]] and new playbook
+[[enterprise-seo-strategy]] — a new organizational layer above the
+wiki's existing tactical playbooks (stakeholder buy-in messaging,
+Impact-Effort prioritization, tiered reporting by audience, org
+structure/evangelism, content-dev/redirect-matching/content-gap process
+frameworks). Where content/link/technical tactics overlapped existing
+pages they agreed and extended rather than conflicted: cannibalized-
+content consolidation reinforces
+[[keyword-mapping-and-cannibalization]]/[[content-pruning-playbook]],
+the ~2/3-links-decay-over-9-years stat reinforces the redirect-
+discipline guidance in [[content-pruning-playbook]], and unlinked-
+mention recovery is the same tactic family as
+[[ahrefs-image-seo]]'s link-equity recovery. Cross-linked the new
+playbook to all four. No conflicts.
+
+## [2026-07-11] ingest | Jonas Sickler/Terakeet, "Enterprise SEO: A Marketer's Guide to Search Optimization"
+Added [[terakeet-enterprise-seo]]. Agrees with and extends
+[[ahrefs-enterprise-seo]]/[[enterprise-seo-strategy]] with an older
+(2020) but distinct market-share/brand-reputation framing. Updated
+[[enterprise-seo-strategy]] with: brand-reputation/SERP-control
+strategy (shoring up owned/preferred content ahead of a crisis, tied to
+[[geo-content-optimization-tactics]]'s AI-sentiment section as the
+classic-SERP counterpart), a 4-tier keyword funnel framework (research/
+category/product/branded) layered onto
+[[keyword-mapping-and-cannibalization]], content atomization (75%
+per-segment customization ratio), named BPM/dashboard tooling
+(Process Street/Pipefy/Kissflow, Domo/Tableau/DashThis/Grow), and
+publisher/corporate partnership link-building tactics. Flagged the
+source's own case-study stats (265% market-share growth, etc.) as
+vendor-reported, not independently verified. No conflicts.
+
+## [2026-07-11] ingest | Carlos Silva et al./Semrush, "SaaS SEO: An Actionable Strategy for Growth"
+Added [[semrush-saas-seo]] and new playbook [[saas-seo-strategy]] — the
+wiki previously had only a single line on SaaS SEO (in
+[[enterprise-seo-strategy]]). Captures the persona/problem-over-keyword
+and conversion-over-traffic SaaS reframing, the ToFu/MoFu/BoFu funnel
+(compatible with, not conflicting with,
+[[terakeet-enterprise-seo]]'s 4-tier Research/Category/Product/Branded
+framework), a 9-step build process, the SaaS-specific comparison-
+keyword ("[Product] vs. [Competitor]") tactic, and in-content
+conversion-mechanism tactics (internal linking across funnel stages,
+embedded lead capture, trial/demo CTAs). Cross-linked from
+[[enterprise-seo-strategy]]'s SaaS note and to
+[[keyword-mapping-and-cannibalization]]/[[technical-seo-audit-checklist]].
+No conflicts.
+
+## [2026-07-11] ingest | Chris Long/Go Fish Digital, "SaaS SEO: The Ultimate Guide"
+Added [[gofishdigital-seo-for-saas]]. Agrees with and extends
+[[semrush-saas-seo]]/[[saas-seo-strategy]] with a sharper, more
+contrarian core claim: single-vendor product pages rarely rank for
+competitive category terms because aggregators (Capterra alone: 750+
+category pages) dominate them, since users want to compare multiple
+vendors at once. Updated [[saas-seo-strategy]] with a new "aggregator
+competition" section (Capterra-mining, reverse-gap analysis, the
+84.3-day sales-cycle stat), a features/industries/alternatives page
+taxonomy, the "software" terminology tactic, and tangential-content
+link building (95-backlinks/69-domains case example). No conflicts —
+this source's "alternatives pages" tactic is functionally the same as
+[[saas-seo-strategy]]'s existing comparison-keyword step, just named
+differently; noted, not duplicated.
+
+## [2026-07-11] ingest | Kevin Indig, "3 Advanced SaaS SEO Strategies & Best Practices" (SEJ, 2020)
+Added [[sej-advanced-saas-seo-strategies]]. Extends [[saas-seo-strategy]]
+with a scalable-content-format layer not previously covered: learn hubs
+(topic-organized knowledge centers with embedded product mentions —
+Zapier/Canva examples), marketplace formats (one page template applied
+across many entities — Shopify/Zapier examples), and tools/calculators
+as self-linking product gateways (Gusto/Splunk examples). Noted a
+nuance versus the existing comparison-keyword/alternatives-page
+tactics: this source frames "alternatives to X" as a broad resource-
+content angle rather than a head-to-head comparison table — a
+complementary framing, not a conflict. Updated [[saas-seo-strategy]]
+with the new section and checklist item. No conflicts.
+
+## [2026-07-11] ingest | Viola Eva, "Effective SEO Implementation for Software Businesses" (SEJ, 2019)
+Added [[sej-seo-software-businesses]]. Extends [[saas-seo-strategy]]
+with a site-architecture layer: a mega-menu strategy (present the same
+product through multiple navigation lenses — brand/feature, function,
+industry, role, task — but link every overlapping category to one
+destination page, preventing cannibalization at the navigation-design
+stage rather than after the fact) and a Level 1/2/3 silo depth model
+with a concrete 10-30-posts-per-silo threshold, sharpening
+[[link-and-anchor-text-best-practices]]'s existing general siloing
+guidance. Its "most traffic comes from bottom-level posts" finding
+reinforces [[gofishdigital-seo-for-saas]]'s aggregator-competition
+conclusion. Updated [[saas-seo-strategy]] with the new section. No
+conflicts.
+
+## [2026-07-11] lint | Full-wiki lint pass: no orphans/broken links found, 2 missing cross-refs fixed
+Checked: (1) every wiki page is linked from at least one other page —
+no orphans found; (2) every `[[wikilink]]` target resolves to an
+existing page — no broken links (the only unmatched targets were
+`[[concept-slug]]`/`[[source-slug]]`, which are template placeholders
+in timeline.md's format documentation, not real links); (3) every page
+is listed in index.md — confirmed; (4) frontmatter completeness
+(type/tags/updated for concepts/playbooks, type/date_ingested/origin
+for sources) — all present; (5) existing Conflicting Evidence sections
+reviewed — all still accurate, none newly resolvable by today's
+ingests (which were mostly SaaS/enterprise/image/pruning topics
+unrelated to the open conflicts); (6) real-world-dated sources checked
+against timeline.md — today's 18 ingests are evergreen guides/tactics
+articles, not dated events, so correctly excluded per CLAUDE.md's
+event-vs-activity distinction.
+Fixed 2 missing cross-references: added [[image-seo-checklist]] and
+[[content-pruning-playbook]] to [[technical-seo-audit-checklist]]'s See
+also section; linked [[brand-entity-seo-strategy]] from
+[[enterprise-seo-strategy]]'s brand-reputation section.

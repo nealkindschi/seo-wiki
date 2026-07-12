@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-07-08
+updated: 2026-07-11
 ---
 
 
@@ -122,6 +122,112 @@ focused one:
   retrieval candidate at all — see the Technical crawlability checklist
   below) is a harder prerequisite for AI citation than previously
   documented in this wiki, not just for classic SERP ranking.
+
+## LLM-chat-specific tactics (distinct from AI Overview optimization)
+
+Per [[wix-generative-engine-optimization]] — see
+[[generative-engine-optimization]]'s new GEO-vs-AI-Overview distinction
+section for why this is a separate target from the rest of this
+playbook, which mostly concerns Google's AI-Overview/citation behavior.
+
+- **On static pre-trained LLMs (Claude, older GPT, Gemini 1.5,
+  NotebookLM), optimize for brand mentions, not links** — these models
+  rarely surface links at all, so track bulk brand/entity queries as
+  your visibility metric instead of referral traffic.
+- **Use the feedback loop.** Thumbs-up/down responses on incorrect
+  brand information can correct a static model's answers even between
+  training updates — worth doing as an ongoing maintenance task, not
+  just a one-time fix.
+- **On search-augmented LLMs (Perplexity, Copilot, GPT-4), optimize for
+  the underlying search engine**, not the LLM directly — Copilot
+  visibility tracks Bing rankings, for example, not Google's. Check
+  core queries at regular intervals since visibility fluctuates like
+  search rank.
+- **Build internal links from already-cited pages to pages you want
+  newly cited.** When a search-augmented LLM already references a page
+  (check by querying it), that page is the highest-leverage internal-
+  link source for pulling other pages into the LLM's citation set — an
+  LLM-citation-specific variant of [[link-and-anchor-text-best-practices]]'s
+  cornerstone-content linking guidance.
+- **Manage the LLM crawl deliberately.** LLM crawlers exist to help the
+  model understand content, not to rank it — they don't need access to
+  navigation/pagination pages the way a ranking crawler might benefit
+  from; prioritize crawler access to brand/product/service content
+  instead. Known user agents: `OAI-SearchBot`/`ChatGPT-User`/`GPTBot`
+  (ChatGPT), `BingBot` (Copilot), `Google-Extended` (Gemini, inferred),
+  `ClaudeBot` (Claude), `PerplexityBot` (Perplexity) — see
+  [[robots-txt-strategy]] for directive syntax.
+- **Go beyond content optimization — engage the platforms directly**:
+  publisher content-partnership programs (OpenAI, Perplexity Publisher
+  Program), custom GPTs (which also rank on Google and can embed
+  outbound links), and Perplexity Pages (curated in-app brand
+  experiences) are direct-visibility channels with no content-SEO
+  equivalent elsewhere in this playbook.
+
+## Chunk-level ("Fraggle") optimization and relevance-scoring tools
+
+Per [[ipullrank-optimize-for-sge]] (2024, the oldest tactical source in
+this playbook — treat the mental model as durable, the specific
+case-study numbers as dated/anecdotal) — the underlying mechanism
+behind the "focus over comprehensiveness" finding above: Google AI
+Overviews' RAG pipeline retrieves and cites specific text chunks
+("Fraggles"), not whole pages.
+
+- **Optimize at the chunk/section level, not just the page level.**
+  Identify which specific paragraph or section is likely to be
+  retrieved for a target query, and make *that* chunk clear, complete,
+  and self-contained — a great page with one weak target section can
+  still fail to get cited.
+- **Score chunk relevance before publishing**, using tools like
+  MarketBrew's AI Overviews Visualizer, Orbitwise, SurferSEO, or
+  MarketMuse. Target 80%+ similarity to currently-surfaced
+  top-performing chunks as a practical pre-publish benchmark.
+- **Supplement keyword research with People Also Ask and platform
+  follow-up/related searches**, not just seed keywords — folds directly
+  into [[keyword-mapping-and-cannibalization]]'s "expand keyword
+  variations" step when the target is AI Overviews specifically.
+- **AI Overview content has three format types** — informational
+  (paragraphs/lists/images/citations), local (+ maps/Business
+  listings), and shopping (+ product cards) — match your optimization
+  tactics to the format your query actually triggers (e.g. Shopping
+  Graph/product-feed optimization only matters for shopping-format
+  queries).
+
+## Patent-based selection mechanics (Google AI Overviews specifically)
+
+Per [[richsanger-ai-overview-patent-insights]] (analysis of Google
+patent US11769017B1) — a more mechanistic account of *why* the
+chunk-level and query-fanout tactics above work, specific to Google AI
+Overviews:
+
+- **Two-stage selection**: Google drafts an AI Overview summary from
+  direct-match query results, then separately verifies each candidate
+  citation via **embedding distance** — semantic similarity between the
+  generated summary statement and the actual source text — before
+  including a link. Write content whose phrasing is semantically close
+  to how the *answer* would plausibly be summarized, not just close to
+  the query's literal wording.
+- **You must already be a ranking candidate.** AI Overviews reuse
+  pre-ranked index results rather than re-scoring content in real
+  time — this is the same retrieval-eligibility gate as the Technical
+  crawlability checklist below, restated with patent-level detail:
+  no rank, no AI Overview inclusion, regardless of content quality.
+- **Position 1-2 for the primary query drives direct-match inclusion**:
+  53% link-inclusion rate at position 1, ~50% at position 2, dropping
+  meaningfully further down — ranking top-2, not just top-10, is the
+  target if the primary keyword is your inclusion pathway.
+- **The related/reformulated-query pathway is the bigger lever**:
+  targeting adjacent, less-competitive related queries raised link
+  inclusion from 46% to over 67% in the cited research — often a more
+  tractable win than fighting for position 1-2 on a highly competitive
+  primary keyword.
+- **YouTube is a third, separate pathway** into AI Overviews alongside
+  ranking well in text results — consistent with the brand-level
+  YouTube-correlation finding below.
+- **Sector pattern**: Health, Finance, and Education trigger AI
+  Overviews disproportionately often (informational-query-heavy),
+  with YouTube/Wikipedia/Investopedia dominating as linked sources for
+  informational queries in those sectors.
 
 ## Structural findings (word count, headings, schema, readability)
 
