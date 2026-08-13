@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-07-07
+updated: 2026-08-12
 ---
 
 # 90-Day GEO Sprint
@@ -108,3 +108,10 @@ sources.
 - [[ai-citation-landscape]] — background on why retrieval rank (Phase 1
   visibility benchmarking, Phase 3 content structuring) is the dominant
   factor this sprint is designed around.
+- [[airops-north-star-metric-ai-search]] — an independent "90-day
+  roadmap" framing from a different publisher (no phase-level detail
+  given in that source, unlike the week-by-week plan above), plus a
+  visibility-triggered-action workflow (create/refresh/outreach/
+  community) that pairs well with this sprint's Phase 4 measurement
+  step — see [[geo-content-optimization-tactics]]'s "Visibility-
+  triggered action workflow" section.

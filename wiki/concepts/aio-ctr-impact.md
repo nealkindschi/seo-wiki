@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-07
+updated: 2026-08-13
 ---
 
 # AIO Impact on Google CTR
@@ -36,6 +36,25 @@ would earn without an AI Overview present at all. This is the economic
 "why" behind [[generative-engine-optimization]]'s citation-focused
 tactics.
 
+## The pre-reversal trajectory: suppression worsened through 2025
+
+Per [[riseatseven-aeo-ai-search-statistics-2026]] (citing Ahrefs) —
+fills in the missing lead-up to the reversal documented below: CTR
+suppression at organic position 1 worsened from **34.5%** (Ahrefs,
+April 2025) to **58%** (Ahrefs, December 2025) before the reversal
+below began. Read together, the full arc is: suppression deepens
+through 2025 (Apr→Dec), then reverses starting in early 2026 (per the
+Seer Interactive data below, Dec 2025→Feb 2026) — two independently-
+sourced datasets that are sequential and consistent with each other,
+not duplicate measurements of the same window.
+
+**AI Mode is the most click-suppressive surface measured**: per the
+same source, Google AI Mode has a 93% zero-click rate, higher than AI
+Overview presence generally (~83%) or the 68% zero-click rate across
+all Google searches. Only 1% of visits click a source link inside an
+AI summary at all — a stark number for how rarely a citation converts
+to a click even when one is shown.
+
 ## 2025 decline, then a 2026 reversal nobody predicted
 
 After ~18 months of steady organic CTR compression on AIO-affected
@@ -46,6 +65,15 @@ The researchers frame this as a possible leveling-off / "new normal"
 rather than a full recovery to pre-AIO baselines. Non-AIO queries
 improved over the same period too (2.8% → 3.8% organic CTR, Jan 2025 to
 Feb 2026), suggesting broader dynamics beyond just AIO-specific recovery.
+
+**A parallel volatility pattern on a different platform/metric**: per
+[[seoclarity-chatgpt-citation-decline-analysis]] (see
+[[ai-citation-landscape]]'s "Citation volume volatility over time"
+section), ChatGPT citation *volume* (not CTR) fell 86-94% across five
+markets between February and April 2026, then rebounded by May — an
+independent example of the same "don't extrapolate a mid-window
+snapshot" lesson this section's CTR reversal illustrates, on a
+different platform and metric, not the same underlying number.
 
 ## A critical measurement lesson: separate impressions from clicks
 
@@ -222,6 +250,33 @@ read.
 only, excludes mobile/international; three verticals/named brand pairs,
 not a whole-web sample; explicitly correlational, not proven causal.
 
+## Conflicting Evidence
+
+- **Claim**: as of mid-to-late 2025, AI Overviews (or AI-generated
+  summaries generally) appeared in roughly 50% of all U.S. Google
+  queries, with ~60% of U.S. queries "influenced by AI."
+  - Supported by: [[airops-north-star-metric-ai-search]] (2025-07-31),
+    which states this as the "current state" alongside a 25%
+    July-2025 figure.
+  - Contradicted by: [[semrush-ai-overviews-study-2025]] (10M+ keywords,
+    Semrush/Datos, full 2025 calendar year), which found prevalence
+    peaking at 24.61% in **July 2025** — matching the AirOps source's
+    own "25%" figure for that month almost exactly — then *declining*
+    to settle at 15.69% by November 2025, never approaching 50%.
+  - **Current best guess**: the Semrush figure is more credible here —
+    it's a larger, methodologically-transparent keyword panel tracked
+    continuously across the full year, while the AirOps report doesn't
+    specify its measurement method for the 50%/60% figures. The two
+    non-conflicting data points (both sources' ~25% July 2025 figure)
+    suggest the AirOps report's "current state" number may conflate a
+    broader "influenced by AI" definition (searches where AI played
+    *any* role, including outside the SERP) with strict AI-Overview
+    presence, or may simply be a less rigorously sourced estimate.
+    Flagged as unresolved rather than discarding the AirOps figure
+    outright, since "influenced by AI" and "AI Overview present" are
+    plausibly two different (both real) metrics being reported under
+    similar-sounding language.
+
 ## Caveats
 
 The authors are explicit that: this is correlational, not causal
@@ -256,3 +311,7 @@ floors, not predictions.
   undercounting caveat above.
 - [[similarweb-downstream-impact-of-ai-visibility-2026]] — the
   AI-recommendation-to-visit study in the section above.
+- [[airops-north-star-metric-ai-search]] — the source of the conflicting
+  50%/60% AI Overview prevalence claim above.
+- [[riseatseven-aeo-ai-search-statistics-2026]] — the pre-reversal
+  CTR-suppression trajectory and AI Mode zero-click figures above.

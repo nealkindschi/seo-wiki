@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-07-11
+updated: 2026-08-13
 ---
 
 Why / when to use this: use when the goal is brand-level visibility and
@@ -162,6 +162,40 @@ Content alone doesn't build brand-entity signals — distribution does:
   linking and LLM-based understanding — see
   [[entity-oriented-search-fundamentals]] for the underlying entity-
   disambiguation pipeline this term describes.
+- **Pre-existing brand recognition compounds at the AI-buyer stage
+  too.** Per [[airops-geo-strategy-playbook]] (TrustRadius data), 78% of
+  buyers select brands they already know and 63% shortlist just 2-3
+  products — reinforcing that branded-awareness work (this page's core
+  thesis) pays off specifically at the AI-assisted shortlisting moment,
+  not just in classic SERP brand-query share.
+
+## Descriptor consistency across third-party sources
+
+Per [[siegemedia-llm-brand-visibility]] — a sharpening of this page's
+monosemanticity/consistent-naming principle, specifically for how AI
+systems build confidence in a brand claim: "if your brand gets
+mentioned several different times on 'best X' lists but is described as
+the best in several different ways, that is not providing sufficient
+confidence to Google and LLMs that you are actually the best for any
+given thing" (Ross Hudgens, Siege Media).
+
+- **The target metric is descriptor consistency, not mention count.**
+  Being mentioned often with inconsistent framing ("best value," "most
+  affordable," "budget option" for the same brand) undermines model
+  confidence more than being mentioned less often with one consistent
+  descriptor.
+- **Prefer specific positioning over generic claims.** "Best for solo
+  consultants" gives the model a buyer-query anchor; "best overall"
+  doesn't.
+- **Audit descriptors directly**: extract and tally the exact phrases
+  used to describe the brand across the top 5-10 third-party sources
+  for a given prompt to find where descriptors diverge — see
+  [[geo-content-optimization-tactics]]'s "multi-vote" audit method for
+  the full three-step process.
+- **Case study**: Zapier anchored editorial around four consistent
+  descriptors (automation, workflows, integrations, operational
+  efficiency), producing a $7.2M traffic increase and a 290% lift in
+  monthly organic traffic.
 
 ## Organizational note (process, not a technical tactic)
 

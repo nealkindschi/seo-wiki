@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-07-11
+updated: 2026-08-12
 ---
 
 ## Priority Framework
@@ -182,6 +182,14 @@ audit workflow). Quick-reference for this audit:
   rejection (the LLM sees the page but chooses not to use it), or a
   gap in the citation-monitoring tool's prompt coverage. Rule out
   access problems before assuming a content-quality issue.
+- **Deep-Research-specific mechanics**: per
+  [[chatgpt-deep-research-crawl-mechanics]], ChatGPT Deep Research
+  fetches under `OAI-SearchBot`, obeys robots.txt blocks silently (zero
+  content, no error surfaced anywhere), never executes JS or clicks,
+  and reads pages within a hard ~5,000-6,000 character budget that
+  heavy navigation (60+ links) can consume up to two-thirds of before
+  reaching content — audit navigation weight and robots.txt for this
+  bot specifically, not just AI bots in general.
 - **AI search-specific technical risks** (per
   [[ahrefs-beginner-guide-technical-seo]]) — distinct from traditional
   search crawlability:
@@ -262,5 +270,8 @@ audit workflow). Quick-reference for this audit:
   emerging MCP/WebMCP/ACP/UCP protocol layer.
 - [[peec-ai-server-logs-ai-search-2026]] — source for the server-log
   analysis method in §5.
+- [[chatgpt-deep-research-crawl-mechanics]] — source for the Deep
+  Research-specific mechanics (OAI-SearchBot enforcement, read-budget
+  navigation cost) added to §5.
 - [[ahrefs-site-audit-study-2023]] — 1M-domain prevalence data and
   priority calibration for the common issues in §1 and §4.

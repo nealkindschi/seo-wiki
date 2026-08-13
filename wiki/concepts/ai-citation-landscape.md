@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-08
+updated: 2026-08-13
 ---
 
 # AI Citation Landscape
@@ -202,6 +202,41 @@ search rather than a direct AI referral link, meaning a mention's
 downstream effect is largely invisible to referral-based traffic
 attribution. See [[aio-ctr-impact]] for the full writeup.
 
+**Citation eligibility is largely topic-agnostic; mention/recommendation
+eligibility is strongly topic-gated.** Per
+[[growth-memo-does-topical-focus-make-your-brand-visible]] (1,094
+categories, ChatGPT, 283,215 citation + 76,493 mention observations) —
+a quantitative sharpening of the citations-vs-mentions distinction
+above:
+
+- **Citation-only presence barely moves with topical relevance**: 41%
+  of appearances in categories *distant* from a brand's core expertise
+  are citation-only, vs. 40% in *closely related* categories —
+  essentially flat. "You can be a source on pretty much any topic if it
+  matches regular criteria for source citations."
+- **Named-mention rate is strongly topic-gated**: only 25% of
+  appearances in distant categories are named mentions, vs. 44% in
+  close categories — "the AI recommends you in core topics." Getting
+  cited somewhere off-topic doesn't translate into being recommended
+  there.
+- **Depth matters more than breadth for mentions specifically**:
+  appearing across many categories with only shallow depth (1-of-5
+  tested prompt variants) associates *negatively* with brand mentions
+  (-0.051), reversing to slightly positive once depth is established
+  (5-of-5). Citation share barely penalizes breadth at all regardless
+  of depth (+0.012 to +0.062) — "the spread-thin penalty is really a
+  penalty for shallow presence, not for breadth itself."
+- **Industry variation is large**: Finance and Real Estate reward broad
+  citation coverage (citation-breadth association rises from
+  +0.054→+0.139 and +0.021→+0.135 with full coverage), while Legal and
+  Healthcare punish breadth for *mentions* specifically (staying
+  negative, -0.058 and -0.037, even at full coverage) — "being a
+  credible source is not enough to make a brand the recommended answer"
+  in high-stakes fields.
+- **Category ownership requires repeat mentions, not just citations** —
+  a concrete threshold: citation presence alone doesn't constitute
+  "winning" a category.
+
 **Different signals drive each**:
 - **Recommendation/mention signals**: frequent co-occurrence with the
   brand's category, high branded search volume (humans searching for a
@@ -213,6 +248,90 @@ attribution. See [[aio-ctr-impact]] for the full writeup.
   major retrieval weight in RAG systems), clear extractable structure
   (headers, bullets, schema), and co-citation (multiple independent
   sources pointing to the same brand as the answer).
+
+## Citation volume volatility over time (2026)
+
+Per [[seoclarity-chatgpt-citation-decline-analysis]] (millions of
+ChatGPT interactions, US/UK/Canada/Germany/Italy, Feb-May 2026) — the
+most concrete, dated evidence for the citation instability this wiki
+had previously only documented qualitatively (e.g.
+[[airops-geo-strategy-playbook]]'s "only 30%/20% of brands stay visible
+run-to-run" stat):
+
+- **Citation volumes fell 86-94% across all five tracked markets**
+  between February and April 2026, tied to two specific OpenAI
+  platform changes (March 8 and April 19, 2026) rather than individual
+  brand performance — then **rebounded toward pre-March levels by
+  May**. Treat any single snapshot of citation performance as
+  potentially mid-swing, not a stable baseline.
+- **"Dual compression"**: the April 19 update reduced both the *share
+  of responses showing any citation* and the *number of citations per
+  response* simultaneously — two independent levers moving together,
+  compounding rather than offsetting the visibility loss.
+- **Regional variance was sharp and non-uniform**: US zero-citation
+  rate doubled (28%→48%) in March; Germany's zero-citation rate *fell*
+  in March (bucking the trend) before the worst collapse of any market
+  in April (→85%); Italy was the only market to recover in April. A
+  brand watching only its home market could easily mistake a
+  platform-wide swing for a brand-specific problem, or vice versa.
+- **Claimed mechanism (unverified)**: ChatGPT is described as becoming
+  more reliant on training data and less on live web retrieval over
+  this window, with its confidence threshold for answering without
+  sources "significantly lowered." If accurate, this would mean the
+  training-data-vs-live-retrieval balance in the table above isn't a
+  fixed architectural split but something the platform actively tunes
+  — treat this specific claim as the source's own interpretation, not
+  an independently confirmed OpenAI-disclosed change, while treating
+  the underlying volume-volatility data (well-evidenced, multi-market,
+  dated) as solid.
+- **Practical reframe**: from "how do we get cited?" to "does the AI
+  know, trust, and recommend our brand when no citation is provided?" —
+  an argument for weighting mention/recommendation-building work over
+  live-citation optimization specifically, given how much more volatile
+  citation-level metrics proved over this window.
+
+**Different metric, similar shape**: [[aio-ctr-impact]]'s "2025
+decline, then a 2026 reversal" section documents Google AI Overview
+organic *click-through rate* unexpectedly climbing from 1.3% (Dec 2025)
+to 2.4% (Feb 2026) after ~18 months of compression — a different
+platform and metric (CTR, not citation volume) on an overlapping-but-
+distinct timeframe. Cite both as independent examples of the same
+lesson (a mid-window snapshot isn't a stable trend), not as
+corroborating the same number.
+
+## Citation concentration and domain-level volatility
+
+Per [[riseatseven-aeo-ai-search-statistics-2026]] — a domain-level
+companion to the citation-*volume* volatility documented above,
+showing the *composition* of citations is just as volatile as the
+volume:
+
+- **Power-law concentration**: the top 15 cited domains capture 68% of
+  all consolidated AI citations. Reddit, YouTube, LinkedIn, Wikipedia,
+  and Forbes are the top 5 overall.
+- **Wikipedia's share of ChatGPT responses crashed from ~55% (August
+  2025) to under 20% (September 2025) after a single algorithmic
+  adjustment** — a dramatic, dated example of how fast a single
+  platform change can reshuffle citation composition, independent of
+  any change in Wikipedia's own content.
+- **YouTube and Reddit swapped positions within the UGC layer over the
+  same few months**: YouTube's share of social citations doubled
+  (18.9%→39.2%, Aug-Dec 2025) while Reddit's fell (44.2%→20.3%) over
+  the same window.
+- **Perplexity's Reddit concentration is extreme**: 46.7% of its top-10
+  citation sources are Reddit alone — sharper than the general
+  "Perplexity/Gemini favor Reddit" pattern already documented below.
+- **Government sites are cited more in AI search than traditional
+  search**: 6% vs. 2% — worth noting for YMYL-adjacent categories.
+- **Freshness sharpened**: 83% of commercial-query AI citations come
+  from content updated within the past 12 months, 60%+ within 6
+  months; ~65% of AI bot crawls target content under 1 year old.
+
+**Practical implication**: don't treat any measured citation-share
+number (Wikipedia's 55%, Reddit's dominance on a given engine, etc.) as
+a stable baseline to plan against for more than a few months — both the
+*volume* of citations (see above) and their *domain composition* (this
+section) can shift sharply on a platform's own timeline.
 
 ## Retrieval rank as the primary citation gatekeeper
 
@@ -248,6 +367,12 @@ corresponding search result at all, meaning ChatGPT cited from training
 data directly rather than live retrieval. These memory-cited pages had
 content profiles statistically identical to search-cited pages,
 suggesting no separate quality bar for training-data citation.
+
+**The mechanism behind this finding**: see
+[[rerankers-and-passage-selection]] for *why* retrieval rank dominates
+— a two-stage bi-encoder (cheap wide retrieval) → cross-encoder
+(expensive reranking of the shortlist) pipeline, where passages are
+scored independently of the page they sit on.
 
 ## Citation rate by source type and semantic relevance (ChatGPT)
 
@@ -458,6 +583,18 @@ grounded in retrieval (RAG), not a static trained "understanding."
 - [[airops-fan-out-effect-2026]] — the retrieval-rank-as-gatekeeper
   mechanism above, plus the authority-correlation Conflicting Evidence
   writeup in [[ai-visibility-correlation-factors]].
+- [[rerankers-and-passage-selection]] — the model-architecture
+  explanation (bi-encoder retrieval → cross-encoder reranking) for why
+  retrieval rank dominates citation, plus a diagnostic toolkit for
+  testing specific passages.
+- [[growth-memo-does-topical-focus-make-your-brand-visible]] — the
+  topical-relevance and depth-vs-breadth data behind the citations-vs-
+  mentions split above.
+- [[seoclarity-chatgpt-citation-decline-analysis]] — the dated,
+  multi-market citation-volume-volatility data above.
+- [[riseatseven-aeo-ai-search-statistics-2026]] — the citation-
+  concentration and domain-level volatility data above (Wikipedia's
+  crash, the YouTube/Reddit reshuffle, top-15-domain concentration).
 - [[similarweb-how-to-be-the-brand-ai-recommends-2026]] — the
   citations-vs-mentions distinction and two-data-source framing above,
   plus corroborating data in [[geo-content-optimization-tactics]] and

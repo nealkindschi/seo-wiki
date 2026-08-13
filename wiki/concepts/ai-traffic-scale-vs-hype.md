@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-08
+updated: 2026-08-13
 ---
 
 # AI Traffic Scale vs. the Hype
@@ -46,6 +46,27 @@ Perplexity combined — a differently-sourced, differently-measured
 ratio that points the same direction as this page's "1/1,000th"
 finding, without being the same statistic (worth citing both rather
 than treating them as duplicate confirmation of one number).
+
+## Fast growth from a small base
+
+Per [[riseatseven-aeo-ai-search-statistics-2026]] — a growth-*rate*
+data point that doesn't contradict the small-*absolute*-scale finding
+above, just adds the closing-speed dimension: AI search traffic grew
+42.8% (15.6B→27.4B visits) from Q1 2025 to Q1 2026, vs. Google Search's
+2.4% growth over the same window. Scale context: ChatGPT weekly active
+users reached ~900M by mid-2026 (up from ~400M in Feb 2025), with
+Google AI Mode surpassing 1B monthly users the same year. Within the
+generative-AI segment itself, the competitive mix is shifting fast:
+ChatGPT's share of generative-AI traffic fell from ~76% to ~53%
+(2025→2026) as Gemini's share climbed past 25% — read this as evidence
+that even the "1/1,000th the size" gap is a moving target, closing
+quickly in relative terms even though the absolute gap remains large.
+
+**Forecasts** (directional, not measured outcomes): Gartner (Feb 2024)
+projected a 25% decline in traditional search volume by 2026; Semrush
+projects AI overtaking traditional search by 2028. Treat both as
+industry forecasts, not confirmed trend data — file alongside, not in
+place of, the measured clickstream snapshot above.
 
 ## Influence precedes search — search converts, it doesn't create
 
@@ -107,3 +128,5 @@ search share rather than competing against it.
   worth tracking given Google's traffic dominance.
 - [[ahrefs-b2b-seo-statistics-2025]] — the independent 345x
   traffic-ratio corroboration above.
+- [[riseatseven-aeo-ai-search-statistics-2026]] — the growth-rate and
+  user-count stats above, plus the Gartner/Semrush forecasts.

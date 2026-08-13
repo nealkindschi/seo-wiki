@@ -955,3 +955,197 @@ Fixed 2 missing cross-references: added [[image-seo-checklist]] and
 [[content-pruning-playbook]] to [[technical-seo-audit-checklist]]'s See
 also section; linked [[brand-entity-seo-strategy]] from
 [[enterprise-seo-strategy]]'s brand-reputation section.
+
+## [2026-08-12] ingest | The GEO Strategy Playbook for Marketers and Organic Growth Teams (AirOps)
+
+Ingested [[airops-geo-strategy-playbook]] (Josh Spilker, AirOps,
+2026-07-21). Added a "Measurement framework: five weekly GEO metrics"
+section to [[generative-engine-optimization]]; corroborating structural/
+freshness data points and a new "Vendor evaluation readiness" section
+plus Carta/Webflow case studies to [[geo-content-optimization-tactics]];
+off-domain/listicle-dominance scale figures to [[listicles-in-ai-search]];
+and buyer-adoption/budget stats to [[brand-entity-seo-strategy]] and
+[[enterprise-seo-strategy]]. No conflicts found — all claims agreed with
+or extended existing pages (flagged one adjacent-not-contradictory nuance
+against [[ai-traffic-scale-vs-hype]], noted in the source page rather
+than logged as a conflict).
+
+## [2026-08-12] ingest | Brand Visibility Is the North Star for AI Search (AirOps)
+
+Ingested [[airops-north-star-metric-ai-search]] (Josh Spilker, AirOps,
+2025-07-31). Added Sentiment Score and Brand Visibility Score formulas
+plus the single-metric-to-five-metric evolution note to
+[[generative-engine-optimization]]; a Content Engineer/Content
+Strategist/Growth Engineer team-structure note to
+[[enterprise-seo-strategy]]; a visibility-triggered action workflow
+(create/refresh/outreach/community) to [[geo-content-optimization-tactics]];
+and an independent "90-day roadmap" cross-reference to
+[[genai-search-90-day-sprint]].
+
+## [2026-08-12] conflict | AI Overview prevalence — AirOps north-star report vs. Semrush 2025 study
+
+[[airops-north-star-metric-ai-search]] claims AI Overviews/AI-generated
+summaries appeared in ~50% of all U.S. Google queries (with ~60%
+"influenced by AI") as of its July 2025 publish date.
+[[semrush-ai-overviews-study-2025]] (10M+ keywords, full 2025 calendar
+year) found prevalence peaked at 24.61% in July 2025 — matching the
+AirOps report's own separately-stated "25%" July figure — then declined
+to settle at 15.69% by November 2025, never reaching 50%. Logged as a
+Conflicting Evidence section in [[aio-ctr-impact]]; leaning toward the
+Semrush figure as more credible (larger, transparent methodology) but
+flagged unresolved since "influenced by AI" may be a genuinely broader,
+non-conflicting metric than strict AI Overview presence.
+
+## [2026-08-12] ingest | Rerankers for GEO/AEO: How AI search chooses passages and sources (Peec AI)
+
+Ingested [[peec-ai-rerankers-for-geo-aeo-2026]] (Metehan Yesilyurt, Peec
+AI, 2026-08-06). Created new concept page
+[[rerankers-and-passage-selection]] covering the retrieval→reranking→
+generation pipeline, bi-encoder/cross-encoder mechanics, open reranker
+model families, and key experimental findings (answer-shape beats
+topical relevance, attention-sink caveats). Added a "Reranker
+diagnostics for citation troubleshooting" section (intent-to-answer-
+shape table, high-impact edits, diagnostic workflow) to
+[[geo-content-optimization-tactics]]. Cross-referenced from
+[[ai-citation-landscape]]'s retrieval-rank-gatekeeper section and
+[[generative-engine-optimization]]. No conflicts — this source
+mechanistically explains and extends existing empirical findings
+([[airops-fan-out-effect-2026]], [[richsanger-ai-overview-patent-insights]])
+rather than contradicting them.
+
+## [2026-08-12] ingest | How ChatGPT Deep Research reads your site: What the logs reveal (Peec AI)
+
+Ingested [[peec-ai-chatgpt-deep-research-logs-2026]] (David Konitzny,
+Peec AI, 2026-06-22). Created new playbook page
+[[chatgpt-deep-research-crawl-mechanics]]: the three-command search/
+open/find reading loop, read-budget-vs-navigation-cost data,
+`OAI-SearchBot` robots.txt enforcement, alt-text-as-content, re-read/
+abandonment triggers, and live-narrated source-trust vocabulary.
+Cross-referenced from [[how-google-search-works]]'s AI bot-type
+taxonomy, [[technical-seo-audit-checklist]] §5, and
+[[geo-content-optimization-tactics]]'s LLM-chat tactics section. No
+conflicts — extends existing crawler-taxonomy and technical-risk
+findings with a log-verified case study of one specific agent.
+
+Also noted: the user's separate request to ingest
+https://peec.ai/blog/why-server-logs-are-crucial-for-ai-search-strategy
+is a duplicate — that source was already ingested 2026-07-08 as
+[[peec-ai-server-logs-ai-search-2026]]; no re-ingest performed.
+
+## [2026-08-12] ingest | Why Ranking on Page One Isn't Enough (AirOps)
+
+Ingested [[airops-structuring-content-for-llms]] (Oshen Davidson,
+AirOps, 2025-07-18) — the original, more granular dataset behind
+[[airops-geo-strategy-playbook]]'s later "12,000+ page" structural
+citation stats. Rewrote the "Independent corroboration" paragraph in
+[[geo-content-optimization-tactics]]'s Structural findings section with
+the full schema/heading/list breakdown, the bullet-points-don't-matter
+finding, and the Reddit/Quora forum-exclusion gap (11.1% Google vs.
+0.05% ChatGPT on identical queries). No conflicts.
+
+## [2026-08-12] ingest | Google Doesn't Punish AI Content; It Punishes Bad Content (Ahrefs)
+
+Ingested [[ahrefs-google-doesnt-punish-ai-content-2026]] (Ryan Law,
+Ahrefs, 2026-07-27, 1M SERP pages). Added an empirical-confirmation note
+plus the "Mount AI" crawl-economics mechanism to
+[[e-e-a-t-and-page-quality]]'s Scaled Content Abuse section, and a
+concrete AI-content quality-failure-mode checklist to
+[[geo-content-optimization-tactics]]'s Scaled Content Abuse warning. No
+conflicts — this large-scale study empirically confirms Google's
+already-documented policy (targets low-effort scaled automation, not
+AI-authorship per se) rather than contradicting it.
+
+## [2026-08-12] ingest | Does topical focus make your brand more visible? (Growth Memo)
+
+Ingested [[growth-memo-does-topical-focus-make-your-brand-visible]]
+(Kevin Indig, Growth Memo, 2026-08-03; 1,094 categories, Semrush AI
+Visibility Toolkit/ChatGPT). Extended [[ai-citation-landscape]]'s
+"Citations vs. brand mentions" section with quantitative topical-
+relevance data (citation eligibility ~topic-agnostic, mention
+eligibility strongly topic-gated) and the depth-beats-breadth finding.
+Added a depth-before-breadth category-expansion sequencing note, with
+Finance/Real-Estate-vs-Legal/Healthcare industry variation, to
+[[geo-content-optimization-tactics]]'s third-party authority-building
+section. No conflicts — quantifies and sharpens an existing conceptual
+distinction rather than contradicting anything.
+
+## [2026-08-12] ingest | Why AI Gets Your Brand Details Wrong—and How to Fix It (seoClarity)
+
+Ingested [[seoclarity-ai-misrepresentation-2026]] (Rebecca Brosnan,
+seoClarity, 2026-06-22). Restructured
+[[geo-content-optimization-tactics]]'s "Sentiment monitoring and
+correction" root-cause step around a four-category taxonomy (missing
+information, positioning misalignment, unstructured data, conflicting
+external sources), added real-world examples, and added a
+structured-data-as-source-of-truth framing. No conflicts.
+
+## [2026-08-12] ingest | Tracking the Volatility of ChatGPT's Citations (seoClarity)
+
+Ingested [[seoclarity-chatgpt-citation-decline-analysis]] (Mitul
+Gandhi, seoClarity, updated 2026-06-19; Feb-May 2026, 5 markets). Added
+a new "Citation volume volatility over time (2026)" section to
+[[ai-citation-landscape]] with dated inflection points (March 8/April
+19, 2026), the dual-compression mechanism, and regional variance.
+Cross-referenced from [[generative-engine-optimization]]'s
+measurement-framework section as a concrete example of why weekly
+tracking matters, and from [[aio-ctr-impact]]'s 2025-decline/2026-
+reversal section as a different-metric/platform parallel. No conflicts
+— flagged the source's "increasing training-data reliance" mechanism
+claim as unverified interpretation, distinct from the well-evidenced
+volume-volatility data itself.
+
+## [2026-08-13] ingest | AEO/AI Search & Citation Statistics 2026 (Rise at Seven)
+
+Ingested [[riseatseven-aeo-ai-search-statistics-2026]] (Carrie Rose,
+Rise at Seven, 2026-08-07; a 22+-source stats compilation). Most stats
+corroborate existing wiki sources (Aggarwal GEO paper's quotation/stats
+lift, Reddit/YouTube/Wikipedia citation dominance) — added the
+genuinely new figures: growth-trajectory/forecast stats to
+[[ai-traffic-scale-vs-hype]]; the pre-reversal CTR-suppression
+trajectory (34.5%→58%) and AI Mode's 93% zero-click rate to
+[[aio-ctr-impact]]; citation-concentration and domain-level volatility
+(Wikipedia's 55%→20% crash, YouTube/Reddit reshuffle, top-15-domain 68%
+concentration) to [[ai-citation-landscape]]; and a marketer-adoption-gap
+caveat to [[enterprise-seo-strategy]].
+
+## [2026-08-13] conflict | Marketer AEO-adoption rate — Rise at Seven/Acquia vs. AirOps/Branch
+
+[[riseatseven-aeo-ai-search-statistics-2026]] (citing Acquia/
+Researchscape, n=500+) reports only 20% of marketers are currently
+implementing AEO despite 70% expecting impact within 1-3 years.
+[[airops-geo-strategy-playbook]] (citing Branch 2026, 300+ leaders)
+reports 98% of enterprise marketing leaders already optimizing or
+planning to within 12 months. Flagged as an unresolved survey-
+methodology/population discrepancy (not adjudicated — neither source
+discloses enough methodology detail in this wiki to determine which is
+more representative) in [[enterprise-seo-strategy]]'s stakeholder
+buy-in section rather than silently preferring either number.
+
+## [2026-08-13] ingest | Four Siege Media pieces: versus pages, best X pages, LLM brand visibility, TOFU content GEO
+
+Ingested [[siegemedia-versus-pages]] (Ross Hudgens, 2026-06-01),
+[[siegemedia-best-x-pages]] (Marianna Mankle, 2026-06-30),
+[[siegemedia-llm-brand-visibility]] (Eli Smith, 2026-05-19), and
+[[siegemedia-tofu-content-geo]] (Taylor Lynch, 2026-07-09).
+
+- Extended [[geo-content-optimization-tactics]]'s "Vendor evaluation
+  readiness" section with the versus-pages content-type hierarchy
+  (Spearman 0.65, strongest single predictor of B2B AI traffic) and
+  volume-scaling curve, plus best-X engagement/structural benchmarks.
+- Added a 45%-proprietary-data-citation-lift stat and the Zapier case
+  study to the same page's original-data section.
+- Added a three-step "multi-vote" audit method, descriptor-consistency
+  framing, and concrete visibility/sentiment benchmarks to the
+  Sentiment monitoring section.
+- Added a new "TOFU investment: the 50% visibility test" section to
+  [[generative-engine-optimization]]'s measurement framework.
+- Added a versus-pages-vs-aggregator-competition cross-reference to
+  [[listicles-in-ai-search]].
+- Added the descriptor-consistency framing and Zapier case study to
+  [[brand-entity-seo-strategy]].
+
+No conflicts — noted one methodology-flagged, non-conflicting
+difference (Siege Media's 83% ChatGPT "share of LLM activity," their
+own client-tracking metric, vs. Rise at Seven's ~53% industry-wide
+"share of generative-AI traffic" figure) in the
+[[siegemedia-llm-brand-visibility]] source page.

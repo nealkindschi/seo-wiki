@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-11
+updated: 2026-08-13
 ---
 
 # Generative Engine Optimization (GEO / AEO)
@@ -126,6 +126,101 @@ states AI-Overview clicks show higher-quality engagement. Site owners
 who want to *limit* rather than maximize inclusion have explicit
 controls — see [[controlling-ai-feature-inclusion]].
 
+## Measurement framework: five weekly GEO metrics
+
+Per [[airops-geo-strategy-playbook]] — GEO needs its own scorecard and
+review cadence rather than folding into an existing SEO dashboard,
+because "the two disciplines are answering two different questions for
+two different judges." Track these five metrics **weekly**, not
+quarterly:
+
+1. **Citation rate** — how often a page is used as a cited source.
+2. **Mention rate** — brand references without an accompanying link
+   (relevant especially for static pre-trained LLMs, per the taxonomy
+   above, which rarely surface links at all).
+3. **Share of voice** — visibility relative to competitors across
+   identical prompts.
+4. **Sentiment** — whether brand descriptions read positive, neutral, or
+   negative; see [[geo-content-optimization-tactics]]'s sentiment
+   monitoring section for the fix workflow.
+5. **Source attribution** — where citations actually originate from.
+
+**Origin of this framework**: per [[airops-north-star-metric-ai-search]]
+(the same publisher, 2025-07-31, about a year earlier), the original
+proposal was a single composite **Brand Visibility Score** — "answers
+mentioning your brand ÷ total answers for your category" — built from
+just three of the five sub-metrics above (citation rate, sentiment,
+share of voice). The later report splits this into five separately-
+tracked weekly metrics rather than one blended score. Two concrete
+formulas from the earlier report are still useful and not superseded:
+
+- **Sentiment Score** = (Positive mentions + 0.5 × Neutral mentions) ÷
+  Total mentions.
+- **Brand Visibility Score** = answers mentioning your brand ÷ total
+  answers for your category — a reasonable single top-line number if
+  you want one composite metric rather than tracking all five
+  separately.
+
+"AI doesn't click. It answers." — the earlier report's framing for why
+click/pageview/CTR/MQL metrics fail to capture this: pageviews are
+inflated by bots and misaligned clicks, traditional rankings don't
+guarantee AI-interface surfacing, CTR is largely irrelevant amid
+zero-click answers, and leads/MQLs are often vanity metrics without
+revenue attribution.
+
+**Why weekly**: visibility is volatile — only 30% of brands stay visible
+in AI answers from one run to the next, and just 20% remain visible
+across five consecutive identical prompts. A quarterly check can miss an
+entire decay-and-recovery cycle. This isn't hypothetical: per
+[[seoclarity-chatgpt-citation-decline-analysis]], ChatGPT citation
+volume fell 86-94% across five markets between February and April
+2026 (tied to two dated OpenAI platform changes), then rebounded to
+pre-March levels by May — a quarterly-cadence team would have measured
+either the trough or the recovery and drawn the wrong long-term
+conclusion either way. See [[ai-citation-landscape]]'s "Citation volume
+volatility over time" section for the full data. Run GEO tracking **parallel to** SEO
+tracking, not as a replacement for it — analyze visibility at the
+**query level**, not brand level, to catch gaps specifically in
+comparison/evaluation-stage prompts (where buying decisions actually
+happen), rather than only tracking a blended brand-wide number.
+
+## TOFU investment: the 50% visibility test
+
+Per [[siegemedia-tofu-content-geo]] — a decision layer for *which*
+topics deserve top-of-funnel content investment at all, distinct from
+the weekly citation/mention/sentiment tracking above (which measures
+performance once a topic is already chosen):
+
+- **A topic qualifies for continued TOFU investment only if both**: (1)
+  the brand achieves 50%+ visibility across multiple LLM platforms for
+  that topic's query, and (2) the topic carries enough search volume to
+  justify the investment. Topics failing either test should be
+  deprioritized.
+- **Why 50%**: LLMs increasingly *name specific vendors* when answering
+  category-definition questions, not just define the term — e.g.
+  HubSpot appears in 83% of Gemini responses to "what is CRM?" TOFU
+  content's job has shifted from "rank for the definitional query" to
+  "be the vendor named alongside the definition."
+- **Qualifying topics**: product-connected/category-defining questions
+  where the answer inherently references vendors (e.g. "what is CRM?").
+  **Disqualifying topics**: purely definitional/encyclopedic questions
+  answerable with no commercial reference (e.g. "what is
+  photosynthesis?") — no visibility threshold makes these worth TOFU
+  budget.
+- **Challengers should target sub-category and problem-framed queries**
+  ("CRM for real estate teams," "CRM with best mobile app") where a
+  category leader's flagship-term dominance doesn't carry over — these
+  are separate visibility opportunities, not just a smaller slice of
+  the same competition.
+- **Platform variation is large enough to require testing on multiple
+  platforms, not one**: HubSpot's 83% Gemini visibility for "what is
+  CRM?" doesn't transfer to Google's AI Overview for the identical
+  query, where different vendors are named instead.
+- **The "re-index method"**: sample TOFU topics across multiple LLMs/
+  runs weekly, flag topics at/above the 50% threshold, cross-reference
+  against search volume, and prioritize investment accordingly —
+  consistent with the weekly (not quarterly) cadence argued for above.
+
 ## Conflicting Evidence
 
 - **Claim**: Traditional SEO is largely obsolete for generative engines,
@@ -201,7 +296,30 @@ controls — see [[controlling-ai-feature-inclusion]].
   fraction of overall search/social traffic, so the tactics in this
   page matter most where they overlap with Google's own AI features
   (which inherit Google's dominant search share) rather than in
-  isolation.
+  isolation. Worth reading alongside [[airops-geo-strategy-playbook]]'s
+  94%-of-B2B-buyers-use-AI stat: low aggregate traffic share and high
+  purchase-decision influence are not contradictory, since the latter
+  measures a considered-buyer subset rather than overall web traffic.
+- [[airops-geo-strategy-playbook]] — the source for the five-metric
+  weekly measurement framework above, plus buyer-adoption context (94%
+  of B2B buyers use generative AI in purchase decisions, 98% of
+  enterprise marketers already optimizing or planning to).
+- [[airops-north-star-metric-ai-search]] — the earlier (2025-07-31)
+  single-metric precursor to the five-metric framework above, source of
+  the Sentiment Score and Brand Visibility Score formulas and the
+  Content Engineer/Content Strategist/Growth Engineer team-structure
+  model (see [[enterprise-seo-strategy]]).
+- [[rerankers-and-passage-selection]] — the passage-level model
+  mechanism (retrieval → reranking → generation) underneath the
+  brand-level citation-rate metric above; explains *why* a page can be
+  indexed and ranking yet still lose the citation.
+- [[siegemedia-tofu-content-geo]] — the source for the TOFU 50%-
+  visibility investment test above.
+- [[siegemedia-versus-pages]], [[siegemedia-best-x-pages]],
+  [[siegemedia-llm-brand-visibility]] — comparison-content and
+  descriptor-consistency tactics in
+  [[geo-content-optimization-tactics]]'s "Vendor evaluation readiness"
+  and "Sentiment monitoring" sections.
 
 ## Open questions
 

@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-07-11
+updated: 2026-08-13
 ---
 
 
@@ -97,6 +97,88 @@ a measurable axis), not data dumps or narrative-buried stats.
   crawled/cited — if citation is the goal, publish the benchmark
   itself openly, even if a deeper report stays gated.
 
+**Case study**: per [[airops-geo-strategy-playbook]], Carta's
+integration of internal/proprietary datasets into its content produced
+a 7x citation increase, with a 75% citation rate on newly published
+pages — a concrete result for the "originality"/proprietary-data
+guidance above.
+
+**Independent corroboration with a specific lift number**: per
+[[siegemedia-llm-brand-visibility]], brands using proprietary data earn
+45% more AI citations than those relying on generic "best overall"
+positioning — specificity and originality outperform high-volume
+mentions. Case study: Zapier anchored its editorial around four
+consistent descriptors (automation, workflows, integrations,
+operational efficiency), producing a $7.2M traffic increase and a 290%
+lift in monthly organic traffic.
+
+## Vendor evaluation readiness
+
+Per [[airops-geo-strategy-playbook]] — a workstream specifically for
+comparison/evaluation-stage prompts, where 63% of buyers shortlist only
+2-3 products and 78% pick brands they already know (TrustRadius):
+
+- **Own the comparison format.** Prioritize appearing (and ranking well)
+  within "best [category]" and "X vs Y" pages — see the "Target
+  listicle rank, not just listicle inclusion" tactic above for the
+  mechanics. This report's data reinforces why: ~90% of third-party
+  citations come from listicles/comparisons, and cited brands appear in
+  the first three positions of those pages 80% of the time — a strong
+  case for prioritizing top-3 listicle rank over building an owned
+  comparison page (85% of brand mentions in AI search are off-domain,
+  and brands are 6.5x more likely to be cited externally than on their
+  own site).
+
+**Versus pages specifically outperform every other comparison format.**
+Per [[siegemedia-versus-pages]] (116 B2B sites, 739,492 AI search
+sessions) — a content-type hierarchy within "own the comparison format"
+above, not a replacement for it:
+
+- **"X vs Y" pages are the strongest single content-type predictor of
+  B2B AI search traffic measured anywhere in this wiki** (Spearman
+  0.65, double the next-best type). Alternatives and "best X software"
+  pages compete directly with G2/Capterra/affiliate aggregators for the
+  same citation; true 1:1 versus pages largely escape that competition
+  because aggregators rarely publish genuine head-to-head comparisons.
+- **Build to real scale, with a concrete curve**: 1-5 comparison pages
+  is baseline; 6-20 pages → +350% median AI sessions; 21+ pages → +900%
+  vs. the 1-5 group. If starting from zero, build versus pages first,
+  then layer alternatives/best-X content on top for incremental signal.
+- **Set honest expectations**: content explains only ~28% of AI-traffic
+  variance — the rest is brand authority, category fit, and citation-
+  graph density. Content is still the most *executable* lever for
+  challenger brands without existing category authority, but it won't
+  substitute for authority at the top of the distribution.
+- **Don't chase pricing-page publication as an AI-traffic tactic on its
+  own** — its correlation with AI traffic disappears once controlling
+  for overall comparison-content investment; it's a proxy for having
+  already built a versus-page program, not an independent lever.
+
+**Structural and engagement benchmarks for "best X" pages specifically.**
+Per [[siegemedia-best-x-pages]] (101 B2B "best X" pages, 12 months GA4
+data) — these are conversion/engagement benchmarks, distinct from (and
+complementary to) the AI-citation tactics above:
+
+- **"Best for" callouts are the highest-weight element in a comparison
+  table** — readers scroll back to them more than to any other element;
+  make sure every entry has one.
+- **Session duration is the clearest quality signal**, driven by deep
+  comparison tables, transparent pricing, and same-page answers to
+  likely follow-up questions.
+- **Fix low pages-per-session with deliberate in-body linking** from
+  each listicle entry to its matching product/service page — treat
+  every entry as a mini conversion funnel, not just a citation target.
+- **Maintain quotable consistency across surfaces.** Use the exact same
+  specific metrics/facts on your own blog, in third-party placements,
+  and in community threads — corroboration across independent sources
+  is what builds model trust in a claim, not repetition on one domain
+  alone.
+- **Replace vague superlatives with specific, factual, extractable
+  language** ("30% faster page loads in our Q2 benchmark" beats "the
+  fastest solution") — the same "quotable, evidence-backed" principle
+  as Tier 1's Quotation/Statistics Addition tactics, applied to
+  vendor-comparison copy specifically.
+
 ## Focus over comprehensiveness (fan-out breadth finding)
 
 Per [[airops-fan-out-effect-2026]] — nuances the Tier 1 tactics above:
@@ -156,7 +238,12 @@ playbook, which mostly concerns Google's AI-Overview/citation behavior.
   instead. Known user agents: `OAI-SearchBot`/`ChatGPT-User`/`GPTBot`
   (ChatGPT), `BingBot` (Copilot), `Google-Extended` (Gemini, inferred),
   `ClaudeBot` (Claude), `PerplexityBot` (Perplexity) — see
-  [[robots-txt-strategy]] for directive syntax.
+  [[robots-txt-strategy]] for directive syntax. For ChatGPT's Deep
+  Research feature specifically, see
+  [[chatgpt-deep-research-crawl-mechanics]] for log-verified detail on
+  how it actually reads a page once fetched (three-command loop, hard
+  character-budget caps, source-order-not-CSS visibility, alt-text-as-
+  content).
 - **Go beyond content optimization — engage the platforms directly**:
   publisher content-partnership programs (OpenAI, Perplexity Publisher
   Program), custom GPTs (which also rank on Google and can embed
@@ -192,6 +279,74 @@ Overviews' RAG pipeline retrieves and cites specific text chunks
   tactics to the format your query actually triggers (e.g. Shopping
   Graph/product-feed optimization only matters for shopping-format
   queries).
+
+## Reranker diagnostics for citation troubleshooting
+
+Per [[peec-ai-rerankers-for-geo-aeo-2026]] (see
+[[rerankers-and-passage-selection]] for the full pipeline/model
+mechanism) — a diagnostic method for when a page is indexed, ranks, and
+is even retrieved by an AI system, yet another source keeps getting
+quoted instead:
+
+**First, locate the failure stage**: no retrieval at all → an
+indexing/coverage/authority/freshness problem (see Technical
+crawlability and E-E-A-T checklists below); retrieved but losing →
+an answer-shape or passage-relevance problem (this section); strong
+passage but still no citation → a source-quality, diversity, or
+generation-stage issue (see the provider-specific and three-layer
+source-strategy sections above).
+
+**Match content shape to query intent** — a passage that's topically
+relevant but not shaped like the expected answer scores far worse on
+rerankers than a passage that directly answers, even on the same topic:
+
+| Query intent | Answer shape | Citeable requirements |
+|---|---|---|
+| "What is X?" | Concise definition | Entity name, category, distinguishing facts, sourceable support |
+| "Best X for Y" | Shortlist with criteria | Named options, inclusion criteria, trade-offs, audience fit, current evidence |
+| "X vs Y" | Like-for-like comparison | Same criteria applied to both, differences stated directly |
+| "How to do X" | Ordered procedure | Prerequisites, steps, expected outcome, exceptions |
+| Price/date/status | Direct fact with timestamp | Exact value, effective date, primary source, update context |
+
+**High-impact edits**:
+- [ ] Add a direct-answer sentence in the first two lines of each
+      target section.
+- [ ] Name the subject explicitly — replace "it"/"this tool" pronouns
+      with the actual entity name, since passages are often scored in
+      isolation from surrounding context.
+- [ ] Cover missing decision criteria, but only ones that genuinely
+      belong in the answer — don't pad for coverage's sake (consistent
+      with the "focus over comprehensiveness" finding above).
+- [ ] Make sections self-contained so any retrieved chunk/window
+      survives being read alone.
+- [ ] Use question-form subheadings for query-targeted sections.
+
+**What NOT to do**:
+- Don't micro-optimize chunk sizes or rewrite prose to hit assumed
+  token boundaries — every system chunks differently and you can't
+  control or predict it.
+- Don't make every paragraph mechanically "answer-shaped" — content
+  that wins a reranker but loses the human reader is a net loss.
+- Don't sacrifice persuasive flow on conversion/landing pages for
+  reranker-friendly structure — their job is converting humans, and
+  optimizing them for chunk retrieval targets the wrong metric.
+
+**Diagnostic workflow** if you want to test a specific passage rather
+than guess: (1) define the query cluster/intent, keeping brand,
+definition, comparison, selection, and how-to queries separate — don't
+average them into one score; (2) collect your passage plus competitor
+passages currently winning the citation; (3) run it through a few
+different open reranker model families (a cross-encoder for a baseline
+score, SPLADE for exact missing-term diagnosis, ColBERT for per-word
+alignment) rather than trusting one model's score alone; (4) make the
+smallest useful rewrite — add the missing answer, criterion, entity, or
+qualifier the diagnosis surfaced; (5) re-score and monitor real
+citation outcomes over time, not just the one-off model score.
+
+**Caveat**: a high open-reranker-model score is a diagnostic signal, not
+proof a URL will be cited — no public evidence indicates which (if any)
+open model resembles what ChatGPT, Google AI Overviews, or Perplexity
+actually run internally.
 
 ## Patent-based selection mechanics (Google AI Overviews specifically)
 
@@ -245,6 +400,42 @@ Per [[airops-fan-out-effect-2026]]:
 - **Write at a college reading level** (Flesch-Kincaid 16-17): 35.9%
   citation, outperforming both simpler and more academic writing.
 
+**Corroboration and finer breakdown**: per
+[[airops-structuring-content-for-llms]] (900 queries, 15 industries,
+12,000+ URLs — ChatGPT-cited URLs vs. Google page-one results for the
+*identical* queries, off-page/authority factors deliberately excluded)
+— almost certainly the original dataset behind
+[[airops-geo-strategy-playbook]]'s later "12,000+ pages" summary stats
+(schema +13%, heading hierarchy 2.8x), now with the full breakdown:
+
+- **Schema**: 61% of ChatGPT-cited pages carried rich schema (3+ types)
+  vs. 25% of Google page-one URLs; FAQ/QAPage schema specifically:
+  10.5% vs. 5.4%.
+- **Headings**: 68.7% of cited pages had sequential H1→H2→H3 structure
+  (no skipped levels) vs. 23.9% of Google leaders — nearly 3x as
+  likely; 87% had a single H1 vs. 64%.
+- **Lists — one of the most decisive differentiators measured**: 79% of
+  cited pages had at least one list section vs. 28.6% of Google
+  results, averaging 13.75 list sections vs. Google's average — over
+  17x higher.
+- **Bullet points are *not* a differentiator**, despite the pattern
+  above: 72.9% of cited pages had bullet sections vs. 74.5% of Google
+  results — essentially identical, as was sentence length (17.32 vs.
+  16.54 characters). Structure (headings, schema, ordered lists) drives
+  the citation gap, not sentence-level simplicity or bullets alone —
+  don't assume "add bullet points" does the same work as fixing heading
+  hierarchy or adding schema.
+- **Forums are far more present in Google than in ChatGPT citations for
+  the same queries**: Reddit/Quora made up 11.1% of Google page-one
+  results but only 0.05% of ChatGPT citations — a sharper, query-
+  matched version of [[ai-citation-landscape]]'s "Reddit retrieved but
+  rarely cited" pattern.
+- Independently confirmed a year later by
+  [[airops-geo-strategy-playbook]]'s separate analysis: lists/tables
+  appear in 80% of ChatGPT citations vs. only 29% of Google's top
+  organic results — same direction, consistent with the list finding
+  above.
+
 ## Freshness by vertical
 
 Per [[airops-fan-out-effect-2026]] — extends the existing "keep content
@@ -262,6 +453,21 @@ fresh" guidance with a specific age curve and vertical-level variance:
   5+-year-old content, Travel shows the largest gap in the dataset
   (19pp); e-commerce content freshness barely matters — prioritize
   refresh cycles by vertical, not a blanket schedule.
+
+**Independent corroboration**: per [[airops-geo-strategy-playbook]],
+pages updated within the past three months were 3x more likely to be
+cited, and 70% of AI-cited pages had been updated within the past
+year — a coarser-grained but consistent reading of the 30-89-day
+optimal window above. Treat "refresh within 3 months" as the practical
+outer bound and "30-89 days" as the sharper target when you can hit it.
+
+**Case study**: per [[airops-geo-strategy-playbook]], Webflow's
+automated content-refresh program delivered a 5x refresh velocity
+increase, a 40% traffic uplift within days of publishing, and
+ChatGPT-attributed signups rising from 2% to nearly 10% of signups —
+with AI-sourced traffic converting 6x higher than organic. A concrete
+result for prioritizing refresh-cadence tooling, not just one-off
+updates.
 
 **Unresolved tension**: [[ahrefs-why-chatgpt-cites-pages-2026]] found
 the opposite pattern within search-result citations specifically —
@@ -505,6 +711,30 @@ third-party citations/mentions:
   - [ ] Publish on LinkedIn for faster indexing/visibility alongside
         primary publication.
 
+**Depth-before-breadth, with industry-specific exceptions.** Per
+[[growth-memo-does-topical-focus-make-your-brand-visible]] — a
+category-expansion sequencing rule that qualifies the topic-mapping
+guidance above: **a category is not won until the brand earns repeat
+mentions, not just citations.** Getting cited in a category doesn't
+mean the AI will recommend you there — citation eligibility is nearly
+topic-agnostic, but being named/recommended requires real depth (established
+presence across multiple prompt variants within the topic, not just
+one).
+
+- **Establish depth in a core category before expanding breadth.**
+  Shallow presence across many categories associates *negatively* with
+  brand mentions; the same breadth with established depth doesn't.
+  Don't chase citation coverage across many unrelated topics before
+  you're deeply, repeatedly mentioned in your core one.
+- **Finance/Real Estate teams**: broad citation coverage is rewarded in
+  these sectors — use citations as an early signal to prioritize
+  expansion into adjacent categories.
+- **Legal/Healthcare teams**: breadth doesn't translate into mentions
+  in these high-stakes sectors even at full topical coverage — require
+  demonstrated *repeat mentions*, not citation presence alone, before
+  treating a category as won, and don't assume the Finance/Real-Estate
+  expansion playbook transfers.
+
 ## Target common query-fanout injection angles
 
 Per [[peec-ai-chatgpt-query-fanouts-2026]] (5M query fanouts,
@@ -640,6 +870,29 @@ above, which were causally tested via controlled experiment, these are
   correlates measured (0.19–0.33) — don't expect classic link-building
   alone to move AI visibility much.
 
+## Visibility-triggered action workflow
+
+Per [[airops-north-star-metric-ai-search]] — a lightweight response
+process for when the weekly measurement framework above (see
+[[generative-engine-optimization]]) shows declining visibility on a
+topic, rather than reacting ad hoc:
+
+- **Create Content** — address questions where competitors already
+  appear and you're absent.
+- **Refresh** — update existing pages specifically to compete in
+  co-mention scenarios (where the AI answer names a competitor
+  alongside or instead of you).
+- **Outreach** — contact third-party sites that are securing competitor
+  mentions but not yours; see the third-party authority-building
+  guidance above for prioritization.
+- **Community Building** — foster authentic engagement to establish
+  thought leadership, rather than one-off placements.
+
+Trigger these off a decline in citation rate, mention rate, or share of
+voice for a specific topic/query cluster — not a blanket brand-wide
+metric — consistent with the query-level analysis guidance in
+[[generative-engine-optimization]]'s measurement-framework section.
+
 ## Sentiment monitoring and correction
 
 Per [[similarweb-how-to-win-the-race-for-gen-ai-search-2026]] — a
@@ -652,10 +905,29 @@ they trust, not an invented judgment.
 - **Track sentiment per topic, not just brand-wide** — a brand can read
   positively overall while one specific topic (e.g., a product line or
   use case) carries disproportionately negative framing.
-- **Find the root cause before fixing anything**: are review sites
-  describing the product inaccurately? Are outdated articles still
-  ranking/getting cited? Are competitor comparisons framing the brand
-  poorly? Is the brand's own content unclear or missing key information?
+- **Find the root cause before fixing anything.** Per
+  [[seoclarity-ai-misrepresentation-2026]], AI misrepresentation
+  (factually wrong, not just negatively-toned) sorts into four
+  diagnosable categories — check each before assuming a content-quality
+  problem:
+  1. **Missing information** — incomplete on-site content forces the AI
+     to supplement from other sources or guess (e.g. a store's posted
+     hours not matching what the AI states).
+  2. **Positioning misalignment** — the AI correctly identifies *what*
+     you do but misreads *who it's for* or your market position (e.g.
+     a premium brand described as offering less "value" than budget
+     competitors).
+  3. **Unstructured data** — the correct facts exist on-page but aren't
+     machine-readable, so the model can't confidently extract them.
+  4. **Conflicting external sources** — stale directories, forums, or
+     competitor content create a contradictory information ecosystem
+     the model has to arbitrate between.
+  This is a structured version of the general root-cause questions
+  (are review sites describing the product inaccurately? are outdated
+  articles still ranking/getting cited? are competitor comparisons
+  framing the brand poorly? is the brand's own content unclear or
+  missing key information?) — map each symptom to one of the four
+  categories above before picking a fix.
 - **Fix via two levers, not one**:
   - *On-page*: clarify misunderstood features, correct outdated
     information, directly address the weaknesses users are asking
@@ -668,6 +940,50 @@ they trust, not an invented judgment.
 - **Recheck after updates, on a delay.** Sentiment shifts slowly — re-run
   sentiment analysis after content updates, PR improvements, or new
   citations land, rather than expecting an immediate change.
+- **Run a structured "multi-vote" audit rather than an ad hoc check.**
+  Per [[siegemedia-llm-brand-visibility]], a repeatable three-step
+  process operationalizes the root-cause diagnosis above:
+  1. **Prompt audit** — run 10-20 buyer-intent queries across ChatGPT,
+     Perplexity, and Gemini; capture brand appearance/absence,
+     descriptive language used, competitor positioning, and specific
+     descriptor terms.
+  2. **Source audit** — categorize every third-party citation by type
+     (best-of listicles, review platforms, Reddit threads, news/PR,
+     affiliate roundups, category-defining publishers).
+  3. **Descriptor audit** — extract and tally the exact phrases used to
+     describe the brand across the top 5-10 sources to find consensus
+     gaps.
+- **Target descriptor consistency, not just mention volume.** "Most
+  organizations measure AI mentions when the right metric is
+  descriptive consistency" — being mentioned inconsistently across
+  sources (e.g. "best value," "most affordable," "budget option" for
+  the same brand) fails to build model confidence the way one
+  consistent descriptor does. Prefer specific positioning ("best for
+  solo consultants") over generic claims ("best overall"), which lack a
+  buyer-query anchor.
+- **Concrete visibility/sentiment benchmarks** to score against: Great
+  = 75-80% visibility, 70-75% sentiment, positions 1-2. Good = 55-75%
+  visibility, 65-70% sentiment, positions 2-3. Needs Improvement =
+  below 40% visibility. Target 55-80% share of voice across the top 10
+  sources for a given prompt.
+- **Timeline expectations**: 60-90 days to shift descriptor
+  share-of-voice in earned media, with listicles reindexing 30-60 days
+  after that — don't judge a descriptor-consistency campaign on a
+  shorter horizon.
+- **Structured data doubles as a source-of-truth signal, not just an
+  extractability aid.** Per [[seoclarity-ai-misrepresentation-2026]],
+  when sources conflict (category 4 above), schema markup is explicitly
+  "a way of telling machines which information represents the official
+  version of the truth" — a distinct rationale for schema beyond the
+  citation-odds framing elsewhere in this page (see the Structural
+  findings section above).
+- **Treat this as a cross-functional information-governance problem**,
+  not a content-team-only fix — per the same source, accuracy work
+  spans SEO, content, PR, and data teams, since conflicting external
+  sources (directories, press, analyst reports) are often outside a
+  single team's direct control. "Mentions get you seen. Accuracy earns
+  trust" — visibility and accuracy are separate axes worth tracking
+  separately.
 
 ## Query-format AIO risk (which pages to prioritize/audit)
 
@@ -758,6 +1074,31 @@ volume than non-AI-using marketers — the exact volume/cost dynamic that
 makes Scaled Content Abuse easy to fall into unintentionally. Treat AI
 drafting as a starting point requiring genuine editorial work per page,
 not a volume lever.
+
+**But AI-authorship itself isn't the penalty trigger — quality is.**
+Per [[ahrefs-google-doesnt-punish-ai-content-2026]] (1M SERP pages),
+AI-written content ranks at every position including top-3 (5.3% of
+top-3 pages entirely AI-generated), with no hard AI-detection cutoff —
+40% of very-high-AI-content pages remain indexed. The performance gap
+that does exist (2-3x fewer impressions for high/very-high-AI pages)
+tracks specific, checkable quality issues rather than AI-detection
+itself. **Audit AI-assisted drafts for these concrete failure modes**
+before publishing:
+- [ ] Does the page repeat common knowledge without adding new
+      information/perspective?
+- [ ] Are internal links, external citations, images, or other visual
+      elements present, or is it a wall of unlinked, unillustrated text?
+- [ ] Does it read as generic/academic with no distinct voice, or does
+      it sound like a specific person/brand wrote it?
+- [ ] Have the facts, figures, and claims been checked for accuracy?
+
+If you're scaling a new content program with AI and see a fast traffic
+spike followed by a crash ("Mount AI"), it's more likely a crawl-budget
+effect than a targeted AI penalty: Google may burst-crawl a newly
+scaled site out of curiosity, then throttle resource allocation once it
+becomes clear the domain lacks the baseline authority to sustain that
+scale — the fix is building genuine authority/quality, not disguising
+AI involvement.
 
 ## Know-Simple answer structuring
 

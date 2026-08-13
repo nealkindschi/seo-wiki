@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [aeo]
-updated: 2026-07-08
+updated: 2026-08-13
 ---
 
 # Listicles in AI Search
@@ -28,6 +28,19 @@ what the engine is actually searching for — the mechanism behind
 listicles' outsized share of AI answer results. (See
 [[ai-citation-landscape]]'s "Query fanout mechanics" section for the
 full fanout data.)
+
+## Scale of listicle dominance in third-party citations
+
+Per [[airops-geo-strategy-playbook]] (21,000+ brands analyzed) — a
+brand-level scale figure that sits above the mechanics below: 85% of
+brand mentions in AI search originate off-domain (brands are 6.5x more
+likely to be cited via external sources than their own site), and
+**roughly 90% of those third-party citations come from listicles and
+comparison pages specifically** — with cited brands appearing in the
+**first three positions 80% of the time**. This is the scale argument
+for why the rank-position mechanics below matter as much as they do:
+listicles aren't one channel among many for third-party citation, they
+are most of it.
 
 ## Listicle rank effect (third-party listicles)
 
@@ -119,6 +132,21 @@ citation converts to an actual *recommendation* — plus organic-
 visibility-level countermeasures that a citation-rate metric wouldn't
 capture. Both can be true simultaneously over the same window.
 
+## Versus pages structurally escape the aggregator-competition problem
+
+Per [[siegemedia-versus-pages]] (116 B2B sites) — a content-type
+distinction within "third-party listicles are the validated lever"
+below: true 1:1 "X vs Y" pages correlate with B2B AI search traffic far
+more strongly (Spearman 0.65) than "best X" or alternatives content,
+because alternatives/best-X pages compete directly with G2, Capterra,
+and affiliate aggregators for the same citation, while genuine
+head-to-head versus pages largely don't — aggregators rarely publish
+true 1:1 comparisons. See
+[[geo-content-optimization-tactics]]'s "Vendor evaluation readiness"
+section for the volume-scaling data (6-20 pages, then 21+) and honest-
+expectations caveat (content explains only ~28% of the traffic
+variance).
+
 ## Practical synthesis
 
 1. **Third-party listicles are the validated lever**: identify the
@@ -147,3 +175,8 @@ capture. Both can be true simultaneously over the same window.
   conflict the SEJ authority-moderation finding feeds into.
 - [[e-e-a-t-and-page-quality]] — the trust/disclosure framework
   self-promotional content runs afoul of.
+- [[airops-geo-strategy-playbook]] — the source for the off-domain
+  scale figures above (85% off-domain, ~90% of third-party citations
+  from listicles/comparisons, 80% first-three-position rate).
+- [[siegemedia-versus-pages]] — the versus-page content-type hierarchy
+  and volume-scaling data above.

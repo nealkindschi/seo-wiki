@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-08
+updated: 2026-08-12
 ---
 
 # How Google Search Works
@@ -51,7 +51,13 @@ in server-log analysis:
 
 A healthy crawl pattern shows all three bot types visiting a site; see
 [[technical-seo-audit-checklist]] for the log-vs-citation diagnostic
-method built on this taxonomy.
+method built on this taxonomy. See
+[[chatgpt-deep-research-crawl-mechanics]] for a log-verified case study
+of one specific agent (ChatGPT Deep Research) in this middle
+"search/indexing" category: it fetches under `OAI-SearchBot`, obeys
+robots.txt silently (blocked pages return zero content with no error
+surfaced), and reads pages via a three-command loop (`search`/`open`/
+`find`) with hard character-budget caps.
 
 ## 2. Indexing
 
@@ -110,3 +116,5 @@ can never become a candidate source for an AI-generated answer either.
   redirects, Core Web Vitals, Schema, and AI/agent crawler access.
 - [[peec-ai-server-logs-ai-search-2026]] — source for the AI bot-type
   taxonomy (training/indexing/retrieval) above.
+- [[chatgpt-deep-research-crawl-mechanics]] — the log-verified case
+  study of Deep Research's `OAI-SearchBot` fetches referenced above.

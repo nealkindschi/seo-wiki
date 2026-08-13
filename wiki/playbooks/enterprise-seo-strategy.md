@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo]
-updated: 2026-07-11
+updated: 2026-08-13
 ---
 
 Why / when to use this: at enterprise scale (large teams, global/
@@ -120,6 +120,25 @@ a benchmark to promise a specific client.
 - **Repeat the message consistently, and tie everything back to
   revenue** — buy-in at enterprise scale is won through repetition, not
   a single pitch.
+- **For GEO/AEO investment specifically**, per
+  [[airops-geo-strategy-playbook]]: 98% of enterprise marketing leaders
+  are already optimizing for AI search or plan to within 12 months, and
+  65% are committing 25%+ of 2026 marketing budget to it (Branch 2026,
+  300+ leaders) — useful as a "the rest of the market is already moving"
+  argument alongside the SEO-specific stats above. See
+  [[generative-engine-optimization]]'s measurement-framework section for
+  how to report on this investment separately from classic SEO metrics.
+- **Caveat — adoption-rate surveys disagree sharply.** Per
+  [[riseatseven-aeo-ai-search-statistics-2026]] (Acquia/Researchscape,
+  n=500+), 70% of marketers believe AEO will impact strategy within
+  1-3 years, but only 20% are currently implementing it — a very
+  different picture than the 98%-already-optimizing Branch stat above.
+  Treat this as a genuine survey-methodology/population discrepancy
+  (likely different respondent seniority or company size), not a
+  resolved number — don't cite either figure as *the* adoption rate
+  without naming its source, and consider it a live-ammunition example
+  of why company-specific numbers (see below) matter more than any
+  single industry-wide stat for a real buy-in pitch.
 
 ## Resource planning & prioritization
 
@@ -172,6 +191,16 @@ a benchmark to promise a specific client.
   internally — not only as a resourcing stopgap.
 - Train and build internal evangelists: workshops, internal courses, and
   inserting SEO content into company events all compound over time.
+- **GEO/AEO team structure**: per
+  [[airops-north-star-metric-ai-search]], teams building AI-search
+  visibility specifically ("move from headcount to leverage") lean on
+  three roles rather than a generic content team: **Content Engineers**
+  (build extractable, schema-rich content blocks), **Content
+  Strategists** (own coverage tracking and competitive positioning), and
+  **Growth Engineers** (maximize visibility efforts, rapid iteration).
+  Consider this staffing model specifically for the GEO/AEO workstream
+  described in [[generative-engine-optimization]], rather than assuming
+  the existing classic-SEO team structure above covers it.
 
 ## Enterprise-scale content process
 

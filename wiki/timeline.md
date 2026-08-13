@@ -427,3 +427,150 @@ Wirecutter and Consumer Reports.
 6 platforms) finds ~11% of citations originate from self-promotional
 listicles with no algorithmic correction observed, and sharp platform
 divergence (ChatGPT ~3.6-4% vs. Google AI Mode/Perplexity ~10.3-10.4%).
+
+## 2026-07-21 — AirOps publishes "The GEO Strategy Playbook for Marketers and Organic Growth Teams"
+
+[[airops-geo-strategy-playbook]] · updated [[generative-engine-optimization]],
+[[geo-content-optimization-tactics]], [[listicles-in-ai-search]]
+Proposes a five-metric weekly GEO measurement framework (citation rate,
+mention rate, share of voice, sentiment, source attribution) as a
+distinct scorecard from SEO reporting, backed by 21,000+ brands / 5.5M
+AI answers and a 12,000-page structural analysis.
+
+## 2025-07-31 — AirOps publishes "Brand Visibility Is the North Star for AI Search"
+
+[[airops-north-star-metric-ai-search]] · updated [[generative-engine-optimization]],
+[[enterprise-seo-strategy]], [[geo-content-optimization-tactics]] ·
+superseded (partially) by [[airops-geo-strategy-playbook]] (2026-07-21)
+Proposes a single composite "Brand Visibility Score" metric and a
+five-pillar GEO execution model, ahead of the same publisher's later
+shift to a five-metric weekly scorecard. Also the source of a still-
+unresolved AI-Overview-prevalence conflict against
+[[semrush-ai-overviews-study-2025]] — see [[wiki/log.md]] 2026-08-12
+conflict entry.
+
+## 2026-08-06 — Peec AI publishes "Rerankers for GEO/AEO: How AI search chooses passages and sources"
+
+[[peec-ai-rerankers-for-geo-aeo-2026]] · updated [[ai-citation-landscape]],
+[[geo-content-optimization-tactics]], [[generative-engine-optimization]] ·
+new page [[rerankers-and-passage-selection]]
+Explains the retrieval→reranking→generation pipeline (BM25 + vector
+retrieval merged via Reciprocal Rank Fusion, then cross-encoder
+reranking of the shortlist) that underlies why retrieval rank and
+passage relevance dominate AI citation, with a diagnostic toolkit
+(SPLADE, ColBERT, open cross-encoders) for testing specific passages.
+
+## 2026-06-22 — Peec AI publishes "How ChatGPT Deep Research reads your site: What the logs reveal"
+
+[[peec-ai-chatgpt-deep-research-logs-2026]] · updated [[how-google-search-works]],
+[[technical-seo-audit-checklist]], [[geo-content-optimization-tactics]] ·
+new page [[chatgpt-deep-research-crawl-mechanics]]
+WebSocket-traffic reverse-engineering of ChatGPT Deep Research reveals
+its three-command (search/open/find) reading loop, a hard ~5-6k
+character read budget that heavy navigation can consume two-thirds of,
+silent robots.txt enforcement under `OAI-SearchBot`, and alt-text
+treated as real page content.
+
+## 2025-07-18 — AirOps publishes "Why Ranking on Page One Isn't Enough"
+
+[[airops-structuring-content-for-llms]] · updated [[geo-content-optimization-tactics]]
+Comparative study of 12,000+ URLs (ChatGPT-cited vs. Google page-one for
+identical queries) finds schema, sequential heading structure, and list
+density strongly differentiate citation, while bullet points and
+sentence length don't — later summarized (2026-07-21) in
+[[airops-geo-strategy-playbook]].
+
+## 2026-07-27 — Ahrefs publishes "Google Doesn't Punish AI Content; It Punishes Bad Content"
+
+[[ahrefs-google-doesnt-punish-ai-content-2026]] · updated [[e-e-a-t-and-page-quality]],
+[[geo-content-optimization-tactics]]
+1M-page SERP study finds AI-written content ranks at every position
+with no hard AI-detection cutoff; the performance gap between low- and
+high-AI-content pages tracks quality issues (missing links/images,
+generic writing, factual errors), not AI-authorship itself.
+
+## 2026-08-03 — Growth Memo publishes "Does topical focus make your brand more visible?"
+
+[[growth-memo-does-topical-focus-make-your-brand-visible]] · updated
+[[ai-citation-landscape]], [[geo-content-optimization-tactics]]
+1,094-category ChatGPT study finds citation eligibility is nearly
+topic-agnostic while named-mention/recommendation eligibility is
+strongly topic-gated and depth-dependent, with sharp industry variation
+(Finance/Real Estate reward breadth, Legal/Healthcare don't).
+
+## 2026-03-08 — First OpenAI platform change tied to ChatGPT citation volume drop
+
+[[seoclarity-chatgpt-citation-decline-analysis]]
+Zero-citation rates begin shifting sharply across tracked markets
+(US doubling 28%→48%), attributed to an OpenAI platform change rather
+than brand-level performance.
+
+## 2026-04-19 — Second, larger OpenAI platform change collapses ChatGPT citation volume
+
+[[seoclarity-chatgpt-citation-decline-analysis]] · updated [[ai-citation-landscape]]
+Citation volumes fall over 80% in the US, UK, and Germany via a "dual
+compression" of both citation-response share and citations-per-response;
+Germany's zero-citation rate reaches 85%, the worst of any tracked
+market.
+
+## 2026-05 — ChatGPT citation volumes rebound toward pre-March 2026 levels
+
+[[seoclarity-chatgpt-citation-decline-analysis]]
+Extended monitoring shows the Feb-Apr 2026 collapse was volatility, not
+a permanent decline — citation volumes recover across all five tracked
+markets.
+
+## 2026-06-22 — seoClarity publishes "Why AI Gets Your Brand Details Wrong—and How to Fix It"
+
+[[seoclarity-ai-misrepresentation-2026]] · updated [[geo-content-optimization-tactics]]
+Introduces a four-category taxonomy (missing information, positioning
+misalignment, unstructured data, conflicting external sources) for
+diagnosing AI brand misrepresentation, with real-world examples.
+
+## 2025-09 — Wikipedia's share of ChatGPT citations crashes from ~55% to under 20%
+
+[[riseatseven-aeo-ai-search-statistics-2026]] · updated [[ai-citation-landscape]]
+A single algorithmic adjustment sharply reduces Wikipedia's citation
+share in ChatGPT responses, illustrating how fast citation composition
+(not just volume) can shift on a platform's own timeline.
+
+## 2026-08-07 — Rise at Seven publishes "AEO/AI Search & Citation Statistics 2026"
+
+[[riseatseven-aeo-ai-search-statistics-2026]] · updated [[ai-traffic-scale-vs-hype]],
+[[aio-ctr-impact]], [[ai-citation-landscape]], [[enterprise-seo-strategy]]
+22+-source stats roundup adding AI-search growth-trajectory data, a
+pre-2026-reversal CTR-suppression trajectory, citation-concentration/
+domain-volatility figures, and a marketer-adoption-gap stat that
+disagrees with an earlier Branch 2026 figure already in the wiki.
+
+## 2026-05-19 — Siege Media publishes "How To Control What LLMs Say About Your Brand in Three Steps"
+
+[[siegemedia-llm-brand-visibility]] · updated [[geo-content-optimization-tactics]],
+[[brand-entity-seo-strategy]]
+Introduces a three-step "multi-vote" audit (prompt/source/descriptor)
+and a descriptor-consistency framing for controlling AI brand
+perception, with the Zapier case study ($7.2M traffic increase, 290%
+organic lift).
+
+## 2026-06-01 — Siege Media publishes "The Content That Predicts B2B AI Traffic Most: Versus Pages"
+
+[[siegemedia-versus-pages]] · updated [[geo-content-optimization-tactics]],
+[[listicles-in-ai-search]]
+116-B2B-site study finds "X vs Y" pages are the single strongest
+content-type predictor of AI search traffic (Spearman 0.65), with a
+6-20/21+ page volume-scaling curve and content explaining only ~28% of
+total traffic variance.
+
+## 2026-06-30 — Siege Media publishes "What Best 'X' Posts Actually Deliver + Why Investment Matters"
+
+[[siegemedia-best-x-pages]] · updated [[geo-content-optimization-tactics]]
+101-page GA4 benchmark study of B2B "best X" listicles: median 61.1%
+engagement rate, 113-second session duration, and "best for" callouts
+as the highest-weight comparison-table element.
+
+## 2026-07-09 — Siege Media publishes "TOFU Is Back: The 50% Visibility Test for Top-Funnel Content"
+
+[[siegemedia-tofu-content-geo]] · updated [[generative-engine-optimization]]
+Introduces a 50%-visibility investment threshold for top-of-funnel
+content, using HubSpot's 83% Gemini visibility for "what is CRM?" as
+the model example, plus a weekly "re-index method."

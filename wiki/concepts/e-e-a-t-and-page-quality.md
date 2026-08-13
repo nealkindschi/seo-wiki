@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-07
+updated: 2026-08-12
 ---
 
 # E-E-A-T and Page Quality
@@ -105,6 +105,19 @@ All three trigger an automatic **Lowest** rating:
   content *volume* has almost no correlation with AI-mention visibility:
   it's not merely that volume doesn't help, low-effort scaled volume is
   an explicit penalty target.
+  **Empirical confirmation**: per
+  [[ahrefs-google-doesnt-punish-ai-content-2026]] (1M SERP pages, 150K
+  AI-scored), AI-written content ranks at every position including
+  top-3 (5.3% of top-3 pages entirely AI-generated, 40% of very-high-AI
+  pages remain indexed) with no hard AI-detection cutoff — the
+  performance gap between low- and high-AI-content pages (2-3x fewer
+  impressions) tracks quality-correlated issues (missing links/images,
+  repetitive/generic writing, factual errors), not AI-authorship
+  itself, exactly as this policy states. The "Mount AI" pattern (a
+  scaled-AI site's traffic spiking then crashing) is better explained
+  by Google's crawl-budget economics — burst-crawling out of curiosity,
+  then throttling once a domain proves it lacks baseline authority to
+  sustain the scale — than by a targeted AI penalty.
 - **Site Reputation Abuse**: third-party content hosted on an
   established site mainly to exploit that host's already-earned ranking
   signals (e.g., a medical site hosting unrelated "best casinos" content
@@ -128,6 +141,9 @@ All three trigger an automatic **Lowest** rating:
 - [[generative-engine-optimization]] — E-E-A-T and Page Quality are the
   retrieval-eligibility foundation this concept's Conflicting Evidence
   section refers to.
+- [[ahrefs-google-doesnt-punish-ai-content-2026]] — the 1M-page
+  empirical study confirming Scaled Content Abuse targets low-quality
+  automation, not AI-authorship itself.
 - [[google-ai-optimization-guide]] — its "helpful, reliable,
   people-first" language is a direct paraphrase of the E-E-A-T/Page
   Quality framework defined here.
