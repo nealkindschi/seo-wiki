@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-07-11
+updated: 2026-08-30
 ---
 
 
@@ -192,6 +192,57 @@ Overviews' RAG pipeline retrieves and cites specific text chunks
   tactics to the format your query actually triggers (e.g. Shopping
   Graph/product-feed optimization only matters for shopping-format
   queries).
+
+**Four pillars for writing a self-contained chunk**, per
+[[lumar-chunkability-ai-search-visibility-2026]] — a concrete framework
+for the "clear, complete, and self-contained" requirement above.
+Chunkability is a citation-*selection* filter, not a page-eligibility
+gate: relevant, well-written pages can still lose citations if their
+target passage fails these on its own, separated from the rest of the
+page.
+
+1. **Topical Cohesion** — one clear topic/answer per chunk; don't blend
+   multiple ideas into a single section.
+2. **Boundary Clarity** — clean start/end points; a chunk should
+   contain one complete idea, not a fragment of one.
+3. **Answer Density** — pack specific entities/units/constraints/steps
+   in; cut filler and throat-clearing.
+4. **Self-Contained Meaning** — no pronouns or references ("this",
+   "the above method") that only resolve using surrounding page
+   content; name the entity explicitly instead.
+
+Practical edits (not full rewrites): split multi-topic sections into
+narrower passages, move key facts earlier into the relevant passage,
+structure sections around explicit questions, and replace pronouns with
+explicit entity names. This is distinct from the "don't unnaturally
+chunk content" anti-pattern below — that targets artificial
+fragmentation or special AI-only markup; this is about making
+naturally-scoped sections read correctly in isolation.
+
+## Semantic relevance operates in three stages, not one score
+
+Per [[lumar-semantic-relevance-ai-search-visibility-2026]] — a
+conceptual framework (no quantified data) for *why* the chunk-level
+tactics above and the patent mechanics below both matter, and why they
+target different things:
+
+1. **Page eligibility ("is this page about the query?")** — broad
+   topical relevance, not the strongest possible answer. This is the
+   candidate-selection gate.
+2. **Passage identification ("which passage best answers this?")** —
+   precision increases sharply here: specific entities, units, and
+   clear phrasing are required. This is the chunk-retrieval stage the
+   four pillars above target.
+3. **Citation suitability** — the passage must be understandable
+   independently of surrounding context to be safely quoted. This is
+   empirically corroborated by [[ahrefs-why-chatgpt-cites-pages-2026]]:
+   cited pages score 0.602 on cosine-similarity/prompt-relevance vs.
+   0.484 for non-cited pages.
+
+**Practical implication**: a page can pass one stage and fail another.
+Optimize each stage separately (topical clarity for stage 1, narrow
+focused sections for stage 2, self-contained passages for stage 3)
+rather than treating "relevance" as one thing to maximize.
 
 ## Patent-based selection mechanics (Google AI Overviews specifically)
 

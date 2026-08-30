@@ -427,3 +427,31 @@ Wirecutter and Consumer Reports.
 6 platforms) finds ~11% of citations originate from self-promotional
 listicles with no algorithmic correction observed, and sharp platform
 divergence (ChatGPT ~3.6-4% vs. Google AI Mode/Perplexity ~10.3-10.4%).
+
+## 2026-01 — Facebook overtakes Quora as #2 platform in Google's Discussions and Forums feature
+
+[[ahrefs-discussions-and-forums-serps-2026]] · updated
+[[discussions-and-forums-serp-feature]]. Facebook rose to 38.3% of
+feature appearances, surpassing Quora, driven entirely by public
+Facebook Groups (a format live since Oct 2010) — suggesting a shift in
+Google's crawling/surfacing of that content rather than new Facebook
+functionality.
+
+## 2026-08-27 — Ahrefs publishes "Reddit Appears in 83.9% of Google's Discussions and Forums Results"
+
+[[ahrefs-discussions-and-forums-serps-2026]] · created
+[[discussions-and-forums-serp-feature]]. 145M-US-SERP analysis (16.93M
+feature appearances, 11.7% prevalence) finding Reddit's 83.9%/87.8%
+(worldwide/US) dominance, top-3-platform concentration (76.75%), weak
+domain-authority/backlink correlation, and query-length/informational-
+intent prevalence patterns.
+
+## 2026-08-27 — Trendos/SEJ publishes "We Analyzed 107 Million AI Answers"
+
+[[sej-trendos-ai-citation-sources-by-industry-2026]] · updated
+[[ai-citation-landscape]]. 107M-AI-response study across
+ChatGPT/Perplexity/Gemini/Google AI Overviews finds Community/UGC
+citations hold ~50% regardless of industry vertical while
+Brand/Retail-vs-Editorial/Reference mix swings sharply by sector, plus
+per-engine personality framing. Introduced an unresolved conflict over
+Reddit's prominence in ChatGPT citations specifically.

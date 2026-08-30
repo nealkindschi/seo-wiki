@@ -955,3 +955,66 @@ Fixed 2 missing cross-references: added [[image-seo-checklist]] and
 [[content-pruning-playbook]] to [[technical-seo-audit-checklist]]'s See
 also section; linked [[brand-entity-seo-strategy]] from
 [[enterprise-seo-strategy]]'s brand-reputation section.
+
+## [2026-08-30] ingest | Ahrefs — "Reddit Appears in 83.9% of Google's Discussions and Forums Results"
+New concept [[discussions-and-forums-serp-feature]] created (no prior
+page covered Google's classic Discussions and Forums SERP box). Source:
+[[ahrefs-discussions-and-forums-serps-2026]] (145M US SERPs, 16.93M
+feature appearances). Key findings: Reddit dominates worldwide (83.9%)
+and in the US (87.8%); Reddit+Facebook+Quora = 76.75% of links;
+Facebook overtook Quora for #2 in January 2026 via public Facebook
+Groups; only moderate domain-authority correlation (ρ=0.38) and no
+backlink-to-thread correlation; 98.7% of appearances are informational-
+intent, scaling ~3x from 1-word to 8-word queries. No conflicts with
+existing pages — cross-linked to [[ai-citation-landscape]] (contrasting
+this feature's Reddit dominance with AI engines' retrieve-but-rarely-
+cite Reddit pattern) and [[traditional-seo-ranking-factors]].
+
+## [2026-08-30] ingest | Trendos/SEJ — "We Analyzed 107 Million AI Answers: Where Each Industry's Citations Actually Come From"
+Extended [[ai-citation-landscape]] with a new "Citation mix by industry
+vertical" section (Community/UGC ~50% universal across industries;
+Brand/Retail vs. Editorial/Reference trade off by vertical: IT/Solutions
+51/2/47, Consumer Goods 50/46/4, Communication Services 50/10/40) and
+named B2B directories (Clutch, G2, GoodFirms, Gartner, SourceForge,
+Slashdot) not previously in the wiki. Source:
+[[sej-trendos-ai-citation-sources-by-industry-2026]].
+
+## [2026-08-30] conflict | Reddit's prominence in ChatGPT citations — unresolved
+[[sej-trendos-ai-citation-sources-by-industry-2026]] claims Reddit is a
+top-3 citation source across all engines including ChatGPT, conflicting
+with [[muckrack-generative-pulse-ai-reading-may-2026]] (~0.003% of
+ChatGPT citations) and [[brightedge-ai-search-same-brands-different-sources]]
+(ChatGPT only 0.5% UGC overall). Leaning toward the latter two (fuller
+methodology disclosure); flagged unresolved with a possible
+top-3-distinct-domain-vs-%-of-citations reconciliation in the new
+Conflicting Evidence entry on [[ai-citation-landscape]].
+
+## [2026-08-30] ingest | Lumar — "Chunkability: Why Some Content Gets Cited and Most Doesn't"
+Extended [[geo-content-optimization-tactics]]'s existing "Chunk-level
+('Fraggle') optimization" section (previously sourced from
+[[ipullrank-optimize-for-sge]], which established the RAG-chunk-
+retrieval mechanism but only gestured at "make it self-contained")
+with a concrete four-pillar framework — Topical Cohesion, Boundary
+Clarity, Answer Density, Self-Contained Meaning — plus low-chunkability
+anti-patterns and specific rewrite tactics (split multi-topic sections,
+front-load key facts, structure around questions, replace pronouns
+with explicit entities). Source: [[lumar-chunkability-ai-search-visibility-2026]].
+No conflicts — clarified in both pages that this differs from the
+playbook's existing "don't unnaturally chunk content" anti-pattern
+(targets artificial fragmentation/special AI markup, not writing
+clearer natural sections).
+
+## [2026-08-30] ingest | Lumar — "Semantic Relevance Isn't One Metric — It Has Three Jobs"
+Extended [[geo-content-optimization-tactics]] with a new "Semantic
+relevance operates in three stages, not one score" subsection (page
+eligibility / passage identification / citation suitability), placed
+between the chunk-level and patent-based sections since it explains the
+relevance mechanism underlying both. Source:
+[[lumar-semantic-relevance-ai-search-visibility-2026]]. Corroborates
+rather than conflicts: [[ahrefs-why-chatgpt-cites-pages-2026]]'s
+cosine-similarity data (0.602 cited vs. 0.484 non-cited) is direct
+quantitative evidence for this piece's citation-suitability stage, and
+[[richsanger-ai-overview-patent-insights]]'s two-stage patent mechanics
+map onto stages 1 and 3 here. Also companion piece to the same author's
+[[lumar-chunkability-ai-search-visibility-2026]] ingested earlier
+today. No conflicts.

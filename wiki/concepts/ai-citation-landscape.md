@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-08
+updated: 2026-08-30
 ---
 
 # AI Citation Landscape
@@ -125,6 +125,34 @@ Practical implication: "authority" should be treated as
 category-relative (which trade associations/analyst firms/vertical
 experts actually get cited in *your* category), not a fixed domain
 list like .gov/.edu.
+
+## Citation mix by industry vertical
+
+[[sej-trendos-ai-citation-sources-by-industry-2026]] (Trendos, 107M AI
+responses across ChatGPT/Perplexity/Gemini/Google AI Overviews) adds an
+industry-vertical cut on top of the engine-level personalities above.
+Community & UGC citations hold roughly steady around **50% regardless
+of industry**, while the split between Brand/Retail and
+Editorial/Reference swings by vertical:
+
+- **IT & Solutions Services**: 51% Community/UGC, 2% Brand/Retail, 47%
+  Editorial/Reference — third-party proof (G2, Clutch, GoodFirms,
+  Gartner, SourceForge, Slashdot, trade media) matters far more than
+  brand-owned pages.
+- **Consumer Goods**: 50% Community/UGC, 46% Brand/Retail, 4%
+  Editorial/Reference — product pages and marketplace listings (Amazon)
+  are primary citation sources.
+- **Communication Services**: 50% Community/UGC, 10% Brand/Retail, 40%
+  Editorial/Reference — earned coverage (Wikipedia, press) dominates
+  over brand-owned content.
+
+Per-engine personality framing from this source is directionally
+consistent with the BrightEdge classification above: Google AI
+Overviews is "the most social" (YouTube+Reddit often 4/5 of the top
+10), ChatGPT is "the most editorial" (Wikipedia/trade
+media/reference-led), Gemini is "the most industry dependent"
+(editorial for services, brand/retail for physical products), and
+Perplexity blends community sources with directories and media.
 
 ## Wikipedia, Reddit, and YouTube diverge sharply by provider
 
@@ -387,6 +415,28 @@ recent record-holder (2024 White Sox). This reinforces
 grounded in retrieval (RAG), not a static trained "understanding."
 
 ## Conflicting Evidence
+
+- **Claim**: how prominent Reddit is in ChatGPT's citations specifically.
+  - Supported by (Reddit is prominent/top-3 for ChatGPT):
+    [[sej-trendos-ai-citation-sources-by-industry-2026]], which reports
+    Reddit as a top-3 citation source "across all industries and
+    engines," explicitly including ChatGPT ("Reddit high on the list").
+  - Contradicted by (Reddit is negligible for ChatGPT):
+    [[muckrack-generative-pulse-ai-reading-may-2026]] (Reddit ~0.003% of
+    ChatGPT citations, "essentially absent") and
+    [[brightedge-ai-search-same-brands-different-sources]] (ChatGPT is
+    the lowest-UGC engine studied at only 0.5% UGC overall, its
+    "long-tail editorial engine" personality).
+  - **Current best guess**: leaning toward the Muck Rack/BrightEdge side
+    (both disclose full methodology and dataset size; Trendos discloses
+    neither query count nor date range). A plausible reconciliation —
+    not directly tested by any source — is that Reddit could rank
+    top-3 *by distinct domain* within ChatGPT's unusually flat
+    citation distribution (top 10 domains = only 18.5% of citations
+    per BrightEdge) while remaining a small share of total citation
+    volume; "top-3 domain" and "high % of citations" aren't the same
+    claim, and Trendos's framing doesn't distinguish them. Flagged as
+    **unresolved**.
 
 - **Claim**: optimal content age for AI citation.
   - Supported by: [[airops-fan-out-effect-2026]] (via
