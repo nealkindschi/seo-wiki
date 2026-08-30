@@ -163,6 +163,14 @@ Content alone doesn't build brand-entity signals — distribution does:
   [[entity-oriented-search-fundamentals]] for the underlying entity-
   disambiguation pipeline this term describes.
 
+## See also
+
+- [[brand-canon-ai-accuracy-audit]] — once entity signals are built,
+  use this companion playbook to audit whether AI models are actually
+  *accurate* when describing the brand (a documented "canon" of true
+  claims/positioning, tested as falsifiable assertions) rather than
+  assuming correctness follows automatically from good entity signals.
+
 ## Organizational note (process, not a technical tactic)
 
 Brand-entity SEO requires cross-functional alignment: read the brand's

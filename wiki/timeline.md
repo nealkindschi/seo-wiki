@@ -455,3 +455,21 @@ citations hold ~50% regardless of industry vertical while
 Brand/Retail-vs-Editorial/Reference mix swings sharply by sector, plus
 per-engine personality framing. Introduced an unresolved conflict over
 Reddit's prominence in ChatGPT citations specifically.
+
+## 2026-07 — Google Search Console launches "platform properties" feature (Instagram/TikTok/X/YouTube only)
+
+[[growth-memo-community-signals-ai-visibility-2026]] · noted as a
+measurement gap for [[geo-content-optimization-tactics]]'s community-
+signals guidance. The new GSC feature covers Instagram, TikTok, X, and
+YouTube — but excludes Reddit and LinkedIn, the two highest-performing
+UGC platforms in this source's ChatGPT-citation analysis.
+
+## 2026-08-10 — Growth Memo publishes "How to Grow Your AI Visibility with Community Signals"
+
+[[growth-memo-community-signals-ai-visibility-2026]] · updated
+[[geo-content-optimization-tactics]]. ~35,000-ChatGPT-citation-URL
+study (Profound, Dec 2025) finds a flat ~17-18% UGC citation floor
+across the buyer journey, Wikipedia/Reddit/LinkedIn as 99% of UGC
+citations, sharp platform-level volatility beneath a stable aggregate,
+a 2.8x sequential-heading-hierarchy citation lift, and freshness data
+corroborating (not resolving) the wiki's existing content-age conflict.

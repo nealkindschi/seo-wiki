@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo]
-updated: 2026-07-11
+updated: 2026-08-30
 ---
 
 Why / when to use this: before investing in content or internal linking,
@@ -32,7 +32,12 @@ rankings drop.
    URL. Validate against Google Search Console top queries, a keyword
    research tool (volume/difficulty/intent), and PPC search-term data.
    Balance volume, difficulty, and conversion potential rather than
-   chasing raw volume.
+   chasing raw volume. **If you're prioritizing content for AI
+   assistants specifically**, volume is an even less reliable signal —
+   see [[geo-content-optimization-tactics]]'s "Search volume is an
+   unreliable content-prioritization signal for AI answers" section,
+   which can miss high-value topics with zero measurable volume
+   entirely, not just under-rank them.
 3. **Expand to ~10 keyword variations per page** — mine Google Ads
    search-term reports and GSC ranking queries, then cluster with
    Ahrefs/Semrush. Check the SERP for each variation: does intent match

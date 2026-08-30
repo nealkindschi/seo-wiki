@@ -15,6 +15,54 @@ classic organic-SERP ranking tactics specifically, see
 [[classic-seo-ranking-factors]] instead — the two overlap in places but
 are grounded in different correlation studies.
 
+## Search volume is an unreliable content-prioritization signal for AI answers
+
+Per [[sej-search-volume-screening-out-content-opportunities-2026]] — a
+layer upstream of the page-level tactics below: *which topics* deserve
+a page at all. Search volume only counts typed queries, missing the
+long, conversational prompts people put to AI assistants (query
+fan-out means a page can be cited for sub-questions the literal prompt
+never mentioned) — so volume-only prioritization systematically screens
+out exactly the specific, high-intent topics AI assistants fan out
+into.
+
+- **Target sub-questions over head terms** — identify the 8-10
+  foundational questions a buyer needs answered before acting, rather
+  than one head-term keyword.
+- **Prioritize entities and concepts over keyword repetition** —
+  meaningful coverage of subjects/products/alternatives, not matching a
+  seed keyword's exact phrasing.
+- **Address decisions, not definitions** — comparisons, trade-offs, and
+  selection criteria outperform definitional content for this purpose.
+- **Keep using volume where it still works**: brand terms, transactional
+  queries, and local/"near me" intent are still well-represented by
+  typed search volume — this isn't a wholesale replacement.
+- **Alternative scoring signals** when volume is absent or misleading:
+  business value (does answering move a prospect toward a purchase
+  decision?), evidence of demand (PAA appearances, forum discussions,
+  recurring sales-call questions), coverage gaps (strengthen an
+  existing page vs. create a new one), and answerability (can the topic
+  be addressed with specific, concrete information?).
+- **Topic-discovery sources**: People Also Ask/related searches,
+  Reddit/Quora/industry forums, sales calls and support tickets, and
+  directly testing prompts against AI assistants — overlaps with
+  [[keyword-mapping-and-cannibalization]]'s keyword-expansion sources
+  but adds the sales/support/direct-AI-testing channels.
+- **Measurement is directional, not precise**: track AI-referral
+  traffic and which pages get cited, plus organic long-tail ranking
+  accumulation — assistants don't expose citation data comprehensively
+  yet, so treat this as a program measured over time, not a real-time
+  ROI model.
+
+This sharpens rather than replaces
+[[keyword-mapping-and-cannibalization]]'s existing "balance volume,
+difficulty, and conversion potential rather than chasing raw volume"
+guidance — for AI-assistant-targeted content specifically, volume can
+miss the highest-value topics entirely (zero measurable volume) rather
+than merely under-ranking them, so entity/sub-question/demand-evidence
+signals should supplement volume, not just difficulty and conversion
+rate.
+
 Ranked by measured visibility improvement
 ([[geo-generative-engine-optimization-aggarwal-2023|source]]), from best
 to worst, tested against a no-optimization baseline:
@@ -219,6 +267,22 @@ chunk content" anti-pattern below — that targets artificial
 fragmentation or special AI-only markup; this is about making
 naturally-scoped sections read correctly in isolation.
 
+## Entity order in text (speculative, unproven)
+
+Per [[sej-google-subject-object-entity-order-2026]] — flagged
+explicitly by the source itself as theoretical, not empirically
+validated for content-writing purposes: static/training-data-answering
+LLMs (see [[generative-engine-optimization]]'s taxonomy) can fail to
+*recall* a fact when a query reverses the subject/object entity order
+the fact was learned in, even though the fact is encoded and
+recognizable in multiple-choice form. The speculative implication is
+that writing facts in both entity orders (or matching the order of
+common query phrasing) might improve recall odds — but there is no
+direct evidence yet that this changes citation behavior. Treat as a
+low-cost, low-confidence addition (e.g., restate a key fact both ways:
+"Oasis played their first gig at the Boardwalk club" and "The Boardwalk
+club hosted Oasis's first gig"), not a priority tactic.
+
 ## Semantic relevance operates in three stages, not one score
 
 Per [[lumar-semantic-relevance-ai-search-visibility-2026]] — a
@@ -295,6 +359,10 @@ Per [[airops-fan-out-effect-2026]]:
   FAQPage (45.6%).
 - **Write at a college reading level** (Flesch-Kincaid 16-17): 35.9%
   citation, outperforming both simpler and more academic writing.
+- **Use sequential heading hierarchy, no skipped levels** (H2>H3>H4):
+  per [[growth-memo-community-signals-ai-visibility-2026]], this
+  produced a 2.8x citation increase — complements the "4-10 H2-H4
+  headings" finding above with a structural (not just count) rule.
 
 ## Freshness by vertical
 
@@ -313,6 +381,14 @@ fresh" guidance with a specific age curve and vertical-level variance:
   5+-year-old content, Travel shows the largest gap in the dataset
   (19pp); e-commerce content freshness barely matters — prioritize
   refresh cycles by vertical, not a blanket schedule.
+- **Corroborating data point**: per
+  [[growth-memo-community-signals-ai-visibility-2026]] (ChatGPT-only),
+  83% of commercial-query citations come from pages updated in the past
+  12 months, and stale pages are 3x more likely to lose citations —
+  adds supporting weight to the freshness-matters side of the
+  unresolved tension below, though it doesn't resolve it (see the
+  source's own methodology caveats — single-engine, vendor-seeking
+  prompts).
 
 **Unresolved tension**: [[ahrefs-why-chatgpt-cites-pages-2026]] found
 the opposite pattern within search-result citations specifically —
@@ -556,6 +632,51 @@ third-party citations/mentions:
   - [ ] Publish on LinkedIn for faster indexing/visibility alongside
         primary publication.
 
+## Community signals: UGC platform strategy
+
+Per [[growth-memo-community-signals-ai-visibility-2026]] (~35,000
+ChatGPT citation URLs via Profound) — a UGC-platform-specific companion
+to the third-party authority building above:
+
+- **UGC citations hold a flat ~17-18% floor across the entire buyer
+  journey** (vs. review platforms, which spike only during evaluation)
+  — treat UGC presence as a baseline to defend continuously, not a
+  push confined to the comparison-shopping stage.
+- **Separate the "aggregate floor" from "platform composition."**
+  Wikipedia, Reddit, and LinkedIn together make up 99% of UGC
+  citations, but each is individually volatile even while the
+  aggregate stays stable (Reddit alone swung -11.7%/+18.1% within a
+  matter of weeks). **Track the aggregate number to defend it, and the
+  platform mix to rebalance it quarterly** — don't bet the whole UGC
+  strategy on one platform's current performance.
+- **Platform-specific tactics**:
+  - *Wikipedia* — largest UGC source but least directly actionable;
+    the lever is making sure accurate information exists **upstream**
+    for editors to draw from and cite, not editing Wikipedia directly.
+  - *Reddit* — most volatile, still worth prioritizing; answer
+    recurring support-ticket questions directly in relevant threads,
+    and correct outdated thread information with dated updates and
+    links.
+  - *LinkedIn* — named individuals/subject-matter experts
+    outperformed brand-account posting; publish under real names, not
+    a company account.
+  - *YouTube* — comparatively durable (Google-owned property, more
+    controllable than open forums) — a lower-volatility UGC bet.
+- **Embed third-party review quotes (with source links)** on your
+  top-cited pages, not just on a dedicated testimonials page.
+- **Mine communities for audience terminology and questions** — a
+  cheap, direct way to find the phrasing/sub-questions worth targeting,
+  complementing the query-fanout-angle tactics below.
+- **Provide customer-worthy shareable assets** (early data access, free
+  tools) — organic community sharing is a distribution channel, not
+  just a citation-monitoring target.
+- **Measurement gap to know about**: Google Search Console's July 2026
+  "platform properties" feature covers Instagram/TikTok/X/YouTube but
+  excludes Reddit and LinkedIn — the two highest-performing UGC
+  platforms in this analysis — so GSC alone won't show you this
+  channel's performance; use a third-party AI-visibility tracker
+  instead.
+
 ## Target common query-fanout injection angles
 
 Per [[peec-ai-chatgpt-query-fanouts-2026]] (5M query fanouts,
@@ -698,7 +819,11 @@ distinct GEO workstream from citation/visibility: being cited isn't
 enough if the AI's answer frames the brand negatively, inaccurately, or
 as a "budget"/"lower-tier" option, since that shapes user perception
 before any click happens. AI answers reflect the tone of the sources
-they trust, not an invented judgment.
+they trust, not an invented judgment. See also
+[[brand-canon-ai-accuracy-audit]] for the companion workstream: this
+section audits *tone/framing*, that one audits *factual correctness*
+(a brand can be described accurately but negatively, or positively but
+incorrectly — they're separate failure modes needing separate checks).
 
 - **Track sentiment per topic, not just brand-wide** — a brand can read
   positively overall while one specific topic (e.g., a product line or

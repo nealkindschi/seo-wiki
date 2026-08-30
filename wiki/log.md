@@ -1018,3 +1018,64 @@ quantitative evidence for this piece's citation-suitability stage, and
 map onto stages 1 and 3 here. Also companion piece to the same author's
 [[lumar-chunkability-ai-search-visibility-2026]] ingested earlier
 today. No conflicts.
+
+## [2026-08-30] ingest | SEJ (Itamar Blauer) — "Why Search Volume Is Screening Out Your Best Content Opportunities"
+Added a new "Search volume is an unreliable content-prioritization
+signal for AI answers" section to [[geo-content-optimization-tactics]]
+(placed before Tier 1, since it's an upstream topic-selection layer):
+target sub-questions over head terms, prioritize entities/concepts,
+address decisions not definitions, retain volume for brand/
+transactional/local queries, plus alternative scoring signals (business
+value, evidence of demand, coverage gaps, answerability) and a
+directional-measurement caveat. Source:
+[[sej-search-volume-screening-out-content-opportunities-2026]]. Also
+cross-referenced this caveat into
+[[keyword-mapping-and-cannibalization]]'s seed-keyword step (which
+already advises balancing volume against difficulty/conversion) — not a
+contradiction, a scope-specific sharpening for AI-assistant-targeted
+content where volume can miss high-value topics entirely rather than
+merely under-rank them. No formal conflict logged.
+
+## [2026-08-30] ingest | Seer Interactive (John Lovett) — "What Is AI Saying About Your Brand? Develop a Brand Canon and Find Out"
+New playbook [[brand-canon-ai-accuracy-audit]] created (no prior page
+covered factual-accuracy auditing of AI brand statements — distinct
+from [[geo-content-optimization-tactics]]'s existing tone/sentiment
+monitoring section and from [[brand-entity-seo-strategy]]'s
+entity-signal-building focus). Source: [[seer-brand-canon-2026]]
+(28,123 responses, 6 AI models, ~70% factual accuracy baseline). Covers
+the three-layer Canon/Claim Inventory/Accuracy Score framework, five
+canon categories, four scoring dimensions, and retrieval-vs-corpus fix
+timeframes. Cross-linked from both related pages. No conflicts.
+
+## [2026-08-30] ingest | SEJ (Roger Montti) — "Google: Subject/Object Entity Order Affects AI Answers"
+Extended [[generative-engine-optimization]]'s "Static pre-trained-data
+LLMs" taxonomy category with an encoding-vs-recall subsection: frontier
+models encode 95-98% of tested facts but fail to directly recall
+26-34% of them (>70% of GPT-5.2's errors are recall failures, per the
+cited "Empty Shelves or Lost Keys?" paper), and recall breaks
+specifically on subject/object entity-order reversal. Source:
+[[sej-google-subject-object-entity-order-2026]]. Cross-linked as a
+plausible (not proven) mechanistic contributor to
+[[brand-canon-ai-accuracy-audit]]'s ~30% factual-inaccuracy finding.
+Added a speculative, explicitly-marked-unproven "Entity order in text"
+tactic to [[geo-content-optimization-tactics]], per the source's own
+caveat that content-writing implications aren't empirically validated.
+No conflicts.
+
+## [2026-08-30] ingest | Kevin Indig/Amanda Johnson (Growth Memo) — "How to Grow Your AI Visibility with Community Signals"
+Added a new "Community signals: UGC platform strategy" subsection to
+[[geo-content-optimization-tactics]] (aggregate-UGC-floor-vs-platform-
+composition distinction, per-platform tactics for Wikipedia/Reddit/
+LinkedIn/YouTube, and the GSC platform-properties measurement gap).
+Also added the sequential-heading-hierarchy (2.8x) finding to
+"Structural findings" and a corroborating freshness datapoint (83% of
+commercial citations from pages <12mo old, stale pages 3x more likely
+to lose citations) to "Freshness by vertical." Source:
+[[growth-memo-community-signals-ai-visibility-2026]] (~35,000 ChatGPT
+citation URLs via Profound). Noted but did not fold into the existing
+Reddit-prominence-in-ChatGPT conflict: this source's 17.1% UGC share
+(Wikipedia = 10.1-14 of those points) appears reconcilable with
+BrightEdge's 0.5% ChatGPT UGC figure via differing classification
+schemes (Wikipedia bucketed as UGC here vs. authority/editorial
+elsewhere) rather than a real disagreement — flagged as a related data
+point pending a source that tests both schemes directly.

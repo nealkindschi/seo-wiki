@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-11
+updated: 2026-08-30
 ---
 
 # Generative Engine Optimization (GEO / AEO)
@@ -54,6 +54,23 @@ categories relevant to optimization strategy:
    updated (a model-specific "knowledge cutoff" date gates eligibility
    entirely). User feedback (thumbs up/down on responses) can correct
    brand inaccuracies even between training updates.
+
+   **Why static LLMs get facts wrong even when they "know" them**: per
+   [[sej-google-subject-object-entity-order-2026]], frontier models
+   encode 95-98% of tested facts but fail to directly *recall* 26-34%
+   of them — recall, not training-data coverage, is the bottleneck
+   (>70% of GPT-5.2's errors are recall failures). Recall breaks
+   specifically when a query reverses the subject/object entity order
+   the fact was learned in (e.g. asking about the object first, subject
+   second) — the model can still recognize the correct answer in a
+   multiple-choice format, showing the fact is encoded but not reliably
+   retrievable in the reversed direction. Extended reasoning
+   ("thinking") substantially recovers this (failure rate drops to
+   11-12%). The source itself flags any content-writing implication
+   (e.g. ordering entities to match common query phrasing) as
+   speculative, not empirically validated — see
+   [[geo-content-optimization-tactics]] for the tactic, marked
+   accordingly.
 2. **Search-augmented LLMs** (Perplexity, Copilot, GPT-4) — a fixed
    training set augmented by live search-engine data; links/citations
    appear and update via web crawling. Optimization here resembles
