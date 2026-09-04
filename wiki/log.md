@@ -955,3 +955,19 @@ Fixed 2 missing cross-references: added [[image-seo-checklist]] and
 [[content-pruning-playbook]] to [[technical-seo-audit-checklist]]'s See
 also section; linked [[brand-entity-seo-strategy]] from
 [[enterprise-seo-strategy]]'s brand-reputation section.
+
+## [2026-09-04] ingest | Link building: Moz beginner's guide, Ahrefs link building guide, Pitchbox link prospecting hacks, Crawling Mondays outreach video (2020)
+Ingested 4 sources on external link building/outreach — a genuinely new
+topic area not previously covered (existing [[link-and-anchor-text-best-practices]]
+covers link markup/anchor text/internal linking, not backlink acquisition).
+Created [[link-building]] (concept: four ways links get built, five link
+quality metrics, realistic outreach benchmarks) and
+[[link-building-outreach-tactics]] (playbook: prospect qualification,
+Skyscraper 2.0/guest-posting/resource-page prospecting, outreach keys to
+success, common mistakes). No conflicts with existing pages — the four
+sources are mutually consistent. Note: the YouTube video's transcript
+could not be retrieved (YouTube's transcript API rejected the request in
+this session's sandboxed browser; timedtext endpoint returned empty) —
+that source was ingested at the chapter/description level only, flagged
+in its source page and raw file for future re-fetch if deeper detail is
+needed.
