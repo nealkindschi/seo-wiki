@@ -178,6 +178,8 @@ disproportionate value and are worth high priority:
   the new pillar. Best suited to tutorial-style content with distinct,
   separable search intents per section — not every long-form page
   benefits from splitting. See [[samuelschmitt-topic-cluster-case-study]].
+  For the full build-from-scratch process (not just the split-an-
+  existing-page path), see [[topic-cluster-strategy]].
 - **Pagination**: use real `<a href>` elements, never JS-only buttons or
   `onclick` handlers (crawlers struggle to execute JS reliably — see
   §1). Each paginated page should canonicalize to itself, never to page
@@ -267,3 +269,9 @@ disproportionate value and are worth high priority:
   for AI/generative search systems, not just classic Google Search.
 - [[ahrefs-anchor-text-2020]] — the backlink anchor-text correlation
   data and Penguin history above.
+- [[topic-cluster-strategy]] — the dedicated cluster-build playbook
+  (discovery, pillar/subpage creation, cluster-level measurement) this
+  page's "when to split" subsection feeds into.
+- [[broken-link-building]] and [[digital-pr-strategy]] — external
+  link-earning tactics that complement this page's internal-linking and
+  link-recovery focus.

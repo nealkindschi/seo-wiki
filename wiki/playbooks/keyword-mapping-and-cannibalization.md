@@ -89,5 +89,17 @@ Rank tracking: Semrush, Ahrefs, SEOmonitor. Analytics: Google Analytics,
 Google Search Console. Keyword research/clustering: Ahrefs, Semrush.
 Technical audit: Screaming Frog.
 
+## See also
+
+- [[keyword-research]] — run *before* this playbook to discover and
+  prioritize which keywords belong on the map in the first place
+  (including AI-era discovery methods like query fan-out and first-
+  party-data mining); this playbook assumes the list already exists and
+  focuses on page assignment/cannibalization.
+- [[topic-cluster-strategy]] — the pillar/subpage structural pattern
+  the "topic/pillar-first variant" above is drawn from.
+- [[seo-competitive-analysis]] — competitor keyword-gap analysis that
+  can surface additional map entries.
+
 See [[riseatseven-keyword-mapping-guide]] and [[semrush-keyword-mapping]]
 for the full source writeups.

@@ -163,6 +163,35 @@ Content alone doesn't build brand-entity signals — distribution does:
   [[entity-oriented-search-fundamentals]] for the underlying entity-
   disambiguation pipeline this term describes.
 
+## Brand awareness via content SEO (a lighter-weight complementary path)
+
+Per [[semrush-seo-brand-awareness]] — distinct from the machine-legibility
+framework above, this is about earning brand recognition *before* a
+brand has authority, through ordinary content SEO rather than
+Knowledge-Graph/schema work:
+
+- **Reinforcing loop**: better search visibility → more brand
+  recognition → more branded searches and organic backlinks → further-
+  improved SEO. Content SEO and brand awareness build each other rather
+  than one being a downstream effect of the other.
+- **Long-tail keyword clusters as an on-ramp**: group related, low-
+  competition, non-branded long-tail keywords around a topic (see
+  [[topic-cluster-strategy]]) to earn visibility even before the brand
+  itself has any recognition — e.g. ranking for "personalized scented
+  candles" rather than depending on people already searching the brand
+  name. Illustrative difficulty gap: "candles" (broad head term) KD 61%
+  vs. "birthday candles" (long-tail) KD 26% — same topic, much lower
+  competitive cost via the long-tail path.
+- **Measurement**: track branded-search-traffic *growth* (not just
+  rankings) as the leading brand-awareness KPI, alongside total/linked
+  brand-mention counts — a way to see awareness building before it
+  shows up in direct conversions.
+
+Use this path when a brand doesn't yet have the authority/media
+footprint the 5-step build sequence above assumes; use the 5-step
+sequence once there's an established entity worth formally
+consolidating into the Knowledge Graph.
+
 ## Organizational note (process, not a technical tactic)
 
 Brand-entity SEO requires cross-functional alignment: read the brand's
@@ -185,5 +214,5 @@ market share) rather than ranking-only vanity metrics.
 - [ ] About page URL manually submitted in Google Search Console
 - [ ] Fragmented Knowledge Panel URLs (if any) consolidated via `sameAs`
 
-See [[iloveseo-brand-seo-and-ai]] and
-[[sel-brand-entity-seo-5-step-framework]] for the full source writeups.
+See [[iloveseo-brand-seo-and-ai]], [[sel-brand-entity-seo-5-step-framework]],
+and [[semrush-seo-brand-awareness]] for the full source writeups.
