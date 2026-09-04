@@ -23,6 +23,14 @@ weak-to-negligible ranking correlation, concludes anchor-text ratios
 shouldn't be deliberately manipulated, and traces the practice's risk
 back to Google's 2012 Penguin update.
 
+## 2020-10-05 — Crawling Mondays publishes "Link Building & Outreach in an SEO Process"
+
+[[crawling-mondays-link-building-outreach-2020]] · updated
+[[link-building]] and [[link-building-outreach-tactics]]. Aleyda Solis
+interviews Carrie Rose (Rise at Seven) and Gisele Navarro (NeoMam Studios)
+on link building/outreach common mistakes and keys to success as
+practiced in 2020.
+
 ## 2021-07-26 — July 2021 link spam update
 
 [[google-search-status-dashboard-history]] · established [[google-algorithm-update-history]]. Duration: 29 days.

@@ -23,6 +23,8 @@ short summary.
 - [[robots-txt-strategy]] — What robots.txt is (crawler traffic management) and what it's NOT (security tool, indexing control): the misconception that it prevents indexing, proper use cases, media-specific rules, when to use `noindex` instead, and a per-LLM user-agent table (ChatGPT/Copilot/Gemini/Claude/Perplexity crawlers).
 - [[content-marketing-strategy]] — Umbrella page connecting the content-lifecycle playbooks (keyword research → topic clusters → copywriting → link/PR earning → AI-era optimization → reporting) rather than duplicating their content.
 
+- [[link-building]] — External link acquisition concept: the four ways links get built (adding/asking/buying/earning), five link quality metrics (authority, relevance, anchor text, placement, destination), and realistic cold-outreach success-rate expectations.
+
 ## Playbooks
 
 - [[geo-content-optimization-tactics]] — 9 content tactics ranked by measured visibility impact, plus citation-ready primary-research/benchmark structuring, LLM-chat-specific tactics (brand mentions, feedback loop, citation-based internal linking, direct platform engagement), chunk-level ("Fraggle") optimization and relevance-scoring tools, patent-based two-stage embedding-distance selection mechanics, domain-specific, provider-specific, presence/portability/concentration measurement, the three-layer source strategy, query-fanout-angle and listicle rank targeting, brand-level correlational, query-format-risk, technical-crawlability, E-E-A-T, and Know-Simple guidance, plus a citability checklist.
@@ -49,6 +51,8 @@ short summary.
 - [[seo-copywriting]] — On-page writing craft playbook: intent-matched content format, PAA/question mining for ideas, title/meta/heading specs, inverted-pyramid readability, and linkable-asset framing.
 - [[keyword-research]] — Keyword discovery/prioritization playbook distinct from page-mapping: 6 discovery methods (including first-party-data mining and an LLM-comment-extraction workflow) and a 6-dimension prioritization framework, reflecting the volume-first→business-value-first and query-fanout-aware shifts in keyword research.
 - [[seo-competitive-analysis]] — 8-step competitive analysis playbook: direct-vs-organic competitor distinction, traditional + AI-visibility gap analysis, a reverse-engineer-winning-pages template, and off-site sentiment review.
+
+- [[link-building-outreach-tactics]] — Tactical link-acquisition playbook: a five-question prospect-qualification framework, Skyscraper 2.0/guest-posting/resource-page prospecting strategies, outreach keys-to-success (relationships over cold volume), common process-breaking mistakes, and realistic benchmarks.
 
 ## Sources
 
@@ -131,3 +135,7 @@ short summary.
 - [[semrush-keyword-research-2026]] — Semrush's 2026 keyword-research guide: the volume-first→business-value-first/Google-only→search-everywhere/query-matching→prompt-research shifts, first-party-data mining, an LLM-comment-extraction workflow, and a 6-dimension prioritization framework.
 - [[semrush-academy-seo-essentials]] — Semrush Academy's SEO Essentials course: 5-area curriculum (foundational strategy, keyword research, on-page/technical, off-page, AI visibility) confirming AI Visibility as a standard foundational-SEO pillar.
 - [[semrush-seo-competitive-analysis]] — Semrush's competitive-analysis guide: the direct-vs-organic-competitor distinction, an 8-step process including AI-visibility gap analysis, and a reverse-engineer-winning-pages checklist.
+- [[moz-beginners-guide-link-building]] — Moz's foundational link-building explainer: discovery-vs-ranking-signal definition, the Penguin-era quality/relevance/authenticity shift, non-ranking benefits, and the "something of value to build links to" success factor.
+- [[ahrefs-link-building]] — Ahrefs' comprehensive link-building guide: the four ways links get built, five link quality metrics, high-impact strategies (competitor backlink analysis, targeted outreach, linkable assets), and benchmark statistics (~5% cold-outreach success rate).
+- [[pitchbox-link-prospecting-hacks]] — Pitchbox's tactical prospecting guide: five-question prospect qualification, Skyscraper 2.0 (adjacent-topic backlink mining), guest-posting piggy-backing, and resource-page mining.
+- [[crawling-mondays-link-building-outreach-2020]] — Aleyda Solis interviews Carrie Rose (Rise at Seven) and Gisele Navarro (NeoMam Studios) on 2020-era link building/outreach mistakes and keys to success; ingested at chapter/description level (transcript unavailable).
