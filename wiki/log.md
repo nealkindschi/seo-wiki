@@ -956,6 +956,51 @@ Fixed 2 missing cross-references: added [[image-seo-checklist]] and
 also section; linked [[brand-entity-seo-strategy]] from
 [[enterprise-seo-strategy]]'s brand-reputation section.
 
+## [2026-09-04] ingest | 15 sources: topic clusters, broken link building, digital PR, brand awareness, LLMO/GEO/AIO, SEO reporting, content marketing, SEO copywriting, keyword research, SEO competitive analysis
+
+User handed 18 URLs; 3 were already in the wiki
+([[sel-brand-entity-seo-5-step-framework]], [[iloveseo-brand-seo-and-ai]],
+[[wix-generative-engine-optimization]]) and were skipped as duplicates.
+Ingested the remaining 15:
+
+- Topic clusters (Semrush, Surfer SEO, Sitebulb) → new playbook
+  [[topic-cluster-strategy]], cross-linked from
+  [[link-and-anchor-text-best-practices]] (which already had a
+  topic-cluster subsection tied to the Schmitt case study) and
+  [[keyword-mapping-and-cannibalization]] (topic/pillar-first variant).
+- Broken link building (Semrush, Ahrefs) → new playbook
+  [[broken-link-building]].
+- Digital PR (Semrush) → new playbook [[digital-pr-strategy]].
+- SEO for brand awareness (Semrush) → extended existing
+  [[brand-entity-seo-strategy]] with a lighter-weight, pre-authority
+  "brand awareness via content SEO" path (long-tail keyword clustering
+  + branded-search-traffic measurement) alongside the existing
+  machine-legibility/Knowledge-Graph framework.
+- LLMO/GEO/AIO guide (Malte Landwehr, LinkedIn, Jan 2024) → extended
+  [[generative-engine-optimization]] with a co-occurrence/training-data-
+  influence mechanism distinct from citation-stage RAG visibility, and
+  extended [[geo-content-optimization-tactics]] with an explicit
+  LLM-crawler robots.txt-blocking check.
+- SEO reporting, SEO copywriting, keyword research (2026 update), SEO
+  competitive analysis (all Semrush) → four new playbooks:
+  [[seo-reporting]], [[seo-copywriting]], [[keyword-research]] (cross-
+  linked with [[keyword-mapping-and-cannibalization]] as the
+  discovery-before-mapping step), [[seo-competitive-analysis]].
+- Semrush Academy course pages (Content Marketing, SEO Essentials) →
+  filed as curriculum/reference source pages, no new tactical claims;
+  used to justify a new thin connective concept page
+  [[content-marketing-strategy]] tying the new and existing content
+  playbooks together.
+- Crawling Mondays YouTube video (Aleyda Solis) → source page filed as
+  a placeholder. Content was not retrievable: YouTube's page returned
+  only navigation chrome, oEmbed gave title/channel only, the Sitebulb
+  recap of this exact episode 404'd, and Wayback Machine access was
+  unavailable this session. No takeaways attributed to it.
+
+No real-world-dated events for the timeline — all 15 are evergreen
+guides/courses, consistent with the 2026-07-11 batch's precedent for
+this source type. No conflicts found with existing wiki claims.
+
 ## [2026-09-04] ingest | Link building: Moz beginner's guide, Ahrefs link building guide, Pitchbox link prospecting hacks, Crawling Mondays outreach video (2020)
 Ingested 4 sources on external link building/outreach — a genuinely new
 topic area not previously covered (existing [[link-and-anchor-text-best-practices]]

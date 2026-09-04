@@ -710,6 +710,12 @@ the layer beneath E-E-A-T:
 
 - [ ] Is the page accessible to Googlebot — not accidentally blocked by
       `robots.txt`, and not requiring a login to view?
+- [ ] Per [[malte-landwehr-llmo-geo-aio-guide]]: is `robots.txt`
+      accidentally blocking LLM-specific crawlers too (GPTBot, CCBot,
+      Google-Extended, Anthropic-ai, omgilibot)? A generic "block all
+      bots except Googlebot" rule silently kills GEO eligibility for
+      every generative engine at once — see [[robots-txt-strategy]]'s
+      per-bot user-agent table.
 - [ ] If content is rendered via JavaScript, does it still appear when
       rendered with a headless/recent Chrome (i.e., does Google actually
       see it after rendering, not just in the raw HTML)?
