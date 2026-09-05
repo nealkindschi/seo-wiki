@@ -1016,3 +1016,18 @@ this session's sandboxed browser; timedtext endpoint returned empty) —
 that source was ingested at the chapter/description level only, flagged
 in its source page and raw file for future re-fetch if deeper detail is
 needed.
+
+## [2026-09-04] ingest | Lead magnet checklists (LiveAgent, Ivyforms) and PDF SEO optimization (Digital Chakra)
+Ingested 3 sources — new topic area, no prior lead-magnet or PDF-SEO
+coverage in the wiki. Created [[lead-magnet-checklist]] (playbook:
+strategy/content/format/delivery/landing-page/follow-up/tracking,
+merging LiveAgent's process-stage checklist with Ivyforms'
+benchmark-tiered checklist — no conflicts between the two, just
+different depth/focus) and [[pdf-seo-optimization]] (playbook: 11-point
+PDF-specific SEO checklist plus indexability/ranking-vs-HTML technical
+constraints). Cross-linked into [[content-marketing-strategy]],
+[[image-seo-checklist]], [[technical-seo-audit-checklist]], and
+[[robots-txt-strategy]]. Noted LiveAgent's "add chat button" item as a
+vendor plug rather than a general best practice. No real-world-dated
+events for the timeline (evergreen guides). No conflicts with existing
+wiki claims.

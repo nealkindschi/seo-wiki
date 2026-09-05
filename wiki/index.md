@@ -53,6 +53,8 @@ short summary.
 - [[seo-competitive-analysis]] — 8-step competitive analysis playbook: direct-vs-organic competitor distinction, traditional + AI-visibility gap analysis, a reverse-engineer-winning-pages template, and off-site sentiment review.
 
 - [[link-building-outreach-tactics]] — Tactical link-acquisition playbook: a five-question prospect-qualification framework, Skyscraper 2.0/guest-posting/resource-page prospecting strategies, outreach keys-to-success (relationships over cold volume), common process-breaking mistakes, and realistic benchmarks.
+- [[lead-magnet-checklist]] — Lead-magnet build/audit checklist: strategy/content/delivery/landing-page/follow-up/tracking sections, a format-vs-conversion-rate table (quizzes 40.1% highest), the 3-form-fields-or-fewer landing-page lever, a 5-email nurture sequence, and opt-in-rate/unsubscribe-rate tracking targets.
+- [[pdf-seo-optimization]] — PDF-specific SEO checklist (unique content, metadata, filename/URL, anchor text, real header tags, alt text, compression, standard fonts, mobile formatting) plus PDF indexability/ranking constraints (9-in-10 HTML-beats-PDF rule, unindexed images, no nofollow-within-PDF) and download-tracking guidance.
 
 ## Sources
 
@@ -98,6 +100,9 @@ short summary.
 - [[ahrefs-beginner-guide-technical-seo]] — Ahrefs' beginner's guide with a prioritization framework (high-impact vs. medium-priority), four quick-win tactics (indexability check, link recovery, internal links, schema), and AI search-specific technical risks (JS rendering, third-party blocking, hallucinated URLs, code fingerprints, AI content detection).
 - [[entity-oriented-search-balog-2018]] — Krisztian Balog's academic textbook on entity-oriented search: foundational concepts (entity properties, knowledge bases), entity linking pipeline (mention detection, disambiguation), and entity-based query expansion and retrieval. Selective ingest of Chapters 1, 5, 8 (theoretical algorithms in Chapters 3-4, 6-7 excluded).
 - [[inlinks-entity-based-seo-guide]] — Inlinks' practical guide to entity-based SEO: Google's NLP pipeline (preprocessing → feature extraction → model building → inference), implementation framework (entity extraction, topic clusters, entity-based internal linking), schema markup for entities, AI compatibility, and case study results.
+- [[liveagent-lead-magnet-checklist]] — LiveAgent's 22-item lead-magnet checklist spanning planning → content creation → distribution → measurement; process-stage focused, no benchmark stats.
+- [[ivyforms-lead-magnet-checklist]] — Ivyforms' must-have/priority-tiered lead-magnet checklist with third-party benchmark stats (form-field count, format conversion rates, email open rates, opt-in-rate targets).
+- [[digitalchakra-optimise-pdf-files-for-seo]] — Digital Chakra's 11-point PDF SEO checklist plus PDF indexability/ranking-vs-HTML technical notes.
 - [[google-sitemaps-overview]] — Google's sitemap documentation: what sitemaps are, metadata types (video, image, news, language), when to create (500+ pages, new sites, media-rich content), CMS auto-generation, Search Console submission and monitoring, and the critical limitation that sitemap inclusion doesn't guarantee indexing.
 - [[oncrawl-xml-sitemap-optimization]] — OnCrawl's tactical optimization guide: 20% of discovery from sitemaps (vs 80% links), money-pages-only strategy, excluding non-200/noindexed/canonical URLs, protocol compliance, section organization, and crawl budget efficiency principles.
 - [[google-robots-txt-intro]] — Google's official robots.txt guidance: manages crawler traffic, NOT a security/privacy/indexing-control tool; blocked URLs can still rank if externally linked; use `noindex` meta tag or password protection for actual indexing/security control.

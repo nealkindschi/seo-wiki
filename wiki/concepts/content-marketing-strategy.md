@@ -28,6 +28,8 @@ than duplicate their content.
   [[generative-engine-optimization]] and
   [[geo-content-optimization-tactics]].
 - **Measure and report**: [[seo-reporting]].
+- **Convert readers to leads**: [[lead-magnet-checklist]] (opt-in offer
+  and landing-page conversion mechanics).
 
 ## Curriculum corroboration
 
