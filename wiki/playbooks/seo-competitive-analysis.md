@@ -90,5 +90,9 @@ be tracked on the same cadence as competitors evolve.
   surfaced to stakeholders.
 - [[brand-entity-seo-strategy]] — the branded-query/off-site-presence
   overlap in step 7.
+- [[traditional-seo-ranking-factors]] — the parent concept: what
+  you're actually comparing competitors on, and which gaps are worth
+  acting on versus noise.
+
 
 See [[semrush-seo-competitive-analysis]] for the full source writeup.

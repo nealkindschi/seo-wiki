@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo]
-updated: 2026-07-11
+updated: 2026-09-04
 ---
 
 Why / when to use this: before investing in content or internal linking,
@@ -100,6 +100,10 @@ Technical audit: Screaming Frog.
   the "topic/pillar-first variant" above is drawn from.
 - [[seo-competitive-analysis]] — competitor keyword-gap analysis that
   can surface additional map entries.
+- [[search-intent-and-needs-met]] — the parent concept: mapping is
+  fundamentally an intent-matching exercise, and most cannibalization
+  is two pages competing to serve the same intent.
+
 
 See [[riseatseven-keyword-mapping-guide]] and [[semrush-keyword-mapping]]
 for the full source writeups.

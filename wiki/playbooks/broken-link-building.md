@@ -100,6 +100,10 @@ even on a single well-linked competitor site.
   (media coverage) worth running alongside this tactic.
 - [[brand-entity-seo-strategy]] — backlink building as one input to
   brand entity/Knowledge Graph signals.
+- [[link-building]] — the parent concept: why links still matter, what
+  makes a link valuable, and where broken-link building sits among the
+  other acquisition mechanisms.
+
 
 See [[semrush-broken-link-building]] and [[ahrefs-broken-link-building]]
 for the full source writeups.
