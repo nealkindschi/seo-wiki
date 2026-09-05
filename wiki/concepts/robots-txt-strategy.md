@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo]
-updated: 2026-07-11
+updated: 2026-09-04
 ---
 
 # Robots.txt Strategy: What It Is, What It Isn't
@@ -113,11 +113,29 @@ Each subdomain has its own root; robots.txt doesn't cascade.
 ## Critical misconception: robots.txt does NOT prevent indexing
 
 **This is the #1 robots.txt mistake.** Even if a URL is blocked in robots.txt:
-- Google can still crawl and index it if another website links to it
+- Google can still index it if another website links to it (it indexes
+  the URL without crawling the page)
 - It may appear in search results (though "without a description," since Google can't access the page)
 - It wastes your robots.txt directive
 
 Example: You block `/admin/` in robots.txt. Another site links to `/admin/user123`. Google may still index that URL—robots.txt has no authority over incoming links.
+
+### The "quick fix for duplicate content" version of this mistake
+
+A widely repeated practitioner shortcut is to disallow duplicate or
+thin pages in robots.txt to keep them out of the index. It's half
+right: it does save crawl budget, which is a real benefit. It does not
+control indexing, and it makes the situation worse — because Google
+never fetches a disallowed page, it never sees a `noindex` on it, so
+the block *prevents* the directive that would have worked. Per
+[[google-robots-txt-intro]] (official) and [[ahrefs-robots-txt-guide]]
+(which lists this among the common implementation mistakes), the rule
+is: robots.txt for crawl management, `noindex` for indexing control,
+and never both on the same URL.
+
+This page carries no **Conflicting Evidence** section because no source
+in this wiki argues the opposite — the disagreement is between official
+guidance and folklore, not between sources.
 
 ### For actual indexing prevention, use:
 1. **`noindex` meta tag** — Most reliable for HTML pages
@@ -145,10 +163,6 @@ Example: You block `/admin/` in robots.txt. Another site links to `/admin/user12
 3. **Linkage overrides it**: External backlinks can bypass your robots.txt rules
 4. **No security value**: Google treats it as advisory only, not a security boundary
 5. **Crawler still sees directives**: Googlebot still accesses robots.txt to read your rules (it's not hidden from crawlers)
-
-## Conflicting Evidence
-
-Some SEO practitioners recommend using robots.txt as a "quick fix" for duplicate content or low-quality pages. This is technically true for *crawl optimization* (saving budget for better pages) but **false** for *indexing control*. The wiki follows Google's official stance: use robots.txt for crawl management, use `noindex` for indexing control.
 
 ## Related pages
 

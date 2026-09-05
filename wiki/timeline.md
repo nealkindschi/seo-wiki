@@ -178,6 +178,15 @@ weak.
 
 [[google-search-status-dashboard-history]]. Duration: 23 days, 13 hours.
 
+## 2024-11-19 — Rich Sanger publishes "AI Overview Optimization: Insights from Google's Patent"
+
+[[richsanger-ai-overview-patent-insights]] · updated
+[[geo-content-optimization-tactics]]. Analysis of US patent 11769017B1
+describing a two-stage AI Overview selection mechanism (a draft summary,
+then embedding-distance verification against candidate sources), with
+position-1/2 inclusion-rate data and a related-query pathway that lifts
+inclusion from 46% to 67%. Backfilled during the 2026-09-04 lint.
+
 ## 2024-12-12 — December 2024 core update
 
 [[google-search-status-dashboard-history]]. Duration: 6 days, 4 hours.
@@ -185,6 +194,16 @@ weak.
 ## 2024-12-19 — December 2024 spam update
 
 [[google-search-status-dashboard-history]]. Duration: 7 days, 2 hours.
+
+## 2025-03-01 — Semrush publishes "Semrush AI Overviews Study: What 2025 SEO Data Tells Us"
+
+[[semrush-ai-overviews-study-2025]] · updated [[aio-ctr-impact]]. AIO
+prevalence rose from 6.49% of queries to a 24.61% July peak, settling at
+15.69% by November (+155% Q1-to-Q4). AIOs expanded past informational
+intent into commercial (8.15%→18.57%), transactional (1.98%→13.94%), and
+navigational (0.84%→10.33%) queries. Zero-click rate *decreased*
+(33.75%→31.53%) on keywords tracked before and after AIO introduction.
+Backfilled during the 2026-09-04 lint.
 
 ## 2025-03-13 — March 2025 core update
 
@@ -288,6 +307,17 @@ target (see that playbook's Conflicting Evidence section).
 
 [[google-search-status-dashboard-history]]. Duration: 19 hours, 30 minutes.
 
+## 2026-03-25 — SparkToro publishes "New Research: Influence Happens Everywhere"
+
+[[sparktoro-influence-happens-everywhere-2026]] · established
+[[ai-traffic-scale-vs-hype]]. Analysis of the 5,000 most-visited sites
+finds search + social ≈ half of all web visits, Google ≈ 73% of search
+activity, and AI tool visits at roughly 1/1,000th the scale their press
+coverage implies — the wiki's core scale check against AI-traffic hype.
+Also argues influence precedes search, so search converts existing
+demand rather than originating it. Backfilled during the 2026-09-04
+lint.
+
 ## 2026-03-27 — March 2026 core update
 
 [[google-search-status-dashboard-history]]. Duration: 12 days, 4 hours.
@@ -355,6 +385,18 @@ MarTech, US Finance) and engine retrieval strategy.
 
 [[google-search-status-dashboard-history]]. Duration: 11 days, 21 hours.
 
+## 2026-06-15 — Growth Memo publishes "Topics Matter for Third-Party Authority Signals"
+
+[[growth-memo-topics-matter-for-third-party-authority]] · updated
+[[ai-citation-landscape]], [[ai-visibility-correlation-factors]], and
+[[geo-content-optimization-tactics]]. AI source sets are topic-specific
+rather than generic — competitor domains are 33.5% of citations for
+invoicing queries but 7% for business-startup queries — and Authority
+Score shows a 0.65 Pearson correlation with AI mentions across a
+1,000-domain sample, one side of the still-open authority-vs-citation
+conflict. Authority gains are tiered, not linear. Backfilled during the
+2026-09-04 lint.
+
 ## 2026-06-16 — Semrush publishes "How to Optimize for the Agentic Web"
 
 [[semrush-optimize-for-agentic-web]] · established
@@ -390,12 +432,36 @@ checkout readiness for AI shopping agents.
 
 [[google-search-status-dashboard-history]]. Duration: 2 days, 1 hour.
 
+## 2026-06-24 — Similarweb publishes "The Downstream Impact of AI Visibility"
+
+[[similarweb-downstream-impact-of-ai-visibility-2026]] · updated
+[[aio-ctr-impact]] and [[ai-citation-landscape]]. First study in this
+wiki tying AI recommendation to measured downstream traffic: brands
+ChatGPT recommends are 2.5x more likely to get a visit within 7 days
+than a non-recommended competitor. Its measurement finding matters more
+— 55.9% of AI-influenced traffic arrives via search rather than as a
+ChatGPT referral, so standard analytics absorbs AI's influence into
+ordinary branded organic. US desktop only, three verticals,
+correlational. Backfilled during the 2026-09-04 lint.
+
 ## 2026-06-29 — Google publishes official guidance on optimizing for AI Overviews/AI Mode
 
 [[google-ai-optimization-guide]] · updated [[generative-engine-optimization]].
 States SEO fundamentals remain the foundation for AI features and that no
 special AI-only infrastructure (llms.txt, chunking, AI-specific markup) is
 needed.
+
+## 2026-06-29 — Growth Memo publishes "Why Proprietary Data Is Your Most Defensible AI Citation Asset"
+
+[[growth-memo-why-proprietary-data-is-your-most-defensible-asset]] ·
+updated [[geo-content-optimization-tactics]]. Pages with 15+ unique
+figures averaged an information gain score of 62.1 vs. 40.2 for pages
+with minimal original data, and 44.2% of all citations come from the
+first 30% of a page. Owning the data doesn't guarantee the citation —
+aggregators can repackage someone else's research and capture it
+instead. Companion to
+[[growth-memo-why-most-original-data-never-gets-cited]]. Backfilled
+during the 2026-09-04 lint.
 
 ## 2026-06-30 — Peec AI publishes "Why Server Logs Are Crucial for AI Search Strategy"
 
@@ -404,6 +470,16 @@ needed.
 Introduces a three-part AI bot taxonomy (training, search/indexing,
 user query/retrieval) and a server-log-vs-citation gap-analysis method
 for diagnosing why a frequently-crawled page isn't being cited.
+
+## 2026-07-02 — Semrush publishes "AI Overviews Are Expanding Across Commercial Intent Search"
+
+[[semrush-ai-overviews-commercial-search-2026]] · updated
+[[aio-ctr-impact]]. Commercial-intent AIOs grew 71% between Nov 2025 and
+Apr 2026 while transactional-intent AIOs fell 5% — a divergence from the
+uniform-growth phase in the 2025 study. AIOs cluster on the highest-CPC
+keywords in nearly every industry, and Google Ads/AIO coexistence on the
+same SERP roughly doubled year over year. Backfilled during the
+2026-09-04 lint.
 
 ## 2026-07-06 — Growth Memo publishes "Why Most Original Data Never Gets Cited"
 

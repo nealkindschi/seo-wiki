@@ -1031,3 +1031,121 @@ constraints). Cross-linked into [[content-marketing-strategy]],
 vendor plug rather than a general best practice. No real-world-dated
 events for the timeline (evergreen guides). No conflicts with existing
 wiki claims.
+
+## [2026-09-04] lint | Full-wiki lint: structure clean; 8 playbooks missing concept backlinks, 7 dated research sources missing timeline entries
+Scope: 17 concepts, 26 playbooks, 86 sources, 89 raw files.
+
+Clean (no action needed):
+- **Broken links** — every `[[wikilink]]` target resolves. The only
+  unmatched targets are `[[source-slug]]`/`[[concept-slug]]` in
+  timeline.md's format documentation (template placeholders, as noted
+  in the 2026-07-11 lint).
+- **Index coverage** — all 129 pages are listed in index.md; index.md
+  lists no page that doesn't exist.
+- **Frontmatter** — `type`/`tags`/`updated` present on every concept
+  and playbook; `type`/`tags`/`date_ingested`/`origin` present on every
+  source page.
+- **Raw ↔ source integrity** — every `origin:` path resolves to a real
+  file under `raw/`, and every file in `raw/` is referenced by exactly
+  one source page. No orphaned raw material, no dangling origins.
+- **Open conflicts re-checked** — the four unresolved Conflicting
+  Evidence sections (content-age/freshness in
+  [[ai-citation-landscape]], authority-vs-citation in
+  [[ai-visibility-correlation-factors]], traditional-SEO-vs-GEO in
+  [[generative-engine-optimization]], internal-link-count in
+  [[link-and-anchor-text-best-practices]]) were tested against the 20
+  sources ingested on 2026-09-04. None of those sources carries
+  freshness, content-age, or authority-correlation data, so no conflict
+  is newly resolvable and none needed reopening.
+
+Findings (reported, not yet fixed):
+1. **8 playbooks link sideways but never up to a concept page**, which
+   CLAUDE.md's playbook schema requires ("links back to the concept(s)
+   it belongs to"): [[broken-link-building]],
+   [[content-pruning-playbook]], [[controlling-ai-feature-inclusion]],
+   [[enterprise-seo-strategy]], [[image-seo-checklist]],
+   [[keyword-mapping-and-cannibalization]], [[saas-seo-strategy]],
+   [[seo-competitive-analysis]]. All are well cross-linked to sibling
+   playbooks and sources — only the upward link to the concept layer is
+   missing.
+2. **2 concepts link to no playbook**: [[e-e-a-t-and-page-quality]] and
+   [[google-algorithm-update-history]]. Both have obvious downstream
+   playbooks ([[seo-copywriting]]/[[content-pruning-playbook]] and
+   [[classic-seo-ranking-factors]] respectively) that they don't point
+   at.
+3. **7 dated research/analysis sources missing from timeline.md**,
+   inconsistent with directly comparable peers that do have entries
+   (e.g. [[ahrefs-why-chatgpt-cites-pages-2026]],
+   [[growth-memo-why-most-original-data-never-gets-cited]],
+   [[peec-ai-listicle-rank-effect-2026]]):
+   [[semrush-ai-overviews-study-2025]] (2025-03-01),
+   [[sparktoro-influence-happens-everywhere-2026]] (2026-03-25),
+   [[growth-memo-topics-matter-for-third-party-authority]] (2026-06-15),
+   [[similarweb-downstream-impact-of-ai-visibility-2026]] (2026-06-24),
+   [[growth-memo-why-proprietary-data-is-your-most-defensible-asset]]
+   (2026-06-29), [[semrush-ai-overviews-commercial-search-2026]]
+   (2026-07-02), and [[richsanger-ai-overview-patent-insights]]
+   (2024-11-19). The evergreen how-to guides correctly stay off the
+   timeline per the 2026-07-11 event-vs-activity ruling; these seven are
+   studies/reports/patent analysis, i.e. events by that same ruling.
+4. **[[robots-txt-strategy]]'s Conflicting Evidence section doesn't use
+   the schema format** — it's a prose paragraph about practitioner
+   folklore vs. Google's stance, with no Claim / Supported by /
+   Contradicted by / Current best guess structure and no source
+   citations on either side. It's also not really a source conflict;
+   arguably it should be a "Common misconception" section instead.
+5. **1 orphan: [[crawlingmondays-strategical-content-optimization]]** —
+   no inbound links except index.md. This is intentional and documented
+   on the page itself: the video's content could not be retrieved, so it
+   was filed as a placeholder with no citable claims. Flagged for
+   visibility, not as a defect — leave it until a transcript is
+   available.
+
+Fixes applied (same day, user go-ahead):
+- **Finding 1 & 2 — cross-reference layer repaired.** Added concept
+  backlinks to all 8 playbooks (creating a `## See also` section on the
+  4 that had none: [[content-pruning-playbook]],
+  [[enterprise-seo-strategy]], [[image-seo-checklist]],
+  [[saas-seo-strategy]]), and playbook links to
+  [[e-e-a-t-and-page-quality]] and [[google-algorithm-update-history]].
+  ~20 new cross-references; each names *why* the pages relate rather
+  than just listing a slug. `updated:` bumped to 2026-09-04 on all 10.
+  Every playbook now links to at least one concept and every concept to
+  at least one playbook.
+- **Finding 3 — 7 timeline entries backfilled** in chronological
+  position, each marked "Backfilled during the 2026-09-04 lint" so the
+  append-only convention stays auditable:
+  [[richsanger-ai-overview-patent-insights]] (2024-11-19),
+  [[semrush-ai-overviews-study-2025]] (2025-03-01),
+  [[sparktoro-influence-happens-everywhere-2026]] (2026-03-25),
+  [[growth-memo-topics-matter-for-third-party-authority]] (2026-06-15),
+  [[similarweb-downstream-impact-of-ai-visibility-2026]] (2026-06-24),
+  [[growth-memo-why-proprietary-data-is-your-most-defensible-asset]]
+  (2026-06-29), [[semrush-ai-overviews-commercial-search-2026]]
+  (2026-07-02). Timeline verified in date order end to end (77 entries).
+- **Finding 4 — [[robots-txt-strategy]] restructured.** The off-schema
+  "Conflicting Evidence" section is gone; its content is now a
+  "The 'quick fix for duplicate content' version of this mistake"
+  subsection folded into the page's existing "Critical misconception"
+  section, with both sides cited ([[google-robots-txt-intro]],
+  [[ahrefs-robots-txt-guide]]) and the mechanism spelled out — blocking
+  in robots.txt prevents Google from ever seeing the `noindex` that
+  would have worked. Added an explicit note that this page carries no
+  Conflicting Evidence section *because* the disagreement is official-
+  guidance-vs-folklore, not source-vs-source, so a future lint doesn't
+  re-flag it as a missing section.
+- **Bonus fix — internal contradiction on the same page.** The
+  misconception section claimed Google "can still crawl and index"
+  a robots.txt-disallowed URL, contradicting the rest of the page (and
+  the mechanism it's explaining). Corrected to: Google can still index
+  the URL from external links without crawling the page.
+
+Not fixed, by decision:
+- [[crawlingmondays-strategical-content-optimization]] stays orphaned.
+  It's a documented placeholder for a video whose content couldn't be
+  retrieved; linking it from a concept/playbook would imply it supports
+  claims it can't. Revisit if a transcript becomes available.
+
+Post-fix verification: no broken links, no orphans, index.md complete,
+frontmatter complete, raw ↔ source mapping 1:1, timeline chronologically
+ordered.
