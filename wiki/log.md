@@ -1149,3 +1149,74 @@ Not fixed, by decision:
 Post-fix verification: no broken links, no orphans, index.md complete,
 frontmatter complete, raw ↔ source mapping 1:1, timeline chronologically
 ordered.
+
+## [2026-09-06] ingest | Footer SEO — three sources (Growth Memo, SEOptimer, HeyDay Marketing)
+
+Ingested as a set, since all three cover the same narrow topic (sitewide
+footer optimization) at very different quality levels:
+
+- [[growth-memo-show-me-your-footer]] (Kevin Indig, 2023-07-31) —
+  substantive; the only one with a named Google statement, a first-party
+  case, and third-party UX research.
+- [[seoptimer-website-footer-seo]] (Jay Kang, 2019-10-01) — design/UX
+  led, no citations, but the best material on footer *elements* and CTA
+  discipline.
+- [[heydaymarketing-footer-optimization]] (2024-05-23) — agency
+  marketing post, no data; retained for two ideas the others miss
+  (footer schema markup, local-SEO NAP) plus a maintenance cadence.
+
+Created:
+- [[footer-optimization]] — new playbook consolidating all three, led by
+  Indig's honest "low impact, but not no impact" framing and the crawl-
+  rate (not ranking-weight) mechanism.
+
+Updated:
+- [[link-and-anchor-text-best-practices]] — reasonable-surfer placement
+  bullet and audit-checklist item softened to mark placement weighting
+  as contested; added a footer-link cross-reference and See also entry.
+- [[link-building]] — Placement quality-metric bullet now distinguishes
+  acquired backlinks (hierarchy holds) from internal links (contested).
+- `wiki/index.md`, `wiki/timeline.md` (3 dated entries: 2019-10-01,
+  2023-07-31, 2024-05-23).
+
+Deliberately excluded: HeyDay's advice to seed commercial keywords
+("SEO company," "SEO agency") into footer copy. It is footer keyword
+stuffing and contradicts the same article's own anti-stuffing warning
+two sentences earlier. Recorded as an anti-pattern in
+[[footer-optimization]] with the reasoning, so a future lint doesn't
+re-add it as a "missing" tactic.
+
+## [2026-09-06] conflict | Footer/boilerplate link weight — Mueller vs. the reasonable-surfer model
+
+[[growth-memo-show-me-your-footer]] quotes John Mueller saying Google
+does *not* discount footer links ("whether they're in the header or in
+the footer or the sidebar or the main content, that doesn't really
+change anything for us"). This contradicts the reasonable-surfer
+placement hierarchy the wiki carried unqualified in
+[[link-and-anchor-text-best-practices]] and [[link-building]], sourced
+from [[ahrefs-internal-links-for-seo]], [[yoast-internal-linking-for-seo]]
+and [[ahrefs-link-building]].
+
+Logged as **unresolved**, leaning Mueller for internal links (standing
+preference for official Google guidance over third-party SEO blogs; the
+reasonable-surfer patent dates to 2004 and Google filed User-Sensitive
+PageRank in 2016). Two caveats keep it open: Mueller describes how
+Google *treats links it finds*, not practical equivalence of outcomes;
+and the hierarchy remains sound for *acquired backlinks*, where an
+editorial placement signals endorsement a sitewide footer link doesn't.
+Recorded in full on [[link-and-anchor-text-best-practices]].
+
+## [2026-09-06] conflict | Footer link density — "fat but not obese" vs. "simplicity first"
+
+[[growth-memo-show-me-your-footer]] says there's no downside to a large
+footer if PageRank/CheiRank stay balanced and disputes that big footers
+are bad UX. [[seoptimer-website-footer-seo]] and
+[[heydaymarketing-footer-optimization]] both argue for restraint, the
+latter citing link-equity dilution.
+
+Logged as **unresolved**, leaning Indig — consistent with the wiki's
+existing no-numeric-cap resolution on internal link counts, and because
+the opposing sources offer no data and reuse the simplified
+PageRank-dilution argument the wiki already declined. Best guess: the
+binding constraint is organization/scannability, not link count.
+Recorded on [[footer-optimization]].

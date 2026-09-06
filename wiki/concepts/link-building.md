@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo]
-updated: 2026-09-04
+updated: 2026-09-06
 ---
 
 # Link Building
@@ -67,7 +67,12 @@ Per [[ahrefs-link-building]], not all links are worth the same:
 - **Placement** — in-content/editorial links carry more weight than
   footer or sidebar placements, tracking with click-through likelihood
   (the "reasonable surfer" model — see
-  [[link-and-anchor-text-best-practices]]).
+  [[link-and-anchor-text-best-practices]]). This still holds for
+  *acquired backlinks*, where an editorial in-content placement signals
+  genuine endorsement and a sitewide footer link does not. For a site's
+  own *internal* links the same hierarchy is contested — John Mueller
+  says Google doesn't differentiate by placement; see that playbook's
+  Conflicting Evidence section and [[footer-optimization]].
 - **Destination** — homepage links are the easiest to acquire; getting
   links (or link equity) to deeper "money pages" typically requires
   earning links to a linkable asset and then routing authority internally
