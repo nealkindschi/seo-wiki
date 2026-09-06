@@ -13,6 +13,14 @@ Format:
 
 ---
 
+## 2019-10-01 — SEOptimer publishes "Website Footer SEO Best Practices"
+
+[[seoptimer-website-footer-seo]] · fed [[footer-optimization]].
+Design/UX-led footer guide: seven reasons footers matter, must-have
+elements, the one-generic-CTA and three-section rules, and a
+"simplicity over volume" density stance later contradicted by
+[[growth-memo-show-me-your-footer]].
+
 ## 2020-04-03 — Ahrefs publishes "Anchor Text: A Data-Driven Guide"
 
 [[ahrefs-anchor-text-2020]] · updated
@@ -99,6 +107,16 @@ practiced in 2020.
 
 [[google-search-status-dashboard-history]]. Duration: 13 days, 2 hours.
 
+## 2023-07-31 — Kevin Indig publishes "Show me your footer, I show you mine"
+
+[[growth-memo-show-me-your-footer]] · created [[footer-optimization]],
+opened a Conflicting Evidence entry on
+[[link-and-anchor-text-best-practices]] and amended [[link-building]].
+Relays John Mueller's statement that Google does **not** discount footer
+links ("we essentially just see them as links on a page"), contradicting
+the 2004 reasonable-surfer placement hierarchy; argues the real
+mechanism is crawl rate, backed by an uncontrolled G2 case.
+
 ## 2023-08-22 — August 2023 core update
 
 [[google-search-status-dashboard-history]]. Duration: 16 days, 3 hours.
@@ -161,6 +179,13 @@ weak.
 ## 2024-03-05 — March 2024 spam update
 
 [[google-search-status-dashboard-history]]. Duration: 14 days, 21 hours.
+
+## 2024-05-23 — HeyDay Marketing publishes "Maximize Your SEO with Effective Footer Optimization"
+
+[[heydaymarketing-footer-optimization]] · fed [[footer-optimization]].
+Additive only on footer schema markup, local-SEO NAP and a maintenance
+cadence; its keyword-placement advice was excluded as self-contradicting
+keyword stuffing.
 
 ## 2024-06-20 — June 2024 spam update
 
