@@ -1220,3 +1220,28 @@ the opposing sources offer no data and reuse the simplified
 PageRank-dilution argument the wiki already declined. Best guess: the
 binding constraint is organization/scannability, not link count.
 Recorded on [[footer-optimization]].
+
+## [2026-09-10] ingest | Measuring Google AI Overviews (Xu, Iqbal & Montgomery, arXiv:2605.14021)
+
+First independent academic AIO audit in the wiki (55,393 trending
+queries, 7,583 AIOs, 61,212 cited URLs, 98,020 verified claims,
+Mar-Apr 2026). New source page
+[[arxiv-measuring-google-ai-overviews-2026]] and new concept
+[[ai-overview-grounding-and-fidelity]]. Updated
+[[ai-citation-landscape]] (new AIO-vs-first-page source-selection
+section: long-tail breadth, PC1 credibility gap, 14.2% vs 41.4% UGC,
+29.8% off-page citations), [[aio-ctr-impact]] (activation by question
+form/query length; supply-side ad-dependence economics), and
+[[geo-content-optimization-tactics]] (activation levers plus a new
+"verify how you're represented" audit checklist).
+
+## [2026-09-10] conflict | AIO citation vs. top-10 ranking - 76% (Ahrefs) vs. 41.4% domain overlap (arXiv)
+
+Logged on [[ai-citation-landscape]]. Ahrefs B2B stat says 76% of AIO
+citations come from Google's own top 10; the arXiv audit measures
+41.4% per-AIO domain overlap at top-10 and 70.2% across the full first
+page, with 29.8% of cited domains appearing nowhere on it. Partly a
+unit-of-analysis difference (citation-weighted vs. per-AIO domain
+average) and partly a corpus difference (B2B vs. trending). Leaning
+toward treating 76% as an upper bound that doesn't generalize across
+query mixes; flagged unresolved.
