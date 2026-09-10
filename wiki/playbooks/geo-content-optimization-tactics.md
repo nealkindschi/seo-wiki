@@ -748,6 +748,54 @@ Being cited within the AIO on these pages is worth **+120% more clicks**
 than not being cited (though still below a no-AIO baseline) — see
 [[aio-ctr-impact]] for the full economics.
 
+Two independent activation signals from
+[[arxiv-measuring-google-ai-overviews-2026]] (55,393 trending queries,
+Mar–Apr 2026) sharpen how to apply the table above:
+
+- **Question phrasing is the single strongest activation lever
+  measured**: 64.7% for question-form queries vs. 9.5% otherwise
+  (6.8x), and `how`/`why` queries top out at 84.3%/73.4%. If a page
+  targets an explanatory "how"/"why" query, assume an AIO will sit
+  above it.
+- **Query length matters on its own**, not just as a proxy for
+  question phrasing: among *non-question* queries, activation runs
+  9.9% at one word up to 38.7% at six or more. Long-tail ≠ AIO-safe.
+- **Category matters too** — Hobbies & Leisure (46.1%), Science
+  (39.9%), Health (26.6%) and Business & Finance (26.2%) run far above
+  Beauty & Fashion (3.5%), Politics (7.5%) and Travel (8.7%).
+
+## Verify how you're represented, not just whether you're cited
+
+Per [[ai-overview-grounding-and-fidelity]]
+([[arxiv-measuring-google-ai-overviews-2026]]), **~11% of AI Overview
+claims are not supported by the sources the AIO credits** — 6.98%
+mention nothing in any cited source, 2.66% are directly contradicted
+by a cited source. A citation next to a sentence is not evidence the
+sentence came from your page.
+
+- [ ] When auditing AIO appearances, check that the claim attributed
+      near your citation actually exists on your page — brand-safety
+      risk lands on the cited publisher, not the model.
+- [ ] Prioritize this check in categories where you'd be blamed for an
+      error (Health, Finance, Law) even though those categories score
+      *highest* on fidelity — the consequence, not the rate, drives the
+      priority.
+- [ ] State key facts **literally and in one place**. The "Vague"
+      (4.36%) and "Ambiguous" (1.39%) verdicts are source-text
+      failures: inferable-but-not-stated, and cited-sources-disagree.
+      Explicit, self-contained factual sentences are less likely to be
+      paraphrased into either.
+- [ ] Don't build AIO-accuracy monitoring on a crawl-the-source-later
+      pipeline for anything with live data (pricing, stock, scores,
+      availability) — the source will have changed by the time you
+      check, and every claim will look like a hallucination. This is
+      exactly the artifact that produced the study's anomalous Climate
+      score.
+- [ ] Note what this **doesn't** buy you: source quality and claim
+      fidelity are statistically independent in the study. Improving
+      the authority of your content raises citation odds, not the odds
+      of being quoted faithfully.
+
 ## Measurement checklist: don't panic on CTR alone
 
 Per [[aio-ctr-impact]], a falling CTR on AIO-cited queries can be a

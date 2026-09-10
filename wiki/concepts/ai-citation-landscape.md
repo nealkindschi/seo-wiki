@@ -498,7 +498,95 @@ recent record-holder (2024 White Sox). This reinforces
 [[google-ai-optimization-guide]]'s framing of generative answers as
 grounded in retrieval (RAG), not a static trained "understanding."
 
+## AIO source selection, measured against the first page as control
+
+Per [[arxiv-measuring-google-ai-overviews-2026]] — the only source in
+this wiki that compares AIO citations against the *co-displayed
+first-page results for the same query*, which turns several
+widely-repeated AIO characterizations on their head. 7,583 AIOs,
+61,212 cited URLs, 308,407 first-page URLs, Mar–Apr 2026.
+
+**AIO citation is broad where the SERP is concentrated.** The top 10
+hostnames take 29.7% of AIO citations but 49.6% of first-page
+citations; 56.3% of AIO-cited hosts appeared exactly once across 40
+days, versus 42.1% of first-page hosts — despite the first-page pool
+having more than twice as many unique hosts (15,394 vs. 7,479).
+"Source breadth, not concentration, is the dominant shape of AIO
+citation." This sits alongside, not against, the
+concentration findings above ([[ahrefs-b2b-seo-statistics-2025]]'s
+"28.9% of AIO citations go to the top 50 brands"): brand-level
+concentration and host-level long-tail breadth are compatible.
+
+**AIO-cited domains are more credible than the organic results
+directly beneath them** — mean PC1 domain-credibility 0.732 vs. 0.645,
+significant in 14 of 19 categories with **no significant reversal in
+any category**. The authors note this "directly contradicts prior work
+suggesting that AIOs draw on lower-quality sources than traditional
+results."
+
+**AIOs cite less UGC than the SERP does, in every category**: 14.2% of
+AIO references vs. 41.4% of first-page URLs. Four platforms are 96.5%
+of the AIO UGC share — YouTube 5.49%, Facebook 3.68%, Instagram 3.65%,
+Reddit 0.87%. Category spread is 3x: Climate 9.3% and Health 10.7% at
+the low end, Beauty & Fashion 28.9% and Autos & Vehicles 27.4% at the
+high end.
+
+This **nuances** [[brightedge-ai-search-same-brands-different-sources]]'s
+"Google AI Overviews is a UGC-first engine" framing above. Both can be
+true — AIO is UGC-heavy *relative to other AI engines* and UGC-light
+*relative to Google's own organic results* — but the magnitudes differ
+between the two sources (14.2% vs. ~17.5–18% UGC; YouTube 5.49% vs.
+10.6%), plausibly a query-mix difference (trending/news-heavy corpus
+vs. brand-tracking corpus). Treat "UGC-first" as a between-engine
+statement only.
+
+**Roughly 30% of AIO citations come from outside the first page —
+and they're the better ones.** Averaged per AIO, AIO reference domains
+overlap 25.0% with the top 5, 41.4% with the top 10, and 70.2% with
+the full first page; **29.8% of AIO-cited domains appear nowhere on
+the corresponding first page** (28.5% at URL level). Those off-page
+citations score *higher* on credibility (PC1 0.758 vs. 0.724) and
+carry far less UGC (3.4% vs. 18.5%) than the AIO citations that do
+also rank.
+
+Practical implication: AIO citation and first-page ranking are
+different selection mechanisms operating on the same index, not one
+mechanism re-ranked. Ranking on page 1 remains the highest-probability
+path into an AIO, but roughly three in ten cited domains get there
+without it — so "we don't rank for this query" is not a reason to
+exclude a page from AIO-citation monitoring. As the authors put it,
+"publishers whose content informs an AIO are not necessarily the same
+publishers whose pages users would encounter by scrolling past it."
+
 ## Conflicting Evidence
+
+- **Claim**: how much AI Overview citation depends on ranking in
+  Google's own top 10.
+  - Supported by: [[ahrefs-b2b-seo-statistics-2025]] — "76% of AI
+    Overview citations pull from Google's own top-10 organic results"
+    (see "AI Overview citation composition" above), the basis for this
+    wiki's "ranking well is close to a prerequisite for AI citation"
+    framing.
+  - Contradicted by: [[arxiv-measuring-google-ai-overviews-2026]]
+    (2026-05-13) — measured per-AIO domain overlap of **41.4% at
+    top-10** and 70.2% across the *entire* first page, with 29.8% of
+    cited domains appearing nowhere on the first page at all. Even the
+    full-first-page figure (70.2%) sits below the claimed top-10
+    figure (76%).
+  - **Current best guess**: partly a unit-of-analysis difference,
+    partly a real gap. The arXiv study measures *domains* averaged
+    per-AIO on a trending-query corpus; the Ahrefs stat is a
+    citation-weighted share on a B2B corpus. Citation-weighting would
+    push the arXiv number up (frequently-cited hosts also tend to
+    rank), and a B2B/commercial query mix likely has tighter
+    AIO-to-SERP coupling than trending news and sports do. But the
+    arXiv figure is the better-specified measurement — it publishes
+    its overlap definition, sample sizes and control pool, where the
+    Ahrefs figure is a headline statistic. Leaning toward: **top-10
+    ranking is a strong but far-from-sufficient predictor of AIO
+    citation, and the "~76% comes from the top 10" figure is an
+    upper bound that does not generalize across query mixes.** Flagged
+    as **unresolved** — neither source replicates the other's corpus.
 
 - **Claim**: optimal content age for AI citation.
   - Supported by: [[airops-fan-out-effect-2026]] (via
@@ -580,6 +668,9 @@ grounded in retrieval (RAG), not a static trained "understanding."
   citation/ranking behavior in AI systems isn't purely a function of
   semantic relevance to the query as written — behavioral/engagement
   signals from similar prior queries plausibly factor in too.
+- [[ai-overview-grounding-and-fidelity]] — the companion half of
+  [[arxiv-measuring-google-ai-overviews-2026]]: once a source is cited,
+  whether the AIO's claims are actually supported by it (~11% are not).
 - [[growth-memo-topics-matter-for-third-party-authority]] — the
   topic-vs-competitor-domain-share data point cited above, plus tiered
   authority-accumulation and named-author findings covered in
