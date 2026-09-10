@@ -536,3 +536,18 @@ Wirecutter and Consumer Reports.
 6 platforms) finds ~11% of citations originate from self-promotional
 listicles with no algorithmic correction observed, and sharp platform
 divergence (ChatGPT ~3.6-4% vs. Google AI Mode/Perplexity ~10.3-10.4%).
+
+## 2026-05-13 — "Measuring Google AI Overviews" published (arXiv:2605.14021)
+
+[[arxiv-measuring-google-ai-overviews-2026]] · created
+[[ai-overview-grounding-and-fidelity]]; updated
+[[ai-citation-landscape]], [[aio-ctr-impact]] and
+[[geo-content-optimization-tactics]]. First large-scale independent
+academic audit of Google AI Overviews: 55,393 trending queries and
+7,583 AIOs observed Mar 13-Apr 21 2026, finding 13.7% activation
+(64.7% on question-form queries), AIO-cited domains more credible than
+co-displayed organic results (PC1 0.732 vs 0.645) with less UGC (14.2%
+vs 41.4%), 29.8% of cited domains absent from the first page, 11.03%
+of claims unsupported by their own cited sources, and 50.63% of cited
+pages running visible ads against only 2.16% of AIO SERPs carrying
+Google's own.
