@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo]
-updated: 2026-09-04
+updated: 2026-09-10
 ---
 
 # Robots.txt Strategy: What It Is, What It Isn't
@@ -164,8 +164,43 @@ guidance and folklore, not between sources.
 4. **No security value**: Google treats it as advisory only, not a security boundary
 5. **Crawler still sees directives**: Googlebot still accesses robots.txt to read your rules (it's not hidden from crawlers)
 
+## Empirical AI-assistant compliance data
+
+Per [[ai-assistants-robots-txt-compliance-2026]] (controlled experiment,
+10 AI assistants, HMAC-validated test pages, 200 trials) — hard data
+behind limitation #1 above ("not all crawlers respect robots.txt...
+AI crawlers"):
+
+- **Compliance is assistant-specific, not a given.** Claude and Mistral
+  respected robots.txt allow/disallow rules as expected in this test.
+  DeepSeek, Gemini, Grok, and Qwen accessed disallowed pages regardless
+  of the robots.txt rule.
+- **Some assistants can't be targeted even if you wanted to.** Several
+  exposed generic browser user-agents (Chrome/Safari strings) instead
+  of an identifiable bot signature, making assistant-specific
+  allow/disallow rules technically impossible to write — you can't
+  target what your server logs can't distinguish.
+- **What an assistant answers doesn't tell you what it accessed.**
+  Copilot accessed all test pages in this study but returned no correct
+  answers from them; ChatGPT sometimes answered without accessing
+  allowed content at all. Don't infer crawl/access behavior from
+  citation or answer behavior.
+- **Access can continue well outside a visible interaction window** —
+  Grok generated 173+ additional accesses to test pages in the weeks
+  after the initial test, at 48-52x the expected per-trial request
+  rate to a single page, a distinct load pattern from traditional
+  crawling.
+- Practical implication: treat robots.txt as one control among several
+  (see "For actual indexing prevention" above), not as a reliable
+  content-governance boundary against AI assistants specifically — a
+  real risk of AI overview/agent access exists even for explicitly
+  disallowed content, and it isn't reliably auditable from server logs
+  alone when the assistant uses a generic user-agent.
+
 ## Related pages
 
+- [[ai-assistants-robots-txt-compliance-2026]] — the per-assistant
+  compliance data and attribution/access findings above.
 - [[robots-txt-audit-checklist]] — Operational audit checklist with syntax rules, dangerous mistakes, GSC monitoring
 - [[technical-seo-audit-checklist]] — Broader crawl/index/serve audit; robots.txt is one section
 - [[how-google-search-works]] — Crawl stage and crawl budget allocation

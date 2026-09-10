@@ -536,3 +536,24 @@ Wirecutter and Consumer Reports.
 6 platforms) finds ~11% of citations originate from self-promotional
 listicles with no algorithmic correction observed, and sharp platform
 divergence (ChatGPT ~3.6-4% vs. Google AI Mode/Perplexity ~10.3-10.4%).
+
+## 2026-07-01 — Spotify publishes "As It Was" (SIGIR '26): LLM-as-judge search evaluation grounded in historical user-behavior data (QRI cards) beats semantic-only judges on alignment with real user preference and live A/B outcomes
+[[spotify-llm-search-eval-behavioral-grounding-2026]] · new concept [[llm-as-judge-behavioral-grounding]]
+
+## 2026-04-05 — Princeton publishes "Commercial Persuasion in AI-Mediated Conversations": LLM chat interfaces nearly triple sponsored-product selection vs. traditional search, mostly via disparaging alternatives; disclosure labels largely ineffective at helping users detect it
+[[princeton-commercial-persuasion-ai-conversations-2026]] · new concept [[ai-mediated-commercial-persuasion]]
+
+## 2026-06-04 — WebKnoGraph paper published: open-source GNN framework for evaluating internal-linking interventions before deployment, finding automatic link selection trades semantic coherence for authority gain
+[[webknograph-gnn-internal-linking-2026]] · updated [[link-and-anchor-text-best-practices]]
+
+## 2025-09-17 — "When Content is Goliath and Algorithm is David" published: large-scale study finds Google AI Overview citation preference driven by content perplexity and source-set semantic homogeneity, intrinsic to the underlying LLM rather than platform-specific engineering
+[[goliath-david-generative-search-perplexity-2025]] · updated [[ai-citation-landscape]] and [[geo-content-optimization-tactics]]
+
+## 2026-04-29 — "From Citation Selection to Citation Absorption" published: measurement framework across ChatGPT/Google AI Overview/Perplexity shows citation breadth and depth diverge sharply by platform, and identifies structural/evidence-genre drivers of how deeply a citation is absorbed into an answer
+[[citation-selection-vs-absorption-geo-framework-2026]] · updated [[ai-citation-landscape]] and [[geo-content-optimization-tactics]]
+
+## 2026-07-19 — "Do Generative AI Assistants Respect robots.txt?" published: controlled experiment finds Claude/Mistral comply with robots.txt while DeepSeek/Gemini/Grok/Qwen do not, and identifies generic-user-agent attribution gaps and access/answer divergence
+[[ai-assistants-robots-txt-compliance-2026]] · updated [[robots-txt-strategy]]
+
+## 2026-07 — First large-scale citation study of Chinese-language generative search engines (DeepSeek, Doubao, Tencent Yuanbao, Qwen) published, finding a 39.3% silent-citation rate and 8.3% brand-exposure rate from citation pool to visible answer
+[[chinese-generative-search-citation-study-2026]] · updated [[ai-citation-landscape]]

@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo]
-updated: 2026-09-06
+updated: 2026-09-10
 ---
 
 # Link and Anchor Text Best Practices
@@ -205,6 +205,37 @@ disproportionate value and are worth high priority:
    analysis between existing pages can surface non-obvious, contextually
    relevant linking opportunities to important pages.
 
+### Pre-deployment evaluation of internal-link interventions
+
+Before publishing a batch of new internal links, it's possible to
+evaluate the proposed changes against a multi-objective score instead
+of relying on manual judgment alone or waiting for a live A/B test to
+reveal the effect:
+
+- Model the site as a directed link graph, embedded within its larger
+  host/link-ecosystem context (not evaluated in isolation) — authority
+  propagation from a batch of new links interacts with the site's
+  existing external-link environment.
+- Score each candidate batch of links jointly across at least: authority
+  yield (marginal gain per link), authority volatility (how stable the
+  predicted effect is), the down/up ratio (are you concentrating
+  authority gains by draining it from other pages, or genuinely growing
+  it), and semantic-coherence change (topical relevance between newly
+  linked pages) — no single metric is sufficient on its own.
+- **Expect a real tradeoff, not a free win:** research on this method
+  found automated link-candidate selection produces stronger authority
+  redistribution but at a semantic-coherence cost, while human/expert
+  selection better preserves topical coherence — and *every* tested
+  intervention, including expert-selected ones, produced some negative
+  coherence change. Adding links beyond a site's original architecture
+  has an inherent cost; the question is how much you're willing to pay
+  for how much authority gain.
+- Treat this as pre-deployment triage, not a replacement for editorial
+  review — the framework this is drawn from explicitly excludes
+  behavioral signals (clicks, impressions, crawl frequency) and hasn't
+  been validated against live ranking/traffic outcomes.
+- Full methodology: [[webknograph-gnn-internal-linking-2026]].
+
 ## 5. External linking
 
 - Don't avoid linking out — external links to good sources (citations)
@@ -295,6 +326,8 @@ disproportionate value and are worth high priority:
 
 ## See also
 
+- [[webknograph-gnn-internal-linking-2026]] — the pre-deployment
+  evaluation methodology and authority-vs-coherence tradeoff above.
 - [[how-google-search-works]] — links are how Google discovers URLs in
   the first place (crawling stage).
 - [[traditional-seo-ranking-factors]] — backlinks as a classic ranking

@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-07-11
+updated: 2026-09-10
 ---
 
 
@@ -96,6 +96,34 @@ a measurable axis), not data dumps or narrative-buried stats.
 - **Don't gate it.** Proprietary data behind a lead-gen form can't be
   crawled/cited — if citation is the goal, publish the benchmark
   itself openly, even if a deeper report stays gated.
+
+## Optimize for absorption, not just citation count
+
+Per [[citation-selection-vs-absorption-geo-framework-2026]] — getting
+cited and being *used* substantially within an answer are separate
+achievements, so don't stop at "am I cited":
+
+- **Structure content as reusable semantic units** ("Evidence-Container
+  Hypothesis"): clear topical scope per section, modular
+  headings/sections that stand alone when extracted, and real evidence
+  density — not just length or a Q&A wrapper.
+- **Lead with high-absorption evidence genres**: definitions, direct
+  comparisons, and code/procedural steps measurably increase how much
+  of your content ends up used in the answer (definitions +57%,
+  comparisons +55%, code +77% in the source study).
+- **Q&A formatting alone isn't a shortcut.** Wrapping content in a
+  question-and-answer structure without backing it with real evidence
+  density showed a *negative* relative influence effect in this study
+  — the formatting has to carry substance, not stand in for it.
+- **Match structure to the target platform's citation pattern.**
+  Engines that cite broadly-but-shallowly (e.g. Perplexity-style
+  behavior) reward being one of many usable sources; engines that cite
+  narrowly-but-deeply (e.g. ChatGPT-style behavior) reward being the
+  clearly best single source for a sub-claim — a one-size-fits-all
+  structure strategy underperforms a platform-aware one.
+- Don't over-read this as causal: the source study is explicit that its
+  findings are correlational/descriptive, not proven optimization
+  rules — treat these as informed hypotheses to test, not guarantees.
 
 ## Focus over comprehensiveness (fan-out breadth finding)
 
@@ -244,6 +272,37 @@ Per [[airops-fan-out-effect-2026]]:
   FAQPage (45.6%).
 - **Write at a college reading level** (Flesch-Kincaid 16-17): 35.9%
   citation, outperforming both simpler and more academic writing.
+
+## Reduce perplexity and front-load core claims
+
+Per [[goliath-david-generative-search-perplexity-2025]] (4,060 queries,
+98,477 sites, Google AI Overview) — a linguistic-level lever distinct
+from the structural/schema findings above:
+
+- **Lower-perplexity writing gets cited more.** A one-standard-
+  deviation drop in a page's perplexity (more predictable, less
+  convoluted phrasing — think clear, conventional sentence structure
+  over dense or idiosyncratic prose) raised citation probability from
+  ~47% to ~56% in this study. This is a property of how easily the
+  underlying language model processes the text, separate from topical
+  relevance.
+- **LLM-based content polishing is worth doing, and doesn't just
+  homogenize you into the pack.** Rewriting a page for fluency/lower
+  perplexity increased AI Overview citation diversity in this study
+  (+1-2 additional sources cited on average) rather than narrowing the
+  citable pool — don't avoid polishing content for fear it'll make you
+  indistinguishable from lower-quality competitors also using it.
+- **Front-load your core argument.** Content near the beginning of a
+  document gets preferential consideration by generative retrieval —
+  consistent with the inverted-pyramid guidance in
+  [[seo-copywriting]] and the chunk-level ("Fraggle") optimization
+  above, now with citation-specific evidence behind it.
+- Practical test method: because this preference is intrinsic to the
+  LLM family rather than platform-specific engineering (reproduced
+  independently via Gemini's RAG API), you can offline-test a page's
+  citability using a RAG pipeline built on the same/similar model
+  family before publishing, rather than waiting to observe live AI
+  Overview behavior.
 
 ## Freshness by vertical
 
@@ -801,3 +860,14 @@ Tier 1 list blindly:
       keyword-dense?
 - [ ] Have you avoided keyword stuffing and unnatural repetition?
 - [ ] Does the tone/tactic match the content's domain (see table above)?
+
+## Related: how AI systems judge relevance
+
+If you're building your own LLM-based eval pipeline to measure GEO/AI
+visibility (e.g. "does an LLM judge rate my page as relevant/citable
+for query X"), see [[llm-as-judge-behavioral-grounding]]: semantic-only
+LLM judges diverge most from real user preference on ambiguous
+queries, and grounding the judge in historical engagement data
+measurably improves alignment. It's evaluation methodology, not a
+content tactic, but relevant background for anyone measuring the
+tactics above.

@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-07-11
+updated: 2026-09-10
 ---
 
 Why / when to use this: use when the goal is brand-level visibility and
@@ -216,3 +216,15 @@ market share) rather than ranking-only vanity metrics.
 
 See [[iloveseo-brand-seo-and-ai]], [[sel-brand-entity-seo-5-step-framework]],
 and [[semrush-seo-brand-awareness]] for the full source writeups.
+
+## Related risk: competitive disparagement in AI chat
+
+A brand-entity strategy assumes competitors are competing for
+citation/mention share. See [[ai-mediated-commercial-persuasion]] for a
+distinct, harder-to-audit risk: a competitor's sponsored placement in
+an AI chat/commerce interface can subtly undermine *your* brand via
+hedging/caveat language rather than simple omission, and this goes
+largely undetected by users even with disclosure labels. There's no
+current tactic to counter this from the outside — it's a platform-level
+architecture question — but it's worth tracking as sponsored AI-chat
+commerce grows.
