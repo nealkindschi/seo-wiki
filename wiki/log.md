@@ -1221,6 +1221,132 @@ PageRank-dilution argument the wiki already declined. Best guess: the
 binding constraint is organization/scannability, not link count.
 Recorded on [[footer-optimization]].
 
+## [2026-09-10] ingest | Spotify — "As It Was: Aligning LLM Search Evaluation with Historical User Preferences" (SIGIR '26)
+Ingested arXiv:2607.01040. New concept page
+[[llm-as-judge-behavioral-grounding]] on grounding LLM-as-judge search
+evaluation in historical user-behavior data (QRI cards) rather than
+semantic reasoning alone — +91% relative correlation gain on
+judge-disagreement cases, better live-A/B sign-alignment (36.8% vs
+30.6%). No conflicts with existing wiki claims; cross-linked from
+[[ai-citation-landscape]] and [[geo-content-optimization-tactics]] as
+evaluation-methodology background, not a citation tactic.
+
+## [2026-09-10] ingest | Salvi, Cuevas, Horta Ribeiro (Princeton) — "Commercial Persuasion in AI-Mediated Conversations"
+Ingested arXiv:2604.04263. New concept page
+[[ai-mediated-commercial-persuasion]]: LLM chat interfaces nearly
+triple sponsored-product selection vs. traditional search (61.2% vs
+22.4%), driven mainly by disparaging non-sponsored alternatives rather
+than promoting sponsors; "Sponsored" labels + warnings only raise
+detection to 35.1%. No conflicts with existing wiki claims — a new
+risk axis (active suppression via language, not omission). Cross-
+linked from [[ai-citation-landscape]], [[agentic-web-optimization]],
+and [[brand-entity-seo-strategy]].
+
+## [2026-09-10] ingest | Gjorgjevska, Mirceva, Mirchev — "WebKnoGraph: GNN-Powered Internal Linking"
+Ingested arXiv:2606.06106. Added a pre-deployment evaluation
+subsection to [[link-and-anchor-text-best-practices]] §4: GraphSAGE-
+based candidate link scoring across authority yield/volatility/
+down-up-ratio and semantic-coherence change, tested on a 1,841-page
+production crawl. Core finding: automatic link selection maximizes
+authority redistribution at a semantic-coherence cost; expert-assisted
+selection preserves coherence better but every tested intervention
+still showed negative coherence change. No conflicts with existing
+link-count/reasonable-surfer guidance — a complementary evaluation
+method, not a competing tactic. Cross-linked from
+[[ahrefs-internal-links-for-seo]], [[yoast-internal-linking-for-seo]],
+and [[topic-cluster-strategy]].
+
+## [2026-09-10] ingest | Ma, Qin, Xu, Tan — "When Content is Goliath and Algorithm is David"
+Ingested arXiv:2509.14436. Added a "Perplexity and semantic
+homogeneity as a citation mechanism" subsection to
+[[ai-citation-landscape]] and a "Reduce perplexity and front-load core
+claims" tactic to [[geo-content-optimization-tactics]]. Key findings:
+lower-perplexity content is cited more (47%→56% at -1 SD perplexity),
+cited source sets are more semantically homogeneous than conventional
+SERPs, the preference is intrinsic to the LLM (reproduced via Gemini's
+RAG API, not Google-specific), positional bias favors document-opening
+content, and LLM-based content polishing counterintuitively increases
+citation diversity rather than homogenizing it. No conflicts with
+existing wiki claims — complementary to the existing semantic-
+relevance/cosine-similarity and retrieval-rank findings, not competing
+with them. Cross-linked from [[seo-copywriting]]'s inverted-pyramid
+guidance.
+
+## [2026-09-10] ingest | Zhang, He, Yao — "From Citation Selection to Citation Absorption"
+Ingested arXiv:2604.25707v2. Added a "Citation selection vs.
+absorption" subsection to [[ai-citation-landscape]] and an "Optimize
+for absorption, not just citation count" tactic to
+[[geo-content-optimization-tactics]]. Key findings: citation breadth
+and depth diverge sharply by platform (Perplexity broad-shallow: 16.35
+sources/answer at 0.0646 influence; ChatGPT narrow-deep: 6.88 sources
+at 0.2713 influence); high-influence pages are structurally denser
+(11.4x words, 12.5x headings, 8.94x list density); evidence genre
+(definitions +57%, comparisons +55%, code +77%) drives absorption more
+than Q&A formatting alone (which showed a -5.74% effect without real
+evidence density); news is cited often but absorbed weakly vs.
+encyclopedic content. No conflicts — a complementary measurement axis
+to [[sej-the-consensus-gap]]'s presence/portability/concentration
+framework, cross-linked there.
+
+## [2026-09-10] ingest | Lopez-Fonseca, Rodriguez, Bechtold, Del Alamo — "Do Generative AI Assistants Respect robots.txt?"
+Ingested arXiv:2607.14447. Added an "Empirical AI-assistant compliance
+data" subsection to [[robots-txt-strategy]]: Claude/Mistral respected
+robots.txt in controlled tests; DeepSeek/Gemini/Grok/Qwen did not.
+Generic user-agents block assistant-specific targeting; access and
+visible-answer behavior frequently diverge (Copilot accessed
+everything but answered correctly on nothing; ChatGPT sometimes
+answered without accessing); Grok showed 173+ post-window accesses and
+48-52x expected per-trial request volume. No conflicts — quantifies an
+existing wiki limitation ("not all crawlers respect robots.txt...AI
+crawlers"). Cross-linked from [[robots-txt-audit-checklist]].
+
+## [2026-09-10] ingest | Zhen, Liu, Zhang, Niu — "What Do Chinese-Language Generative Search Engines Cite and Surface?"
+Ingested arXiv:2607.15771 (PDF, 49pp). Added a "Chinese-language
+generative search engines" subsection to [[ai-citation-landscape]] —
+first coverage of DeepSeek/Doubao/Tencent Yuanbao/Qwen in this wiki.
+Key findings: third-party-content-dominant source ecosystem parallels
+English-language engines; a classic SEO composite score was not the
+leading predictor of citation absorption in any model; 39.3% of listed
+citations are "silent" (never used inline); only 8.3% of pool brands
+reach the visible answer; freshness half-life ~39/68 days by query
+timeliness (directionally corroborates
+[[airops-fan-out-effect-2026]]); App/Web interfaces of the same
+platform return meaningfully different source sets (domain overlap
+0.19-0.51). No conflicts — new market, corroborating where it overlaps
+conceptually. Cross-linked to
+[[citation-selection-vs-absorption-geo-framework-2026]].
+
+## [2026-09-10] lint | cross-reference and metadata check
+Scanned for broken wikilinks, orphan pages, index.md completeness, and
+stale `updated:` frontmatter. Findings and fixes:
+- No broken wikilinks (all 141 unique link targets resolve to real
+  pages).
+- index.md is complete (all 143 pages listed, no dangling entries).
+- Orphan pages (no inbound links): 2 found.
+  - [[oncrawl-xml-sitemap-optimization]] — its "What this updates" note
+    claimed it fed [[xml-sitemap-optimization-checklist]], but that
+    playbook never linked back. Fixed: added citation + Related-pages
+    link.
+  - [[crawlingmondays-strategical-content-optimization]] — left as-is;
+    it's a deliberate placeholder for a source whose content couldn't
+    be retrieved, so no page should cite it yet.
+- Stale `updated:` frontmatter: 9 concept/playbook pages were edited in
+  today's 5 source ingests but their frontmatter date wasn't bumped.
+  Fixed: [[agentic-web-optimization]], [[ai-citation-landscape]],
+  [[robots-txt-strategy]], [[brand-entity-seo-strategy]],
+  [[geo-content-optimization-tactics]],
+  [[link-and-anchor-text-best-practices]],
+  [[robots-txt-audit-checklist]], [[seo-copywriting]],
+  [[topic-cluster-strategy]], and [[xml-sitemap-optimization-checklist]]
+  (found via the orphan fix above) all now show `updated: 2026-09-10`.
+- Reviewed all 5 open Conflicting Evidence sections (content-freshness
+  in [[ai-citation-landscape]], authority-correlation in
+  [[ai-visibility-correlation-factors]], footer-link-density in
+  [[footer-optimization]], the SEO-obsolescence question in
+  [[generative-engine-optimization]], and the reasonable-surfer-vs-
+  Mueller footer question in
+  [[link-and-anchor-text-best-practices]]) — none resolved by today's
+  new sources; left open as-is.
 ## [2026-09-10] ingest | Measuring Google AI Overviews (Xu, Iqbal & Montgomery, arXiv:2605.14021)
 
 First independent academic AIO audit in the wiki (55,393 trending

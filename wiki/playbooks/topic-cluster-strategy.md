@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-09-04
+updated: 2026-09-10
 ---
 
 Why / when to use this: apply when planning a new content area from
@@ -158,3 +158,9 @@ internal-linking/site-structure decision.
 
 See [[semrush-topic-clusters]], [[surferseo-topic-clusters]], and
 [[sitebulb-topic-clusters]] for the full source writeups.
+
+Before rolling out a large batch of pillar↔subpage links, see
+[[webknograph-gnn-internal-linking-2026]] (in
+[[link-and-anchor-text-best-practices]]) for a pre-deployment
+evaluation method that scores proposed link batches on authority gain
+and semantic-coherence cost before publishing them.

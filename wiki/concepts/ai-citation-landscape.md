@@ -72,6 +72,39 @@ absolute terms: guides/tutorials portability 2.3% (highest) > blogs
 Explanatory, utility-driven content travels best; brand-centric and
 transactional pages travel worst.
 
+## Citation selection vs. absorption
+
+Per [[citation-selection-vs-absorption-geo-framework-2026]] (602
+prompts, 21,143 citations, ChatGPT/Google AI Overview/Perplexity) — a
+complementary measurement axis to presence/portability/concentration
+above. Where that framework asks *whether and where* a source appears
+across a citation landscape, this one asks *how much a given citation
+actually shapes a single answer* — a genuinely different property:
+
+- **Citation breadth and depth diverge sharply by platform.**
+  Perplexity cites the broadest source set (16.35 sources/answer avg)
+  but each source has the lowest average "influence" (0.0646).
+  ChatGPT cites the fewest sources (6.88 avg) but each cited source
+  carries roughly 4x higher influence (0.2713) than Perplexity's. Being
+  cited widely and being cited *deeply* are separate achievements.
+- **Influence ("absorption") is measured by**: repeated reference
+  within the answer, early appearance, coverage across multiple answer
+  paragraphs, TF-IDF similarity to the answer text, and n-gram overlap
+  — not just whether a citation link appears.
+- **High-influence pages are structurally denser**: 11.4x more words,
+  12.5x more headings, 8.94x denser lists than low-influence pages, and
+  a moderate semantic-alignment correlation (r=0.43) with LLM-judged
+  relevance.
+- **Evidence genre drives absorption more than formatting wrapper
+  alone**: definitions (+57%), comparisons (+55%), and code (+77%)
+  measurably raise influence; Q&A-style formatting by itself, without
+  real evidence density, actually shows a *negative* relative effect
+  (-5.74%) — formatting isn't a substitute for substance.
+- **News is cited often but absorbed weakly** (0.0726 influence) vs.
+  **encyclopedic content** (0.2144) — a concrete example of the
+  selection/absorption gap: frequency of citation doesn't predict depth
+  of use.
+
 ## Engines have distinct sourcing "personalities" (authority vs. UGC mix)
 
 [[brightedge-ai-search-same-brands-different-sources]] classifies every
@@ -276,6 +309,40 @@ segmented by reference type rather than treated as one aggregate pool:
 - **Natural-language URL slugs correlate with higher citation**:
   89.78% vs. 81.11% for non-natural-language URLs.
 
+## Perplexity and semantic homogeneity as a citation mechanism
+
+Per [[goliath-david-generative-search-perplexity-2025]] (4,060 queries,
+98,477 sites, Google AI Overview vs. conventional search) — a
+different, complementary axis from the semantic-relevance finding
+above, focused on *why* generative engines prefer the sources they do
+at a linguistic level, not just a topical one:
+
+- **Lower perplexity (more linguistically predictable text) raises
+  citation odds**: a one-standard-deviation decrease in a page's
+  perplexity raises its citation probability from ~47% to ~56%. This
+  is a property of how "easy" the text is for the underlying language
+  model to process, distinct from topical/semantic relevance to the
+  query.
+- **Cited source sets are more semantically homogeneous with each
+  other** than a conventional SERP's top results are — generative
+  engines appear to prefer an internally coherent set of sources, not
+  just individually relevant ones.
+- **The preference is intrinsic to the LLM, not Google-specific
+  engineering**: the same low-perplexity/homogeneity citation pattern
+  reproduced in an independent RAG pipeline built directly on Gemini's
+  API, outside Google Search's production system.
+- **Positional bias**: content placed near the beginning of a document
+  gets preferential consideration by the retrieval/generation process
+  — reinforcing (from a different angle) the inverted-pyramid,
+  lead-with-the-answer guidance in [[seo-copywriting]] and the
+  chunk-level optimization guidance in
+  [[geo-content-optimization-tactics]].
+- **Content-polishing paradox**: LLM-based rewriting to reduce
+  perplexity was expected to homogenize what gets cited, but instead
+  *increased* citation diversity in AI summaries (+1-2 additional
+  sources on average) — lowering perplexity widens the pool of
+  citable content rather than narrowing it to a few "ideal" sources.
+
 ## Query fanout mechanics
 
 Per [[peec-ai-chatgpt-query-fanouts-2026]] (5M query fanouts across
@@ -374,6 +441,51 @@ ChatGPT systematically cites Google Maps search results — 188 citations
 per 1,000 such queries, averaging ~7 map pins per response — rather than
 reviews or editorial content. Claude cited Google Maps only once in the
 entire study.
+
+## Chinese-language generative search engines
+
+Everything above draws on ChatGPT/Claude/Gemini/Perplexity/Google
+data. Per
+[[chinese-generative-search-citation-study-2026]] (614 queries, 8
+platform interfaces, 160,860-citation dataset), the same broad patterns
+show up in the Chinese-language ecosystem — DeepSeek, Doubao, Tencent
+Yuanbao, Qwen (Tongyi Qianwen) — with some distinct findings:
+
+- **Third-party content dominates here too**: News Media (28.8%),
+  Vertical Industry Portals (24.1%), and Social/independent creators
+  (16.4%) account for ~69% of citations; brand/corporate official sites
+  are only 12.9%, spread across 6,589 domains (highly dispersed, not
+  concentrated).
+- **A classic SEO/site-quality composite score was not the leading
+  predictor of AI citation absorption in any model tested** — only a
+  moderate positive predictor of brand selection specifically. This
+  corroborates, in a completely different market, the wiki's broader
+  finding that classic ranking-factor strength doesn't reliably
+  predict AI-citation behavior (see [[traditional-seo-ranking-factors]]
+  and the airops authority-correlation Conflicting Evidence in
+  [[ai-visibility-correlation-factors]]).
+- **Silent citations are large and quantified: 39.3%** of listed
+  citations never appear inline in the answer body at all — the
+  clearest quantification in this wiki of "listed as a source" vs.
+  "actually used" as genuinely separate outcomes, aligned with
+  [[citation-selection-vs-absorption-geo-framework-2026]]'s
+  selection-vs-absorption framing.
+- **Brand exposure narrows sharply from citation**: only 8.3% of brands
+  present in a citation pool made it into the visible answer text —
+  cross-source occurrence count (how many different sources mention the
+  same brand) was the strongest predictor of which brands got through.
+- **Freshness decay corroborated in a new market**: citation half-life
+  ~39 days for high-timeliness queries vs. ~68 days for low-timeliness
+  queries — consistent in direction (though not magnitude, different
+  study/market) with [[airops-fan-out-effect-2026]]'s freshness-by-
+  vertical finding.
+- **App and Web interfaces of the same platform return meaningfully
+  different sources** — mean domain-level overlap ranged from just 0.19
+  (Qwen) to 0.51 (DeepSeek); no platform had identical App/Web source
+  sets. Which access surface you're measuring matters more than which
+  industry vertical you're in (platform-level variance: 0.32 vs.
+  industry-level variance: 0.06) — a caution for anyone building an
+  AI-visibility measurement/monitoring setup.
 
 ## Citations change what the model actually says
 
@@ -539,6 +651,23 @@ publishers whose pages users would encounter by scrolling past it."
 
 ## See also
 
+- [[chinese-generative-search-citation-study-2026]] — the
+  Chinese-language generative-search citation data above, including
+  the silent-citation, brand-exposure, and cross-interface findings.
+- [[citation-selection-vs-absorption-geo-framework-2026]] — the
+  selection-vs-absorption measurement framework and per-platform
+  citation-breadth-vs-depth divergence above.
+- [[goliath-david-generative-search-perplexity-2025]] — the
+  perplexity/semantic-homogeneity citation mechanism and positional-
+  bias/content-polishing findings above.
+- [[ai-mediated-commercial-persuasion]] — a distinct, harder-to-audit
+  visibility risk: sponsored placement in AI chat can actively
+  disparage non-sponsored alternatives via hedging language, not just
+  omit them, and users rarely detect it even with disclosure labels.
+- [[llm-as-judge-behavioral-grounding]] — a mechanism study suggesting
+  citation/ranking behavior in AI systems isn't purely a function of
+  semantic relevance to the query as written — behavioral/engagement
+  signals from similar prior queries plausibly factor in too.
 - [[ai-overview-grounding-and-fidelity]] — the companion half of
   [[arxiv-measuring-google-ai-overviews-2026]]: once a source is cited,
   whether the AIO's claims are actually supported by it (~11% are not).

@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo]
-updated: 2026-09-04
+updated: 2026-09-10
 ---
 
 Why / when to use this: apply at the drafting stage, once a page is
@@ -45,7 +45,11 @@ relevant keywords, and hold the reader's attention once they arrive.
 
 **Writing craft**
 - Short paragraphs that lead with the main idea (inverted pyramid /
-  "bottom line up front") — don't bury the point.
+  "bottom line up front") — don't bury the point. This isn't just a
+  readability nicety: generative retrieval systems show a measured
+  positional bias toward content near the start of a document (see
+  [[geo-content-optimization-tactics]]'s "Reduce perplexity and
+  front-load core claims").
 - Simple vocabulary; explicitly avoid unexplained jargon.
 - Include visuals (images, charts, video) where they add real
   information, not decoration — also supports [[image-seo-checklist]]
