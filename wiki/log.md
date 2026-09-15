@@ -1371,3 +1371,16 @@ unit-of-analysis difference (citation-weighted vs. per-AIO domain
 average) and partly a corpus difference (B2B vs. trending). Leaning
 toward treating 76% as an upper bound that doesn't generalize across
 query mixes; flagged unresolved.
+
+## [2026-09-14] ingest | Why Your Content Isn't Getting Cited: A GEO Diagnostic Checklist (Lumar)
+
+New playbook [[geo-diagnostic-checklist]] — a six-check triage
+framework (candidate eligibility, aboutness signals, chunk
+retrievability, standalone passage context, authority constraints,
+problem-solution alignment) for diagnosing why a specific page isn't
+getting cited before applying [[geo-content-optimization-tactics]].
+New source page [[lumar-geo-diagnostic-checklist]]; no original data
+or studies, restates existing retrieval-eligibility-vs-citation-stage
+framing already in [[generative-engine-optimization]] — no conflicts.
+Linked from [[generative-engine-optimization]] and
+[[geo-content-optimization-tactics]].
