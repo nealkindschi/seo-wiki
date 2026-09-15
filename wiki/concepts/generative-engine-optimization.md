@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-11
+updated: 2026-09-14
 ---
 
 # Generative Engine Optimization (GEO / AEO)
@@ -228,6 +228,11 @@ controls — see [[controlling-ai-feature-inclusion]].
 - [[malte-landwehr-llmo-geo-aio-guide]] — the co-occurrence/training-
   data-influence mechanism above, and the authoritative-source target
   list for building it.
+- [[geo-diagnostic-checklist]] — a six-check triage framework for
+  diagnosing *why* a specific page isn't getting cited (eligibility,
+  aboutness, chunkability, standalone context, authority, problem-fix
+  alignment) before applying the tactics in
+  [[geo-content-optimization-tactics]].
 - [[ai-traffic-scale-vs-hype]] — a scale check on this whole domain: as
   of early-2026 clickstream data, standalone AI tools remain a tiny
   fraction of overall search/social traffic, so the tactics in this

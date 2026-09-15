@@ -571,3 +571,6 @@ vs 41.4%), 29.8% of cited domains absent from the first page, 11.03%
 of claims unsupported by their own cited sources, and 50.63% of cited
 pages running visible ads against only 2.16% of AIO SERPs carrying
 Google's own.
+## 2026-09-14 — "Why Your Content Isn't Getting Cited: A GEO Diagnostic Checklist" published (Lumar)
+
+[[lumar-geo-diagnostic-checklist]] · created [[geo-diagnostic-checklist]]
