@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-09-14
+updated: 2026-10-08
 ---
 
 # Generative Engine Optimization (GEO / AEO)
@@ -92,6 +92,15 @@ Bloomberg, Reuters, Forbes), and Google's Knowledge Graph source list
 own Knowledge-Graph-data-source list, reinforcing that brand-entity
 work and GEO co-occurrence work are largely the same underlying effort
 viewed from two angles.
+
+**Shrinking slice (2026 update)**: per [[ora-ax-is-the-new-aeo-2026]],
+training knowledge supplies only 7–10% of a finished answer in current
+agent models (vs ~50% for gpt-4.1). So the co-occurrence mechanism
+targets a shrinking share of what agents actually say, at least for
+fresh-information questions (pricing, setup, comparisons). Stable facts
+still come from memory. Ora argues the off-site-seeding arbitrage is
+closing; that is in unresolved tension with off-site correlation data;
+see [[agent-experience-ax]] and [[ai-visibility-correlation-factors]].
 
 ## Why traditional SEO doesn't transfer
 

@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-09-10
+updated: 2026-10-08
 ---
 
 # AI Citation Landscape
@@ -169,6 +169,16 @@ list like .gov/.edu.
   (0%).
 - **YouTube**: Claude never cites it (0%); it's ~2% of citations for
   both ChatGPT and Gemini.
+
+**Time-sensitivity note (Aug 2026)**: Reddit figures in this page
+predate a measured shift. Per [[ora-ax-is-the-new-aeo-2026]] (citing
+Promptwatch and Qwairy), from **Aug 8, 2026** `site:` queries rose from
+~0% to 23–24% of ChatGPT's background searches, aimed at official
+sites. Reddit's share of ChatGPT Search citations fell from 3.83% to
+0.52% (~86%) within a week, partly recovering to ~1.5%. Treat
+pre-August-2026 ChatGPT source-mix data, Reddit's especially, as
+possibly dated. The broader lesson from the authors is that any
+off-site channel can vanish in one update. See [[agent-experience-ax]].
 
 ## The Axios anomaly
 
