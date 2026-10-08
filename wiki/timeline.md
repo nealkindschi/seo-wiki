@@ -574,3 +574,23 @@ Google's own.
 ## 2026-09-14 — "Why Your Content Isn't Getting Cited: A GEO Diagnostic Checklist" published (Lumar)
 
 [[lumar-geo-diagnostic-checklist]] · created [[geo-diagnostic-checklist]]
+
+## 2026-06 — Microsoft, Google and Hugging Face (with GitHub, Snowflake and others) publish draft Agentic Resource Discovery (ARD) spec: agents search a registry for tools, MCP servers and other agents before calling anything
+
+[[ora-ax-is-the-new-aeo-2026]] · updated [[agentic-web-optimization]]
+
+## 2026-07-09 — OpenAI migrates ChatGPT's app directory to a plugin directory
+
+[[ora-ax-is-the-new-aeo-2026]] · updated [[agent-experience-ax]]
+
+## 2026-08-08 — ChatGPT `site:` queries jump from ~0% to 23–24% of background searches, aimed at official sites; Reddit's share of ChatGPT citations falls ~86% within a week (3.83% → 0.52%, Promptwatch), later partly recovering to ~1.5%
+
+[[ora-ax-is-the-new-aeo-2026]] · time-sensitivity note added to [[ai-citation-landscape]]
+
+## 2026-09-08 — Meta launches Muse with service connectors (uses APIs first, browser as fallback); Amazon blocks it, Shopify keeps merchants reachable via declared Shop Pay checkout path
+
+[[ora-ax-is-the-new-aeo-2026]] · updated [[agent-experience-ax]]
+
+## 2026-10-08 — ora research publishes "AX is the New AEO" (arXiv:2609.34951): agent-ready sites recommended 1.9× more often; training data supplies only 7–10% of agent answers
+
+[[ora-ax-is-the-new-aeo-2026]] · created [[agent-experience-ax]], updated [[agentic-web-optimization]], [[optimizing-for-the-agentic-web]]

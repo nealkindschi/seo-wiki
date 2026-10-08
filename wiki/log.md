@@ -1384,3 +1384,36 @@ or studies, restates existing retrieval-eligibility-vs-citation-stage
 framing already in [[generative-engine-optimization]] — no conflicts.
 Linked from [[generative-engine-optimization]] and
 [[geo-content-optimization-tactics]].
+
+## [2026-10-08] ingest | AX is the New AEO (ora research, arXiv:2609.34951)
+
+Vendor-run but matched-pair study: 37,927 agent journeys across 1,056
+business sites on four Claude/GPT harnesses. Agent-ready sites get
+clear recommendations 1.9× as often (20% vs 11%, up to 2.6× by stack).
+Training knowledge supplies only 7–10% of answers. Blocked agents still
+answer ~99% of the time, from web search (12% → 25% of the answer),
+with 3.7× more answers omitting every asked fact. Cost per grounded
+answer is +64%. Documents ChatGPT's Aug 8 2026 shift to `site:`
+queries on official sites and the ~86% Reddit-citation drop. New
+source page [[ora-ax-is-the-new-aeo-2026]] and new concept
+[[agent-experience-ax]]. Updated [[agentic-web-optimization]]
+(AX evidence, ARD/connector registries, Conflicting Evidence),
+[[optimizing-for-the-agentic-web]] (new "Unblock and verify" section),
+[[ai-visibility-correlation-factors]], [[generative-engine-optimization]],
+[[ai-citation-landscape]] (pre-Aug-2026 Reddit data time-sensitivity
+note), [[ai-overview-grounding-and-fidelity]] (cross-surface omission
+corroboration), and [[robots-txt-strategy]] (cost of blocking agents).
+
+## [2026-10-08] conflict | Off-site presence vs. own-site agent readability as the main AI-visibility lever
+
+Logged on [[agent-experience-ax]], [[ai-visibility-correlation-factors]],
+and [[agentic-web-optimization]]. Ahrefs correlation data ranks off-site
+mentions (YouTube, branded web mentions) as the top AI-visibility
+factors, and Semrush's agentic-web stack treats off-site presence as a
+core layer. ora finds that with off-site citation breadth matched,
+own-site readability alone drives a 1.9× recommendation gap, and argues
+the off-site-seeding arbitrage is closing. Leaning: they measure
+different outcomes (mentions vs. recommendation strength/accuracy in
+agent research), so both matter. Weight own-site readability higher for
+agent-researched commercial queries. Single vendor study; flagged
+unresolved.
