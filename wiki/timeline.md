@@ -594,3 +594,7 @@ Google's own.
 ## 2026-10-08 — ora research publishes "AX is the New AEO" (arXiv:2609.34951): agent-ready sites recommended 1.9× more often; training data supplies only 7–10% of agent answers
 
 [[ora-ax-is-the-new-aeo-2026]] · created [[agent-experience-ax]], updated [[agentic-web-optimization]], [[optimizing-for-the-agentic-web]]
+
+## 2026-10-06 — DEJAN (Dan Petrovic) publishes "Link Building & Outreach for AI Search": link-incongruence thesis, four editorial-link rules, adversarial link integration
+
+[[dejan-link-building-outreach-ai-search]] · created [[editorial-link-integration]], [[parametric-memory-vs-grounding]]; updated [[link-building]]
