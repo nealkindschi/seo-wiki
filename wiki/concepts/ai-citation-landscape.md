@@ -661,6 +661,11 @@ publishers whose pages users would encounter by scrolling past it."
 
 ## See also
 
+- [[parametric-memory-vs-grounding]] — the memory-vs-retrieval split
+  that determines whether a brand appears uncited (from weights) or
+  cited (via grounding), plus a single-query Google/OpenAI/Anthropic
+  received-vs-cited funnel comparison.
+
 - [[chinese-generative-search-citation-study-2026]] — the
   Chinese-language generative-search citation data above, including
   the silent-citation, brand-exposure, and cross-interface findings.

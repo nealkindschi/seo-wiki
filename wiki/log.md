@@ -1417,3 +1417,33 @@ different outcomes (mentions vs. recommendation strength/accuracy in
 agent research), so both matter. Weight own-site readability higher for
 agent-researched commercial queries. Single vendor study; flagged
 unresolved.
+
+## [2026-10-08] ingest | Link Building & Outreach for AI Search (DEJAN, Dan Petrovic)
+
+Created [[dejan-link-building-outreach-ai-search]] (source),
+[[editorial-link-integration]] (playbook), and
+[[parametric-memory-vs-grounding]] (concept). Updated [[link-building]],
+[[link-building-outreach-tactics]], [[link-and-anchor-text-best-practices]]
+(10–20 organic links/page as further support for the no-cap resolution),
+and [[ai-citation-landscape]] (see-also). Raw saved to
+raw/articles/dejan-link-building-outreach-ai-search.md with six images in
+raw/assets/dejan-outreach-*.png; interactive widgets not captured.
+Source is partly promotional and its models/funnel numbers are
+proprietary or n=1, flagged as such on every page.
+
+## [2026-10-08] conflict | Link authority metrics — DEJAN dismisses DR/DA as vendor proxies
+
+[[dejan-link-building-outreach-ai-search]] calls DA/PA-style metrics
+made-up approximations that cause good links to be refused, contra
+[[ahrefs-link-building]] and [[pitchbox-link-prospecting-hacks]].
+Leaning: use as a coarse filter, not a gate. Unresolved; logged on
+[[link-building]].
+
+## [2026-10-08] conflict | Outreach-link value — "most outreach links are ignored or a small negative"
+
+[[dejan-link-building-outreach-ai-search]] claims poorly integrated
+outreach links are detected and devalued, contra the productive-at-~5%
+framing in [[ahrefs-link-building]]. Leaning: rate vs. value are
+different measures; DEJAN's claim is unmeasured but aligns with Google's
+link-spam stance. Integration quality decides. Unresolved; logged on
+[[link-building]].
