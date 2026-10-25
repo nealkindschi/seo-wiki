@@ -598,3 +598,19 @@ Google's own.
 ## 2026-10-06 — DEJAN (Dan Petrovic) publishes "Link Building & Outreach for AI Search": link-incongruence thesis, four editorial-link rules, adversarial link integration
 
 [[dejan-link-building-outreach-ai-search]] · created [[editorial-link-integration]], [[parametric-memory-vs-grounding]]; updated [[link-building]]
+
+## 2025-08 to 2025-09 — Reddit's share of ChatGPT responses falls from ~60% to ~10%, then stabilizes alongside Wikipedia (per Semrush; dates approximate, reconcile with the Aug 2026 Reddit drop)
+
+[[semrush-ai-search-strategy-4-layers]] · flagged on [[ai-citation-landscape]]
+
+## 2026-03-18 — HubSpot updates "Niche Markets" guide (passion-first niche finder)
+
+[[hubspot-niche-market]] · created [[niche-selection-and-validation]]
+
+## 2026-07-03 — Surnex publishes "Finding a Niche": demand-first framework with AI-search discoverability checks
+
+[[surnex-finding-a-niche]] · created [[niche-validation-playbook]]
+
+## 2026-10-23 — HubSpot publishes AI visibility content-gap guide; Semrush publishes "AI search strategy: 4 layers of brand visibility"
+
+[[hubspot-ai-content-gaps]], [[semrush-ai-search-strategy-4-layers]] · created [[ai-visibility-content-gap-audit]], [[ai-visibility-four-layer-diagnostic]]; updated [[ai-citation-landscape]], [[agentic-web-optimization]]

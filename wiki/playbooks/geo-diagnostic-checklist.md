@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-09-14
+updated: 2026-10-25
 ---
 
 # GEO Diagnostic Checklist
@@ -103,3 +103,9 @@ failure mode rather than assuming a single fix cascades to fix all six.
   including the retrieval-eligibility-vs-citation-stage distinction
   this checklist operationalizes into six checks.
 - [[lumar-geo-diagnostic-checklist]] — source for this checklist.
+- [[ai-visibility-four-layer-diagnostic]] — the site/brand-level
+  complement (discoverability, clarity, authority, trust) for when the
+  problem isn't a single page.
+- [[ai-visibility-content-gap-audit]] — the prompt-level complement:
+  which questions have no page, an unextractable page, or no citation
+  support.

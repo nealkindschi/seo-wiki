@@ -1447,3 +1447,15 @@ framing in [[ahrefs-link-building]]. Leaning: rate vs. value are
 different measures; DEJAN's claim is unmeasured but aligns with Google's
 link-spam stance. Integration quality decides. Unresolved; logged on
 [[link-building]].
+
+## [2026-10-25] ingest | Niche research & AI-visibility batch (7 sources)
+
+Semrush niche-driven SEO, Semrush niche keyword research, Surnex "Finding a Niche", HubSpot niche markets, Diggity/Empire Flippers affiliate niches, HubSpot AI content gaps, Semrush "AI search strategy: 4 layers". Created [[niche-selection-and-validation]], [[niche-validation-playbook]], [[ai-visibility-content-gap-audit]], [[ai-visibility-four-layer-diagnostic]]; updated [[keyword-research]], [[geo-diagnostic-checklist]], [[ai-citation-landscape]], [[content-marketing-strategy]], [[agentic-web-optimization]]. Raw files are fetch-tool paraphrases. Search Engine Watch hyphens/underscores URL guidance returned HTTP 403 and was not ingested (deferred).
+
+## [2026-10-25] conflict | Reddit's decline in ChatGPT — two incompatible data points
+
+[[semrush-ai-search-strategy-4-layers]] reports Reddit's share of ChatGPT responses falling ~60% to ~10% (Aug-Sept 2025); [[ora-ax-is-the-new-aeo-2026]] reports a 3.83% to 0.52% citation-share drop from Aug 8, 2026. Different years, metrics, and levels. Both support "platform change can erase a channel"; magnitudes unreconciled. Unresolved; logged on [[ai-citation-landscape]].
+
+## [2026-10-25] conflict | Niche selection — passion-first vs. demand-first
+
+[[hubspot-niche-market]] starts from passions and skills; [[surnex-finding-a-niche]] says passion doesn't validate demand. Leaning: ordering difference, not true opposition; demand-first screen, passion as tiebreaker. Unresolved; logged on [[niche-selection-and-validation]].
