@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-09-04
+updated: 2026-10-25
 ---
 
 Why / when to use this: run this *before*
@@ -77,6 +77,19 @@ Three structural changes from older keyword-research practice:
 - **Attainability** — new/smaller sites: target lower difficulty
   (roughly 0-49%); established sites can pursue more competitive terms.
 
+## Niche-specific additions
+
+When the target is a narrow niche rather than a broad topic:
+- Add audience-qualifier terms to seeds in autocomplete (e.g. "micro
+  business", "non-profits"), and sort Keyword Planner results from low
+  to high volume — low volume is a niche signal
+  ([[semrush-niche-keyword-research]]).
+- Group keywords by awareness stage — problem-aware, solution-aware,
+  transaction-adjacent, authority — rather than by volume alone
+  ([[surnex-finding-a-niche]]).
+- Check the niche is worth entering at all before building the list:
+  [[niche-validation-playbook]] and [[niche-selection-and-validation]].
+
 **Quick filter before adding any keyword to the working list** — confirm
 at least one applies: builds brand awareness, improves AI visibility,
 attracts qualified leads, or drives direct purchases.
@@ -112,3 +125,5 @@ a living document, not a single deliverable to hand off once.
   referenced above.
 
 See [[semrush-keyword-research-2026]] for the full source writeup.
+Niche-specific tactics: [[semrush-niche-keyword-research]],
+[[surnex-finding-a-niche]].

@@ -29,6 +29,7 @@ short summary.
 - [[llm-as-judge-behavioral-grounding]] — How LLM-as-judge search/answer evaluation can be grounded in historical user behavior (Spotify's "QRI cards") instead of semantic reasoning alone: the three mechanisms (resolving ambiguity, calibrating severity, ranking sensitivity), measured correlation gains, and why this matters for building GEO-visibility eval pipelines and understanding how answer engines may weight behavioral signals.
 - [[ai-mediated-commercial-persuasion]] — Princeton experiment showing LLM chat interfaces nearly triple sponsored-product selection vs. traditional search (61.2% vs 22.4%), mainly via disparaging non-sponsored alternatives rather than promoting sponsors, with disclosure labels largely ineffective at helping users detect it — a brand-visibility and agentic-commerce risk distinct from citation/omission.
 - [[parametric-memory-vs-grounding]] — The two routes into an AI answer: parametric memory (training-data recall, uncited, frozen at the cutoff, encoded by exposure count) vs. web-search grounding (received → readable → cited funnel), with a single-query Google/OpenAI/Anthropic citation comparison and visibility implications.
+- [[niche-selection-and-validation]] — How to choose and validate an SEO niche: buyer-plus-problem definition (not category labels), niche SEO as long-tail SEO, validating demand with commitment actions, AI-citation discoverability as part of niche fit, affiliate-niche economics with survivorship-bias caveats, and an unresolved passion-first vs. demand-first conflict.
 
 ## Playbooks
 
@@ -63,6 +64,9 @@ short summary.
 - [[lead-magnet-checklist]] — Lead-magnet build/audit checklist: strategy/content/delivery/landing-page/follow-up/tracking sections, a format-vs-conversion-rate table (quizzes 40.1% highest), the 3-form-fields-or-fewer landing-page lever, a 5-email nurture sequence, and opt-in-rate/unsubscribe-rate tracking targets.
 - [[pdf-seo-optimization]] — PDF-specific SEO checklist (unique content, metadata, filename/URL, anchor text, real header tags, alt text, compression, standard fonts, mobile formatting) plus PDF indexability/ranking constraints (9-in-10 HTML-beats-PDF rule, unindexed images, no nofollow-within-PDF) and download-tracking guidance.
 - [[editorial-link-integration]] — Making placed links/mentions read as editorial: the "who wanted the link?" blind test, why the 1 + 2 rule backfires, four rules (liberal linking, ten link purposes, primacy, natural anchor text) with checklists, link-desire placement, and a worked false-positive example.
+- [[niche-validation-playbook]] — Step-by-step niche validation: one-sentence buyer/trigger/offer/proof definition, buyer-language mining, commercial and AI-citation screens, a four-week research sprint with TAM, a smoke test with commitment metrics, and content-to-monetization matching.
+- [[ai-visibility-content-gap-audit]] — Prompt-level audit of AI-answer gaps: coverage, extractability, and citation-support gap types, a four-step process, fix-order rules, and mention/citation/share-of-voice metrics.
+- [[ai-visibility-four-layer-diagnostic]] — Triage for missing or misdescribed brands in AI answers: discoverability, clarity, authority, and trust layers, symptom-to-layer mapping, baseline prompt setup, common mistakes, and the strategic-vs-experimental filter.
 
 ## Sources
 
@@ -166,3 +170,10 @@ short summary.
 - [[lumar-geo-diagnostic-checklist]] — Lumar's diagnostic-framework blog post: a six-check triage checklist (eligibility, aboutness, chunk retrievability, standalone passage context, authority, problem-fix alignment) for diagnosing why a page isn't cited, source for [[geo-diagnostic-checklist]]. No original data/studies.
 - [[ora-ax-is-the-new-aeo-2026]] — ora research (arXiv:2609.34951, Oct 2026): 37,927 agent journeys across 1,056 matched business sites showing own-site agent readability drives 1.9× more clear recommendations, 78% vs 58% own-page answer share, 3.7× fewer empty answers, and lower operator cost; documents ChatGPT's Aug 8 2026 shift to `site:` queries on official sites and the Reddit-citation drop.
 - [[dejan-link-building-outreach-ai-search]] — Dan Petrovic/DEJAN (2026-10-06) practitioner essay: parametric memory vs. grounding, a single-query grounding-funnel comparison, the link-incongruence thesis, DEJAN's link-prediction and paid-link-detection models, the four editorial-link rules, and adversarial link integration. Partly promotional; contests DR/DA metrics and outreach-link value.
+- [[semrush-niche-driven-seo]] — Semrush (2023-11-14): generic seven-step niche-driven SEO strategy built on long-tail keywords, audience research, and competitor monitoring.
+- [[semrush-niche-keyword-research]] — Semrush (2023-11-06): five steps and seven tools for niche keyword research, including the 0-49% KD filter and Keyword Gap tabs.
+- [[surnex-finding-a-niche]] — Surnex (2026-07-03): buyer-plus-problem niche framework, four-week research sprint, smoke-test validation, and AI-search discoverability checks.
+- [[hubspot-niche-market]] — HubSpot (2026-03-18): beginner six-step niche finder, passion-first stance, example niche brands and tools.
+- [[diggity-empire-flippers-affiliate-niches]] — Matt Diggity (2025-08-06): Empire Flippers data on 300+ sold affiliate sites; per-niche revenue, pages, and backlinks; survivorship-bias and promotional caveats.
+- [[hubspot-ai-content-gaps]] — HubSpot (2026-10-23): AI visibility content-gap types, four-step audit, and mention/citation/share-of-voice metrics.
+- [[semrush-ai-search-strategy-4-layers]] — Semrush (2026-10-23): four-layer AI visibility diagnostic, cited-vs-ranking page lift figures, 62% citations-without-names stat, Reddit ChatGPT-share decline, and answer-ready vs. agent-ready.

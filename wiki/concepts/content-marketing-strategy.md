@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo]
-updated: 2026-09-04
+updated: 2026-10-25
 ---
 
 # Content Marketing Strategy
@@ -17,6 +17,12 @@ than duplicate their content.
 - **Discover what to write about**: [[keyword-research]] (demand
   discovery) and [[seo-competitive-analysis]] (competitive-gap
   discovery) both feed the content plan.
+- **Choose where to compete**: [[niche-selection-and-validation]] and
+  [[niche-validation-playbook]] (pick and test a niche before
+  committing content budget). One dataset suggests diminishing returns
+  past ~250 pages and a few hundred backlinks for affiliate-style
+  sites, with survivorship-bias caveats
+  ([[diggity-empire-flippers-affiliate-niches]]).
 - **Decide the content's structural role**: [[topic-cluster-strategy]]
   (pillar/subpage/target-page structure) and
   [[keyword-mapping-and-cannibalization]] (one keyword, one page).
@@ -27,6 +33,8 @@ than duplicate their content.
 - **Optimize for AI-era discovery specifically**:
   [[generative-engine-optimization]] and
   [[geo-content-optimization-tactics]].
+- **Find AI-visibility gaps**: [[ai-visibility-content-gap-audit]]
+  (which questions need new, refreshed, or better-evidenced content).
 - **Measure and report**: [[seo-reporting]].
 - **Convert readers to leads**: [[lead-magnet-checklist]] (opt-in offer
   and landing-page conversion mechanics).

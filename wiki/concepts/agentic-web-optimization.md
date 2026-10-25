@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [aeo]
-updated: 2026-10-08
+updated: 2026-10-25
 ---
 
 # Agentic Web Optimization
@@ -131,6 +131,20 @@ layers 2-5 (layer 1 is [[technical-seo-audit-checklist]]), including
 the measurement framework for tracking agent-driven visibility and
 traffic.
 
+## Answer-ready vs. agent-ready
+
+Per [[semrush-ai-search-strategy-4-layers]]: an **answer-ready** brand is
+retrieved, understood, cited, and recommended in AI responses; an
+**agent-ready** brand additionally lets agents navigate the site,
+understand available actions, and complete tasks (ChatGPT Atlas reads
+ARIA tags for buttons, menus, and forms, so accessible labels matter).
+The source treats llms.txt, MCP Server Cards (experimental as of Sept
+2026), and A2A Agent Cards as emerging discovery mechanisms with **no
+published evidence** that they increase citations, and notes Google says
+it doesn't use AI-specific files. This agrees with the cautious stance
+elsewhere on this page. Vendor source; see
+[[ai-visibility-four-layer-diagnostic]].
+
 ## See also
 
 - [[agent-experience-ax]] — the measured find/read/verify slice of this
@@ -148,3 +162,5 @@ traffic.
   its own ecommerce/agentic-commerce readiness section.
 - [[optimizing-for-the-agentic-web]] — actionable tactics and
   measurement framework drawn from this concept.
+- [[semrush-ai-search-strategy-4-layers]] — the answer-ready vs.
+  agent-ready distinction above.
