@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-10-25
+updated: 2026-11-02
 ---
 
 # AI Citation Landscape
@@ -71,6 +71,12 @@ absolute terms: guides/tutorials portability 2.3% (highest) > blogs
 1.8% > category pages 1.6% > product pages 1.2% > homepages 1.1%.
 Explanatory, utility-driven content travels best; brand-centric and
 transactional pages travel worst.
+
+**Over time, not just across engines:** citation sets also churn day to
+day within one engine. Only ~25% of ChatGPT's cited pages (~50% for AI
+Overviews) are cited again the next day, but the content-type mix
+(articles ≈60%) barely moves ([[detailed-ai-volatility-2026]]). Measure
+presence over a window; see [[ai-answer-volatility]].
 
 ## Citation selection vs. absorption
 
