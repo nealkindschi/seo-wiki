@@ -1471,3 +1471,7 @@ Wenstein Beyond Digital "From Zero to Hero: Boosting SEO with Strategic Glossary
 ## [2026-11-02] ingest | Goodspeed "SEO Glossary Pages: How They Win Long-Tail Rankings and Links"
 
 Promotional Framer-template article (referral link, consulting CTAs), no data or schema. Agrees with existing [[glossary-pages-for-seo]] consensus; added non-SEO benefits (support deflection, terminology alignment) there, and visuals, CMS data model, and guest-post promotion to [[glossary-page-build-checklist]]. No conflicts. Publish date ambiguous (byline 2024-03-13, header 2026-10-30); used byline. Raw file is a fetch-tool paraphrase.
+
+## [2026-11-02] ingest | Detailed "How Volatile Are AI Responses?"
+
+Glen Allsopp's 28-day study of 1,300+ commercial prompts in ChatGPT and Google AI Overviews (70k+ responses). Created [[ai-answer-volatility]] and [[detailed-ai-volatility-2026]]; added window-based measurement guidance to [[ai-visibility-content-gap-audit]] and [[seo-reporting]], and a day-to-day citation-churn note to [[ai-citation-landscape]]. No conflicts: AIO video share (14%→8%) is a different metric and period from the existing single-video-platform 10.6% figure. Raw file is a fetch-tool paraphrase; trailing chart image data was not extractable.

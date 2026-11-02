@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [aeo]
-updated: 2026-10-25
+updated: 2026-11-02
 ---
 
 # AI Visibility Content Gap Audit
@@ -57,6 +57,12 @@ so SEO gap analysis ([[seo-competitive-analysis]]) does not substitute.
 - AI-referred traffic and outcomes as supporting evidence only.
 - Fix the baseline first; same prompts, same platforms; expect
   run-to-run variation.
+- Size of that variation, per [[detailed-ai-volatility-2026]]: identical
+  brand lists repeat on two random days only 0.3% (ChatGPT) / 1.1% (AIO)
+  of the time, while each prompt's leading brand is present 82–89% of
+  days. Judge gaps on presence over a window of about two weeks or more,
+  not single runs. Treat "first-mentioned" changes as noise. See
+  [[ai-answer-volatility]].
 
 ## Pitfalls
 

@@ -630,3 +630,7 @@ Google's own.
 ## 2024-03-13 — Goodspeed publishes Framer-template glossary SEO article (byline date; header shows 2026-10-30)
 
 [[goodspeed-seo-glossary-visibility]] · supports [[glossary-pages-for-seo]]
+
+## 2026-09-23 — Detailed publishes 28-day ChatGPT / AI Overviews answer-volatility study
+
+[[detailed-ai-volatility-2026]] · created [[ai-answer-volatility]]
