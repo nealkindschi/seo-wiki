@@ -30,6 +30,7 @@ short summary.
 - [[ai-mediated-commercial-persuasion]] — Princeton experiment showing LLM chat interfaces nearly triple sponsored-product selection vs. traditional search (61.2% vs 22.4%), mainly via disparaging non-sponsored alternatives rather than promoting sponsors, with disclosure labels largely ineffective at helping users detect it — a brand-visibility and agentic-commerce risk distinct from citation/omission.
 - [[parametric-memory-vs-grounding]] — The two routes into an AI answer: parametric memory (training-data recall, uncited, frozen at the cutoff, encoded by exposure count) vs. web-search grounding (received → readable → cited funnel), with a single-query Google/OpenAI/Anthropic citation comparison and visibility implications.
 - [[niche-selection-and-validation]] — How to choose and validate an SEO niche: buyer-plus-problem definition (not category labels), niche SEO as long-tail SEO, validating demand with commitment actions, AI-citation discoverability as part of niche fit, affiliate-niche economics with survivorship-bias caveats, and an unresolved passion-first vs. demand-first conflict.
+- [[glossary-pages-for-seo]] — Glossaries as a long-tail, definition-intent asset and internal-link hub: claimed mechanisms (unmeasured, practitioner-only evidence), architecture/sourcing/entry-format/schema decisions, the thin-scaled-page risk, and an unresolved per-term-URL vs. single-hub conflict.
 
 ## Playbooks
 
@@ -67,6 +68,7 @@ short summary.
 - [[niche-validation-playbook]] — Step-by-step niche validation: one-sentence buyer/trigger/offer/proof definition, buyer-language mining, commercial and AI-citation screens, a four-week research sprint with TAM, a smoke test with commitment metrics, and content-to-monetization matching.
 - [[ai-visibility-content-gap-audit]] — Prompt-level audit of AI-answer gaps: coverage, extractability, and citation-support gap types, a four-step process, fix-order rules, and mention/citation/share-of-voice metrics.
 - [[ai-visibility-four-layer-diagnostic]] — Triage for missing or misdescribed brands in AI answers: discoverability, clarity, authority, and trust layers, symptom-to-layer mapping, baseline prompt setup, common mistakes, and the strategic-vs-experimental filter.
+- [[glossary-page-build-checklist]] — Six-phase glossary build checklist: term sourcing (incl. customer language), topic-grouped architecture, consistent entry template, internal linking, DefinedTerm markup/accessibility, measurement and quarterly maintenance.
 
 ## Sources
 
@@ -177,3 +179,7 @@ short summary.
 - [[diggity-empire-flippers-affiliate-niches]] — Matt Diggity (2025-08-06): Empire Flippers data on 300+ sold affiliate sites; per-niche revenue, pages, and backlinks; survivorship-bias and promotional caveats.
 - [[hubspot-ai-content-gaps]] — HubSpot (2026-10-23): AI visibility content-gap types, four-step audit, and mention/citation/share-of-voice metrics.
 - [[semrush-ai-search-strategy-4-layers]] — Semrush (2026-10-23): four-layer AI visibility diagnostic, cited-vs-ranking page lift figures, 62% citations-without-names stat, Reddit ChatGPT-share decline, and answer-ready vs. agent-ready.
+- [[linkedin-wenstein-strategic-glossary-pages]] — Wenstein Beyond Digital (2023-11-28): glossary SEO rationale, three structure formats (favors per-term pages), ItemList/DefinedTerm schema, accessibility.
+- [[seomyclicks-glossary-page-seo-2026]] — SEO My Clicks (2026-05-19): glossary as topic-clustered semantic hub, entity-per-term, five-step build; unsupported "100–500+ keywords" claim.
+- [[airfleet-why-websites-need-glossaries]] — Airfleet (updated 2026-07-14): glossary benefits with snippet caveat, customer-language term sourcing, UX/maintenance, figure-less case studies.
+- [[goodspeed-seo-glossary-visibility]] — Goodspeed/Harish Malhi (2024-03-13): promotional Framer glossary-template piece; consensus rationale plus non-SEO benefits (support deflection, terminology alignment), visuals, guest-post promotion; no data.
