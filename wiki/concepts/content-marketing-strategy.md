@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo]
-updated: 2026-10-25
+updated: 2026-11-02
 ---
 
 # Content Marketing Strategy
@@ -50,6 +50,8 @@ than separate silos.
 
 ## See also
 
+- [[glossary-pages-for-seo]] — glossaries as a long-tail, definition-intent
+  content asset and internal-link hub ([[glossary-page-build-checklist]]).
 - [[e-e-a-t-and-page-quality]] — the quality framework all
   content-craft guidance above is ultimately in service of.
 - [[semrush-academy-seo-essentials]] — a broader SEO-fundamentals

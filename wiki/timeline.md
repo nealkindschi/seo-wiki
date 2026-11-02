@@ -614,3 +614,19 @@ Google's own.
 ## 2026-10-23 — HubSpot publishes AI visibility content-gap guide; Semrush publishes "AI search strategy: 4 layers of brand visibility"
 
 [[hubspot-ai-content-gaps]], [[semrush-ai-search-strategy-4-layers]] · created [[ai-visibility-content-gap-audit]], [[ai-visibility-four-layer-diagnostic]]; updated [[ai-citation-landscape]], [[agentic-web-optimization]]
+
+## 2023-11-28 — Wenstein Beyond Digital publishes "Boosting SEO with Strategic Glossary Pages" (favors one page per term, DefinedTerm schema)
+
+[[linkedin-wenstein-strategic-glossary-pages]] · created [[glossary-pages-for-seo]]
+
+## 2026-05-19 — SEO My Clicks publishes glossary-as-semantic-hub guide
+
+[[seomyclicks-glossary-page-seo-2026]] · conflicts with per-term structure on [[glossary-pages-for-seo]]
+
+## 2026-07-14 — Airfleet updates "Why Every Website Needs a Glossary"
+
+[[airfleet-why-websites-need-glossaries]] · created [[glossary-page-build-checklist]]
+
+## 2024-03-13 — Goodspeed publishes Framer-template glossary SEO article (byline date; header shows 2026-10-30)
+
+[[goodspeed-seo-glossary-visibility]] · supports [[glossary-pages-for-seo]]

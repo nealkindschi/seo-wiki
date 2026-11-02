@@ -1459,3 +1459,15 @@ Semrush niche-driven SEO, Semrush niche keyword research, Surnex "Finding a Nich
 ## [2026-10-25] conflict | Niche selection — passion-first vs. demand-first
 
 [[hubspot-niche-market]] starts from passions and skills; [[surnex-finding-a-niche]] says passion doesn't validate demand. Leaning: ordering difference, not true opposition; demand-first screen, passion as tiebreaker. Unresolved; logged on [[niche-selection-and-validation]].
+
+## [2026-11-02] ingest | Glossary-page SEO batch (3 sources)
+
+Wenstein Beyond Digital "From Zero to Hero: Boosting SEO with Strategic Glossary Pages" (LinkedIn), SEO My Clicks "How to Write a Glossary Page That Ranks for Hundreds of Keywords", Airfleet "Why Every Website Needs a Glossary". Created [[glossary-pages-for-seo]], [[glossary-page-build-checklist]], and three source pages; cross-linked from [[topic-cluster-strategy]], [[entity-based-seo-implementation]], [[content-marketing-strategy]]. All three are practitioner/agency blogs with no measured data. Raw files are fetch-tool paraphrases. Added an unsourced caveat (general knowledge) that FAQ rich results have been restricted since Aug 2023, against Airfleet's FAQ-schema case study.
+
+## [2026-11-02] conflict | Glossary architecture — one URL per term vs. single topic-clustered hub
+
+[[linkedin-wenstein-strategic-glossary-pages]] calls per-term pages best for SEO; [[seomyclicks-glossary-page-seo-2026]] argues for one semantic-hub page and [[airfleet-why-websites-need-glossaries]] for an A–Z/accordion page split by topic at scale. No side has data. Leaning: per-term URL only for terms with their own demand and substantive content, otherwise anchored hub entries (thin/scaled-content and cannibalization risk). Unresolved; logged on [[glossary-pages-for-seo]].
+
+## [2026-11-02] ingest | Goodspeed "SEO Glossary Pages: How They Win Long-Tail Rankings and Links"
+
+Promotional Framer-template article (referral link, consulting CTAs), no data or schema. Agrees with existing [[glossary-pages-for-seo]] consensus; added non-SEO benefits (support deflection, terminology alignment) there, and visuals, CMS data model, and guest-post promotion to [[glossary-page-build-checklist]]. No conflicts. Publish date ambiguous (byline 2024-03-13, header 2026-10-30); used byline. Raw file is a fetch-tool paraphrase.
