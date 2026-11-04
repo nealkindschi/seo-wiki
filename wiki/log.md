@@ -1475,3 +1475,7 @@ Promotional Framer-template article (referral link, consulting CTAs), no data or
 ## [2026-11-02] ingest | Detailed "How Volatile Are AI Responses?"
 
 Glen Allsopp's 28-day study of 1,300+ commercial prompts in ChatGPT and Google AI Overviews (70k+ responses). Created [[ai-answer-volatility]] and [[detailed-ai-volatility-2026]]; added window-based measurement guidance to [[ai-visibility-content-gap-audit]] and [[seo-reporting]], and a day-to-day citation-churn note to [[ai-citation-landscape]]. No conflicts: AIO video share (14%→8%) is a different metric and period from the existing single-video-platform 10.6% figure. Raw file is a fetch-tool paraphrase; trailing chart image data was not extractable.
+
+## [2026-11-04] update | Title tag and H1 should never be identical
+
+At the user's direction, added a house rule to [[seo-copywriting]] (tactic and checklist item): the title tag and H1 must differ, with the title tag treated as the more important one to optimize. No ingested source backs it yet, so it is marked as a house rule; ingest a supporting source when one turns up. The SEO Command Center crawl now flags `title_matches_h1` against this page.
