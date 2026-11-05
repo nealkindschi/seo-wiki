@@ -58,7 +58,7 @@ short summary.
 - [[broken-link-building]] — 4-step broken-link-building process: multi-tactic prospect discovery, deep-link-vs-general-link vetting, Wayback-Machine-matched replacement content, and segmented outreach.
 - [[digital-pr-strategy]] — 7-step digital PR campaign framework: five tactic types (research studies, creative campaigns, newsjacking, thought leadership, product PR), the 61%-journalists-want-original-research stat, and mention/sentiment monitoring.
 - [[seo-reporting]] — SEO reporting playbook now including AI Visibility as a standard section: metrics list, per-tool data-gathering map, report structure, and presentation best practices.
-- [[seo-copywriting]] — On-page writing craft playbook: intent-matched content format, PAA/question mining for ideas, title/meta/heading specs, inverted-pyramid readability, and linkable-asset framing.
+- [[seo-copywriting]] — On-page writing craft playbook: intent-matched content format, PAA/question mining for ideas, title/meta/heading specs (title tag and H1 never identical), inverted-pyramid readability, and linkable-asset framing.
 - [[keyword-research]] — Keyword discovery/prioritization playbook distinct from page-mapping: 6 discovery methods (including first-party-data mining and an LLM-comment-extraction workflow) and a 6-dimension prioritization framework, reflecting the volume-first→business-value-first and query-fanout-aware shifts in keyword research.
 - [[seo-competitive-analysis]] — 8-step competitive analysis playbook: direct-vs-organic competitor distinction, traditional + AI-visibility gap analysis, a reverse-engineer-winning-pages template, and off-site sentiment review.
 
