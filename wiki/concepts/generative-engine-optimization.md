@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-10-08
+updated: 2026-11-06
 ---
 
 # Generative Engine Optimization (GEO / AEO)
@@ -199,6 +199,32 @@ controls — see [[controlling-ai-feature-inclusion]].
     respond to the GEO paper's citation-style tactics the same way the
     third-party generative engines tested in that paper (GPT-3.5-based,
     Perplexity.ai) did is untested as of this wiki's current sources.
+
+- **Claim**: Adding statistics and citations to credible sources is
+  among the most effective ways to raise a page's AI visibility.
+  - Supported by: [[geo-generative-engine-optimization-aggarwal-2023]]
+    (2023-11) — Statistics Addition and Cite Sources ranked in the top
+    tier (+37% live on Perplexity for statistics; up to +115% for a
+    rank-5 site with citations).
+  - Contradicted by: [[dejan-content-optimization-engine-2026]]
+    (2026-07-08) — across 2,249 one-edit experiments judged by an LLM
+    re-ranker, the "Proof" family (awards, endorsements, citations) won
+    15.4% of the time, about half the rate of framing (31.4%);
+    statistics and study citations 18.2%, .gov/.edu citations 18.9%,
+    more raw numbers 20.7%.
+- **Current best guess**: probably **different measurements**, not a
+  clean contradiction. Aggarwal measured how much of a generated answer
+  is attributed to a source already in the set (citation-stage share);
+  DEJAN measured an LLM choosing an order between comparable competing
+  pages (a re-ranking preference). Both can be true: stats and citations
+  may increase how much of your page is used once you're in, while
+  framing and query alignment decide whether you're picked over a rival.
+  DEJAN is newer, larger, and closer to how 2026 engines work, but it's
+  vendor data with no public dataset; Aggarwal is peer-reviewed but uses
+  2023-era engines. Practical stance until resolved: fix framing and
+  query alignment first, keep statistics and sourcing where they're
+  genuinely useful, and test both rather than assuming either. Flagged
+  as **unresolved**.
 
 ## See also
 
