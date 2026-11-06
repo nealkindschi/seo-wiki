@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-11-02
+updated: 2026-11-06
 ---
 
 # AI Citation Landscape
@@ -378,6 +378,9 @@ at a linguistic level, not just a topical one:
   citable content rather than narrowing it to a few "ideal" sources.
 
 ## Query fanout mechanics
+
+(Overview, invisibility in analytics, and Google's textless-fanout
+research now live on [[query-fanout]]; engine-level data stays here.)
 
 Per [[peec-ai-chatgpt-query-fanouts-2026]] (5M query fanouts across
 ChatGPT/Perplexity/Grok, April 2026) — explains the mechanism behind

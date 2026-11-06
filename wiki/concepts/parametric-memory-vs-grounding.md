@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [aeo]
-updated: 2026-10-08
+updated: 2026-11-06
 ---
 
 # Parametric Memory vs. Web-Search Grounding
@@ -51,6 +51,44 @@ differ. DEJAN's single-query head-to-head (anecdotal, n=1):
 
 Directionally consistent with the provider-level breadth-vs-depth
 differences in [[ai-citation-landscape]], but not evidence on its own.
+DEJAN's larger follow-up (7,060 queries) on what gets extracted from
+each page — the ~2,000-word per-query budget, lead bias, and the
+~20:1 GPT drop — is on [[grounding-snippets]].
+
+## Generative self-retrieval (reasoning as recall)
+
+Google Research's [[gekhman-thinking-to-recall-2026]] (closed-book, no
+search) shows that turning reasoning on substantially expands what a
+model can recall from its weights — including on simple single-hop
+facts. Two mechanisms:
+
+- **Computational buffer**: extra tokens give room for latent
+  computation, even when they're filler.
+- **Factual priming / generative self-retrieval**: the model writes out
+  related facts, and writing them is how it retrieves them ("the first
+  nine kings of Nepal make the tenth reachable"). Feeding those facts
+  back with reasoning off recovers most of the gain.
+
+**The risk**: those self-generated facts can be hallucinated, and a
+hallucinated intermediate fact makes a wrong final answer much more
+likely (correct answers 41%→26% on SimpleQA-Verified, 71%→32% on
+EntityQuestions).
+
+DEJAN's SEO reading ([[dejan-generative-self-retrieval-2026]]):
+
+- The final recommendation to a commercial prompt is the top of an
+  **internal ranking**: the model surfaces candidate brands from memory,
+  weighs them against recalled facts plus whatever grounding sits in
+  context, and picks the best-supported. Grounding narrows the field;
+  it doesn't replace this step.
+- **Audit the facts, not the verdict.** "Best pick" has no truth value,
+  but the attributes a model associates with your product (integrations,
+  use cases, features) can be right or fabricated — and fabricated ones
+  can carry a recommendation. This sharpens the
+  representation-auditing advice in [[geo-content-optimization-tactics]].
+- **Uneven by audience** (inference): reasoning mode depends on
+  subscription tier and settings, so the most accurate version of your
+  brand may reach paying users only.
 
 ## Implications for SEO/AEO
 
@@ -78,3 +116,5 @@ differences in [[ai-citation-landscape]], but not evidence on its own.
   search-augmented vs. reasoning LLM taxonomy.
 - [[agent-experience-ax]] — agent-researched answers and own-site
   readability.
+- [[grounding-snippets]] and [[query-fanout]] — the retrieval side in
+  detail.

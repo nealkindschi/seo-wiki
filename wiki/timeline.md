@@ -634,3 +634,43 @@ Google's own.
 ## 2026-09-23 — Detailed publishes 28-day ChatGPT / AI Overviews answer-volatility study
 
 [[detailed-ai-volatility-2026]] · created [[ai-answer-volatility]]
+
+## 2026-03-10 — Google Research et al. publish "Thinking to Recall": reasoning expands LLM parametric recall through factual priming (generative self-retrieval), and hallucinated intermediate facts raise wrong-answer rates
+
+[[gekhman-thinking-to-recall-2026]] · updated [[parametric-memory-vs-grounding]]
+
+## 2026-03 — Google Research / UIUC publish R4T-Diffusion (arXiv 2603.06397): fanout sub-queries generated as vectors by a small diffusion model, ~20× faster than LLM text fanout (research only, not web search)
+
+[[dejan-textless-query-fanout-explainer-2026]] · created [[query-fanout]]
+
+## 2026-06-21 — DEJAN publishes "Grounding Snippets" (7,060-query analysis of AI grounding extraction)
+
+[[dejan-grounding-snippets-2026]] · created [[grounding-snippets]]
+
+## 2026-06-27 — DEJAN publishes "Generative Self-Retrieval"
+
+[[dejan-generative-self-retrieval-2026]] · updated [[parametric-memory-vs-grounding]]
+
+## 2026-07-08 — DEJAN publishes Content Optimization Engine insights (2,249 LLM re-ranking experiments; framing beats credentials)
+
+[[dejan-content-optimization-engine-2026]] · conflict on [[generative-engine-optimization]]
+
+## 2026-07-27 — DEJAN republishes "Advanced New Tail Keyword Research" (originally 2016) with an AI-search section
+
+[[dejan-new-tail-keyword-research]] · updated [[keyword-research]]
+
+## 2026-09-20 — DEJAN publishes claimed Google AI Mode response tags (unverified)
+
+[[dejan-ai-mode-tags-2026]] · created [[ai-mode-response-markup]]
+
+## 2026-09-24 — DEJAN publishes "Fanout Vectors", a reproduction of Google's vector fanout research
+
+[[dejan-fanout-vectors-2026]] · updated [[query-fanout]]
+
+## 2026-10-12 — DEJAN publishes "Finding High-Value Converting Queries That Mainstream Tools Miss"
+
+[[dejan-stealthy-queries-2026]] · updated [[keyword-research]]
+
+## 2026-10-31 — DEJAN publishes Google Store Pixel Watch 5 alt-text case study
+
+[[dejan-google-store-alt-text-2026]] · updated [[image-seo-checklist]]
