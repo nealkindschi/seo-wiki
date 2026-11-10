@@ -674,3 +674,7 @@ Google's own.
 ## 2026-10-31 — DEJAN publishes Google Store Pixel Watch 5 alt-text case study
 
 [[dejan-google-store-alt-text-2026]] · updated [[image-seo-checklist]]
+
+## 2026-11-09 — Growth Memo publishes Wynter survey of how 200 software buyers use AI
+
+[[growth-memo-how-software-buyers-use-ai-2026]] · created [[ai-assisted-b2b-buying-journey]]
