@@ -1487,3 +1487,7 @@ Eight dejan.ai posts (Content Optimization Engine, Grounding Snippets, Generativ
 ## [2026-11-06] conflict | Statistics and citations as GEO levers
 
 [[geo-generative-engine-optimization-aggarwal-2023]] ranks Statistics Addition and Cite Sources in the top tier; [[dejan-content-optimization-engine-2026]] finds "Proof" edits (stats, citations, awards, endorsements) win about half as often as framing in LLM re-ranking. Leaning: different measurements (citation-stage share vs. re-ranking between rivals), so fix framing and alignment first and test both. Unresolved; logged on [[generative-engine-optimization]].
+
+## [2026-11-09] ingest | Growth Memo "How software buyers use AI"
+
+Kevin Indig's analysis of a Wynter survey of 200 software buyers' AI prompts and follow-ups (self-reported, unweighted; author is a Wynter investor). Created [[growth-memo-how-software-buyers-use-ai-2026]] and [[ai-assisted-b2b-buying-journey]]. Added an AI-evaluation section and checklist items to [[saas-seo-strategy]], a pre-market awareness section to [[brand-entity-seo-strategy]], and a population-difference note to [[ai-traffic-scale-vs-hype]]. Agrees with [[ahrefs-b2b-seo-statistics-2025]] on pre-existing vendor preference. Tension, not logged as a conflict, with [[ai-traffic-scale-vs-hype]]'s "Google-embedded AI matters most" view: this sample favored Claude/ChatGPT over AI Overviews/AI Mode (15%), but it measures a self-selected buyer population, not whole-web traffic. Chart images were not viewed or downloaded; figures come from article text.

@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-09-10
+updated: 2026-11-09
 ---
 
 Why / when to use this: use when the goal is brand-level visibility and
@@ -191,6 +191,19 @@ Use this path when a brand doesn't yet have the authority/media
 footprint the 5-step build sequence above assumes; use the 5-step
 sequence once there's an established entity worth formally
 consolidating into the Knowledge Graph.
+
+## Pre-market awareness and AI shortlists
+
+Per [[growth-memo-how-software-buyers-use-ai-2026]], 79% of software
+buyers already have at least one vendor in mind when they open an AI
+chat. Those buyers chose a vendor far more often (69% vs. 40%) and
+booked more demos (36% vs. 25%) than buyers who started cold. AI then
+adds vendors to most shortlists (63% of buyers with candidates). Two
+jobs follow: build familiarity *before* buyers are in market (ads,
+creator partnerships, social, email, plus the content path above), and
+earn recommendation inside AI answers once research starts. Tracking AI
+mention counts alone misses the first job. See
+[[ai-assisted-b2b-buying-journey]].
 
 ## Organizational note (process, not a technical tactic)
 

@@ -1,7 +1,7 @@
 ---
 type: playbook
-tags: [seo]
-updated: 2026-09-04
+tags: [seo, aeo]
+updated: 2026-11-09
 ---
 
 Why / when to use this: SaaS/software companies need a different SEO
@@ -208,6 +208,33 @@ rank:
   a free-trial CTA within a single page — all three conversion
   mechanisms working together rather than as separate initiatives.
 
+## Supporting AI-assisted evaluation
+
+Per [[growth-memo-how-software-buyers-use-ai-2026]] (Wynter survey, 200
+software buyers), buyers increasingly run vendor evaluation inside AI
+chats, and the follow-up questions are bottom-of-funnel: pricing
+(57.5%), vendor comparisons (54.5%), integrations (46%) and setup (40%).
+Buyers cut vendors mid-chat on stated constraints ("only tools with a
+Marketo API integration"), and 72.5% then visit vendor websites to
+verify. A vendor the AI can't answer these questions about is easy to
+drop. See [[ai-assisted-b2b-buying-journey]].
+
+- **Make pricing legible.** Publish pricing (or at least the pricing
+  model, units and typical tiers) on a crawlable page. Reader feedback
+  on the source notes that unlike units ("per seat" vs. "per
+  resolution") are hard for AI to compare without workload examples, so
+  add worked cost examples.
+- **One indexable page per major integration**, stating what the
+  integration does and any limits, so constraint-based elimination
+  prompts can find it.
+- **Setup/implementation pages** covering time-to-value, requirements
+  and team size fit.
+- **Comparison pages** (already recommended above) double as source
+  material for the 54.5% of buyers asking AI to compare vendors.
+- **Segment-fit statements** (company size, use case, team) in plain
+  language, since buyers who give AI that context get narrower
+  recommendations.
+
 ## Checklist
 
 - [ ] Goals/KPIs defined beyond raw traffic (conversions, retention, revenue attribution)
@@ -222,6 +249,9 @@ rank:
 - [ ] Evaluated whether a learn hub, marketplace-format page template, or tool/calculator fits your product category
 - [ ] Mega menu paths that describe the same product/feature link to one destination page, not duplicates
 - [ ] Each content silo has 10-30+ posts before being treated as a topical-authority source
+- [ ] Pricing model, units and worked cost examples published on a crawlable page
+- [ ] Each major integration has its own indexable page stating capabilities and limits
+- [ ] Setup/implementation and segment-fit (size, use case) information stated explicitly
 
 ## See also
 
@@ -230,6 +260,9 @@ rank:
   and page-type choice follows from intent, not keyword volume.
 - [[content-marketing-strategy]] — the broader content-program concept
   this vertical playbook specializes.
+- [[ai-assisted-b2b-buying-journey]] — how buyers use AI chats to
+  shortlist and evaluate software, behind the AI-evaluation section
+  above.
 - [[enterprise-seo-strategy]] — the scale-up path once a SaaS SEO
   program outgrows a single team.
 

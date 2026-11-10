@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-07-08
+updated: 2026-11-09
 ---
 
 # AI Traffic Scale vs. the Hype
@@ -92,6 +92,21 @@ that investment is happening inside a channel that's still small
 relative to search and social overall — with Google's own AI features
 being the exception, since they inherit Google's existing dominant
 search share rather than competing against it.
+
+## A different population: buyers who do use AI
+
+[[growth-memo-how-software-buyers-use-ai-2026]] surveyed 200 software
+buyers who used AI during a purchase. Among them, standalone assistants
+dominated: Claude 71%, ChatGPT 62.5%, Gemini 38.5%, and only 15% used
+Google AI Overviews/AI Mode. This sits in tension with the "Google-
+embedded AI is the real threat" argument above, but it isn't a direct
+conflict: this page measures whole-web traffic share, while the survey
+is a self-selected sample of AI users in one high-consideration B2B
+category. Both can hold. Standalone AI can be small overall and still
+central to how some buyers evaluate software. The same survey also
+supports this page's core point: after the chat, 48% of those buyers
+Googled and 72.5% visited vendor sites, so AI added to search rather
+than replacing it. See [[ai-assisted-b2b-buying-journey]].
 
 ## See also
 
