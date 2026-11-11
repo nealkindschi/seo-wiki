@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo]
-updated: 2026-09-04
+updated: 2026-11-10
 ---
 
 # Google Algorithm Update History
@@ -9,7 +9,8 @@ updated: 2026-09-04
 A taxonomy and timeline of Google's named search ranking updates and
 incidents, based on
 [[google-search-status-dashboard-history]] (a live Google status page,
-snapshotted 2026-07-07 covering July 2021–June 2026). Full chronological
+snapshotted 2026-07-07 covering July 2021–June 2026, refreshed
+2026-11-10 through the start of the November 2026 core update). Full chronological
 list lives in `wiki/timeline.md`; this page synthesizes the patterns.
 
 ## Update types
@@ -47,6 +48,19 @@ separately-announced updates. This wiki has not yet ingested a source
 that explicitly confirms this as Google's stated reasoning — flagged as
 an inference from the update-naming pattern, not a directly-sourced
 claim.
+
+## 2026 cadence
+
+- **Core updates**: March 27, May 21, and November 10 (in progress as
+  of 2026-11-10). The May-to-November gap is close to six months, longer
+  than the usual 2–4.
+- **Spam updates**: March 24, June 24, August 18, September 24. Four in
+  one year is the most the dashboard has recorded. Durations swing
+  widely: under a day in March, nearly 14 days in September.
+- **Discover update**: February 5, the only one on the dashboard.
+- Practical read: in 2026, spam updates were more frequent than core
+  updates. When diagnosing a mid-year traffic drop, rule out a spam
+  update before assuming a core one.
 
 ## Practical relevance
 

@@ -33,6 +33,20 @@ ingest is a snapshot, not a closed record.
 - Core updates are the most frequent type, recurring roughly every 2-4
   months throughout the whole period.
 
+## Refresh — 2026-11-10
+
+Re-fetched; snapshot at `raw/articles/google-search-status-dashboard-history-2026-11-10.md`.
+
+- **New since July**: August 2026 spam update (18 Aug, 2d 16h),
+  September 2026 spam update (24 Sep, 13d 16h), and the **November 2026
+  core update** (began 10 Nov 2026, still rolling out at snapshot time).
+- 2026 now has **four spam updates** (Mar, Jun, Aug, Sep), more than
+  any other year on the dashboard, against three core updates (Mar, May,
+  Nov).
+- The page has dropped its two oldest entries (July 2021 link spam,
+  November 2021 spam) and now starts at the November 2021 core update.
+  The wiki's timeline keeps the dropped entries from the first snapshot.
+
 ## What this updated in the wiki
 
 - Backfilled ~34 dated events into `wiki/timeline.md`, extending its
@@ -41,3 +55,6 @@ ingest is a snapshot, not a closed record.
   update-type taxonomy and the helpful-content/reviews-update-merging
   pattern.
 - No conflicts — this is a factual historical record.
+- 2026-11-10 refresh: added three timeline entries (Aug 2026 spam, Sep
+  2026 spam, Nov 2026 core) and a 2026 cadence section to
+  [[google-algorithm-update-history]].

@@ -678,3 +678,15 @@ Google's own.
 ## 2026-11-09 — Growth Memo publishes Wynter survey of how 200 software buyers use AI
 
 [[growth-memo-how-software-buyers-use-ai-2026]] · created [[ai-assisted-b2b-buying-journey]]
+
+## 2026-08-18 — August 2026 spam update
+
+[[google-search-status-dashboard-history]]. Duration: 2 days, 16 hours. Added on 2026-11-10 refresh of the dashboard.
+
+## 2026-09-24 — September 2026 spam update
+
+[[google-search-status-dashboard-history]]. Duration: 13 days, 16 hours. Fourth spam update of 2026, and the longest-running of them.
+
+## 2026-11-10 — November 2026 core update begins
+
+[[google-search-status-dashboard-history]] · updated [[google-algorithm-update-history]]. Third core update of 2026; still rolling out as of the 2026-11-10 snapshot (no duration yet). Past core updates ran ~6–45 days, most 12–19.
