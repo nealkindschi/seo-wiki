@@ -91,7 +91,7 @@ short summary.
 - [[ahrefs-ai-brand-visibility-correlations]] — Ahrefs' 75k-brand Spearman-correlation study of brand/SEO metrics vs. AI-mention visibility across ChatGPT, AI Mode, and AI Overviews.
 - [[seerinteractive-aio-ctr-impact-2026-update]] — Seer Interactive's 53-brand, 5.47M-query study of AI Overview impact on Google organic/paid CTR: the citation premium, 2026 recovery, and query-format AIO-prevalence.
 - [[google-search-quality-evaluator-guidelines-2025-09]] — Google's official Search Quality Rater Guidelines (Sept 2025 edition): the canonical definition of E-E-A-T, YMYL, Page Quality, spam-abuse types, query intent, and Needs Met.
-- [[google-search-status-dashboard-history]] — Google's live status dashboard listing ~34 dated ranking updates/incidents from July 2021–June 2026 (snapshot); backfilled the wiki's timeline.
+- [[google-search-status-dashboard-history]] — Google's live status dashboard listing ~37 dated ranking updates/incidents from July 2021 to November 2026 (snapshots 2026-07-07 and 2026-11-10); backfilled the wiki's timeline, including the November 2026 core update.
 - [[google-how-search-works]] — Google's fundamentals page on the crawl/index/serve pipeline: URL discovery, JS rendering, canonicalization, and why indexing/serving are never guaranteed.
 - [[semrush-ranking-factors-study-2024]] — Semrush's 16,298-keyword, 300,000-position classic-SERP correlation study: text relevance strongest, backlinks moderate, keyword-matching/content-length/Schema weak.
 - [[google-links-crawlable]] — Google's official guidance on crawlable link markup (`<a href>` requirements), anchor text writing rules, internal/external linking, and `rel` attribute usage.
