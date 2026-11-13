@@ -1,7 +1,7 @@
 ---
 type: playbook
 tags: [seo, aeo]
-updated: 2026-11-02
+updated: 2026-11-12
 ---
 
 Why / when to use this: use when setting up or refreshing recurring
@@ -85,6 +85,10 @@ period.
       persist ([[ai-answer-volatility]]).
 - [ ] Report ends with recommended next actions, not only problems.
 - [ ] Cadence is fixed and consistent across reporting periods.
+- [ ] Where GA4 organic and Search Console clicks are both shown, the
+      gap is labeled as expected (blocked tracking, blank referrers,
+      redirects, paid traffic in analytics) and channel rules are
+      checked first ([[google-search-traffic-attribution]]).
 - [ ] Automated/scheduled delivery set up if this is a recurring
       report.
 
@@ -96,6 +100,8 @@ period.
   measurement.
 - [[seo-competitive-analysis]] — competitor benchmarking data that can
   feed into the same report.
+- [[google-search-traffic-attribution]] — Google's referrer values and
+  why analytics won't match Search Console.
 - [[keyword-mapping-and-cannibalization]] — the keyword-ranking data
   source for the keyword-performance section.
 

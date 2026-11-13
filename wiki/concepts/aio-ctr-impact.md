@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [seo, aeo]
-updated: 2026-09-10
+updated: 2026-11-12
 ---
 
 # AIO Impact on Google CTR
@@ -217,6 +217,13 @@ AI's true influence, even though AI tools remain small as a *direct*
 traffic channel. The two findings aren't in conflict; this one adds an
 attribution caveat to how the other's traffic-scale data should be
 read.
+
+Mechanism, per Google's own docs ([[google-identify-search-traffic]]):
+Google Search sends only an origin-level referrer (`https://www.google.com/`)
+with no query, and AI Overviews/AI Mode share that origin. So an
+AI-prompted branded search is indistinguishable from any other organic
+Google visit in analytics or logs. See
+[[google-search-traffic-attribution]].
 
 **Caveats on this source itself** (stated by Similarweb): US desktop
 only, excludes mobile/international; three verticals/named brand pairs,

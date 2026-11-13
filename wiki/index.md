@@ -74,6 +74,7 @@ short summary.
 - [[ai-visibility-content-gap-audit]] — Prompt-level audit of AI-answer gaps: coverage, extractability, and citation-support gap types, a four-step process, fix-order rules, and mention/citation/share-of-voice metrics.
 - [[ai-visibility-four-layer-diagnostic]] — Triage for missing or misdescribed brands in AI answers: discoverability, clarity, authority, and trust layers, symptom-to-layer mapping, baseline prompt setup, common mistakes, and the strategic-vs-experimental filter.
 - [[glossary-page-build-checklist]] — Six-phase glossary build checklist: term sourcing (incl. customer language), topic-grouped architecture, consistent entry template, internal linking, DefinedTerm markup/accessibility, measurement and quarterly maintenance.
+- [[google-search-traffic-attribution]] — Identifying Google organic traffic in analytics/server logs: exact `Referer` values (web, Android/iOS Google app), origin-only referrer (no query), blank-referrer causes, redirect pitfalls, and a checklist for reconciling with Search Console.
 
 ## Sources
 
@@ -200,3 +201,4 @@ short summary.
 - [[dejan-google-store-alt-text-2026]] — DEJAN (2026-10-31): Google Store Pixel Watch 5 alt-text audit; image–alt embedding match 30%→84% after rewrites (alignment metric, no ranking data).
 - [[dejan-stealthy-queries-2026]] — DEJAN (2026-10-12): zero-volume converting queries, first-party and community query sources, discovery frameworks, and a raw-query → entity-graph pipeline.
 - [[dejan-new-tail-keyword-research]] — DEJAN (2016, republished 2026-07-27): photo-survey "new tail" keyword discovery (44 of 68 terms missing from the top page) plus 2026 notes on fanout and implicit queries.
+- [[google-identify-search-traffic]] — Google's official doc on spotting Search traffic via the `Referer` header: origin-policy referrer values by surface, Discover/Images sharing the same values, why referrers go blank, and why analytics won't match Search Console.
